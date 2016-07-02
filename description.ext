@@ -105,20 +105,6 @@ class CfgSounds {
 		sound[] = {"\sounds\Siren_Speech.ogg", 1.0, 1};
 		titles[] = {};
 	};
-	
-	class empwarn
-	{
-		name = "empwarn";
-		sound[] = {"\sounds\empwarn.ogg", 2.0, 1};
-		titles[] = {};
-	};
-	
-	class empacsound
-	{
-		name = "empacsound";
-		sound[] = {"\sounds\empac.ogg", db-2, 1};
-		titles[] = {};
-	};
 };
 
 class CfgDebriefing {

@@ -16,16 +16,6 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-<<<<<<< HEAD
-		nextID=68;
-	};
-	class Camera
-	{
-		pos[]={7040.9419,207.32561,3927.3455};
-		dir[]={-0.86187047,-0.29975304,0.40929872};
-		up[]={-0.27085203,0.95397425,0.12862818};
-		aside[]={0.42901644,8.1176404e-007,0.90339977};
-=======
 		nextID=63;
 	};
 	class Camera
@@ -34,7 +24,6 @@ class EditorData
 		dir[]={0.11114144,-0.37344241,-0.92097795};
 		up[]={0.044741772,0.92764646,-0.37075928};
 		aside[]={-0.99280101,-2.3291796e-007,-0.11980795};
->>>>>>> origin/master
 	};
 };
 binarizationWanted=0;
@@ -11839,7 +11828,7 @@ class Mission
 					};
 					id=1848;
 					type="C_man_1";
-					atlOffset=0.16083288;
+					atlOffset=0.16083336;
 				};
 				class Item10
 				{
@@ -12120,7 +12109,7 @@ class Mission
 					};
 					id=2675;
 					type="C_man_1";
-					atlOffset=0.090735197;
+					atlOffset=0.13887501;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -12201,7 +12190,7 @@ class Mission
 					};
 					id=2676;
 					type="C_man_p_fugitive_F_asia";
-					atlOffset=0.17289209;
+					atlOffset=0.17289162;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -12712,11 +12701,7 @@ class Mission
 			text="Drogenhändler";
 			type="mil_dot";
 			colorName="ColorOrange";
-<<<<<<< HEAD
-			angle=250.34438;
-=======
 			angle=198.93626;
->>>>>>> origin/master
 			id=2040;
 			atlOffset=0.062852859;
 		};
@@ -22748,7 +22733,7 @@ class Mission
 			colorName="ColorWhite";
 			angle=359.19177;
 			id=2662;
-			atlOffset=17.929123;
+			atlOffset=21.927731;
 		};
 		class Item542
 		{
@@ -30318,11 +30303,7 @@ class Mission
 			};
 			id=2880;
 			type="Land_Atm_02_F";
-<<<<<<< HEAD
-			atlOffset=0.0826931;
-=======
 			atlOffset=0.082692862;
->>>>>>> origin/master
 			class CustomAttributes
 			{
 				class Attribute0
@@ -44930,7 +44911,7 @@ class Mission
 			};
 			id=3569;
 			type="Land_InfoStand_V1_F";
-			atlOffset=0.32458687;
+			atlOffset=0.32401609;
 		};
 		class Item1050
 		{
@@ -44983,7 +44964,7 @@ class Mission
 			};
 			id=3575;
 			type="Land_InfoStand_V1_F";
-			atlOffset=0.036001205;
+			atlOffset=0.035663605;
 		};
 		class Item1053
 		{
@@ -45001,7 +44982,7 @@ class Mission
 			};
 			id=3576;
 			type="Land_InfoStand_V1_F";
-			atlOffset=0.25114059;
+			atlOffset=0.2515583;
 		};
 		class Item1054
 		{
@@ -45129,7 +45110,7 @@ class Mission
 			};
 			id=3584;
 			type="Land_InfoStand_V1_F";
-			atlOffset=4.5776367e-005;
+			atlOffset=0.00025939941;
 		};
 		class Item1061
 		{
@@ -45948,6 +45929,7 @@ class Mission
 				angles[]={0,3.1745794,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				init="removeAllWeapons this; this allowDamage false; this enableSimulation false; this addAction[localize""STR_MAR_Drug_Dealer"",life_fnc_virt_menu,""drugdealer"",0,false,false,"""",' isNull objectParent player && player distance _target < 5 && playerSide isEqualTo civilian ']; this addAction[localize""STR_MAR_Question_Dealer"",life_fnc_questionDealer,"""",0,false,false,"""",' isNull objectParent player && player distance _target < 5 && playerSide isEqualTo west && !life_action_inUse '];";
@@ -45955,11 +45937,7 @@ class Mission
 			};
 			id=3636;
 			type="Land_InfoStand_V1_F";
-<<<<<<< HEAD
-			atlOffset=0.74990487;
-=======
 			atlOffset=0.062999725;
->>>>>>> origin/master
 		};
 		class Item1107
 		{
@@ -46599,11 +46577,7 @@ class Mission
 			};
 			id=3669;
 			type="Land_InfoStand_V1_F";
-<<<<<<< HEAD
-			atlOffset=0.28488541;
-=======
 			atlOffset=0.28467488;
->>>>>>> origin/master
 		};
 		class Item1139
 		{
@@ -46673,7 +46647,6 @@ class Mission
 			};
 			id=3673;
 			type="Land_InfoStand_V1_F";
-			atlOffset=0.096260071;
 		};
 		class Item1143
 		{
@@ -55975,7 +55948,7 @@ class Mission
 			};
 			id=3938;
 			type="Land_RailwayCar_01_sugarcane_F";
-			atlOffset=0.16755867;
+			atlOffset=4.7683716e-007;
 		};
 		class Item1327
 		{
@@ -62531,7 +62504,7 @@ class Mission
 			};
 			id=4098;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.082243681;
+			atlOffset=0.12699604;
 		};
 		class Item1463
 		{
@@ -70839,12 +70812,12 @@ class Mission
 				angles[]={5.7871933,0,6.0233684};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=4245;
 			type="Land_Wreck_Heli_Attack_02_F";
+			atlOffset=3.0023117;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -71836,7 +71809,7 @@ class Mission
 			};
 			id=4262;
 			type="Land_Radar_Small_F";
-			atlOffset=1.9158974;
+			atlOffset=5.3151703;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -88905,7 +88878,7 @@ class Mission
 			};
 			id=4922;
 			type="Land_CashDesk_F";
-			atlOffset=0.038506985;
+			atlOffset=0.086999893;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -89323,7 +89296,7 @@ class Mission
 			};
 			id=4945;
 			type="Land_InfoStand_V1_F";
-			atlOffset=0.38547134;
+			atlOffset=0.38399935;
 		};
 		class Item1973
 		{
@@ -89724,18 +89697,13 @@ class Mission
 				angles[]={0,2.8337202,6.2826972};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				init="this allowDamage false;  removeallWeapons this;  this enableSimulation false;  this addAction[localize""STR_MAR_Diving_Shop"",life_fnc_clothingMenu,""dive""];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""dive"" >> ""displayName"")),[(getNumber(missionConfigFile >> ""Licenses"" >> ""dive"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""dive"",0,false,false,"""",' !license_civ_dive && playerSide == civilian '];";
 			};
 			id=4989;
 			type="Land_InfoStand_V1_F";
-<<<<<<< HEAD
-			atlOffset=4.7683716e-007;
-=======
 			atlOffset=9.692852;
->>>>>>> origin/master
 		};
 		class Item2002
 		{
@@ -89758,17 +89726,13 @@ class Mission
 				angles[]={0,0.534742,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				init="this allowDamage false;  removeallWeapons this;  this enableSimulation false;  this addAction[localize""STR_MAR_Diving_Shop"",life_fnc_clothingMenu,""dive""];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""dive"" >> ""displayName"")),[(getNumber(missionConfigFile >> ""Licenses"" >> ""dive"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""dive"",0,false,false,"""",' !license_civ_dive && playerSide == civilian '];";
 			};
 			id=4991;
 			type="Land_InfoStand_V1_F";
-<<<<<<< HEAD
-=======
 			atlOffset=6.3362989;
->>>>>>> origin/master
 		};
 		class Item2004
 		{
@@ -90386,7 +90350,7 @@ class Mission
 					};
 					id=5031;
 					type="C_man_p_fugitive_F_asia";
-					atlOffset=0.13679123;
+					atlOffset=0.13679171;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -90454,7 +90418,7 @@ class Mission
 			{
 			};
 			id=5030;
-			atlOffset=0.13679123;
+			atlOffset=0.13679171;
 		};
 		class Item2031
 		{
@@ -91206,11 +91170,7 @@ class Mission
 			};
 			id=5091;
 			type="Land_InfoStand_V1_F";
-<<<<<<< HEAD
-			atlOffset=0.32437682;
-=======
 			atlOffset=0.5114646;
->>>>>>> origin/master
 		};
 		class Item2051
 		{
@@ -99160,7 +99120,7 @@ class Mission
 			};
 			id=5485;
 			type="Land_InfoStand_V1_F";
-			atlOffset=0.83546877;
+			atlOffset=0.8344152;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -104594,7 +104554,7 @@ class Mission
 			};
 			id=5615;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.36800599;
+			atlOffset=0.36800003;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -121102,13 +121062,13 @@ class Mission
 				position[]={5635.5137,3.5944436,3990.4827};
 			};
 			side="Empty";
-			flags=5;
+			flags=1;
 			class Attributes
 			{
 			};
 			id=6432;
 			type="Land_LampDecor_F";
-			atlOffset=5.4836273e-006;
+			atlOffset=5.3184109;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -122081,11 +122041,7 @@ class Mission
 			};
 			id=6457;
 			type="Land_LampDecor_F";
-<<<<<<< HEAD
-			atlOffset=2.6941299e-005;
-=======
 			atlOffset=2.6702881e-005;
->>>>>>> origin/master
 			class CustomAttributes
 			{
 				class Attribute0
@@ -128797,7 +128753,7 @@ class Mission
 			};
 			id=6649;
 			type="Land_CampingTable_F";
-			atlOffset=0.23052788;
+			atlOffset=0.23007011;
 			class CustomAttributes
 			{
 				class Attribute0
