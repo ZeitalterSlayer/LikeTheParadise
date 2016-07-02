@@ -1,4 +1,3 @@
-#include "..\..\script_macros.hpp"
 /*	File: fn_jail.sqf	Author: Bryan "Tonic" Boardwine		Description:	Starts the initial process of jailing.*/
 private["_bad","_unit","_time"];
  //-------------Changed---------------
