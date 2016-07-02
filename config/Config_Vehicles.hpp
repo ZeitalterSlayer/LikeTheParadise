@@ -992,9 +992,9 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
 	class B_T_VTOL_01_vehicle_F {
-        vItemSpace = 10;
+        vItemSpace = 50;
         licenses[] = { {"pilot" }, {"cAir"}, {"mAir"}, {""} };
-        price = 700000;
+        price = 2500000;
         textures[] = {
 			{ "Olive", "civ", {
                 "\A3\Air_F_Exp\VTOL_01\Data\VTOL_01_EXT01_olive_CO.paa",
@@ -1012,9 +1012,9 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class B_T_VTOL_01_infantry_F {
-        vItemSpace = 600;
+        vItemSpace = 10;
         licenses[] = { {"pilot" }, {"cAir"}, {"mAir"}, {""} };
-        price = 15750000;
+        price = 200000;
         textures[] = {
 			{ "Olive", "civ", {
                 "\A3\Air_F_Exp\VTOL_01\Data\VTOL_01_EXT01_olive_CO.paa",
