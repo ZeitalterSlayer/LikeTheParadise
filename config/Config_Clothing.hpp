@@ -139,6 +139,9 @@ class Clothing {
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
 			{ "U_B_GEN_Soldier_F", "", 25, { "", "", -1 } },
+            { "U_B_Wetsuit", "", 2000, {"", "", -1} },
+            { "U_I_Wetsuit", "", 2000, {"", "", -1} },
+            { "U_O_Wetsuit", "", 2000, {"", "", -1} },
 			{ "U_B_GEN_Commander_F", "", 550, { "life_coplevel", "SCALAR", 7 } }
         };
         headgear[] = {
