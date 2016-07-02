@@ -38,6 +38,9 @@ switch(_craft) do {
  ["B_ViperHarness_blk_F", ["stoff",55]],
  ["B_ViperHarness_oli_F", ["stoff",55]],
  ["B_ViperLightHarness_khk_F", ["stoff",55]],
+ ["B_Bergen_hex_F", ["stoff",80]],
+ ["B_Bergen_mcamo_F", ["stoff",80]],
+ ["B_Bergen_tna_F", ["stoff",80]],
  ["B_Parachute", ["stoff",75]]
  ];
  };
