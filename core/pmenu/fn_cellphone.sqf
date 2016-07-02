@@ -16,6 +16,10 @@ _units = _display displayCtrl 3004;
 ctrlSetText [3003, ""];
 lbClear _units;
 
+if((FETCH_CONST(life_coplevel) < 7) OR playerSide != west) then { //10 kann durch einen beliebigen Rang ersetzt werden, ab dem es verfügbar sein soll
+ ctrlShow[3023,false];
+};
+
 if (FETCH_CONST(life_adminlevel) < 1) then {
     ctrlShow[3020,false];
     ctrlShow[3021,false];
