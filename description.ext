@@ -29,6 +29,7 @@ class CfgFunctions {
     #include "Functions.hpp"
 };
 
+
 class CfgSounds {
     sounds[] = {};
     class SirenLong {
@@ -202,7 +203,7 @@ class CfgNotifications {
     };
 
     class PolizeiRundfunk {
-        title = "STR_PolizeiMessage_Title";
+        title = "$STR_PolizeiMessage_Title";
         iconPicture = "icons\messagepolice.paa"; //Icon kann geändert werden, kein Icon = leere ""
         description = "%1";
         duration = 10;
