@@ -48,7 +48,7 @@ class VirtualShops {
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "turtle_soup", "turtle_raw" };
+        items[] = { "turtle_soup"};
     };
     class coffee {
         name = "STR_Shops_Coffee";
