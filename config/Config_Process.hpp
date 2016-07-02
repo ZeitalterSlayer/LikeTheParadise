@@ -41,6 +41,14 @@ class ProcessAction {
         NoLicenseCost = 5000;
     };
 
+    class turtle {
+        MaterialsReq[] = {{"turtle_raw",1}};
+        MaterialsGive[] = {{"turtle",1}};
+        Text = "STR_Process_Turtle";
+        //ScrollText = "Process Turtel";
+        NoLicenseCost = 3000;
+    };
+
     class lsd {
         MaterialsReq[] = {{"kroeten",1}};
         MaterialsGive[] = {{"lsd",1}};
