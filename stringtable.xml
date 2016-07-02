@@ -1249,15 +1249,15 @@
             <Polish>Do: Admin</Polish>
         </Key>
         <Key ID="STR_CELL_AdminMsg">
-            <Original>Admin Message</Original>
-            <Czech>admin Message</Czech>
-            <Spanish>Msg de Admin</Spanish>
+            <Original>Gendarmerie</Original>
+            <Czech>Gendarmerie</Czech>
+            <Spanish>Gendarmerie</Spanish>
             <Russian></Russian>
-            <German>Admin-Nachricht</German>
-            <French>Message Admin</French>
-            <Italian>Admin Msg</Italian>
-            <Portuguese>Admin Msg</Portuguese>
-            <Polish>AdmGracz</Polish>
+            <German>Gendarmerie</German>
+            <French>Gendarmerie</French>
+            <Italian>Gendarmerie</Italian>
+            <Portuguese>Gendarmerie</Portuguese>
+            <Polish>Gendarmerie</Polish>
         </Key>
         <Key ID="STR_CELL_AdminMSGAll">
             <Original>Rundfunk</Original>
