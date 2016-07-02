@@ -1,3 +1,4 @@
+#include "..\..\script_macros.hpp"
 /*	File: fn_jailMe.sqf	Author Bryan "Tonic" Boardwine		Description:	Once word is received by the server the rest of the jail execution is completed.*/
 private["_ret","_bad","_time","_bail","_esc","_countDown","_time"];
 _ret = [_this,0,[],[[]]] call BIS_fnc_param;
@@ -6,7 +7,7 @@ _time = [_this,2,15,[0]] call BIS_fnc_param; //##80
 _time = time + (_time * 60); //x Minutes
 if(_bad) then { _time = time + 1100; } else { _time = time + (15 * 60); }; //##80 (time loaded from DB)
 if(count _ret > 0) then { life_bail_amount = (_ret select 3);
- } 
+ }
 else { life_bail_amount = 20000;
 /*_time = time + (10 * 60); */
 };
@@ -21,7 +22,7 @@ if(_this select 0) then	{
 //sleep (10 * 60); //50% of time
 sleep ( (_this select 1) * 0.5 );
 }
-else	{		
+else	{
 //sleep (5 * 60);		//20% of time
 sleep ( (_this select 1) * 0.2 );
 };
@@ -31,7 +32,7 @@ while {true} do{
 if((round(_time - time)) > 0) then	{
 _countDown = if(round (_time - time) > 60) then {format["%1 minute(s)",round(round(_time - time) / 60)]} else {format["%1 second(s)",round(_time - time)]};
 if(isNil "life_canpay_bail") then		{
-hintSilent format["Time Remaining:\n %1\n\nCan pay Bail: %3\nBail Amount: $%2",_countDown,[life_bail_amount] call life_fnc_numberText];	
+hintSilent format["Time Remaining:\n %1\n\nCan pay Bail: %3\nBail Amount: $%2",_countDown,[life_bail_amount] call life_fnc_numberText];
 }
 else{
 hintSilent format["Time Remaining:\n %1\n",_countDown];
