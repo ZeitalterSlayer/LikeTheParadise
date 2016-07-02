@@ -1081,7 +1081,7 @@ class VirtualItems {
 
     class turtle {
         variable = "turtle";
-        displayName = "STR_Item_TurtleRaw";
+        displayName = "STR_Item_Turtle";
         weight = 6
         buyPrice = -1;
         sellPrice = 26000

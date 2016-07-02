@@ -6296,6 +6296,17 @@
             <Czech>Raw Turtle</Czech>
             <Spanish>Carne de Tortuga</Spanish>
             <Russian></Russian>
+            <German>Rohes Schildkröten Fleisch</German>
+            <French>Viande de Tortue</French>
+            <Italian>Carne di Tartaruga</Italian>
+            <Portuguese>Carne de Tartaruga</Portuguese>
+            <Polish>Mięso Żółwia</Polish>
+        </Key>
+        <Key ID="STR_Item_Turtle">
+            <Original>Turtle</Original>
+            <Czech>Raw Turtle</Czech>
+            <Spanish>Carne de Tortuga</Spanish>
+            <Russian></Russian>
             <German>Schildkröten Fleisch</German>
             <French>Viande de Tortue</French>
             <Italian>Carne di Tartaruga</Italian>
