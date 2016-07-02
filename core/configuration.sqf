@@ -48,6 +48,7 @@ life_pos_attach = [];
 life_civ_position = [];
 life_markers = false;
 life_canpay_bail = true;
+nn_last_vehicles = [];
 nn_empInUse = false;
 nn_warnInUse = false;
 
