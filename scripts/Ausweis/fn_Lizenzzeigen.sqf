@@ -62,4 +62,4 @@ switch(playerSide)do{
  };
 };
 _message = format["<img size='10' color='#FFFFFF' image='icons\%1.paa'/><br/><br/><t size='2.5'>%2</t><br/><t size='1.8'>%3</t><br/><t size='1'>%4</t>",_marke, name player, _rang, _org];
-[player, _message] remoteExec ["life_fnc_Lizenzsehen",_ziel];
+[[player, _message],"life_fnc_Lizenzsehen",_ziel,false] spawn life_fnc_MP;
