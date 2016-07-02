@@ -1260,15 +1260,15 @@
             <Polish>AdmGracz</Polish>
         </Key>
         <Key ID="STR_CELL_AdminMSGAll">
-            <Original>Admin Msg All</Original>
-            <Czech>Admin zpráva Vše</Czech>
-            <Spanish>Admin Msg All</Spanish>
+            <Original>Rundfunk</Original>
+            <Czech>Rundfunk</Czech>
+            <Spanish>Rundfunk</Spanish>
             <Russian></Russian>
-            <German>Admin-Nachricht an alle</German>
-            <French>Admin Msg ALL</French>
-            <Italian>Admin Msg</Italian>
-            <Portuguese>Admin Msg All</Portuguese>
-            <Polish>SMS do Wszyscy</Polish>
+            <German>Rundfunk</German>
+            <French>Rundfunk</French>
+            <Italian>Rundfunk</Italian>
+            <Portuguese>Rundfunk</Portuguese>
+            <Polish>Rundfunk</Polish>
         </Key>
         <Key ID="STR_CELL_EMSRequest">
             <Original>EMS</Original>
