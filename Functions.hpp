@@ -218,17 +218,6 @@ class Life_Client_Core {
 
     };
 
-    class fuelkiller{
-        file = "core\scripts\fuelkiller";
-        class openEmpMenu {};
-        class isEmpOperator {};
-        class scanVehicles {};
-        class warnVehicle {};
-        class empVehicle {};
-        class vehicleWarned {};
-        class vehicleEmpd {};
-    };
-
 
     class Gangs {
         file = "core\gangs";
