@@ -11547,6 +11547,17 @@
             <Russian>Администратор Сообщение</Russian>
             <German>Admin-Nachricht</German>
         </Key>
+        <Key ID="STR_PolizeiMessage_Title">
+            <Original>Police Message</Original>
+            <Czech>Admin Message</Czech>
+            <French>Administrateur message</French>
+            <Spanish>Mensaje de administración</Spanish>
+            <Italian>Messaggio dall'Admin</Italian>
+            <Polish>Administrator Wiadomość</Polish>
+            <Portuguese>Mensagem de administração</Portuguese>
+            <Russian>Администратор Сообщение</Russian>
+            <German>Polizei Nachricht</German>
+        </Key>
     </Package>
     <Package name="Data_Logging">
         <Key ID="STR_DL_AL_Arrested_BEF">

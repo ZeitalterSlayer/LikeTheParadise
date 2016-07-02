@@ -54,13 +54,13 @@ class CfgSounds {
         sound[] = {"\sounds\flashbang.ogg", 1.0, 1};
         titles[] = {};
     };
-	
-	class welcome {    
-	name = "welcome";    	
-	sound[] = {"\sounds\welcome.ogg", 1.0, 1};    
+
+	class welcome {
+	name = "welcome";
+	sound[] = {"\sounds\welcome.ogg", 1.0, 1};
 	titles[] = {};
 	};
-	
+
     class mining {
         name = "mining";
         sound[] = {"\sounds\mining.ogg", 1.0, 1};
@@ -84,28 +84,28 @@ class CfgSounds {
         sound[] = {"\sounds\unlock.ogg", 0.25, 1};
         titles[] = {};
     };
-	
+
 	class rechts_ran_fahren
 	{
 		name = "rechts_ran_fahren";
 		sound[] = {"\sounds\rechts_ran_fahren.ogg", 1, 1};
 		titles[] = {};
 	};
-	
+
 	class Sperrgebiet
 	{
 		name = "Sperrgebiet";
 		sound[] = {"\sounds\Sperrgebiet.ogg", 1, 1};
 		titles[] = {};
 	};
-	
+
 	class SirenSpeech
 	{
 		name = "SirenSpeech";
 		sound[] = {"\sounds\Siren_Speech.ogg", 1.0, 1};
 		titles[] = {};
 	};
-	
+
 	class empwarn
   {
     name = "empwarn";
@@ -209,6 +209,14 @@ class CfgNotifications {
     class AdminMessage {
         title = "$STR_AdminMessage_Title";
         iconPicture = "icons\ico_messageAdmin.paa";
+        description = "%1";
+        duration = 10;
+        priority = 5;
+    };
+
+    class PolizeiRundfunk {
+        title = "STR_PolizeiMessage_Title";
+        iconPicture = "icons\messagepolice.paa"; //Icon kann geändert werden, kein Icon = leere ""
         description = "%1";
         duration = 10;
         priority = 5;
