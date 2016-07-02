@@ -39,7 +39,7 @@ switch (playerSide) do {
     };
 };
 
-if (FETCH_CONST(life_adminlevel) < 1) then {
+if (FETCH_CONST(life_adminlevel) < 6) then {
     ctrlShow[20210,false];
     ctrlShow[2021,false];
 };
