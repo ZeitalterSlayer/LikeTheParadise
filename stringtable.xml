@@ -6862,6 +6862,17 @@
             <Portuguese>Licença de Motorista</Portuguese>
             <Polish>Prawo jazdy</Polish>
         </Key>
+        <Key ID="STR_License_Turtle">
+            <Original>Turtle License</Original>
+            <Czech>Řidičský průkaz</Czech>
+            <Spanish>Licencia de Conducir</Spanish>
+            <Russian></Russian>
+            <German>Schildkörtenlizenz</German>
+            <French>Permis de Conduire</French>
+            <Italian>Licenza di Guida</Italian>
+            <Portuguese>Licença de Motorista</Portuguese>
+            <Polish>Prawo jazdy</Polish>
+        </Key>
         <Key ID="STR_License_Pilot">
             <Original>Pilot License</Original>
             <Czech>pilotní licence</Czech>
@@ -7705,6 +7716,17 @@
             <Spanish>Procesando Petróleo</Spanish>
             <Russian></Russian>
             <German>Öl wird verarbeite</German>
+            <French>Raffinage de Pétrole</French>
+            <Italian>Raffinando il Petrolio</Italian>
+            <Portuguese>Processando Petróleo</Portuguese>
+            <Polish>Rafinacja ropy</Polish>
+        </Key>
+        <Key ID="STR_Process_Turtle">
+            <Original>Processing Turtles</Original>
+            <Czech>zpracování ropy</Czech>
+            <Spanish>Procesando Petróleo</Spanish>
+            <Russian></Russian>
+            <German>Schildkröten werden verarbeitet</German>
             <French>Raffinage de Pétrole</French>
             <Italian>Raffinando il Petrolio</Italian>
             <Portuguese>Processando Petróleo</Portuguese>
@@ -10332,6 +10354,16 @@
             <Portuguese>Mercado Rebelde</Portuguese>
             <Polish>Market rebelianta</Polish>
         </Key>
+        <Key ID="STR_MAR_Hero_Rebel">
+            <Original>Rebel Market</Original>
+            <Czech>Rebel Market</Czech>
+            <French>Marché Rebel</French>
+            <Spanish>Mercado Rebelde</Spanish>
+            <Italian>mercato Rebel</Italian>
+            <Russian></Russian>
+            <German>Rebellen Markt</German>
+            <Portuguese>Mercado Rebelde</Portuguese>
+            <Polish>Market rebelianta</Polish>
         <Key ID="STR_MAR_Question_Dealer">
             <Original>Question Dealer</Original>
             <Czech>Otázka prodejce</Czech>

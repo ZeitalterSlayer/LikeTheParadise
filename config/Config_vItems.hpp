@@ -1079,12 +1079,23 @@ class VirtualItems {
         icon = "icons\ico_cookedFish.paa";
     };
 
+    class turtle {
+        variable = "turtle";
+        displayName = "STR_Item_TurtleRaw";
+        weight = 6
+        buyPrice = -1;
+        sellPrice = 26000
+        illegal = true;
+        edible = -1;
+        icon = "icons\ico_turtleRaw.paa";
+    };
+
     class turtle_raw {
         variable = "turtleRaw";
         displayName = "STR_Item_TurtleRaw";
-        weight = 7;
+        weight = 7
         buyPrice = -1;
-        sellPrice = 26000;
+        sellPrice = -1
         illegal = true;
         edible = -1;
         icon = "icons\ico_turtleRaw.paa";
