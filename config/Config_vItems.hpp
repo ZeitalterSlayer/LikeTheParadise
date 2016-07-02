@@ -592,7 +592,7 @@ class VirtualItems {
         displayName = "STR_Item_schmuck";
         weight = 4;
         buyPrice = -1;
-        sellPrice = 8500;
+        sellPrice = 4950;
         illegal = false;
         edible = -1;
         icon = "";
@@ -783,7 +783,7 @@ class VirtualItems {
         displayName = "STR_Item_LSD";
         weight = 3;
         buyPrice = -1;
-        sellPrice = 12500;
+        sellPrice = 6500;
         illegal = true;
         edible = -1;
         icon = "";
@@ -1084,7 +1084,7 @@ class VirtualItems {
         displayName = "STR_Item_TurtleRaw";
         weight = 7;
         buyPrice = -1;
-        sellPrice = 14900;
+        sellPrice = 26000;
         illegal = true;
         edible = -1;
         icon = "icons\ico_turtleRaw.paa";

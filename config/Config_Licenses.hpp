@@ -221,6 +221,14 @@ class Licenses {
     };
 
     //Illegal Licenses
+    class turtle {
+        variable = "turtle";
+        displayName = "STR_License_Turtle";
+        price = 100000;
+        illegal = true;
+        side = "civ";
+    };
+
     class cocaine {
         variable = "cocaine";
         displayName = "STR_License_Cocaine";
@@ -260,7 +268,7 @@ class Licenses {
         illegal = true;
         side = "civ";
     };
-	
+
     class hero {
         variable = "hero";
         displayName = "STR_License_Hero";
