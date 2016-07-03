@@ -44,4 +44,12 @@ switch (_state) do {
             hint localize "STR_Civ_LicenseRemove_2";
         };
     };
+
+    // Hero shizzle
+    case 4: {
+        if (missionNamespace getVariable LICENSE_VARNAME("copper","civ")) then {
+            missionNamespace setVariable [LICENSE_VARNAME("copper","civ"),false];
+            hint localize "STR_Civ_LicenseRemove_3";
+        };
+    };
 };

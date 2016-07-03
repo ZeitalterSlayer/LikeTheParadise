@@ -107,10 +107,12 @@ if (!isNull _killer && {_killer != _unit} && {side _killer != west} && {alive _k
     };
 };
 
-if (side _killer isEqualTo civilian && playerSide != civilian) then {
-    if (_killer getVariable LICENSE_VARNAME("copper","civ")) then {
-        _killer setVariable [LICENSE_VARNAME("copper","civ"),false];
-        hint localize "STR_Civ_LicenseRemove_2";
+// Hero shizzle test
+
+if (!isNull _killer && {side _killer != west} && {alive _killer}) then {
+    if (!local _killer) then {
+            [4] remoteExecCall ["life_fnc_removeLicenses",_killer];
+        };
     };
 };
 
