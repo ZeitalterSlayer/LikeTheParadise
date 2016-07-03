@@ -108,8 +108,8 @@ if (!isNull _killer && {_killer != _unit} && {side _killer != west} && {alive _k
 };
 
 if (side _killer isEqualTo civilian && playerSide != civilian) then {
-    if (missionNamespace getVariable LICENSE_VARNAME("copper","civ")) then {
-        missionNamespace setVariable [LICENSE_VARNAME("copper","civ"),false];
+    if (_killer getVariable LICENSE_VARNAME("copper","civ")) then {
+        _killer setVariable [LICENSE_VARNAME("copper","civ"),false];
         hint localize "STR_Civ_LicenseRemove_2";
     };
 };
