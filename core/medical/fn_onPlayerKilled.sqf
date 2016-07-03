@@ -109,7 +109,7 @@ if (!isNull _killer && {_killer != _unit} && {side _killer != west} && {alive _k
 
 // Hero shizzle test
 
-if (!isNull _killer && {side _killer != west} && {alive _killer}) then {
+if (side _killer isEqualTo civilian && playerSide isEqualTo west) then {
     if (!local _killer) then {
             [4] remoteExecCall ["life_fnc_removeLicenses",_killer];
         };
