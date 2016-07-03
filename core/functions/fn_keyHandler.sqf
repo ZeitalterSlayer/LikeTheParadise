@@ -270,7 +270,7 @@ switch (_code) do {
 			};
 			_veh = vehicle player;
 			hint "Warnung wird ausgegeben!";
-			[_veh,"SirenSpeech"] remoteExec ["life_fnc_say3D",RANY];
+			[_veh,"SirenSpeech"] remoteExec ["life_fnc_say3D",RCLIENT];
 		};
 	};
 	//3
@@ -286,7 +286,7 @@ switch (_code) do {
 			};
 			_veh = vehicle player;
 			hint "Warnung wird ausgegeben!";
-			[_veh,"rechts_ran_fahren"] remoteExec ["life_fnc_say3D",RANY];
+			[_veh,"rechts_ran_fahren"] remoteExec ["life_fnc_say3D",RCLIENT];
 		};
 	};
 	case 4:
@@ -301,7 +301,7 @@ switch (_code) do {
 			};
 			_veh = vehicle player;
 			hint "Warnung wird ausgegeben!";
-			[_veh,"Sperrgebiet"] remoteExec ["life_fnc_say3D",RANY];
+			[_veh,"Sperrgebiet"] remoteExec ["life_fnc_say3D",RCLIENT];
 		};
 	};
 
