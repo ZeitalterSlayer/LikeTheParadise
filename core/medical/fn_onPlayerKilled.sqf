@@ -107,6 +107,14 @@ if (!isNull _killer && {_killer != _unit} && {side _killer != west} && {alive _k
     };
 };
 
+if (side _killer isEqualTo civ && playerSide != west) then {
+    if (missionNamespace getVariable LICENSE_VARNAME("hero","civ")) then {
+        missionNamespace setVariable [LICENSE_VARNAME("hero","civ"),false];
+        hint localize "STR_Civ_LicenseRemove_2";
+    };
+};
+
+
 life_save_gear = [player] call life_fnc_fetchDeadGear;
 
 _containers = nearestObjects[getPosATL player,["WeaponHolderSimulated"],5];
