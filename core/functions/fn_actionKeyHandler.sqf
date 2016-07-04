@@ -61,7 +61,7 @@ if ((_curObject isKindOf "B_supplyCrate_F" || _curObject isKindOf "Box_IND_Grena
     };
 };
 
-if (_curObject isKindOf "House_F" && {player distance _curObject < 12} || ((nearestObject [[16019.5,16952.9,0],"Land_Dome_Big_F"]) == _curObject || (nearestObject [[16019.5,16952.9,0],"Land_Research_house_V1_F"]) == _curObject)) exitWith {
+if (_curObject isKindOf "House_F" && {player distance _curObject < 12} || ("Bankgebaeude" == _curObject) exitWith {
     [_curObject] call life_fnc_houseMenu;
 };
 
