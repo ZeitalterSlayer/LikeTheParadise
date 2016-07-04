@@ -39,6 +39,7 @@ _progressBar progressSetPosition 0.01;
 _cP = 0.01;
 
 switch (typeOf _building) do {
+    case "Land_Offices_01_V1_F": {_cpRate = 0.008;};
     default {_cpRate = 0.08;}
 };
 
