@@ -4563,6 +4563,17 @@
             <Portuguese>Você perdeu suas licenças de porte de arma por cometer homicídio.</Portuguese>
             <Polish>Straciłeś pozwolenie na broń z uwagi na zabijanie ludzi z broni palnej</Polish>
         </Key>
+        <Key ID="STR_Civ_LicenseRemove_3">
+            <Original>You have lost your hero license for manslaughter.</Original>
+            <Czech>Jste ztratili zbrojního průkazu za zabití.</Czech>
+            <Spanish>Has perdido tu licencia de armas por homicidio.</Spanish>
+            <Russian></Russian>
+            <German>Du hast deine Herolizenz wegen Mordes an einem Polizisten verloren.</German>
+            <French>Vous avez perdu votre permis d'armes à feu pour homicide involontaire.</French>
+            <Italian>Hai perso il tuo Porto d'Armi a causa di un omicidio</Italian>
+            <Portuguese>Você perdeu suas licenças de porte de arma por cometer homicídio.</Portuguese>
+            <Polish>Straciłeś pozwolenie na broń z uwagi na zabijanie ludzi z broni palnej</Polish>
+        </Key>
         <Key ID="STR_Civ_RobFail">
             <Original>They didn't have any cash...</Original>
             <Czech>Oni neměli žádnou hotovost ...</Czech>
