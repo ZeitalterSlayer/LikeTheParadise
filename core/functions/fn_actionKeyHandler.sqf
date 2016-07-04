@@ -61,11 +61,7 @@ if ((_curObject isKindOf "B_supplyCrate_F" || _curObject isKindOf "Box_IND_Grena
     };
 };
 
-<<<<<<< HEAD
 if (_curObject isKindOf "House_F" && {player distance _curObject < 12} || ((Bankgebaeude) == _curObject) exitWith {
-=======
-if (_curObject isKindOf "House_F" && {player distance _curObject < 12} || ("Bankgebaeude" == _curObject) exitWith {
->>>>>>> origin/master
     [_curObject] call life_fnc_houseMenu;
 };
 
