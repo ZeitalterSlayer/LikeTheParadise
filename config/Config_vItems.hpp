@@ -723,7 +723,7 @@ class VirtualItems {
     class diamond_cut {
         variable = "diamondCut";
         displayName = "STR_Item_DiamondC";
-        weight = 4;
+        weight = 3;
         buyPrice = -1;
         sellPrice = 2550;
         illegal = false;
@@ -745,7 +745,7 @@ class VirtualItems {
     class cement {
         variable = "cement";
         displayName = "STR_Item_CementBag";
-        weight = 4;
+        weight = 3;
         buyPrice = -1;
         sellPrice = 1850;
         illegal = false;
@@ -792,7 +792,7 @@ class VirtualItems {
     class heroin_processed {
         variable = "heroinProcessed";
         displayName = "STR_Item_HeroinP";
-        weight = 4;
+        weight = 3;
         buyPrice = 4300;
         sellPrice = 3560;
         illegal = true;
@@ -838,7 +838,7 @@ class VirtualItems {
     class cocaine_processed {
         variable = "cocaineProcessed";
         displayName = "STR_Item_CocaineP";
-        weight = 4;
+        weight = 3;
         buyPrice = -1;
         sellPrice = 3150;
         illegal = true;
