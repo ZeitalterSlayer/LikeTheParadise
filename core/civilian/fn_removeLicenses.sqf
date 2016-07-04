@@ -47,8 +47,8 @@ switch (_state) do {
 
     // Hero shizzle
     case 4: {
-        if (missionNamespace getVariable LICENSE_VARNAME("copper","civ")) then {
-            missionNamespace setVariable [LICENSE_VARNAME("copper","civ"),false];
+        if (missionNamespace getVariable LICENSE_VARNAME("hero","civ")) then {
+            missionNamespace setVariable [LICENSE_VARNAME("hero","civ"),false];
             hint localize "STR_Civ_LicenseRemove_3";
         };
     };
