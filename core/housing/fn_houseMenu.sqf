@@ -39,7 +39,7 @@ _Btn8 = CONTROL(37400,Btn8);
 
 life_pInact_curTarget = _curTarget;
 if (_curTarget isKindOf "House_F" && playerSide isEqualTo west) exitWith {
-    if Bankgebaeude == _curTarget then {
+    if (Bankgebaeude) == _curTarget then {
 
         _Btn1 ctrlSetText localize "STR_pInAct_Repair";
         _Btn1 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_repairDoor; closeDialog 0;";
