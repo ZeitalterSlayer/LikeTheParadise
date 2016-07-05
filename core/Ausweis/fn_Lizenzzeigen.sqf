@@ -20,7 +20,7 @@ switch(playerSide)do{
    default { _rank =  "Error";};
   };
   _marke = "marke_cop";
-  _org = "Polizei Altis";
+  _org = "Gendarmerie Tanoa";
  };
  case east:{
   switch (call life_adaclevel) do{
@@ -34,7 +34,7 @@ switch(playerSide)do{
    case 8: { _rang = "Leitung"; };
   };
   _marke = "marke_ziv";
-  _org = "ADAC Altis";
+  _org = "ADAC Tanoa";
  };
  case independent:{
   switch (call life_mediclevel) do{
@@ -48,17 +48,17 @@ switch(playerSide)do{
    default { _rank =  "Error";};
   };
   _marke = "marke_ziv";
-  _org = "Republik Altis";
+  _org = "Republik Tanoa";
  };
  case civilian:{
   if(playerSide == civilian)then{
    _rang = "Zivilist";
    _marke = "marke_ziv";
-   _org = "Republik Altis";
+   _org = "Republik Tanoa";
   }else{
    _rang = "Zivilist";
    _marke = "marke_abi";
-   _org = "Republik Altis";
+   _org = "Republik Tanoa";
   };
  };
 };
