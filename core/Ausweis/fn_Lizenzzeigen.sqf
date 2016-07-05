@@ -8,13 +8,15 @@ if(!(alive _ziel)) then {_ziel = player;};
 switch(playerSide)do{
  case west:{
   switch (call life_coplevel) do{
-   case 1: { _rang = "Polizei-Anw?rter"; };
-   case 2: { _rang = "Polizeimeister"; };
-   case 3: { _rang = "Polizeihauptmeister"; };
-   case 4: { _rang = "Kommissar"; };
-   case 5: { _rang = "Hauptkommissar"; };
-   case 6: { _rang = "Polizeidirektor"; };
-   case 7: { _rang = "Polizeipr?sident"; };
+   case 1: { _rang = "Rekrut"; };
+   case 2: { _rang = "Officer"; };
+   case 3: { _rang = "Sergeant"; };
+   case 4: { _rang = "Lieutenant"; };
+   case 5: { _rang = "Captain"; };
+   case 6: { _rang = "Commander"; };
+   case 7: { _rang = "Deputy Chief"; };
+   case 8: { _rang = "Assistant Chief"; };
+   case 10: { _rang = "Chief of Police"; };
    default { _rank =  "Error";};
   };
   _marke = "marke_cop";
@@ -36,13 +38,13 @@ switch(playerSide)do{
  };
  case independent:{
   switch (call life_mediclevel) do{
-   case 1: { _rang = "Ersthelfer"; };
-   case 2: { _rang = "Rettungshelfer"; };
-   case 3: { _rang = "Rettungsanit?ter"; };
-   case 4: { _rang = "Notfallsanit?ter"; };
+   case 1: { _rang = "Notarzt"; };
+   case 2: { _rang = "Notarzt"; };
+   case 3: { _rang = "Notarzt"; };
+   case 4: { _rang = "Notarzt"; };
    case 5: { _rang = "Notarzt"; };
-   case 6: { _rang = "Lehrrettungsassistent"; };
-   case 7: { _rang = "?rztlicherLeiter"; };
+   case 6: { _rang = "Notarzt"; };
+   case 7: { _rang = "Notarzt"; };
    default { _rank =  "Error";};
   };
   _marke = "marke_ziv";
