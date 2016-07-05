@@ -106,12 +106,6 @@ class CfgSounds {
 		titles[] = {};
 	};
 
-	class SirenSpeech
-	{
-		name = "SirenSpeech";
-		sound[] = {"\sounds\Siren_Speech.ogg", 1.0, 1};
-		titles[] = {};
-	};
 };
 
 class CfgDebriefing {
