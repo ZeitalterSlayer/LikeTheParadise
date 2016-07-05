@@ -28,7 +28,7 @@ for "_i" from 1 to _doors do {
 if (_door isEqualTo 0) exitWith {hint localize "STR_Cop_NotaDoor"}; //Not near a door to be broken into.
 if ((_building getVariable [format["bis_disabled_Door_%1",_door],0]) isEqualTo 0) exitWith {hint localize "STR_House_Raid_DoorUnlocked"};
 
-if ((nearestObject [[16019.5,16952.9,0],"Land_Dome_Big_F"]) == _building || (nearestObject [[16019.5,16952.9,0],"Land_Research_house_V1_F"]) == _building) then {
+if ((nearestObject [[13285.831,11992.301,0.4],"Land_Offices_01_V1_F"]) == _building || (nearestObject [[13285.831,11992.301,0.4],"Land_Offices_01_V1_F"]) == _building) then {
     [[1,2],"STR_ISTR_Bolt_AlertFed",true,[]] remoteExecCall ["life_fnc_broadcast",RCLIENT];
 } else {
     [0,"STR_ISTR_Bolt_AlertHouse",true,[profileName]] remoteExecCall ["life_fnc_broadcast",RCLIENT];
@@ -47,8 +47,7 @@ _progressBar progressSetPosition 0.01;
 _cP = 0.01;
 
 switch (typeOf _building) do {
-    case "Land_Dome_Big_F": {_cpRate = 0.003;};
-    case "Land_Research_house_V1_F": {_cpRate = 0.0015;};
+    case "Land_Offices_01_V1_F": {_cpRate = 0.003;};
     default {_cpRate = 0.08;}
 };
 
