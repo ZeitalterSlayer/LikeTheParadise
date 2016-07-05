@@ -20,7 +20,7 @@ if ((nearestObject [[13285.831,11992.301,0.4],"Land_Offices_01_V1_F"]) getVariab
 if(!([false,"blastingcharge",1] call life_fnc_handleInv)) exitWith {}; //Error?
 
 _vault SVAR ["chargeplaced",true,true];
-[0,"STR_ISTR_Blast_Placed"]; remoteExecCall ["life_fnc_broadcast",west];
+[0,"STR_ISTR_Blast_Placed"] remoteExecCall ["life_fnc_broadcast",west];
 hint localize "STR_ISTR_Blast_KeepOff";
 
 _vault SVAR ["bankrobbed",true,true];
