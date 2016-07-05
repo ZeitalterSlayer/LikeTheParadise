@@ -7,7 +7,7 @@
     Blasting charge is used for the federal reserve vault and nothing  more.. Yet.
 */
 private["_vault","_handle"];
-_vault = param [0,ObjNull,[ObjNull]];
+_vault = param [0,objNull,[objNull]];
 
 if (isNull _vault) exitWith {}; //Bad object
 if (typeOf _vault != "Land_CargoBox_V1_F") exitWith {hint localize "STR_ISTR_Blast_VaultOnly"};
@@ -17,13 +17,15 @@ if (west countSide playableUnits < (LIFE_SETTINGS(getNumber,"minimum_cops"))) ex
      hint format [localize "STR_Civ_NotEnoughCops",(LIFE_SETTINGS(getNumber,"minimum_cops"))]
 };
 if ((nearestObject [[13285.831,11992.301,0.4],"Land_Offices_01_V1_F"]) getVariable ["locked",true]) exitWith {hint localize "STR_ISTR_Blast_Exploit"};
-if (!([false,"blastingcharge",1] call life_fnc_handleInv)) exitWith {}; //Error?
+if(!([false,"blastingcharge",1] call life_fnc_handleInv)) exitWith {}; //Error?
 
-_vault setVariable ["chargeplaced",true,true];
+_vault SVAR ["chargeplaced",true,true];
 [0,"STR_ISTR_Blast_Placed"] remoteExecCall ["life_fnc_broadcast",west];
 hint localize "STR_ISTR_Blast_KeepOff";
 
-[] remoteExec ["life_fnc_demoChargeTimer",[west,player]];
+_vault SVAR ["bankrobbed",true,true];
+_handle = [] spawn life_fnc_demoChargeTimer;
+[] remoteExec ["life_fnc_demoChargeTimer",west];
 
 //Create Marker
 _MarkerWarn = createMarker ["MarkerWarn",[(getPos fed_bank select 0)-30, (getPos fed_bank select 1)+50]];
