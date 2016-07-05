@@ -1,3 +1,4 @@
+#include "..\..\script_macros.hpp"
 /*	File: fn_arrestAction.sqf		Description:	Arrests the targeted person.*/
 private["_unit","_id","_time"];
 _unit = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;_time = [_this,1,30] call BIS_fnc_param;
