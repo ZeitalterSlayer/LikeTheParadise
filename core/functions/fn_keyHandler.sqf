@@ -260,15 +260,13 @@ switch (_code) do {
     //SHIFT F Key
     case 33:
     {   if (_shift) then
-        {
-            if(playerSide == west && vehicle player != player && !life_siren2_active && ((driver vehicle player) == player)) then
-            {
-                [] spawn
-                {
+        { if(playerSide == west && vehicle player != player && !life_siren2_active && ((driver vehicle player) == player)) then {
+                [] spawn {
                     life_siren2_active = true;
                     sleep 1.2;
                     life_siren2_active = false;
                 };
+
                 _veh = vehicle player;
             if (isNil {_veh getVariable "siren2"}) then {_veh setVariable ["siren2",false,true];};
             if ((_veh getVariable "siren2")) then {
@@ -281,10 +279,10 @@ switch (_code) do {
                     [_veh] remoteExec ["life_fnc_copSiren2",RCLIENT];
                 } else {
                     [_veh] remoteExec ["life_fnc_medicSiren2",RCLIENT];
-
                 };
-            };
-        };
+             };
+         };
+     };
 
 	// 1
 	case 2:
