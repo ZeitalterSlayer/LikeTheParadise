@@ -14,7 +14,7 @@ if (!(_building isKindOf "House_F")) exitWith {hint localize "STR_ISTR_Bolt_NotN
 if (((nearestObject [[13285.831,11992.301,0.4],"Land_Offices_01_V1_F"]) == _building) && (west countSide playableUnits < (LIFE_SETTINGS(getNumber,"minimum_cops")))) exitWith {
     hint format [localize "STR_Civ_NotEnoughCops",(LIFE_SETTINGS(getNumber,"minimum_cops"))]
 };
-if ((typeOf _building) == "Land_Offices_01_V1_F") getVariable ["locked",true]) exitWith {hint localize "STR_ISTR_Bolt_Exploit"};
+if (((typeOf _building) == "Land_Offices_01_V1_F") getVariable ["locked",true]) exitWith {hint localize "STR_ISTR_Bolt_Exploit"};
 if (isNil "life_boltcutter_uses") then {life_boltcutter_uses = 0;};
 
 _doors = FETCH_CONFIG2(getNumber,"CfgVehicles",(typeOf _building),"numberOfDoors");
