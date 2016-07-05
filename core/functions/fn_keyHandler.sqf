@@ -259,7 +259,10 @@ switch (_code) do {
 
  // Shift F Key
     case 33: {
-        if (_shift && playerSide in [west,independent] && {vehicle player != player} && {!life_siren2_active} && {((driver vehicle player) == player)}) then {
+        if (_shift) then
+        {
+            if (playerSide in [west,independent] && {vehicle player != player} && {!life_siren2_active} && {((driver vehicle player) == player)}) then
+        {
             [] spawn {
                 life_siren2_active = true;
                 sleep 4.7;
