@@ -99252,7 +99252,7 @@ class Mission
 			flags=5;
 			class Attributes
 			{
-				init="this setObjectTextureGlobal [0,""textures\wilkommenparadise.jpg""];";
+				init="this setObjectTextureGlobal [0,""textures\wilkommenparadise.paa""];";
 			};
 			id=5520;
 			type="Land_Billboard_F";
@@ -99312,7 +99312,7 @@ class Mission
 			flags=5;
 			class Attributes
 			{
-				init="this setObjectTextureGlobal [0,""textures\tippsparadise.jpg""];";
+				init="this setObjectTextureGlobal [0,""textures\tippsparadise.paa""];";
 			};
 			id=5521;
 			type="Land_Billboard_F";
