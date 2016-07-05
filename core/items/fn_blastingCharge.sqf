@@ -7,7 +7,7 @@
     Blasting charge is used for the federal reserve vault and nothing  more.. Yet.
 */
 private["_vault","_handle"];
-_vault = param [0,objNull,[objNull]];
+_vault = param [0,ObjNull,[ObjNull]];
 
 if (isNull _vault) exitWith {}; //Bad object
 if (typeOf _vault != "Land_CargoBox_V1_F") exitWith {hint localize "STR_ISTR_Blast_VaultOnly"};
@@ -24,4 +24,21 @@ _vault setVariable ["chargeplaced",true,true];
 hint localize "STR_ISTR_Blast_KeepOff";
 
 [] remoteExec ["life_fnc_demoChargeTimer",[west,player]];
-[] remoteExec ["TON_fnc_handleBlastingCharge",2];
+
+//Create Marker
+_MarkerWarn = createMarker ["MarkerWarn",[(getPos fed_bank select 0)-30, (getPos fed_bank select 1)+50]];
+"MarkerWarn" setMarkerShape "ICON";
+"MarkerWarn" setMarkerType "mil_warning";
+"MarkerWarn" setMarkerSize [0.7,0.7];
+"MarkerWarn" setMarkerColor "ColorBlack";
+"MarkerWarn" setMarkerText " BANKÜBERFALL!!!";
+
+waitUntil {scriptDone _handle};
+sleep 0.9;
+if(!(fed_bank getVariable["chargeplaced",false])) exitWith {hint localize "STR_ISTR_Blast_Disarmed"};
+
+_bomb = "Bo_GBU12_LGB_MI10" createVehicle [getPosATL fed_bank select 0, getPosATL fed_bank select 1, (getPosATL fed_bank select 2)+0.5];
+fed_bank SVAR ["chargeplaced",false,true];
+fed_bank SVAR ["safe_open",true,true];
+
+hint localize "STR_ISTR_Blast_Opened";
