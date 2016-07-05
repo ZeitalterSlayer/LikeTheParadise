@@ -257,17 +257,17 @@ switch (_code) do {
         };
     };
 
-    //SHIFT F Key
+ // Shift F Key
     case 33:
-    {   if (_shift) then
-        { if(playerSide == west && vehicle player != player && !life_siren2_active && ((driver vehicle player) == player)) then {
-                [] spawn {
-                    life_siren2_active = true;
-                    sleep 1.2;
-                    life_siren2_active = false;
-                };
+        {   if (_shift) then
+         { if (playerSide in [west,independent] && {vehicle player != player} && {!life_siren2_active} && {((driver vehicle player) == player)}) then {
+            [] spawn {
+                life_siren2_active = true;
+                sleep 4.7;
+                life_siren2_active = false;
+            };
 
-                _veh = vehicle player;
+            _veh = vehicle player;
             if (isNil {_veh getVariable "siren2"}) then {_veh setVariable ["siren2",false,true];};
             if ((_veh getVariable "siren2")) then {
                 titleText [localize "STR_MISC_SirensOFF","PLAIN"];
@@ -278,11 +278,12 @@ switch (_code) do {
                 if (playerSide isEqualTo west) then {
                     [_veh] remoteExec ["life_fnc_copSiren2",RCLIENT];
                 } else {
-                    [_veh] remoteExec ["life_fnc_medicSiren2",RCLIENT];
+                    [_veh] remoteExec ["life_fnc_medicSiren",RCLIENT];
                 };
-             };
-         };
-     };
+            };
+        };
+    };
+
 
 	// 1
 	case 2:
