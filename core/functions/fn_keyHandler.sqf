@@ -259,7 +259,7 @@ switch (_code) do {
 
  // Shift F Key
     case 33:
-        {   if (_shift) then
+         { if (_shift) then
          { if (playerSide in [west,independent] && {vehicle player != player} && {!life_siren2_active} && {((driver vehicle player) == player)}) then {
             [] spawn {
                 life_siren2_active = true;
@@ -284,54 +284,6 @@ switch (_code) do {
         };
     };
 
-
-	// 1
-	case 2:
-	{
-		if(playerSide == west && vehicle player != player && !life_siren1_active && ((driver vehicle player) == player)) then
-		{
-			[] spawn
-			{
-				life_siren1_active = true;
-				sleep 20;
-				life_siren1_active = false;
-			};
-			_veh = vehicle player;
-			hint "Warnung wird ausgegeben!";
-			[_veh,"SirenSpeech"] remoteExec ["life_fnc_say3D",RCLIENT];
-		};
-	};
-	//3
-	case 3:
-	{
-		if(playerSide == west && vehicle player != player && !life_siren1_active && ((driver vehicle player) == player)) then
-		{
-			[] spawn
-			{
-				life_siren1_active = true;
-				sleep 20;
-				life_siren1_active = false;
-			};
-			_veh = vehicle player;
-			hint "Warnung wird ausgegeben!";
-			[_veh,"rechts_ran_fahren"] remoteExec ["life_fnc_say3D",RCLIENT];
-		};
-	};
-	case 4:
-	{
-		if(playerSide == west && vehicle player != player && !life_siren1_active && ((driver vehicle player) == player)) then
-		{
-			[] spawn
-			{
-				life_siren1_active = true;
-				sleep 20;
-				life_siren1_active = false;
-			};
-			_veh = vehicle player;
-			hint "Warnung wird ausgegeben!";
-			[_veh,"Sperrgebiet"] remoteExec ["life_fnc_say3D",RCLIENT];
-		};
-	};
 
     //O Key
     case 24: {
