@@ -396,4 +396,10 @@ class Life_Client_Core {
 	class placeablesPlaceCompleteMEDIC {};
 };
 
+    class Ausweis {
+    file = "core\Ausweis";
+    class Lizenzsehen {};
+    class Lizenzzeigen {};
+    };
+
 };
