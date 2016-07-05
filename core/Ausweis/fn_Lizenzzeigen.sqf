@@ -16,7 +16,7 @@ switch(playerSide)do{
    case 6: { _rang = "Commander"; };
    case 7: { _rang = "Deputy Chief"; };
    case 8: { _rang = "Assistant Chief"; };
-   case 10: { _rang = "Chief of Police"; };
+   case 9: { _rang = "Chief of Police"; };
    default { _rank =  "Error";};
   };
   _marke = "marke_cop";
