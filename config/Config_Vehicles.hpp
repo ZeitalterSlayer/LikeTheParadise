@@ -301,13 +301,6 @@ class LifeCfgVehicles {
         textures[] = { };
     };
 
-    class O_Truck_03_medical_F {
-        vItemSpace = 1000;
-        licenses[] = { {"hero"}, {""}, {""}, {""} };
-        price = 9000000;
-        textures[] = { };
-    };
-
     class O_Truck_03_ammo_F {
         vItemSpace = 1000;
         licenses[] = { {"hero"}, {""}, {""}, {""} };
