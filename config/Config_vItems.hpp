@@ -34,7 +34,7 @@ class VirtualShops {
         side = "civ";
         license = "hero";
         level[] = { "", "", -1, "" };
-        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull", "peach","uswl" };
+        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull", "peach" };
     };
     class gang {
         name = "STR_Shops_Gang";

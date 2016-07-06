@@ -272,7 +272,7 @@ class Licenses {
     class hero {
         variable = "hero";
         displayName = "STR_License_Hero";
-        price = 1500000;
+        price = 2500000;
         illegal = false;
         side = "civ";
     };

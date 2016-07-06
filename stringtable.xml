@@ -73,7 +73,7 @@
             <German>Mohammeds Jihad-Shop</German>
         </Key>
 		<Key ID="STR_Shops_C_Hero">
-            <Original>Freedomfighter Shop</Original>
+            <Original>Paramilitary Shop</Original>
             <Czech>Mohamedův džihád Shop</Czech>
             <French>Magasin Rebel de Mohammed</French>
             <Spanish>Tienda Jihadi de Mohamed</Spanish>
@@ -81,7 +81,7 @@
             <Russian></Russian>
             <Portuguese>Loja de Roupas Rebeldes</Portuguese>
             <Polish>Sklep samobójców AKBAR</Polish>
-            <German>Freiheitskämpfer Shop</German>
+            <German>Paramilitärer Shop</German>
         </Key>
         <Key ID="STR_Shops_C_Diving">
             <Original>Steve's Diving Shop</Original>
@@ -139,22 +139,22 @@
             <Polish>Market</Polish>
         </Key>
         <Key ID="STR_Shops_Rebel">
-            <Original>Rebel Market</Original>
+            <Original>Smuggler Market</Original>
             <Czech>Rebel Market</Czech>
             <Spanish>Mercado Rebelde</Spanish>
             <Russian></Russian>
-            <German>Rebellen Markt</German>
+            <German>Schmuggler Markt</German>
             <Italian>Mercato Ribelle</Italian>
             <French>Marché Rebel</French>
             <Portuguese>Mercado Rebelde</Portuguese>
             <Polish>Market Rebeliantów</Polish>
         </Key>
 		<Key ID="STR_Shops_Hero">
-            <Original>Hero Market</Original>
+            <Original>Paramilitary Market</Original>
             <Czech>Rebel Market</Czech>
             <Spanish>Mercado Rebelde</Spanish>
             <Russian></Russian>
-            <German>Hero Markt</German>
+            <German>Paramilitärer Markt</German>
             <Italian>Mercato Ribelle</Italian>
             <French>Marché Rebel</French>
             <Portuguese>Mercado Rebelde</Portuguese>
@@ -4441,11 +4441,11 @@
             <Polish>Zostałeś aresztowany, poczekaj na koniec kary. Jeśli się rozłączysz albo odrodzisz twoja kara zostanie powiększona</Polish>
         </Key>
         <Key ID="STR_Jail_LicenseNOTF">
-            <Original>For being arrested you have lost the following licenses if you own them\n\nFirearms License\nRebel License</Original>
+            <Original>For being arrested you have lost the following licenses if you own them\n\nFirearms License\nSmuggler License</Original>
             <Czech>Za byl zatčen jste ztratili tyto licence, pokud je vlastní \ žádný zbrojní pas \ jRebel licence</Czech>
             <Spanish>Por ser arrestado se te han quitado estas licencias (si las tienes)\n\nL. de Armas \nL. Rebelde</Spanish>
             <Russian></Russian>
-            <German>Bei der Verhaftung hast du folgende Lizenzen verloren, sofern du sie besessen hast\n\nWaffenlizenz\nRebellenlizenz</German>
+            <German>Bei der Verhaftung hast du folgende Lizenzen verloren, sofern du sie besessen hast\n\nWaffenlizenz\nSchmugglerlizenz</German>
             <French>Après votre mise en prison, vous avez perdu les licences suivante si vous les aviez\n\nPermis de port d'arme\n LicenceRebel</French>
             <Italian>A causa del tuo arresto hai perso le seguenti licenze, se le possedevi\n\nPorto d'armi\nLicenza Ribelle</Italian>
             <Portuguese>Você perdeu as seguintes licenças por ter sido preso\n\nPorte de Armas\n\nTreinamento Rebelde</Portuguese>
@@ -4564,11 +4564,11 @@
             <Polish>Straciłeś pozwolenie na broń z uwagi na zabijanie ludzi z broni palnej</Polish>
         </Key>
         <Key ID="STR_Civ_LicenseRemove_3">
-            <Original>You have lost your hero license for manslaughter.</Original>
+            <Original>You have lost your paramilitary license for manslaughter.</Original>
             <Czech>Jste ztratili zbrojního průkazu za zabití.</Czech>
             <Spanish>Has perdido tu licencia de armas por homicidio.</Spanish>
             <Russian></Russian>
-            <German>Du hast deine Herolizenz wegen Mordes an einem Polizisten verloren.</German>
+            <German>Du hast deine paramilitäre Lizenz wegen Mordes an einem Polizisten verloren.</German>
             <French>Vous avez perdu votre permis d'armes à feu pour homicide involontaire.</French>
             <Italian>Hai perso il tuo Porto d'Armi a causa di un omicidio</Italian>
             <Portuguese>Você perdeu suas licenças de porte de arma por cometer homicídio.</Portuguese>
@@ -7061,22 +7061,22 @@
             <Polish>plsdontstealmycar</Polish>
         </Key>
         <Key ID="STR_License_Rebel">
-            <Original>Rebel Training</Original>
+            <Original>Smuggler Training</Original>
             <Czech>Rebel Training</Czech>
             <Spanish>Entrenamiento Rebelde</Spanish>
             <Russian></Russian>
-            <German>Rebellenausbildung</German>
+            <German>Schmugglerenausbildung</German>
             <French>Entrainement rebelle</French>
             <Italian>Licenza da Ribelle</Italian>
             <Portuguese>Treinamento Rebelde</Portuguese>
             <Polish>Trening rebelianta</Polish>
         </Key>
 		<Key ID="STR_License_Hero">
-            <Original>Hero Training</Original>
+            <Original>Paramilitary Training</Original>
             <Czech>Rebel Training</Czech>
             <Spanish>Entrenamiento Rebelde</Spanish>
             <Russian></Russian>
-            <German>Heldenausbildung</German>
+            <German>Paramilitärausbildung</German>
             <French>Entrainement rebelle</French>
             <Italian>Licenza da Ribelle</Italian>
             <Portuguese>Treinamento Rebelde</Portuguese>
@@ -8862,22 +8862,22 @@
             <Polish>Musisz być policjantem aby kupować w tym sklepie!</Polish>
         </Key>
         <Key ID="STR_Shop_NotaReb">
-            <Original>You don't have rebel training yet!</Original>
+            <Original>You don't have a smuggler training yet!</Original>
             <Czech>Nemáte rebelů výcvik ještě!</Czech>
             <Spanish>No tienes Entrenamiento Rebelde!</Spanish>
             <Russian></Russian>
-            <German>Du besitzt keine Rebellen Lizenz!</German>
+            <German>Du besitzt keine Schmuggler Lizenz!</German>
             <French>Vous n'avez pas encore d'entrainement rebelle!</French>
             <Italian>Devi essere ribelle per poter utilizzare questo negozio!</Italian>
             <Portuguese>Você não tem Treinamento Rebelde!</Portuguese>
             <Polish>Nie posiadasz treningu rebelianta!</Polish>
         </Key>
 		<Key ID="STR_Shop_NotaHero">
-            <Original>You don't have the hero training yet!</Original>
+            <Original>You don't have the paramilitary training yet!</Original>
             <Czech>Nemáte rebelů výcvik ještě!</Czech>
             <Spanish>No tienes Entrenamiento Rebelde!</Spanish>
             <Russian></Russian>
-            <German>Du besitzt keine Hero Lizenz!</German>
+            <German>Du besitzt keine paramilitäre Lizenz!</German>
             <French>Vous n'avez pas encore d'entrainement rebelle!</French>
             <Italian>Devi essere ribelle per poter utilizzare questo negozio!</Italian>
             <Portuguese>Você não tem Treinamento Rebelde!</Portuguese>
@@ -9629,24 +9629,24 @@
             <Italian>Guardia Costiera</Italian>
         </Key>
         <Key ID="STR_MAR_Rebel_Outpost">
-            <Original>Rebel Outpost</Original>
+            <Original>Smuggler Outpost</Original>
             <Czech>Rebel Outpost</Czech>
             <French>Avant-Poste Rebel</French>
             <Spanish>Base Rebelde</Spanish>
             <Italian>Avamposto Ribelle</Italian>
             <Russian></Russian>
-            <German>Rebellen Außenposten</German>
+            <German>Schmuggler Außenposten</German>
             <Portuguese>Base Rebelde</Portuguese>
             <Polish>Baza rebeliantów</Polish>
         </Key>
 		<Key ID="STR_MAR_Hero_Outpost">
-            <Original>Hero Outpost</Original>
+            <Original>Paramilitary Outpost</Original>
             <Czech>Rebel Outpost</Czech>
             <French>Avant-Poste Rebel</French>
             <Spanish>Base Rebelde</Spanish>
             <Italian>Avamposto Ribelle</Italian>
             <Russian></Russian>
-            <German>Hero Außenposten</German>
+            <German>Paramilitärer Außenposten</German>
             <Portuguese>Base Rebelde</Portuguese>
             <Polish>Baza rebeliantów</Polish>
         </Key>
@@ -10300,45 +10300,45 @@
             <Italian>Riserva di Caccia</Italian>
         </Key>
         <Key ID="STR_MAR_Rebel_Clothing_Shop">
-            <Original>Rebel Clothing Shop</Original>
+            <Original>Smuggler Clothing Shop</Original>
             <Czech>Rebel Oblečení Shop</Czech>
             <French>Friperie Rebel</French>
             <Spanish>Tienda de Ropa Rebelde</Spanish>
             <Italian>Rebel negozio di abbigliamento</Italian>
             <Russian></Russian>
-            <German>Rebellen Klamottenladen</German>
+            <German>Schmuggler Klamottenladen</German>
             <Portuguese>Loja de Roupas Rebeldes</Portuguese>
             <Polish>Magazyn rebelianta</Polish>
         </Key>
 		<Key ID="STR_MAR_Hero_Clothing_Shop">
-            <Original>Hero Clothing Shop</Original>
+            <Original>Paramilitary Clothing Shop</Original>
             <Czech>Rebel Oblečení Shop</Czech>
             <French>Friperie Rebel</French>
             <Spanish>Tienda de Ropa Rebelde</Spanish>
             <Italian>Rebel negozio di abbigliamento</Italian>
             <Russian></Russian>
-            <German>Hero Klamottenladen</German>
+            <German>Paramilitärer Klamottenladen</German>
             <Portuguese>Loja de Roupas Rebeldes</Portuguese>
             <Polish>Magazyn rebelianta</Polish>
         </Key>
         <Key ID="STR_MAR_Rebel_Weapon_Shop">
-            <Original>Rebel Weapon Shop</Original>
+            <Original>Smuggler Weapon Shop</Original>
             <Czech>Rebel obchodu se zbraněmi</Czech>
             <French>Vendeur d'armes rebel</French>
             <Spanish>Tienda de Armas Rebeldes</Spanish>
             <Russian></Russian>
-            <German>Rebellen Waffenladen</German>
+            <German>Schmuggler Waffenladen</German>
             <Portuguese>Loja de Armas Rebeldes</Portuguese>
             <Polish>Zbrojownia rebelianta</Polish>
             <Italian>Armeria della Guerriglia</Italian>
         </Key>
 		 <Key ID="STR_MAR_Hero_Weapon_Shop">
-            <Original>Hero Weapon Shop</Original>
+            <Original>Paramilitary Weapon Shop</Original>
             <Czech>Rebel obchodu se zbraněmi</Czech>
             <French>Vendeur d'armes rebel</French>
             <Spanish>Tienda de Armas Rebeldes</Spanish>
             <Russian></Russian>
-            <German>Hero Waffenladen</German>
+            <German>Paramilitärer Waffenladen</German>
             <Portuguese>Loja de Armas Rebeldes</Portuguese>
             <Polish>Zbrojownia rebelianta</Polish>
             <Italian>Armeria della Guerriglia</Italian>
@@ -10366,24 +10366,24 @@
             <Polish>Sklep OLLEN</Polish>
         </Key>
         <Key ID="STR_MAR_Hero_Market">
-            <Original>Hero Market</Original>
+            <Original>Paramilitary Market</Original>
             <Czech>Rebel Market</Czech>
             <French>Marché Rebel</French>
             <Spanish>Mercado Rebelde</Spanish>
             <Italian>mercato Rebel</Italian>
             <Russian></Russian>
-            <German>Hero Markt</German>
+            <German>Paramilitärer Markt</German>
             <Portuguese>Mercado Rebelde</Portuguese>
             <Polish>Market rebelianta</Polish>
         </Key>
         <Key ID="STR_MAR_Rebel_Market">
-            <Original>Rebel Market</Original>
+            <Original>Smuggler Market</Original>
             <Czech>Rebel Market</Czech>
             <French>Marché Rebel</French>
             <Spanish>Mercado Rebelde</Spanish>
             <Italian>mercato Rebel</Italian>
             <Russian></Russian>
-            <German>Rebellen Markt</German>
+            <German>Schmuggler Markt</German>
             <Portuguese>Mercado Rebelde</Portuguese>
             <Polish>Market rebelianta</Polish>
         </Key>
@@ -11109,13 +11109,13 @@
             <German>Offenes tragen einer legalen Waffe in der Stadt</German>
         </Key>
         <Key ID="STR_Crime_15">
-            <Original>Rebel weapon</Original>
+            <Original>Smuggler weapon</Original>
             <Czech>Rebel zbraň</Czech>
             <Spanish>Arma Rebelde</Spanish>
             <Russian></Russian>
             <French>Armes rebelles</French>
             <Portuguese>Arma Rebelde</Portuguese>
-            <German>Rebellen Waffe</German>
+            <German>Schmuggler Waffe</German>
             <Italian>Arma Ribelle</Italian>
             <Polish>Rebel bronią</Polish>
         </Key>

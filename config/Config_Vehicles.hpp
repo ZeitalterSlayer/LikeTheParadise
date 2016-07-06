@@ -43,9 +43,7 @@ class CarShops {
             { "O_Truck_03_transport_F", { "", "", -1 } },
             { "O_Truck_03_covered_F", { "", "", -1 } },
             { "B_Truck_01_box_F", { "", "", -1 } },
-            { "C_Van_01_fuel_F", { "", "", -1 } },
-            { "I_Truck_02_fuel_F", { "", "", -1 } },
-            { "B_Truck_01_fuel_F", { "", "", -1 } }
+            { "C_Van_01_fuel_F", { "", "", -1 } }
         };
     };
     class civ_air {
@@ -97,9 +95,9 @@ class CarShops {
             { "O_Truck_03_fuel_F", { "", "", -1} },
             { "O_Truck_03_medical_F", { "", "", -1} },
             { "O_Truck_03_ammo_F", { "", "", -1} },
-            { "O_Truck_03_device_F", { "", "", -1} },
             { "O_Truck_02_Ammo_F", { "", "", -1} },
-            { "O_Truck_02_fuel_F", { "", "", -1} }
+            { "O_Truck_02_fuel_F", { "", "", -1} },
+            { "O_Truck_03_device_F", { "", "", -1} }
         };
     };
 	class hero_air {
@@ -273,56 +271,64 @@ class LifeCfgVehicles {
 	*/
 
     // Hero Fahrzeuge
-    class B_Truck_01_ammo_F {
-        vItemSpace = 1000;
-        licenses[] = { {"hero"}, {""}, {""}, {""} };
-        price = 9000000;
-        textures[] = { };
-    };
-
-
     class O_Truck_03_repair_F {
-        vItemSpace = 1000;
+        vItemSpace = 520;
         licenses[] = { {"hero"}, {""}, {""}, {""} };
-        price = 9000000;
+        price = 1200000;
         textures[] = { };
     };
 
     class O_Truck_03_fuel_F {
-        vItemSpace = 1000;
+        vItemSpace = 300;
         licenses[] = { {"hero"}, {""}, {""}, {""} };
-        price = 9000000;
+        price = 500000;
         textures[] = { };
     };
 
     class O_Truck_03_ammo_F {
-        vItemSpace = 1000;
+        vItemSpace = 600;
         licenses[] = { {"hero"}, {""}, {""}, {""} };
-        price = 9000000;
+        price = 2500000;
         textures[] = { };
     };
 
 
     class O_Truck_02_Ammo_F {
-        vItemSpace = 1000;
+        vItemSpace = 300;
         licenses[] = { {"hero"}, {""}, {""}, {""} };
-        price = 9000000;
+        price = 390000;
         textures[] = { };
     };
 
     class O_Truck_02_fuel_F {
-        vItemSpace = 1000;
+        vItemSpace = 250;
+        licenses[] = { {"hero"}, {""}, {""}, {""} };
+        price = 300000;
+        textures[] = { };
+    };
+
+    class O_Heli_Transport_04_bench_black_F {
+        vItemSpace = 500;
         licenses[] = { {"hero"}, {""}, {""}, {""} };
         price = 9000000;
         textures[] = { };
     };
 
-    class O_Heli_Transport_04_bench_black_F {
-        vItemSpace = 1000;
+    class B_Truck_01_fuel_F {
+        vItemSpace = 600;
+        vFuelSpace = 1400000;
+        licenses[] = { {"trucking"}, {""}, {""}, {""} };
+        price = 2400000;
+        textures[] = {};
+    };
+
+    class B_Truck_01_ammo_F {
+        vItemSpace = 900;
         licenses[] = { {"hero"}, {""}, {""}, {""} };
-        price = 9000000;
+        price = 4500000;
         textures[] = { };
     };
+
 
     // Hero Ende
 
@@ -409,7 +415,7 @@ class LifeCfgVehicles {
     class O_Truck_03_device_F {
         vItemSpace = 1000;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 6250000;
+        price = 6500000;
         textures[] = {
 			{ "HEX", "civ", {
                 "\A3\Soft_F_EPC\Truck_03\Data\Truck_03_ext01_CO.paa",
@@ -1001,14 +1007,6 @@ will modify the virtual space and the price of the vehicle, but other informatio
 				"\a3\soft_f_beta\Truck_02\data\truck_02_fuel_opfor_co.paa"
             } }
         };
-    };
-
-    class B_Truck_01_fuel_F {
-        vItemSpace = 50;
-        vFuelSpace = 50000;
-        licenses[] = { {"trucking"}, {""}, {""}, {""} };
-        price = 250000;
-        textures[] = {};
     };
 
 	class I_Heli_Transport_02_F {
