@@ -427,7 +427,7 @@ class WeaponShops {
         accs[] = {
 			{ "optic_Aco_grn", "", 650 },						//ACO Scope
             { "muzzle_snds_L", "", 650 }						//9mm Schalldämpfer
-			
+
 		};
     };
 
@@ -438,7 +438,7 @@ class WeaponShops {
         level[] = { "life_coplevel", "SCALAR", 3, "You must be a Sergeant!" };
         items[] = {
             { "hgun_P07_snds_F", "Taser", 2000, -1 },			//Taser
-			{ "arifle_SPAR_01_blk_F", "", 2000, -1 },			//SPAR-16
+			{ "arifle_SPAR_01_blk_F", "", 20000, -1 },			//SPAR-16
 			{ "ItemGPS", "", 100, -1 },							//GPS
 			{ "ItemCompass", "", 150, -1 },						//Kompass
 			{ "ItemMap", "", 150, -1 },							//Map
@@ -467,7 +467,7 @@ class WeaponShops {
         level[] = { "life_coplevel", "SCALAR", 4, "You must be a Lieutenant!" };
         items[] = {
             { "hgun_P07_snds_F", "Taser", 2000, -1 },			//Taser
-			{ "arifle_MXC_Black_F", "", 2000, -1 },				//MXC
+			{ "arifle_MXC_Black_F", "", 20000, -1 },				//MXC
 			{ "ItemGPS", "", 100, -1 },							//GPS
 			{ "ItemCompass", "", 150, -1 },						//Kompass
 			{ "ItemMap", "", 150, -1 },							//Map
@@ -498,7 +498,7 @@ class WeaponShops {
         level[] = { "life_coplevel", "SCALAR", 5, "You must be a Captain!" };
         items[] = {
             { "hgun_P07_snds_F", "Taser", 2000, -1 },			//Taser
-			{ "arifle_CTAR_blk_F", "", 2000, -1 },				//CAR-95
+			{ "arifle_CTAR_blk_F", "", 20000, -1 },				//CAR-95
 			{ "ItemGPS", "", 100, -1 },							//GPS
 			{ "ItemCompass", "", 150, -1 },						//Kompass
 			{ "ItemMap", "", 150, -1 },							//Map
@@ -528,7 +528,7 @@ class WeaponShops {
         level[] = { "life_coplevel", "SCALAR", 6, "You must be a Commander!" };
         items[] = {
             { "hgun_P07_snds_F", "Taser", 2000, -1 },			//Taser
-			{ "arifle_MXM_Black_F", "", 2000, -1 },				//MXM
+			{ "arifle_MXM_Black_F", "", 20000, -1 },				//MXM
 			{ "ItemGPS", "", 100, -1 },							//GPS
 			{ "ItemCompass", "", 150, -1 },						//Kompass
 			{ "ItemMap", "", 150, -1 },							//Map
@@ -559,7 +559,7 @@ class WeaponShops {
         level[] = { "life_coplevel", "SCALAR", 7, "You must be a Deputy Chief!" };
         items[] = {
             { "hgun_P07_snds_F", "Taser", 2000, -1 },			//Taser
-			{ "arifle_ARX_blk_F", "", 2000, -1 },				//Type 115
+			{ "arifle_ARX_blk_F", "", 20000, -1 },				//Type 115
 			{ "ItemGPS", "", 100, -1 },							//GPS
 			{ "ItemCompass", "", 150, -1 },						//Kompass
 			{ "ItemMap", "", 150, -1 },							//Map
@@ -582,7 +582,7 @@ class WeaponShops {
 			{ "acc_flashlight", "", 650 }						//Taschenlampe
 		};
     };
-	
+
 	class cop_asschief {
         name = "Tanoa Assistant Chief Shop";
         side = "cop";
@@ -590,7 +590,7 @@ class WeaponShops {
         level[] = { "life_coplevel", "SCALAR", 8, "You must be a Assistant Chief!" };
         items[] = {
             { "hgun_P07_snds_F", "Taser", 2000, -1 },			//Taser
-			{ "arifle_SPAR_03_blk_F", "", 2000, -1 },			//SPAR-17
+			{ "arifle_SPAR_03_blk_F", "", 20000, -1 },			//SPAR-17
 			{ "ItemGPS", "", 100, -1 },							//GPS
 			{ "ItemCompass", "", 150, -1 },						//Kompass
 			{ "ItemMap", "", 150, -1 },							//Map
@@ -613,7 +613,7 @@ class WeaponShops {
 			{ "acc_flashlight", "", 650 }						//Taschenlampe
 		};
     };
-	
+
 	class cop_chief {
         name = "Tanoa Assistant Chief Shop";
         side = "cop";
@@ -621,7 +621,7 @@ class WeaponShops {
         level[] = { "life_coplevel", "SCALAR", 9, "You must be a Chief!" };
         items[] = {
             { "hgun_P07_snds_F", "Taser", 2000, -1 },			//Taser
-			{ "srifle_DMR_03_F", "", 2000, -1 },				//Mk-I
+			{ "srifle_DMR_03_F", "", 20000, -1 },				//Mk-I
 			{ "ItemGPS", "", 100, -1 },							//GPS
 			{ "ItemCompass", "", 150, -1 },						//Kompass
 			{ "ItemMap", "", 150, -1 },							//Map
@@ -652,10 +652,10 @@ class WeaponShops {
         level[] = { "life_coplevel", "SCALAR", 1, "You must be a Private!" };
         items[] = {
             { "hgun_P07_snds_F", "Taser", 2000, -1 },			//Taser
-			{ "arifle_MXM_Black_F", "", 2000, -1 },				//MXM
-			{ "arifle_ARX_blk_F", "", 2000, -1 },				//Type 115
-			{ "arifle_SPAR_03_blk_F", "", 2000, -1 },			//SPAR-17
-			{ "srifle_DMR_03_F", "", 2000, -1 },				//Mk-I
+			{ "arifle_MXM_Black_F", "", 20000, -1 },				//MXM
+			{ "arifle_ARX_blk_F", "", 20000, -1 },				//Type 115
+			{ "arifle_SPAR_03_blk_F", "", 20000, -1 },			//SPAR-17
+			{ "srifle_DMR_03_F", "", 20000, -1 },				//Mk-I
 			{ "ItemGPS", "", 100, -1 },							//GPS
 			{ "ItemCompass", "", 150, -1 },						//Kompass
 			{ "ItemMap", "", 150, -1 },							//Map
@@ -695,6 +695,10 @@ class WeaponShops {
 			{ "arifle_SPAR_01_khk_F", "", 15000, -1 },
 			{ "arifle_SPAR_03_blk_F", "", 45000, -1 },
 			{ "arifle_SPAR_03_khk_F", "", 45000, -1 },
+            { "arifle_MX_GL_Black_F", "", 45000, -1 },
+            { " srifle_DMR_03_F", "", 45000, -1 },
+            { "arifle_ARX_blk_F", "", 45000, -1 },
+            { "arifle_CTAR_blk_F", "", 45000, -1 },
             { "HandGrenade_Stone", "Flashbang", 1700, -1 },
             { "Binocular", "", 150, -1 },
             { "ItemGPS", "", 100, 45 },
@@ -703,9 +707,18 @@ class WeaponShops {
         };
         mags[] = {
             { "9Rnd_45ACP_Mag", "", 200 },
+            { "30Rnd_65x39_caseless_mag", "", 200 },
             { "30Rnd_9x21_Mag_SMG_02", "", 60 },
 			{ "30Rnd_556x45_Stanag", "", 300 },
-			{ "20Rnd_762x51_Mag", "", 500 }
+			{ "20Rnd_762x51_Mag", "", 500 },
+            { "30Rnd_580x42_Mag_F", "", 25 },
+            { "1Rnd_Smoke_Grenade_shell", "", 500 },
+            { "1Rnd_SmokeRed_Grenade_shell", "", 500 },
+            { "1Rnd_SmokeGreen_Grenade_shell", "", 500 },
+            { "1Rnd_SmokeYellow_Grenade_shell", "", 500 },
+            { "1Rnd_SmokePurple_Grenade_shell", "", 500 },
+            { "1Rnd_SmokeBlue_Grenade_shell", "", 500 },
+            { "1Rnd_SmokeOrange_Grenade_shell", "", 500 }
         };
         accs[] = {
 			{ "muzzle_snds_L", "", 650 },
@@ -734,6 +747,8 @@ class WeaponShops {
 			{ "arifle_AKS_F", "", 25000, -1 },
 			{ "arifle_AKM_F", "", 35000, -1 },
 			{ "arifle_AK12_F", "", 35000, -1 },
+            { "arifle_CTAR_blk_F", "", 35000, -1 },
+            { "srifle_DMR_03_F", "", 35000, -1 },
             { "Binocular", "", 150, -1 },
             { "ItemGPS", "", 100, 45 },
             { "FirstAidKit", "", 150, 65 },
@@ -742,8 +757,10 @@ class WeaponShops {
         mags[] = {
             { "30Rnd_556x45_Stanag", "", 800 },
             { "20Rnd_556x45_UW_mag", "", 800 },
+            { "20Rnd_762x51_Mag", "", 25 },
 			{ "30Rnd_545x39_Mag_F", "", 1100 },
 			{ "30Rnd_762x39_Mag_F", "", 1250 },
+            { "30Rnd_580x42_Mag_F", "", 25 },
 			{ "30Rnd_762x39_Mag_F", "", 2000 }
         };
         accs[] = {
