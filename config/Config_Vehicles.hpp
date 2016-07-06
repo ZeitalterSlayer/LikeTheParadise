@@ -43,7 +43,6 @@ class CarShops {
             { "O_Truck_03_transport_F", { "", "", -1 } },
             { "O_Truck_03_covered_F", { "", "", -1 } },
             { "B_Truck_01_box_F", { "", "", -1 } },
-            { "O_Truck_03_device_F", { "", "", -1 } },
             { "C_Van_01_fuel_F", { "", "", -1 } },
             { "I_Truck_02_fuel_F", { "", "", -1 } },
             { "B_Truck_01_fuel_F", { "", "", -1 } }
@@ -56,7 +55,6 @@ class CarShops {
             { "B_Heli_Light_01_F", { "", "", -1 } },
             { "O_Heli_Light_02_unarmed_F", { "", "", -1 } },
 			{ "I_Heli_Transport_02_F", { "", "", -1 } },
-            { "B_Heli_Transport_03_unarmed_F", { "", "", -1 } },
             { "O_Heli_Transport_04_box_F", { "", "", -1 } },
 			{ "B_T_VTOL_01_vehicle_F", { "", "", -1 } },
 			{ "B_T_VTOL_01_infantry_F", { "", "", -1 } },
@@ -115,8 +113,7 @@ class CarShops {
             { "O_Heli_Transport_04_box_F", { "", "", -1 } },
 			{ "B_T_VTOL_01_vehicle_F", { "", "", -1 } },
 			{ "B_T_VTOL_01_infantry_F", { "", "", -1 } },
-            { "O_Heli_Transport_04_bench_black_F", { "", "", -1 } },
-            { "B_Heli_Transport_03_unarmed_green_F", { "", "", -1 } }
+            { "O_Heli_Transport_04_bench_black_F", { "", "", -1 } }
         };
     };
     class med_shop {
@@ -318,12 +315,6 @@ class LifeCfgVehicles {
         textures[] = { };
     };
 
-    class O_Truck_03_device_F {
-        vItemSpace = 1000;
-        licenses[] = { {""}, {""}, {""}, {""} };
-        price = 9000000;
-        textures[] = { };
-    };
 
     class O_Truck_02_Ammo_F {
         vItemSpace = 1000;
@@ -346,12 +337,6 @@ class LifeCfgVehicles {
         textures[] = { };
     };
 
-     class B_Heli_Transport_03_unarmed_green_F {
-        vItemSpace = 1000;
-        licenses[] = { {""}, {""}, {""}, {""} };
-        price = 9000000;
-        textures[] = { };
-    };
     // Hero Ende
 
     class B_Boat_Armed_01_minigun_F {
