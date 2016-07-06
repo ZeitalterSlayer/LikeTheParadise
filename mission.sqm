@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=75;
+		nextID=77;
 	};
 	class Camera
 	{
-		pos[]={12819.661,367.02429,4931.6733};
-		dir[]={-0.066258237,-0.54929245,0.83300507};
-		up[]={-0.04355412,0.8356263,0.54756719};
-		aside[]={0.996858,7.0140231e-009,0.079290926};
+		pos[]={11332.272,127.09875,6581.5933};
+		dir[]={0.81350124,-0.38213786,0.4384551};
+		up[]={0.33643112,0.9240886,0.1813274};
+		aside[]={0.47446325,1.4015823e-006,-0.88030821};
 	};
 };
 binarizationWanted=0;
@@ -10841,7 +10841,7 @@ class Mission
 			type="b_unknown";
 			colorName="ColorOrange";
 			id=1894;
-			atlOffset=101.52468;
+			atlOffset=106.87231;
 		};
 		class Item289
 		{
@@ -20395,7 +20395,7 @@ class Mission
 			};
 			id=2557;
 			type="Land_GarageShelter_01_F";
-			atlOffset=0.53498602;
+			atlOffset=0.5349865;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -60786,7 +60786,7 @@ class Mission
 			type="b_unknown";
 			colorName="ColorOrange";
 			id=4055;
-			atlOffset=2.7738771;
+			atlOffset=3.4232035;
 		};
 		class Item1389
 		{
@@ -60803,7 +60803,7 @@ class Mission
 			};
 			id=4056;
 			type="Land_InfoStand_V1_F";
-			atlOffset=0.62014866;
+			atlOffset=0.61725235;
 		};
 		class Item1390
 		{
@@ -88218,7 +88218,7 @@ class Mission
 			};
 			id=4945;
 			type="Land_InfoStand_V1_F";
-			atlOffset=0.38547134;
+			atlOffset=0.38399935;
 		};
 		class Item1928
 		{
@@ -90088,7 +90088,7 @@ class Mission
 			};
 			id=5091;
 			type="Land_InfoStand_V1_F";
-			atlOffset=0.32437801;
+			atlOffset=0.32437682;
 		};
 		class Item2006
 		{
@@ -91673,7 +91673,7 @@ class Mission
 						angles[]={0,2.5406122,0};
 					};
 					side="Civilian";
-					flags=6;
+					flags=2;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -91681,7 +91681,7 @@ class Mission
 					};
 					id=5222;
 					type="C_man_1";
-					atlOffset=0.00049972534;
+					atlOffset=0.4722662;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -91711,7 +91711,7 @@ class Mission
 			{
 			};
 			id=5221;
-			atlOffset=0.00049972534;
+			atlOffset=0.4722662;
 		};
 		class Item2070
 		{
@@ -121747,7 +121747,7 @@ class Mission
 			type="o_service";
 			angle=44.378201;
 			id=6491;
-			atlOffset=0.18076324;
+			atlOffset=0.28050137;
 		};
 		class Item2800
 		{
@@ -121765,7 +121765,7 @@ class Mission
 			};
 			id=6492;
 			type="Land_InfoStand_V1_F";
-			atlOffset=3.7193298e-005;
+			atlOffset=0.098825455;
 		};
 		class Item2801
 		{
@@ -127168,7 +127168,7 @@ class Mission
 			};
 			id=6649;
 			type="Land_CampingTable_F";
-			atlOffset=0.23007011;
+			atlOffset=0.23052788;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -132705,7 +132705,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="removeallWeapons this;  this enableSimulation false;  this allowDamage false;  this addAction[localize""STR_MAR_Hero_Market"",life_fnc_virt_menu,""hero""];  this addAction[localize ""STR_MAR_Hero_Clothing_Shop"",life_fnc_clothingMenu,""hero"",0,false,false,"""",' license_civ_hero && playerSide isEqualTo civilian'];  this addAction[localize ""STR_MAR_Hero_Weapon_Shop"",life_fnc_weaponShopMenu,""hero"",0,false,false,"""",' license_civ_hero && playerSide isEqualTo civilian'];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""hero"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""hero"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""hero"",0,false,false,"""",' !license_civ_rebel && playerSide isEqualTo civilian '];  this addAction[localize""STR_NOTF_ATM"",life_fnc_atmMenu,"""",0,false,false,"""",' isNull objectParent player && player distance _target < 4 '];";
+				init="removeallWeapons this;  this enableSimulation false;  this allowDamage false;  this addAction[localize""STR_MAR_Hero_Market"",life_fnc_virt_menu,""hero""];  this addAction[localize ""STR_MAR_Hero_Clothing_Shop"",life_fnc_clothingMenu,""hero"",0,false,false,"""",' license_civ_hero && playerSide isEqualTo civilian'];  this addAction[localize ""STR_MAR_Hero_Weapon_Shop"",life_fnc_weaponShopMenu,""hero"",0,false,false,"""",' license_civ_hero && playerSide isEqualTo civilian'];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""hero"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""hero"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""hero"",0,false,false,"""",' !license_civ_hero && playerSide isEqualTo civilian '];  this addAction[localize""STR_NOTF_ATM"",life_fnc_atmMenu,"""",0,false,false,"""",' isNull objectParent player && player distance _target < 4 '];";
 			};
 			id=6848;
 			type="Land_Laptop_unfolded_F";
@@ -132756,9 +132756,9 @@ class Mission
 		class Item3051
 		{
 			dataType="Marker";
-			position[]={11335.666,-7.7188643e-020,6594.1802};
+			position[]={11335.666,-2.2445555e-037,6594.1802};
 			name="Heroop_1";
-			text="Schmugglercamp";
+			text="Paramilitärcamp";
 			type="mil_triangle";
 			colorName="ColorWEST";
 			id=6910;
@@ -135739,7 +135739,7 @@ class Mission
 			};
 			id=7053;
 			type="Land_SharpRock_apart";
-			atlOffset=-1.1444092e-005;
+			atlOffset=-7.6293945e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -135846,7 +135846,7 @@ class Mission
 			position[]={11289.125,-0.093386978,6722.2368};
 			name="hero_v_1";
 			type="Empty";
-			angle=302.62198;
+			angle=302.62192;
 			id=7057;
 			atlOffset=-76.367538;
 		};
@@ -135856,7 +135856,7 @@ class Mission
 			position[]={11289.946,-7.2265208e-036,6724.0049};
 			name="hero_v_1_1";
 			type="Empty";
-			angle=293.50397;
+			angle=293.50394;
 			id=7058;
 			atlOffset=-76.516914;
 		};
@@ -135877,6 +135877,7 @@ class Mission
 			};
 			id=7059;
 			type="Land_InfoStand_V1_F";
+			atlOffset=-0.013504028;
 		};
 		class Item3124
 		{
@@ -135959,7 +135960,7 @@ class Mission
 			};
 			id=7077;
 			type="Land_LampShabby_F";
-			atlOffset=8.392334e-005;
+			atlOffset=-0.00021362305;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -136317,7 +136318,7 @@ class Mission
 			};
 			id=7086;
 			type="Land_LampShabby_F";
-			atlOffset=-9.1552734e-005;
+			atlOffset=-9.9182129e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -136436,7 +136437,7 @@ class Mission
 			};
 			id=7089;
 			type="Land_LampShabby_F";
-			atlOffset=0.40789032;
+			atlOffset=0.40788269;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -136527,7 +136528,7 @@ class Mission
 			};
 			id=7094;
 			type="Land_Camping_Light_F";
-			atlOffset=0.88587952;
+			atlOffset=0.88588715;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -136603,7 +136604,7 @@ class Mission
 			};
 			id=7096;
 			type="Land_Camping_Light_F";
-			atlOffset=2.4993744;
+			atlOffset=2.4754562;
 			class CustomAttributes
 			{
 				class Attribute0
