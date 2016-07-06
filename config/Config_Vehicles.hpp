@@ -280,12 +280,6 @@ class LifeCfgVehicles {
         textures[] = { };
     };
 
-   class B_Truck_01_fuel_F {
-        vItemSpace = 1000;
-        licenses[] = { {"hero"}, {""}, {""}, {""} };
-        price = 9000000;
-        textures[] = { };
-    };
 
     class O_Truck_03_repair_F {
         vItemSpace = 1000;
