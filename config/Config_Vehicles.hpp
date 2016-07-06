@@ -275,42 +275,42 @@ class LifeCfgVehicles {
     // Hero Fahrzeuge
     class B_Truck_01_ammo_F {
         vItemSpace = 1000;
-        licenses[] = { {""}, {""}, {""}, {""} };
+        licenses[] = { {"hero"}, {""}, {""}, {""} };
         price = 9000000;
         textures[] = { };
     };
 
    class B_Truck_01_fuel_F {
         vItemSpace = 1000;
-        licenses[] = { {""}, {""}, {""}, {""} };
+        licenses[] = { {"hero"}, {""}, {""}, {""} };
         price = 9000000;
         textures[] = { };
     };
 
     class O_Truck_03_repair_F {
         vItemSpace = 1000;
-        licenses[] = { {""}, {""}, {""}, {""} };
+        licenses[] = { {"hero"}, {""}, {""}, {""} };
         price = 9000000;
         textures[] = { };
     };
 
     class O_Truck_03_fuel_F {
         vItemSpace = 1000;
-        licenses[] = { {""}, {""}, {""}, {""} };
+        licenses[] = { {"hero"}, {""}, {""}, {""} };
         price = 9000000;
         textures[] = { };
     };
 
     class O_Truck_03_medical_F {
         vItemSpace = 1000;
-        licenses[] = { {""}, {""}, {""}, {""} };
+        licenses[] = { {"hero"}, {""}, {""}, {""} };
         price = 9000000;
         textures[] = { };
     };
 
     class O_Truck_03_ammo_F {
         vItemSpace = 1000;
-        licenses[] = { {""}, {""}, {""}, {""} };
+        licenses[] = { {"hero"}, {""}, {""}, {""} };
         price = 9000000;
         textures[] = { };
     };
@@ -318,21 +318,21 @@ class LifeCfgVehicles {
 
     class O_Truck_02_Ammo_F {
         vItemSpace = 1000;
-        licenses[] = { {""}, {""}, {""}, {""} };
+        licenses[] = { {"hero"}, {""}, {""}, {""} };
         price = 9000000;
         textures[] = { };
     };
 
     class O_Truck_02_fuel_F {
         vItemSpace = 1000;
-        licenses[] = { {""}, {""}, {""}, {""} };
+        licenses[] = { {"hero"}, {""}, {""}, {""} };
         price = 9000000;
         textures[] = { };
     };
 
     class O_Heli_Transport_04_bench_black_F {
         vItemSpace = 1000;
-        licenses[] = { {""}, {""}, {""}, {""} };
+        licenses[] = { {"hero"}, {""}, {""}, {""} };
         price = 9000000;
         textures[] = { };
     };
