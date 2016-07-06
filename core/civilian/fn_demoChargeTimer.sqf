@@ -23,5 +23,10 @@ for "_i" from 0 to 1 step 0 do {
     if (!(fed_bank getVariable ["chargeplaced",false])) exitWith {};
     _timer ctrlSetText format["%1",[(_time - time),"MM:SS.MS"] call BIS_fnc_secondsToString];
     sleep 0.08;
+
+    _bomb = "Bo_GBU12_LGB_MI10" createVehicle [getPosATL fed_bank select 0, getPosATL fed_bank select 1, (getPosATL fed_bank select 2)+0.5];
+    fed_bank SVAR ["chargeplaced",false,true];
+    fed_bank SVAR ["safe_open",true,true];
 };
+
 6 cutText["","PLAIN"];
