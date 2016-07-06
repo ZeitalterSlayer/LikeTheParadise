@@ -264,6 +264,12 @@ class LifeCfgVehicles {
 	*/
 
     // Hero Fahrzeuge
+    class B_T_LSV_01_unarmed_F {
+        vItemSpace = 180;
+        licenses[] = { {"hero"}, {""}, {""}, {""} };
+        price = 2000000;
+        textures[] = { };
+    };
     class O_Truck_03_repair_F {
         vItemSpace = 520;
         licenses[] = { {"hero"}, {""}, {""}, {""} };
