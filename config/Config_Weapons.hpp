@@ -357,8 +357,6 @@ class WeaponShops {
             { "ItemWatch", "", 50, -1 },
             { "FirstAidKit", "", 150, 65 },
             { "NVGoggles", "", 2000, 980 },
-            { "NVGoggles_OPFOR", "", 2000, 980 },
-            { "NVGoggles_INDEP", "", 2000, 980 },
             { "Chemlight_red", "", 300, -1 },
             { "Chemlight_yellow", "", 300, 50 },
             { "Chemlight_green", "", 300, 50 },
