@@ -21,3 +21,6 @@ CASH = CASH - _price;
 
 titleText[format[localize "STR_NOTF_B_1", localize _displayName,[_price] call life_fnc_numberText],"PLAIN"];
 missionNamespace setVariable [_varName,true];
+
+switch(_varName): {case "hero: {SVAR_MNS [_varName,true]; SVAR_MNS ["rebel,false];};};
+switch(_varName): {case "rebel: {SVAR_MNS [_varName,true]; SVAR_MNS ["hero,false];};};
