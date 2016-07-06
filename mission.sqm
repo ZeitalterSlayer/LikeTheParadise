@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=79;
+		nextID=80;
 	};
 	class Camera
 	{
-		pos[]={11345.288,138.42836,6564.8853};
-		dir[]={0,-0.70710683,0.70710683};
-		up[]={0,0.70710677,0.70710677};
-		aside[]={0.99999994,0,-0};
+		pos[]={3935.5088,208.05373,12141.967};
+		dir[]={-0.18766741,-0.41834912,0.88871694};
+		up[]={-0.086441927,0.90827215,0.40935394};
+		aside[]={0.97845203,-5.4753036e-007,0.20661597};
 	};
 };
 binarizationWanted=0;
@@ -91259,7 +91259,7 @@ class Mission
 					};
 					id=5203;
 					type="C_man_1";
-					atlOffset=0.21035385;
+					atlOffset=0.00041389465;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -91289,7 +91289,7 @@ class Mission
 			{
 			};
 			id=5202;
-			atlOffset=0.21035385;
+			atlOffset=0.00041389465;
 		};
 		class Item2057
 		{
@@ -99014,18 +99014,17 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1806.3638,8.0636244,12000.273};
+				position[]={1806.364,8.0636606,12000.273};
 				angles[]={0,1.1961615,0};
 			};
 			side="Empty";
 			flags=5;
 			class Attributes
 			{
-				init="this setObjectTextureGlobal [0,""textures\willkommen.paa""];";
+				init="this setObjectTextureGlobal [0,""textures\wilkommen.paa""];";
 			};
 			id=5520;
 			type="Land_Billboard_F";
-			atlOffset=-2.6226044e-005;
 			class CustomAttributes
 			{
 				class Attribute0
