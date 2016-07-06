@@ -21,3 +21,6 @@ CASH = CASH - _price;
 
 titleText[format[localize "STR_NOTF_B_1", localize _displayName,[_price] call life_fnc_numberText],"PLAIN"];
 missionNamespace setVariable [_varName,true];
+
+[5] call life_fnc_removeLicenses;
+[6] call life_fnc_removeLicenses;
