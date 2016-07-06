@@ -395,7 +395,7 @@ class WeaponShops {
 			{ "ItemCompass", "", 150, -1 },						//Kompass
 			{ "ItemMap", "", 150, -1 },							//Map
             { "Binocular", "", 150, -1 },						//Fernglas
-            { "NVGoggles_OPFOR ", "", 2000, -1 },				//Nachtsichtgerät
+            { "NVGoggles_OPFOR", "", 2000, -1 },				//Nachtsichtgerät
             { "FirstAidKit", "", 150, -1 }						//Medikit
         };
         mags[] = {
@@ -417,7 +417,7 @@ class WeaponShops {
 			{ "ItemCompass", "", 150, -1 },						//Kompass
 			{ "ItemMap", "", 150, -1 },							//Map
             { "Binocular", "", 150, -1 },						//Fernglas
-            { "NVGoggles_OPFOR ", "", 2000, -1 },				//Nachtsichtgerät
+            { "NVGoggles_OPFOR", "", 2000, -1 },				//Nachtsichtgerät
             { "FirstAidKit", "", 150, -1 }						//Medikit
         };
         mags[] = {
@@ -443,7 +443,7 @@ class WeaponShops {
 			{ "ItemCompass", "", 150, -1 },						//Kompass
 			{ "ItemMap", "", 150, -1 },							//Map
             { "Binocular", "", 150, -1 },						//Fernglas
-            { "NVGoggles_OPFOR ", "", 2000, -1 },				//Nachtsichtgerät
+            { "NVGoggles_OPFOR", "", 2000, -1 },				//Nachtsichtgerät
             { "FirstAidKit", "", 150, -1 }						//Medikit
         };
         mags[] = {
@@ -472,7 +472,7 @@ class WeaponShops {
 			{ "ItemCompass", "", 150, -1 },						//Kompass
 			{ "ItemMap", "", 150, -1 },							//Map
             { "Binocular", "", 150, -1 },						//Fernglas
-            { "NVGoggles_OPFOR ", "", 2000, -1 },				//Nachtsichtgerät
+            { "NVGoggles_OPFOR", "", 2000, -1 },				//Nachtsichtgerät
             { "FirstAidKit", "", 150, -1 }						//Medikit
         };
         mags[] = {
@@ -503,7 +503,7 @@ class WeaponShops {
 			{ "ItemCompass", "", 150, -1 },						//Kompass
 			{ "ItemMap", "", 150, -1 },							//Map
             { "Binocular", "", 150, -1 },						//Fernglas
-            { "NVGoggles_OPFOR ", "", 2000, -1 },				//Nachtsichtgerät
+            { "NVGoggles_OPFOR", "", 2000, -1 },				//Nachtsichtgerät
             { "FirstAidKit", "", 150, -1 }						//Medikit
         };
         mags[] = {
@@ -533,7 +533,7 @@ class WeaponShops {
 			{ "ItemCompass", "", 150, -1 },						//Kompass
 			{ "ItemMap", "", 150, -1 },							//Map
             { "Binocular", "", 150, -1 },						//Fernglas
-            { "NVGoggles_OPFOR ", "", 2000, -1 },				//Nachtsichtgerät
+            { "NVGoggles_OPFOR", "", 2000, -1 },				//Nachtsichtgerät
             { "FirstAidKit", "", 150, -1 }						//Medikit
         };
         mags[] = {
@@ -564,7 +564,7 @@ class WeaponShops {
 			{ "ItemCompass", "", 150, -1 },						//Kompass
 			{ "ItemMap", "", 150, -1 },							//Map
             { "Binocular", "", 150, -1 },						//Fernglas
-            { "NVGoggles_OPFOR ", "", 2000, -1 },				//Nachtsichtgerät
+            { "NVGoggles_OPFOR", "", 2000, -1 },				//Nachtsichtgerät
             { "FirstAidKit", "", 150, -1 }						//Medikit
         };
         mags[] = {
@@ -595,7 +595,7 @@ class WeaponShops {
 			{ "ItemCompass", "", 150, -1 },						//Kompass
 			{ "ItemMap", "", 150, -1 },							//Map
             { "Binocular", "", 150, -1 },						//Fernglas
-            { "NVGoggles_OPFOR ", "", 2000, -1 },				//Nachtsichtgerät
+            { "NVGoggles_OPFOR", "", 2000, -1 },				//Nachtsichtgerät
             { "FirstAidKit", "", 150, -1 }						//Medikit
         };
         mags[] = {
@@ -626,7 +626,7 @@ class WeaponShops {
 			{ "ItemCompass", "", 150, -1 },						//Kompass
 			{ "ItemMap", "", 150, -1 },							//Map
             { "Binocular", "", 150, -1 },						//Fernglas
-            { "NVGoggles_OPFOR ", "", 2000, -1 },				//Nachtsichtgerät
+            { "NVGoggles_OPFOR", "", 2000, -1 },				//Nachtsichtgerät
             { "FirstAidKit", "", 150, -1 }						//Medikit
         };
         mags[] = {
@@ -660,7 +660,7 @@ class WeaponShops {
 			{ "ItemCompass", "", 150, -1 },						//Kompass
 			{ "ItemMap", "", 150, -1 },							//Map
             { "Binocular", "", 150, -1 },						//Fernglas
-            { "NVGoggles_OPFOR ", "", 2000, -1 },				//Nachtsichtgerät
+            { "NVGoggles_OPFOR", "", 2000, -1 },				//Nachtsichtgerät
             { "FirstAidKit", "", 150, -1 }						//Medikit
         };
         mags[] = {
