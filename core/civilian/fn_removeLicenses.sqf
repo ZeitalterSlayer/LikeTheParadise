@@ -24,7 +24,6 @@ switch (_state) do {
         missionNamespace setVariable [LICENSE_VARNAME("gun","civ"),false];
         missionNamespace setVariable [LICENSE_VARNAME("driver","civ"),false];
         missionNamespace setVariable [LICENSE_VARNAME("rebel","civ"),false];
-        missionNamespace setVariable [LICENSE_VARNAME("hero","civ"),false];
     };
 
     //Remove motor vehicle licenses
@@ -53,4 +52,17 @@ switch (_state) do {
             hint localize "STR_Civ_LicenseRemove_3";
         };
     };
-};
+
+    case 5: {
+        if (missionNamespace getVariable LICENSE_VARNAME("hero","civ")) then {
+            missionNamespace setVariable [LICENSE_VARNAME("rebel","civ"),false];
+            //hint localize "STR_Civ_LicenseRemove_4";
+        };
+    };
+
+    case 6: {
+        if (missionNamespace getVariable LICENSE_VARNAME("rebel","civ")) then {
+            missionNamespace setVariable [LICENSE_VARNAME("hero","civ"),false];
+            //hint localize "STR_Civ_LicenseRemove_5";
+        };
+    };
