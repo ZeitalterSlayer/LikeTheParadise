@@ -25,6 +25,7 @@ class WeaponShops {
             { "SMG_02_F", "",40000, -1 },
             { "SMG_01_F", "",40000, -1 },
             { "hgun_PDW2000_F", "",25000, -1 },
+			{ "SMG_05_F", "", 20000, -1 },
             { "hgun_Rook40_F", "",15000, -1 },
             { "hgun_Pistol_heavy_02_F", "",15000, -1 },
             { "hgun_Pistol_heavy_01_F", "",15000, -1 },
@@ -50,6 +51,8 @@ class WeaponShops {
             { "optic_Aco_smg", "",2500 },
             { "optic_ACO_grn_smg", "",2500 },
             { "optic_Holosight_smg", "",2500 },
+            { "muzzle_snds_L", "",30000 },
+            { "muzzle_snds_acp", "",30000 }
         };
     };
 
@@ -382,22 +385,23 @@ class WeaponShops {
 
     //Cop Shops
     class cop_basic {
-        name = "Tanoa Rekruten Shop";
+        name = "Tanoa Private Shop";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 1, "Du You mus be a Recruit!" };
+        level[] = { "life_coplevel", "SCALAR", 1, "You must be a Private!" };
         items[] = {
-            { "hgun_P07_snds_F", "Stun Pistol", 2000, 650 },
-            { "Binocular", "", 150, -1 },
-            { "ItemGPS", "", 100, 45 },
-            { "FirstAidKit", "", 150, 65 },
-            { "NVGoggles", "", 2000, 980 }
+            { "hgun_P07_snds_F", "Taser", 2000, -1 },			//Taser
+            { "ItemGPS", "", 100, -1 },							//GPS
+			{ "ItemCompass", "", 150, -1 },						//Kompass
+			{ "ItemMap", "", 150, -1 },							//Map
+            { "Binocular", "", 150, -1 },						//Fernglas
+            { "NVGoggles_OPFOR ", "", 2000, -1 },				//Nachtsichtgerät
+            { "FirstAidKit", "", 150, -1 }						//Medikit
         };
         mags[] = {
-            { "16Rnd_9x21_Mag", "", 25 }
+            { "16Rnd_9x21_Mag", "", 25 }						//Taser Munition
         };
         accs[] = {
-            { "muzzle_snds_L", "", 650 }
         };
     };
 
@@ -405,21 +409,25 @@ class WeaponShops {
         name = "Tanoa Officer Shop";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 2, "You must be a Patrol Officer Rank!" };
+        level[] = { "life_coplevel", "SCALAR", 2, "You must be a Officer!" };
         items[] = {
-			{ "arifle_sdar_F", "Taser Rifle", 20000, 7500 },
-            { "hgun_Pistol_heavy_01_F", "", 17500, -1 },
-            { "Binocular", "", 150, -1 },
-            { "ItemGPS", "", 100, 45 },
-            { "FirstAidKit", "", 150, 65 },
-            { "NVGoggles", "", 2000, 980 }
+            { "hgun_P07_snds_F", "Taser", 2000, -1 },			//Taser
+			{ "SMG_05_F", "", 2000, -1 },						//Protector
+            { "ItemGPS", "", 100, -1 },							//GPS
+			{ "ItemCompass", "", 150, -1 },						//Kompass
+			{ "ItemMap", "", 150, -1 },							//Map
+            { "Binocular", "", 150, -1 },						//Fernglas
+            { "NVGoggles_OPFOR ", "", 2000, -1 },				//Nachtsichtgerät
+            { "FirstAidKit", "", 150, -1 }						//Medikit
         };
         mags[] = {
-            { "11Rnd_45ACP_Mag", "", 200 },
-			{ "20Rnd_556x45_UW_mag", "Taser Rifle Magazine", 45 }
-        };
+            { "16Rnd_9x21_Mag", "", 25 },						//Taser Munition
+			{ "30Rnd_9x21_Mag_SMG_02", "", 60 }					//9mm Munition
+		};
         accs[] = {
-			{ "muzzle_snds_L", "", 650 }
+			{ "optic_Aco_grn", "", 650 },						//ACO Scope
+            { "muzzle_snds_L", "", 650 }						//9mm Schalldämpfer
+			
 		};
     };
 
@@ -427,155 +435,251 @@ class WeaponShops {
         name = "Tanoa Sergeant Shop";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 3, "You must be a Sergeant Rank!" };
+        level[] = { "life_coplevel", "SCALAR", 3, "You must be a Sergeant!" };
         items[] = {
-            { "hgun_Pistol_heavy_01_F", "", 17500, -1 },
-            { "SMG_05_F", "", 15000, -1 },
-            { "Binocular", "", 150, -1 },
-            { "ItemGPS", "", 100, 45 },
-            { "FirstAidKit", "", 150, 65 },
-            { "NVGoggles", "", 2000, 980 }
+            { "hgun_P07_snds_F", "Taser", 2000, -1 },			//Taser
+			{ "arifle_SPAR_01_blk_F", "", 2000, -1 },			//SPAR-16
+			{ "ItemGPS", "", 100, -1 },							//GPS
+			{ "ItemCompass", "", 150, -1 },						//Kompass
+			{ "ItemMap", "", 150, -1 },							//Map
+            { "Binocular", "", 150, -1 },						//Fernglas
+            { "NVGoggles_OPFOR ", "", 2000, -1 },				//Nachtsichtgerät
+            { "FirstAidKit", "", 150, -1 }						//Medikit
         };
         mags[] = {
-            { "11Rnd_45ACP_Mag", "", 200 },
-            { "30Rnd_9x21_Mag_SMG_02", "", 60 }
+            { "16Rnd_9x21_Mag", "", 25 },						//Taser Munition
+			{ "30Rnd_556x45_Stanag", "", 25 }					//5.56 Munition
         };
         accs[] = {
-			{ "muzzle_snds_L", "", 650 },
-			{ "optic_Arco_blk_F", "", 2500 }
-        };
+			{ "optic_Hamr", "", 650 },							//RCO Scope
+			{ "optic_MRCO", "", 650 },							//MRCO Scope
+			{ "optic_Aco_grn", "", 650 },						//ACO Scope
+			{ "bipod_01_F_blk", "", 650 },						//Zweibein
+			{ "acc_flashlight", "", 650 },						//Taschenlampe
+			{ "muzzle_snds_M", "", 650 }						//5.56mm Schalldämpfer
+		};
     };
 
 	class cop_lieutenant {
         name = "Tanoa Lieutenant Shop";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 4, "You must be a Lieutenant Rank!" };
+        level[] = { "life_coplevel", "SCALAR", 4, "You must be a Lieutenant!" };
         items[] = {
-            { "hgun_ACPC2_F", "", 17500, -1 },
-            { "SMG_05_F", "", 15000, -1 },
-            { "HandGrenade_Stone", "Flashbang", 1700, -1 },
-            { "Binocular", "", 150, -1 },
-            { "ItemGPS", "", 100, 45 },
-            { "FirstAidKit", "", 150, 65 },
-            { "NVGoggles", "", 2000, 980 }
+            { "hgun_P07_snds_F", "Taser", 2000, -1 },			//Taser
+			{ "arifle_MXC_Black_F", "", 2000, -1 },				//MXC
+			{ "ItemGPS", "", 100, -1 },							//GPS
+			{ "ItemCompass", "", 150, -1 },						//Kompass
+			{ "ItemMap", "", 150, -1 },							//Map
+            { "Binocular", "", 150, -1 },						//Fernglas
+            { "NVGoggles_OPFOR ", "", 2000, -1 },				//Nachtsichtgerät
+            { "FirstAidKit", "", 150, -1 }						//Medikit
         };
         mags[] = {
-            { "9Rnd_45ACP_Mag", "", 200 },
-            { "30Rnd_9x21_Mag_SMG_02", "", 60 }
+            { "16Rnd_9x21_Mag", "", 25 },						//Taser Munition
+			{ "30Rnd_65x39_caseless_mag", "", 25 }				//6.5 Munition
         };
         accs[] = {
-			{ "muzzle_snds_L", "", 650 },
-			{ "optic_Arco_blk_F", "", 2500, -1 }
-        };
+			{ "optic_Hamr", "", 650 },							//RCO Scope
+			{ "optic_MRCO", "", 650 },							//MRCO Scope
+			{ "optic_Aco_grn", "", 650 },						//ACO Scope
+			{ "optic_ERCO_blk_F", "", 650 },					//ERCO Scope
+			{ "optic_Holosight", "", 650 },						//Mk17 Holosight
+			{ "bipod_01_F_blk", "", 650 },						//Zweibein
+			{ "acc_flashlight", "", 650 },						//Taschenlampe
+            { "muzzle_snds_L", "", 650 }						//9mm Schalldämpfer
+		};
     };
 
 	class cop_captain {
         name = "Tanoa Captain Shop";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 5, "You must be a Captain Rank!" };
+        level[] = { "life_coplevel", "SCALAR", 5, "You must be a Captain!" };
         items[] = {
-            { "hgun_ACPC2_F", "", 17500, -1 },
-            { "SMG_02_F", "", 15000, -1 },
-            { "HandGrenade_Stone", "Flashbang", 1700, -1 },
-            { "Binocular", "", 150, -1 },
-            { "ItemGPS", "", 100, 45 },
-            { "FirstAidKit", "", 150, 65 },
-            { "NVGoggles", "", 2000, 980 }
+            { "hgun_P07_snds_F", "Taser", 2000, -1 },			//Taser
+			{ "arifle_CTAR_blk_F", "", 2000, -1 },				//CAR-95
+			{ "ItemGPS", "", 100, -1 },							//GPS
+			{ "ItemCompass", "", 150, -1 },						//Kompass
+			{ "ItemMap", "", 150, -1 },							//Map
+            { "Binocular", "", 150, -1 },						//Fernglas
+            { "NVGoggles_OPFOR ", "", 2000, -1 },				//Nachtsichtgerät
+            { "FirstAidKit", "", 150, -1 }						//Medikit
         };
         mags[] = {
-            { "9Rnd_45ACP_Mag", "", 200 },
-            { "30Rnd_9x21_Mag_SMG_02", "", 60 }
+            { "16Rnd_9x21_Mag", "", 25 },						//Taser Munition
+			{ "30Rnd_580x42_Mag_F", "", 25 }					//5.8mm Munition
         };
         accs[] = {
-			{ "muzzle_snds_L", "", 650 },
-			{ "optic_Arco_blk_F", "", 2500 }
-        };
+			{ "optic_Hamr", "", 650 },							//RCO Scope
+			{ "optic_MRCO", "", 650 },							//MRCO Scope
+			{ "optic_Aco_grn", "", 650 },						//ACO Scope
+			{ "optic_ERCO_blk_F", "", 650 },					//ERCO Scope
+			{ "optic_Holosight", "", 650 },						//Mk17 Holosight
+			{ "bipod_01_F_blk", "", 650 },						//Zweibein
+			{ "acc_flashlight", "", 650 }						//Taschenlampe
+		};
     };
 
 	class cop_commander {
         name = "Tanoa Commander Shop";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 6, "You must be a Commander Rank!" };
+        level[] = { "life_coplevel", "SCALAR", 6, "You must be a Commander!" };
         items[] = {
-            { "hgun_ACPC2_F", "", 17500, -1 },
-            { "SMG_02_F", "", 15000, -1 },
-            { "HandGrenade_Stone", "Flashbang", 1700, -1 },
-            { "Binocular", "", 150, -1 },
-            { "ItemGPS", "", 100, 45 },
-            { "FirstAidKit", "", 150, 65 },
-            { "NVGoggles", "", 2000, 980 }
+            { "hgun_P07_snds_F", "Taser", 2000, -1 },			//Taser
+			{ "arifle_MXM_Black_F", "", 2000, -1 },				//MXM
+			{ "ItemGPS", "", 100, -1 },							//GPS
+			{ "ItemCompass", "", 150, -1 },						//Kompass
+			{ "ItemMap", "", 150, -1 },							//Map
+            { "Binocular", "", 150, -1 },						//Fernglas
+            { "NVGoggles_OPFOR ", "", 2000, -1 },				//Nachtsichtgerät
+            { "FirstAidKit", "", 150, -1 }						//Medikit
         };
         mags[] = {
-            { "9Rnd_45ACP_Mag", "", 200 },
-            { "30Rnd_9x21_Mag_SMG_02", "", 60 }
+            { "16Rnd_9x21_Mag", "", 25 },						//Taser Munition
+			{ "30Rnd_65x39_caseless_mag", "", 25 }				//6.5mm Munition
         };
         accs[] = {
-			{ "muzzle_snds_L", "", 650 },
-			{ "optic_Arco_blk_F", "", 2500 },
-			{ "optic_ERCO_blk", "", 2500 }
-        };
+			{ "optic_Hamr", "", 650 },							//RCO Scope
+			{ "optic_MRCO", "", 650 },							//MRCO Scope
+			{ "optic_Aco_grn", "", 650 },						//ACO Scope
+			{ "optic_ERCO_blk_F", "", 650 },					//ERCO Scope
+			{ "optic_Holosight", "", 650 },						//Mk17 Holosight
+			{ "optic_LRPS", "", 650 },							//LRPS Scope
+			{ "bipod_01_F_blk", "", 650 },						//Zweibein
+			{ "acc_flashlight", "", 650 }						//Taschenlampe
+		};
     };
 
-	class cop_chief {
-        name = "Tanoa Chief Shop";
+	class cop_depchief {
+        name = "Tanoa Deputy Chief Shop";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 7, "You must be a Chief Rank!" };
+        level[] = { "life_coplevel", "SCALAR", 7, "You must be a Deputy Chief!" };
         items[] = {
-            { "hgun_Pistol_heavy_02_F", "", 17500, -1 },
-			{ "optic_Yorris", "", 2500, -1 },
-            { "SMG_02_F", "", 15000, -1 },
-            { "HandGrenade_Stone", "Flashbang", 1700, -1 },
-            { "Binocular", "", 150, -1 },
-            { "ItemGPS", "", 100, 45 },
-            { "FirstAidKit", "", 150, 65 },
-            { "NVGoggles", "", 2000, 980 }
+            { "hgun_P07_snds_F", "Taser", 2000, -1 },			//Taser
+			{ "arifle_ARX_blk_F", "", 2000, -1 },				//Type 115
+			{ "ItemGPS", "", 100, -1 },							//GPS
+			{ "ItemCompass", "", 150, -1 },						//Kompass
+			{ "ItemMap", "", 150, -1 },							//Map
+            { "Binocular", "", 150, -1 },						//Fernglas
+            { "NVGoggles_OPFOR ", "", 2000, -1 },				//Nachtsichtgerät
+            { "FirstAidKit", "", 150, -1 }						//Medikit
         };
         mags[] = {
-            { "6Rnd_45ACP_Cylinder", "", 200 },
-            { "30Rnd_9x21_Mag_SMG_02", "", 60 }
+            { "16Rnd_9x21_Mag", "", 25 },						//Taser Munition
+			{ "30Rnd_65x39_caseless_mag", "", 25 }				//6.5mm Munition
         };
         accs[] = {
-			{ "muzzle_snds_L", "", 650 },
-			{ "optic_Arco_blk_F", "", 2500 },
-			{ "optic_ERCO_blk", "", 2500 }
+			{ "optic_Hamr", "", 650 },							//RCO Scope
+			{ "optic_MRCO", "", 650 },							//MRCO Scope
+			{ "optic_Aco_grn", "", 650 },						//ACO Scope
+			{ "optic_ERCO_blk_F", "", 650 },					//ERCO Scope
+			{ "optic_Holosight", "", 650 },						//Mk17 Holosight
+			{ "optic_LRPS", "", 650 },							//LRPS Scope
+			{ "bipod_01_F_blk", "", 650 },						//Zweibein
+			{ "acc_flashlight", "", 650 }						//Taschenlampe
+		};
+    };
+	
+	class cop_asschief {
+        name = "Tanoa Assistant Chief Shop";
+        side = "cop";
+        license = "";
+        level[] = { "life_coplevel", "SCALAR", 8, "You must be a Assistant Chief!" };
+        items[] = {
+            { "hgun_P07_snds_F", "Taser", 2000, -1 },			//Taser
+			{ "arifle_SPAR_03_blk_F", "", 2000, -1 },			//SPAR-17
+			{ "ItemGPS", "", 100, -1 },							//GPS
+			{ "ItemCompass", "", 150, -1 },						//Kompass
+			{ "ItemMap", "", 150, -1 },							//Map
+            { "Binocular", "", 150, -1 },						//Fernglas
+            { "NVGoggles_OPFOR ", "", 2000, -1 },				//Nachtsichtgerät
+            { "FirstAidKit", "", 150, -1 }						//Medikit
         };
+        mags[] = {
+            { "16Rnd_9x21_Mag", "", 25 },						//Taser Munition
+			{ "30Rnd_762x39_Mag_F", "", 25 }					//7.62mm Munition
+        };
+        accs[] = {
+			{ "optic_Hamr", "", 650 },							//RCO Scope
+			{ "optic_MRCO", "", 650 },							//MRCO Scope
+			{ "optic_Aco_grn", "", 650 },						//ACO Scope
+			{ "optic_ERCO_blk_F", "", 650 },					//ERCO Scope
+			{ "optic_Holosight", "", 650 },						//Mk17 Holosight
+			{ "optic_LRPS", "", 650 },							//LRPS Scope
+			{ "bipod_01_F_blk", "", 650 },						//Zweibein
+			{ "acc_flashlight", "", 650 }						//Taschenlampe
+		};
+    };
+	
+	class cop_chief {
+        name = "Tanoa Assistant Chief Shop";
+        side = "cop";
+        license = "";
+        level[] = { "life_coplevel", "SCALAR", 9, "You must be a Chief!" };
+        items[] = {
+            { "hgun_P07_snds_F", "Taser", 2000, -1 },			//Taser
+			{ "srifle_DMR_03_F", "", 2000, -1 },				//Mk-I
+			{ "ItemGPS", "", 100, -1 },							//GPS
+			{ "ItemCompass", "", 150, -1 },						//Kompass
+			{ "ItemMap", "", 150, -1 },							//Map
+            { "Binocular", "", 150, -1 },						//Fernglas
+            { "NVGoggles_OPFOR ", "", 2000, -1 },				//Nachtsichtgerät
+            { "FirstAidKit", "", 150, -1 }						//Medikit
+        };
+        mags[] = {
+            { "16Rnd_9x21_Mag", "", 25 },						//Taser Munition
+			{ "20Rnd_762x51_Mag", "", 25 }						//7.62mm Munition
+        };
+        accs[] = {
+			{ "optic_Hamr", "", 650 },							//RCO Scope
+			{ "optic_MRCO", "", 650 },							//MRCO Scope
+			{ "optic_Aco_grn", "", 650 },						//ACO Scope
+			{ "optic_ERCO_blk_F", "", 650 },					//ERCO Scope
+			{ "optic_Holosight", "", 650 },						//Mk17 Holosight
+			{ "optic_LRPS", "", 650 },							//LRPS Scope
+			{ "bipod_01_F_blk", "", 650 },						//Zweibein
+			{ "acc_flashlight", "", 650 }						//Taschenlampe
+		};
     };
 
 	class cop_special {
         name = "Tanoa Spezial-Waffen Shop";
         side = "cop";
         license = "special";
-        level[] = { "life_coplevel", "SCALAR", 3, "You must be a Sergeant Rank!" };
+        level[] = { "life_coplevel", "SCALAR", 1, "You must be a Private!" };
         items[] = {
-            { "hgun_ACPC2_F", "", 17500, -1 },
-            { "SMG_05_F", "", 15000, -1 },
-			{ "arifle_SPAR_01_blk_F", "", 15000, -1 },
-			{ "arifle_SPAR_01_khk_F", "", 15000, -1 },
-            { "HandGrenade_Stone", "Flashbang", 1700, -1 },
-            { "Binocular", "", 150, -1 },
-            { "ItemGPS", "", 100, 45 },
-            { "FirstAidKit", "", 150, 65 },
-            { "NVGoggles", "", 2000, 980 }
+            { "hgun_P07_snds_F", "Taser", 2000, -1 },			//Taser
+			{ "arifle_MXM_Black_F", "", 2000, -1 },				//MXM
+			{ "arifle_ARX_blk_F", "", 2000, -1 },				//Type 115
+			{ "arifle_SPAR_03_blk_F", "", 2000, -1 },			//SPAR-17
+			{ "srifle_DMR_03_F", "", 2000, -1 },				//Mk-I
+			{ "ItemGPS", "", 100, -1 },							//GPS
+			{ "ItemCompass", "", 150, -1 },						//Kompass
+			{ "ItemMap", "", 150, -1 },							//Map
+            { "Binocular", "", 150, -1 },						//Fernglas
+            { "NVGoggles_OPFOR ", "", 2000, -1 },				//Nachtsichtgerät
+            { "FirstAidKit", "", 150, -1 }						//Medikit
         };
         mags[] = {
-            { "9Rnd_45ACP_Mag", "", 200 },
-            { "30Rnd_9x21_Mag_SMG_02", "", 60 },
-			{ "30Rnd_556x45_Stanag", "", 300 }
+            { "16Rnd_9x21_Mag", "", 25 },						//Taser Munition
+			{ "30Rnd_65x39_caseless_mag", "", 25 },				//6.5mm Munition
+			{ "30Rnd_762x39_Mag_F", "", 25 },					//7.62mm Munition
+			{ "20Rnd_762x51_Mag", "", 25 }						//7.62mm Munition
         };
         accs[] = {
-			{ "muzzle_snds_L", "", 650 },
-			{ "muzzle_snds_M", "", 650 },
-			{ "muzzle_snds_m_khk_F", "", 650 },
-			{ "optic_Arco_blk_F", "", 2500 },
-			{ "optic_Arco_ghex_F", "", 2500 },
-			{ "optic_ERCO_blk_F", "", 2500 },
-			{ "optic_ERCO_khk_F", "", 2500 },
-			{ "optic_DMS", "", 7500 },
-			{ "optic_DMS_ghex_F", "", 7500 }
+			{ "optic_Hamr", "", 650 },							//RCO Scope
+			{ "optic_MRCO", "", 650 },							//MRCO Scope
+			{ "optic_Aco_grn", "", 650 },						//ACO Scope
+			{ "optic_ERCO_blk_F", "", 650 },					//ERCO Scope
+			{ "optic_Holosight", "", 650 },						//Mk17 Holosight
+			{ "optic_LRPS", "", 650 },							//LRPS Scope
+			{ "bipod_01_F_blk", "", 650 },						//Zweibein
+			{ "acc_flashlight", "", 650 },						//Taschenlampe
+			{ "muzzle_snds_H", "", 650 },						//6.5mm Schalldämpfer
+			{ "muzzle_snds_B", "", 650 }						//7.62mm Schalldämpfer
         };
     };
 
