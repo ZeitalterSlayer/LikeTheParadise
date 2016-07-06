@@ -93,7 +93,7 @@ class CarShops {
             { "O_Truck_03_ammo_F", { "", "", -1} },
             { "B_Truck_01_fuel_F", { "", "", -1} },
             { "B_Truck_01_ammo_F", { "", "", -1} },
-            { "O_Truck_03_device_F", { "", "", -1} }
+            { "O_Truck_03_device_F", { "", "", -1} },
             { "B_Heli_Light_01_stripped_F", { "", "", -1 } },
             { "O_Heli_Light_02_unarmed_F", { "", "", -1 } },
             { "C_Heli_Light_01_civil_F", { "", "", -1 } },
