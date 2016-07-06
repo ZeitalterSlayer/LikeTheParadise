@@ -84,34 +84,29 @@ class CarShops {
         side = "civ";
         vehicles[] = {
             { "B_Quadbike_01_F", { "", "", -1 } },
-            { "B_G_Offroad_01_F", { "", "", -1 } },
 			{ "C_Offroad_02_unarmed_F", { "", "", -1 } },
-            { "B_Heli_Light_01_stripped_F", { "", "", -1 } },
-			{ "O_Heli_Light_02_unarmed_F", { "", "", -1 } },
-			{ "O_T_LSV_02_unarmed_F", { "", "", -1} },
-            { "B_Truck_01_ammo_F", { "", "", -1} },
-            { "B_Truck_01_fuel_F", { "", "", -1} },
-            { "O_Truck_03_repair_F", { "", "", -1} },
-            { "O_Truck_03_fuel_F", { "", "", -1} },
-            { "O_Truck_03_medical_F", { "", "", -1} },
-            { "O_Truck_03_ammo_F", { "", "", -1} },
-            { "O_Truck_02_Ammo_F", { "", "", -1} },
+			{ "B_T_LSV_01_unarmed_F", { "", "", -1} },
             { "O_Truck_02_fuel_F", { "", "", -1} },
+            { "O_Truck_02_Ammo_F", { "", "", -1} },
+            { "O_Truck_03_fuel_F", { "", "", -1} },
+            { "O_Truck_03_repair_F", { "", "", -1} },
+            { "O_Truck_03_ammo_F", { "", "", -1} },
+            { "B_Truck_01_fuel_F", { "", "", -1} },
+            { "B_Truck_01_ammo_F", { "", "", -1} },
             { "O_Truck_03_device_F", { "", "", -1} }
-        };
-    };
-	class hero_air {
-        side = "med";
-        vehicles[] = {
+            { "B_Heli_Light_01_stripped_F", { "", "", -1 } },
+            { "O_Heli_Light_02_unarmed_F", { "", "", -1 } },
             { "C_Heli_Light_01_civil_F", { "", "", -1 } },
             { "B_Heli_Light_01_F", { "", "", -1 } },
             { "O_Heli_Light_02_unarmed_F", { "", "", -1 } },
-			{ "I_Heli_Transport_02_F", { "", "", -1 } },
+            { "I_Heli_Transport_02_F", { "", "", -1 } },
             { "B_Heli_Transport_03_unarmed_F", { "", "", -1 } },
             { "O_Heli_Transport_04_box_F", { "", "", -1 } },
-			{ "B_T_VTOL_01_vehicle_F", { "", "", -1 } },
-			{ "B_T_VTOL_01_infantry_F", { "", "", -1 } },
-            { "O_Heli_Transport_04_bench_black_F", { "", "", -1 } }
+            { "B_T_VTOL_01_vehicle_F", { "", "", -1 } },
+            { "B_T_VTOL_01_infantry_F", { "", "", -1 } },
+            { "O_Heli_Transport_04_bench_black_F", { "", "", -1 } },
+            { "B_Heli_Light_01_stripped_F", { "", "", -1 } },
+            { "O_Heli_Light_02_unarmed_F", { "", "", -1 } }
         };
     };
     class med_shop {

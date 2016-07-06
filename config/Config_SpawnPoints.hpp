@@ -67,23 +67,14 @@ class CfgSpawnPoints {
             licenses[] = { { "rebel", true } };
             level[] = { "", "", -1 };
         };
-		
-		class HeroN {
-            displayName = "Hero North";
-            spawnMarker = "Hero_spawn_1";
-            icon = "\a3\ui_f\data\map\MapControl\bunker_ca.paa";
-            licenses[] = { { "hero", true } };
-            level[] = { "", "", -1 };
-        };
-		
 		class HeroS {
-            displayName = "Hero South";
-            spawnMarker = "Hero_spawn_2";
+            displayName = "Paramilitär South";
+            spawnMarker = "Heroop";
             icon = "\a3\ui_f\data\map\MapControl\bunker_ca.paa";
             licenses[] = { { "hero", true } };
             level[] = { "", "", -1 };
         };
-		
+
 		class Oumere {
             displayName = "Oumere";
             spawnMarker = "civ_spawn_oumere";
@@ -98,22 +89,22 @@ class CfgSpawnPoints {
             licenses[] = { { "larochelle", true }, { "id", true }  };
             level[] = { "", "", -1 };
 		};
-		
+
 			class Lijnhaven {
             displayName = "Lijnhaven";
             spawnMarker = "civ_spawn_lijnhaven";
             icon = "\a3\ui_f\data\map\MapControl\bunker_ca.paa";
             licenses[] = { { "lijnhaven", true }, { "id", true } };
             level[] = { "", "", -1 };
-		};	
-		
+		};
+
 			class Rautake {
             displayName = "Rautake";
             spawnMarker = "civ_spawn_rautake";
             icon = "\a3\ui_f\data\map\MapControl\bunker_ca.paa";
             licenses[] = { { "rautake", true }, { "id", true } };
             level[] = { "", "", -1 };
-		};		
+		};
 	};
 
     class Cop {
@@ -152,7 +143,7 @@ class CfgSpawnPoints {
             licenses[] = { { "", true } };
             level[] = { "", "", -1 };
         };
-		
+
     };
 
     class Medic {
