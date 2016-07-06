@@ -101,10 +101,8 @@ class CarShops {
             { "O_Heli_Light_02_unarmed_F", { "", "", -1 } },
             { "I_Heli_Transport_02_F", { "", "", -1 } },
             { "B_Heli_Transport_03_unarmed_F", { "", "", -1 } },
-            { "O_Heli_Transport_04_box_F", { "", "", -1 } },
             { "B_T_VTOL_01_vehicle_F", { "", "", -1 } },
             { "B_T_VTOL_01_infantry_F", { "", "", -1 } },
-            { "O_Heli_Transport_04_bench_black_F", { "", "", -1 } },
             { "B_Heli_Light_01_stripped_F", { "", "", -1 } },
             { "O_Heli_Light_02_unarmed_F", { "", "", -1 } }
         };
