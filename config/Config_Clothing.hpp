@@ -849,7 +849,7 @@ class Clothing {
             { "G_Balaclava_lowprofile", "", 150, { "", "", -1 } },
             { "G_Balaclava_oli", "", 150, { "", "", -1 } },
             { "G_Balaclava_TI_G_blk_F", "Balaclava Black", 550, { "", "", -1 } },
-            { "G_Balaclava_TI_G_Combat_F", "Balaclava Black", 550, { "", "", -1 } }
+            { "G_Balaclava_TI_G_Combat_F", "Balaclava Black", 550, { "", "", -1 } },
             { "G_Bandanna_aviator", "", 150, { "", "", -1 } },
             { "G_Bandanna_beast", "", 150, { "", "", -1 } },
             { "G_Bandanna_blk", "", 150, { "", "", -1 } },
@@ -857,7 +857,7 @@ class Clothing {
             { "G_Bandanna_oli", "", 150, { "", "", -1 } },
             { "G_Bandanna_shades", "", 150, { "", "", -1 } },
             { "G_Bandanna_sport", "", 150, { "", "", -1 } },
-            { "G_Bandanna_tan", "", 150, { "", "", -1 } }
+            { "G_Bandanna_tan", "", 150, { "", "", -1 } },
             { "G_Goggles_VR", "", 500, { "", "", -1 } }
         };
         vests[] = {
