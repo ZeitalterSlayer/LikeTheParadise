@@ -29,9 +29,7 @@ class WeaponShops {
             { "hgun_Rook40_F", "",15000, -1 },
             { "hgun_Pistol_heavy_02_F", "",15000, -1 },
             { "hgun_Pistol_heavy_01_F", "",15000, -1 },
-            { "hgun_ACPC2_F", "",15000, -1 },
-
-
+            { "hgun_ACPC2_F", "",15000, -1 }
         };
         mags[] = {
             { "30Rnd_9x21_Mag", "",250, -1 },
