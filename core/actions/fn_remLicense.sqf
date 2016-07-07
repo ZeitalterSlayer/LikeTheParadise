@@ -16,7 +16,5 @@ _sideFlag = M_CONFIG(getText,"Licenses",_type,"side");
 _varName = LICENSE_VARNAME(_varName,_sideFlag);
 
 
-
-
-
-SVAR_MNS [_varName,false];
+ [5] call life_fnc_removeLicenses;
+ [6] call life_fnc_removeLicenses;
