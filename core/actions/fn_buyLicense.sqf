@@ -26,12 +26,11 @@ missionNamespace setVariable [_varName,true];
 
 switch (_varName): {
 
-	case license_civ_rebel: {
-		SVAR_MNS [_varName,true]; SVAR_MNS ["license_civ_hero",false];
+	case "license_civ_rebel": {
+		license_civ_hero = false;
 		};
-	};
 
-	case license_civ_hero: {
-		SVAR_MNS[_varName,true]; SVAR_MNS ["license_civ_rebel",false];
+	case "license_civ_hero": {
+		license_civ_rebel = false;
 		};
 	};
