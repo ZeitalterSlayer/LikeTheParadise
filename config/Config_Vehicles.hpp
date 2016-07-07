@@ -39,7 +39,6 @@ class CarShops {
             { "C_Van_01_box_F", { "", "", -1 } },
             { "I_Truck_02_transport_F", { "", "", -1 } },
             { "I_Truck_02_covered_F", { "", "", -1 } },
-            { "B_Truck_01_transport_F", { "", "", -1 } },
             { "O_Truck_03_transport_F", { "", "", -1 } },
             { "O_Truck_03_covered_F", { "", "", -1 } },
             { "B_Truck_01_box_F", { "", "", -1 } },
@@ -264,12 +263,14 @@ class LifeCfgVehicles {
 	*/
 
     // Hero Fahrzeuge
+
     class B_T_LSV_01_unarmed_F {
         vItemSpace = 180;
         licenses[] = { {"hero"}, {""}, {""}, {""} };
         price = 2000000;
         textures[] = { };
     };
+
     class O_Truck_03_repair_F {
         vItemSpace = 520;
         licenses[] = { {"hero"}, {""}, {""}, {""} };
@@ -314,7 +315,7 @@ class LifeCfgVehicles {
     };
 
     class B_Truck_01_fuel_F {
-        vItemSpace = 600;
+        vItemSpace = 640;
         vFuelSpace = 1400000;
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
         price = 2400000;

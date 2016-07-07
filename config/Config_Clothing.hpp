@@ -782,11 +782,6 @@ class Clothing {
             { "U_B_CTRG_2", "", 20000, {"", "", -1} },
             { "U_B_CTRG_3", "", 20000, {"", "", -1} },
             { "U_O_T_Soldier_F", "", 20000, {"", "", -1} },
-            { "U_O_V_Soldier_Viper_F", "", 20000, {"", "", -1} },
-            { "U_O_V_Soldier_Viper_hex_F", "", 20000, {"", "", -1} },
-            { "U_B_T_Soldier_F", "", 20000, {"", "", -1} },
-            { "U_B_T_Soldier_SL_F", "", 20000, {"", "", -1} },
-            { "U_B_T_Soldier_AR_F", "", 20000, {"", "", -1} },
             { "U_I_C_Soldier_Para_5_F", "", 20000, {"", "", -1} },
             { "U_B_CTRG_1", "", 20000, {"", "", -1} },
             { "U_B_CTRG_2", "", 20000, {"", "", -1} },
@@ -801,7 +796,6 @@ class Clothing {
             { "U_I_pilotCoveralls", "", 20000, {"", "", -1} },
             { "U_B_PilotCoveralls", "", 20000, {"", "", -1} },
             { "U_O_GhillieSuit", "", 50000, {"", "", -1} },
-            { "U_B_GhillieSuit", "", 50000, {"", "", -1} },
             { "U_O_FullGhillie_ard", "", 50000, {"", "", -1} }
         };
         headgear[] = {
@@ -823,7 +817,6 @@ class Clothing {
 			{ "H_HelmetLeaderO_oucamo_F", "", 100, { "", "", -1 } },
 			{ "H_HelmetB_camo", "", 100, { "", "", -1 } },
 			{ "H_HelmetB_light", "", 100, { "", "", -1 } },
-            { "H_HelmetIA", "", 100, { "", "", -1 } },
 			{ "H_HelmetB_desert", "", 100, { "", "", -1 } },
 			{ "H_HelmetSpecB", "", 100, { "", "", -1 } },
 			{ "H_HelmetSpecB_paint1", "", 100, { "", "", -1 } },
@@ -847,7 +840,6 @@ class Clothing {
             { "G_Balaclava_lowprofile", "", 150, { "", "", -1 } },
             { "G_Balaclava_oli", "", 150, { "", "", -1 } },
             { "G_Balaclava_TI_G_blk_F", "Balaclava Black", 550, { "", "", -1 } },
-            { "G_Balaclava_TI_G_Combat_F", "Balaclava Black", 550, { "", "", -1 } },
             { "G_Bandanna_aviator", "", 150, { "", "", -1 } },
             { "G_Bandanna_beast", "", 150, { "", "", -1 } },
             { "G_Bandanna_blk", "", 150, { "", "", -1 } },

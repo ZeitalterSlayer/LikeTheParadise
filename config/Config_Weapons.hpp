@@ -209,8 +209,6 @@ class WeaponShops {
             //{ "arifle_AKS_F", "",125000, -1 },
             //{ "arifle_AKM_F", "",270000, -1 },
             //{ "arifle_AK12_F", "",500000, -1 },
-            { "arifle_ARX_hex_F", "",300000, -1 },
-            { "arifle_ARX_ghex_F", "",300000, -1 },
             { "arifle_CTAR_blk_F", "",300000, -1 },
             { "arifle_CTAR_GL_blk_F", "",250000, -1 },
             { "arifle_SPAR_01_blk_F", "",250000, -1 },
