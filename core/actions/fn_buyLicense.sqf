@@ -23,13 +23,12 @@ CASH = CASH - _price;
 titleText[format[localize "STR_NOTF_B_1", localize _displayName,[_price] call life_fnc_numberText],"PLAIN"];
 missionNamespace setVariable [_varName,true];
 
-if (license_civ_rebel = true) then
-{
-	license_civ_hero = false
+if (missionNamespace setVariable ["hero",true]) then {
+	missionNamespace setVariable ["rebel",false]
 };
 
-if (license_civ_hero = true) then
+if (missionNamespace setVariable ["hero",true]) then
 {
-	license_civ_rebel = false
+	missionNamespace setVariable ["rebel",false]
 };
 
