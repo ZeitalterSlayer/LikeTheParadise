@@ -19,9 +19,12 @@ _varName = LICENSE_VARNAME(_varName,_sideFlag);
 if (CASH < _price) exitWith {hint format[localize "STR_NOTF_NE_1",[_price] call life_fnc_numberText,localize _displayName];};
 CASH = CASH - _price;
 
-titleText[format[localize "STR_NOTF_B_1", localize _displayName,[_price] call life_fnc_numberText],"PLAIN"];
-missionNamespace setVariable [_varName,true];
 
 if (missionNamespace getVariable LICENSE_VARNAME("hero","civ")) then { license_civ_rebel = false;};
 
 if (missionNamespace getVariable LICENSE_VARNAME("rebel","civ")) then { license_civ_hero = false;};
+
+
+titleText[format[localize "STR_NOTF_B_1", localize _displayName,[_price] call life_fnc_numberText],"PLAIN"];
+missionNamespace setVariable [_varName,true];
+
