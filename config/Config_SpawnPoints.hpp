@@ -143,7 +143,13 @@ class CfgSpawnPoints {
             licenses[] = { { "", true } };
             level[] = { "", "", -1 };
         };
-
+        class Airport {
+            displayName = "Air HQ";
+            spawnMarker = "cop_spawn_7";
+            icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
+            licenses[] = { { "", true } };
+            level[] = { "", "", -1 };
+        };
     };
 
     class Medic {
