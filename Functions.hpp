@@ -63,6 +63,7 @@ class Life_Client_Core {
         class ticketAction {};
         class unrestrain {};
 		class craftAction {};
+        class remLicense {};
     };
 
     class Admin {
