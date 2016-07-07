@@ -610,22 +610,22 @@ will modify the virtual space and the price of the vehicle, but other informatio
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 400000;
         textures[] = {
-            { "Red", "civ", {
+            { "Red", "civ", "cop", {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport01_co.paa"
             } },
-            { "Dark Blue", "civ", {
+            { "Dark Blue", "civ", "cop", {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport02_co.paa"
             } },
-            { "Orange", "civ", {
+            { "Orange", "civ", "cop", {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport03_co.paa"
             } },
-            { "Black / White", "civ", {
+            { "Black / White", "civ", "cop", {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport04_co.paa"
             } },
-            { "Beige", "civ", {
+            { "Beige", "civ", "cop", {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport05_co.paa"
             } },
-            { "Green", "civ", {
+            { "Green", "civ", "cop", {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport06_co.paa"
             } },
             { "Gendarmerie", "cop", {
@@ -746,28 +746,28 @@ will modify the virtual space and the price of the vehicle, but other informatio
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 10500;
         textures[] = {
-            { "Beige", "civ", {
+            { "Beige", "civ", "cop", {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base01_co.paa"
             } },
-            { "Green", "civ", {
+            { "Green", "civ", "cop", {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base02_co.paa"
             } },
-            { "Blue", "civ", {
+            { "Blue", "civ", "cop", {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base03_co.paa"
             } },
-            { "Dark Blue", "civ", {
+            { "Dark Blue", "civ", "cop", {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base04_co.paa"
             } },
-            { "Yellow", "civ", {
+            { "Yellow", "civ", "cop", {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base06_co.paa"
             } },
-            { "White", "civ", {
+            { "White", "civ", "cop", {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base07_co.paa"
             } },
-            { "Grey", "civ", {
+            { "Grey", "civ", "cop", {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base08_co.paa"
             } },
-            { "Black", "civ", {
+            { "Black", "civ", "cop", {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base09_co.paa"
             } },
 			{ "Gendarmerie", "cop", {
@@ -787,13 +787,13 @@ will modify the virtual space and the price of the vehicle, but other informatio
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 60000;
         textures[] = {
-            { "Dark Red", "civ", {
+            { "Dark Red", "civ", "cop", {
                 "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_co.paa"
             } },
-            { "Silver", "civ", {
+            { "Silver", "civ", "cop", {
                 "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_03_co.paa"
             } },
-            { "Orange", "civ", {
+            { "Orange", "civ", "cop", {
                 "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_04_co.paa"
             } },
 			{ "Gendarmerie", "cop", {
