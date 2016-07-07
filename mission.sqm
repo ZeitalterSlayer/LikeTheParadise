@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=82;
+		nextID=83;
 	};
 	class Camera
 	{
-		pos[]={5790.4688,44.410793,10702.755};
-		dir[]={0.29325795,-0.84947902,-0.43864891};
-		up[]={0.47212544,0.52761972,-0.70619351};
-		aside[]={-0.83133745,-7.1246177e-008,-0.55579019};
+		pos[]={11292.754,101.8407,6710.3809};
+		dir[]={0.043526016,-0.80978459,0.58511388};
+		up[]={0.060073115,0.5867272,0.80755407};
+		aside[]={0.99724662,7.8580342e-010,-0.074184194};
 	};
 };
 binarizationWanted=0;
@@ -3340,7 +3340,7 @@ class Mission
 			position[]={5821.084,21.176048,10664.887};
 			name="cop_car_1";
 			type="Empty";
-			angle=178.45331;
+			angle=178.45329;
 			id=1498;
 			atlOffset=16.746048;
 		};
@@ -3350,7 +3350,7 @@ class Mission
 			position[]={5816.4941,11600300,10685.184};
 			name="cop_air_1";
 			type="Empty";
-			angle=176.76027;
+			angle=176.76025;
 			id=1499;
 			atlOffset=11600296;
 		};
@@ -90045,7 +90045,7 @@ class Mission
 			};
 			id=5091;
 			type="Land_InfoStand_V1_F";
-			atlOffset=0.5114646;
+			atlOffset=0.32437682;
 		};
 		class Item2003
 		{
@@ -135750,7 +135750,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="removeallWeapons this;  this enableSimulation false;  this allowDamage false;  this addAction[localize""STR_MAR_W_E_Vehicle Shop"",life_fnc_vehicleShopMenu,[""hero_car"",civilian,[""hero_v_1"",""hero_v_1_1""],""hero"",""Rebel Motorpool - Western Side""],0,false,false,"""",'license_civ_hero']; this enableSimulation false; this allowDamage false; this addAction[localize""STR_Garage_Title"",  {   if (life_HC_isActive) then { [getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""TON_fnc_getVehicles"",2];};  this addAction[localize""STR_Garage_Title"",  {   [getPlayerUID player,playerSide,""Car"",player] remoteExecCall [""TON_fnc_getVehicles"",2]; life_garage_type = ""Car"";   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""car_g_12"";  }];  life_garage_type = ""Air""; createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""air_g_12"";  }];";
+				init="this enableSimulation false;  this allowDamage false;  this addAction[localize""STR_MAR_W_E_Vehicle Shop"",life_fnc_vehicleShopMenu,[""hero_car"",civilian,[""hero_v_1"",""hero_v_1_1""],""hero"",""Rebel Motorpool - Western Side""],0,false,false,"""",'license_civ_hero']; this addAction[localize""STR_Garage_Title"",  {   if (life_HC_isActive) then { [getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""HC_fnc_getVehicles"",HC_Life]; } else { [getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""TON_fnc_getVehicles"",2];}; life_garage_type = ""Air""; createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""air_g_6"";  }]; this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store']; this addAction[localize""STR_Garage_Title"",  {   [getPlayerUID player,playerSide,""Car"",player] remoteExecCall [""TON_fnc_getVehicles"",2]; life_garage_type = ""Car"";   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""car_g_12"";  }];";
 				name="reb_1_5";
 			};
 			id=7059;
@@ -140190,7 +140190,7 @@ class Mission
 			position[]={11289.345,76.337502,6723.1245};
 			name="car_g_12";
 			type="Empty";
-			angle=288.31827;
+			angle=288.31824;
 			id=7183;
 			atlOffset=7.6293945e-006;
 		};
