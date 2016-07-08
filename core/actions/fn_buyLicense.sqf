@@ -24,12 +24,12 @@ titleText[format[localize "STR_NOTF_B_1", localize _displayName,[_price] call li
 missionNamespace setVariable [_varName,true];
 
 
-switch (true) do {
-    case (license_civ_rebel): {
+switch (_varName) do {
+    case ("rebel","civ"): {
         license_civ_hero = false;
         hint "Du hasst dich für die böse Seite entschieden!";
     };
-    case (license_civ_hero): {
+    case ("hero","civ"): {
         license_civ_rebel = false;
         hint "Du hasst dich für die gute Seite entschieden!";
     };
