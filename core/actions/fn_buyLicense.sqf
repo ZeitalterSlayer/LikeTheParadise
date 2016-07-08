@@ -25,11 +25,11 @@ missionNamespace setVariable [_varName,true];
 
 
 switch (_varName) do {
-    case ("rebel","civ"): {
+    case ("rebel"): {
         license_civ_hero = false;
         hint "Du hasst dich für die böse Seite entschieden!";
     };
-    case ("hero","civ"): {
+    case ("hero"): {
         license_civ_rebel = false;
         hint "Du hasst dich für die gute Seite entschieden!";
     };
