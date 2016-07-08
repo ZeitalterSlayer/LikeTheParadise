@@ -23,15 +23,14 @@ CASH = CASH - _price;
 titleText[format[localize "STR_NOTF_B_1", localize _displayName,[_price] call life_fnc_numberText],"PLAIN"];
 missionNamespace setVariable [_varName,true];
 
+
 switch (true) do {
     case (license_civ_rebel): {
         license_civ_hero = false;
         hint "Du hasst dich für die böse Seite entschieden!";
     };
     case (license_civ_hero): {
-        license_civ_hero = false;
+        license_civ_rebel = false;
         hint "Du hasst dich für die gute Seite entschieden!";
     };
-
-        [5] call SOCK_fnc_updatePartial;
-    };
+};
