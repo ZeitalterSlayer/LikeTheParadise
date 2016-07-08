@@ -24,8 +24,8 @@ titleText[format[localize "STR_NOTF_B_1", localize _displayName,[_price] call li
 missionNamespace setVariable [_varName,true];
 
 
-if (missionNamespace getVariable LICENSE_VARNAME("hero","civ")) then { missionNamespace setVariable [LICENSE_VARNAME("rebel","civ"),false]; hint  "Du hast die Seiten gewechselt!";
+if (missionNamespace getVariable LICENSE_VARNAME("hero","civ")) then { missionNamespace setVariable [LICENSE_VARNAME("rebel","civ"),false]; hint  "Du hast die Seiten gewechselt!";}
 
 } else {
 
-if (missionNamespace getVariable LICENSE_VARNAME("rebel","civ")) then { missionNamespace setVariable [LICENSE_VARNAME("hero","civ"),false]; hint  "Du hast die Seiten gewechselt!";};
+if (missionNamespace getVariable LICENSE_VARNAME("rebel","civ")) then { missionNamespace setVariable [LICENSE_VARNAME("hero","civ"),false]; hint  "Du hast die Seiten gewechselt!";};};
