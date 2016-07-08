@@ -27,11 +27,11 @@ switch (_varName) do
 {
 	case "rebel":
 	{
-		[6] call life_fnc_removeLicenses;
+		license_civ_hero = false;
 	};
 	case "hero":
 	{
-		[5] call life_fnc_removeLicenses;
+		license_civ_rebel = false;
 	};
 
 };
