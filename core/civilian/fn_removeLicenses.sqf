@@ -56,13 +56,13 @@ switch (_state) do {
     case 5: {
         if (missionNamespace getVariable LICENSE_VARNAME("hero","civ")) then {
             missionNamespace setVariable [LICENSE_VARNAME("rebel","civ"),false];
-            hint localize "STR_Civ_LicenseRemove_3";
+            hint "Du hast die Seiten gewechselt!";
         };
     };
 
     case 6: {
         if (missionNamespace getVariable LICENSE_VARNAME("rebel","civ")) then {
             missionNamespace setVariable [LICENSE_VARNAME("hero","civ"),false];
-            hint localize "STR_Civ_LicenseRemove_3";
+            hint "Du hast die Seiten gewechselt!";
         };
     };
