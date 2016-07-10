@@ -25,8 +25,9 @@ missionNamespace setVariable [_varName,true];
 
 waitUntil { scriptDone };
 
-
+/*
 if (missionNamespace getVariable LICENSE_VARNAME("hero","civ")) then { [5] call life_fnc_removeLicenses;};
 
 
 if (missionNamespace getVariable LICENSE_VARNAME("rebel","civ")) then { [6] call life_fnc_removeLicenses;};
+*/
