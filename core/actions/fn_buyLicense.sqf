@@ -26,10 +26,12 @@ missionNamespace setVariable [_varName,true];
 
 
 
-if (missionNamespace getVariable LICENSE_VARNAME("hero","civ")) exitWith { license_civ_rebel = false;};
+if (missionNamespace getVariable LICENSE_VARNAME("hero","civ")) exitWith { license_civ_rebel = false; hint "Dir wurde die Rebellenlizenz entzogen!";};
 
+sleep 5.0
 
-if (missionNamespace getVariable LICENSE_VARNAME("rebel","civ")) exitWith { license_civ_hero = false;};
+if (missionNamespace getVariable LICENSE_VARNAME("rebel","civ")) exitWith { license_civ_hero = false;  hint "Dir wurde die Rebellenlizenz entzogen!";};
 
 [2] call SOCK_fnc_updatePartial;
+[] call SOCK_fnc_updateRequest;
 
