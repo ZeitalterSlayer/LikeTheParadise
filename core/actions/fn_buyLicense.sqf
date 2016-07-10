@@ -26,10 +26,10 @@ missionNamespace setVariable [_varName,true];
 
 
 
-if (missionNamespace getVariable LICENSE_VARNAME("hero","civ")) exitWith { [5] remoteExecCall life_fnc_removeLicenses;};
+if (missionNamespace getVariable LICENSE_VARNAME("hero","civ")) exitWith { license_civ_rebel = false;};
 
 
-if (missionNamespace getVariable LICENSE_VARNAME("rebel","civ")) exitWith { [6] remoteExecCall life_fnc_removeLicenses;};
+if (missionNamespace getVariable LICENSE_VARNAME("rebel","civ")) exitWith { license_civ_hero = false;};
 
 [2] call SOCK_fnc_updatePartial;
 
