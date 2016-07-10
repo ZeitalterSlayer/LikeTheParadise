@@ -108,7 +108,7 @@ class CfgSpawnPoints {
 	};
 
     class Cop {
-        class HQ {
+        class Hauptquartier {
             displayName = "Gendarmerie HQ";
             spawnMarker = "cop_spawn_1";
             icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
@@ -136,8 +136,8 @@ class CfgSpawnPoints {
             licenses[] = { { "", true } };
             level[] = { "", "", -1 };
         };
-		class TanoaspecialforceHQ {
-            displayName = "Outpost";
+		class Tanoaspecialforce HQ {
+            displayName = "TSF HQ";
             spawnMarker = "cop_spawn_3";
             icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
             licenses[] = { { "", true } };
@@ -153,8 +153,8 @@ class CfgSpawnPoints {
     };
 
     class Medic {
-        class Georgetown {
-            displayName = "Georgetown";
+        class Hauptquartier {
+            displayName = "Hauptquartier";
             spawnMarker = "medic_spawn_1";
             icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
             licenses[] = { { "", true } };
@@ -172,6 +172,14 @@ class CfgSpawnPoints {
         class Katkoula {
             displayName = "Katkoula";
             spawnMarker = "medic_spawn_3";
+            icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
+            licenses[] = { { "", true } };
+            level[] = { "", "", -1 };
+        };
+
+        class Tuvanka {
+            displayName = "Tuvanka";
+            spawnMarker = "medic_spawn_4";
             icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
             licenses[] = { { "", true } };
             level[] = { "", "", -1 };
