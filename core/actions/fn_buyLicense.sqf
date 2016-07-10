@@ -23,10 +23,13 @@ CASH = CASH - _price;
 titleText[format[localize "STR_NOTF_B_1", localize _displayName,[_price] call life_fnc_numberText],"PLAIN"];
 missionNamespace setVariable [_varName,true];
 
-waitUntil { scriptDone };
 
 
-if (missionNamespace getVariable LICENSE_VARNAME("hero","civ")) exitWith { [5] call life_fnc_removeLicenses;};
+
+if (missionNamespace getVariable LICENSE_VARNAME("hero","civ")) exitWith { [5] remoteExecCall life_fnc_removeLicenses;};
 
 
-if (missionNamespace getVariable LICENSE_VARNAME("rebel","civ")) exitWith { [6] call life_fnc_removeLicenses;};
+if (missionNamespace getVariable LICENSE_VARNAME("rebel","civ")) exitWith { [6] remoteExecCall life_fnc_removeLicenses;};
+
+[2] call SOCK_fnc_updatePartial;
+
