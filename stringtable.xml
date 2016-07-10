@@ -10517,6 +10517,14 @@
             <Original>Commander Weapon Shop</Original>
             <German>Commander Waffenladen</German>
         </Key>
+		 <Key ID="STR_MAR_AssChief_Weapon_Shop">
+            <Original>Assistant Chief Weapon Shop</Original>
+            <German>Assistant Chief Waffenladen</German>
+        </Key>
+		 <Key ID="STR_MAR_DepChief_Weapon_Shop">
+            <Original>Deputy Chief Weapon Shop</Original>
+            <German>Deputy Chief Waffenladen</German>
+        </Key>
 		 <Key ID="STR_MAR_Chief_Weapon_Shop">
             <Original>Chief Weapon Shop</Original>
             <German>Chief Waffenladen</German>
