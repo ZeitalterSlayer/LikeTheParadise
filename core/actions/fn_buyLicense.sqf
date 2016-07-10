@@ -26,12 +26,17 @@ missionNamespace setVariable [_varName,true];
 
 
 
-if (missionNamespace getVariable LICENSE_VARNAME("hero","civ")) exitWith { license_civ_rebel = false; hint "Dir wurde die Rebellenlizenz entzogen!";};
-
-sleep 5.0
-
-if (missionNamespace getVariable LICENSE_VARNAME("rebel","civ")) exitWith { license_civ_hero = false;  hint "Dir wurde die Rebellenlizenz entzogen!";};
-
-[2] call SOCK_fnc_updatePartial;
-[] call SOCK_fnc_updateRequest;
-
+switch (_varName) do
+{
+	case "rebel":
+		{ if (missionNamespace getVariable LICENSE_VARNAME("hero","civ")) then {
+            missionNamespace setVariable [LICENSE_VARNAME("rebel","civ"),false];
+            hint "Du hast die Seiten gewechselt!";
+			exitWith {};
+		};
+	case "hero":
+		{ if (missionNamespace getVariable LICENSE_VARNAME("hero","civ")) then {
+            missionNamespace setVariable [LICENSE_VARNAME("rebel","civ"),false];
+            hint "Du hast die Seiten gewechselt!";
+            exitWith {};
+		};
