@@ -25,7 +25,6 @@ class WeaponShops {
             { "SMG_02_F", "",40000, -1 },
             { "SMG_01_F", "",40000, -1 },
             { "hgun_PDW2000_F", "",25000, -1 },
-			{ "SMG_05_F", "", 20000, -1 },
             { "hgun_Rook40_F", "",15000, -1 },
             { "hgun_Pistol_heavy_02_F", "",15000, -1 },
             { "hgun_Pistol_heavy_01_F", "",15000, -1 },
@@ -47,10 +46,7 @@ class WeaponShops {
 			{ "optic_MRD", "",2500 },
             { "optic_Yorris", "",2500 },
             { "optic_Aco_smg", "",2500 },
-            { "optic_ACO_grn_smg", "",2500 },
-            { "optic_Holosight_smg", "",2500 },
-            { "muzzle_snds_L", "",30000 },
-            { "muzzle_snds_acp", "",30000 }
+            { "optic_ACO_grn_smg", "",2500 }
         };
     };
 
