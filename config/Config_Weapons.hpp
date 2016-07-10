@@ -415,6 +415,7 @@ class WeaponShops {
         level[] = { "life_coplevel", "SCALAR", 2, "You must be a Officer!" };
         items[] = {
             { "hgun_P07_snds_F", "Taser", 2000, -1 },			//Taser
+			{ "arifle_sdar_F", "Taser Rifle", 5000, -1 },		//Taser Rifle
 			{ "SMG_05_F", "", 2000, -1 },						//Protector
             { "ItemGPS", "", 100, -1 },							//GPS
 			{ "ItemCompass", "", 150, -1 },						//Kompass
@@ -425,6 +426,7 @@ class WeaponShops {
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 25 },						//Taser Munition
+			{ "20Rnd_556x45_UW_mag", "", 45 },					//Taser Rifle Ammo
 			{ "30Rnd_9x21_Mag_SMG_02", "", 60 }					//9mm Munition
 		};
         accs[] = {
@@ -441,6 +443,7 @@ class WeaponShops {
         level[] = { "life_coplevel", "SCALAR", 3, "You must be a Sergeant!" };
         items[] = {
             { "hgun_P07_snds_F", "Taser", 2000, -1 },			//Taser
+			{ "arifle_sdar_F", "Taser Rifle", 5000, -1 },		//Taser Rifle
 			{ "arifle_SPAR_01_blk_F", "", 20000, -1 },			//SPAR-16
 			{ "ItemGPS", "", 100, -1 },							//GPS
 			{ "ItemCompass", "", 150, -1 },						//Kompass
@@ -451,6 +454,7 @@ class WeaponShops {
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 25 },						//Taser Munition
+			{ "20Rnd_556x45_UW_mag", "", 45 },					//Taser Rifle Ammo
 			{ "30Rnd_556x45_Stanag", "", 25 }					//5.56 Munition
         };
         accs[] = {
@@ -470,7 +474,8 @@ class WeaponShops {
         level[] = { "life_coplevel", "SCALAR", 4, "You must be a Lieutenant!" };
         items[] = {
             { "hgun_P07_snds_F", "Taser", 2000, -1 },			//Taser
-			{ "arifle_MXC_Black_F", "", 20000, -1 },				//MXC
+			{ "arifle_sdar_F", "Taser Rifle", 5000, -1 },		//Taser Rifle
+			{ "arifle_MXC_Black_F", "", 20000, -1 },			//MXC
 			{ "ItemGPS", "", 100, -1 },							//GPS
 			{ "ItemCompass", "", 150, -1 },						//Kompass
 			{ "ItemMap", "", 150, -1 },							//Map
@@ -480,6 +485,7 @@ class WeaponShops {
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 25 },						//Taser Munition
+			{ "20Rnd_556x45_UW_mag", "", 45 },					//Taser Rifle Ammo
 			{ "30Rnd_65x39_caseless_mag", "", 25 }				//6.5 Munition
         };
         accs[] = {
@@ -501,6 +507,7 @@ class WeaponShops {
         level[] = { "life_coplevel", "SCALAR", 5, "You must be a Captain!" };
         items[] = {
             { "hgun_P07_snds_F", "Taser", 2000, -1 },			//Taser
+			{ "arifle_sdar_F", "Taser Rifle", 5000, -1 },		//Taser Rifle
 			{ "arifle_CTAR_blk_F", "", 20000, -1 },				//CAR-95
 			{ "ItemGPS", "", 100, -1 },							//GPS
 			{ "ItemCompass", "", 150, -1 },						//Kompass
@@ -511,6 +518,7 @@ class WeaponShops {
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 25 },						//Taser Munition
+			{ "20Rnd_556x45_UW_mag", "", 45 },					//Taser Rifle Ammo
 			{ "30Rnd_580x42_Mag_F", "", 25 }					//5.8mm Munition
         };
         accs[] = {
@@ -531,7 +539,8 @@ class WeaponShops {
         level[] = { "life_coplevel", "SCALAR", 6, "You must be a Commander!" };
         items[] = {
             { "hgun_P07_snds_F", "Taser", 2000, -1 },			//Taser
-			{ "arifle_MXM_Black_F", "", 20000, -1 },				//MXM
+			{ "arifle_sdar_F", "Taser Rifle", 5000, -1 },		//Taser Rifle
+			{ "arifle_MXM_Black_F", "", 20000, -1 },			//MXM
 			{ "ItemGPS", "", 100, -1 },							//GPS
 			{ "ItemCompass", "", 150, -1 },						//Kompass
 			{ "ItemMap", "", 150, -1 },							//Map
@@ -541,6 +550,7 @@ class WeaponShops {
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 25 },						//Taser Munition
+			{ "20Rnd_556x45_UW_mag", "", 45 },					//Taser Rifle Ammo
 			{ "30Rnd_65x39_caseless_mag", "", 25 }				//6.5mm Munition
         };
         accs[] = {
@@ -562,6 +572,7 @@ class WeaponShops {
         level[] = { "life_coplevel", "SCALAR", 7, "You must be a Deputy Chief!" };
         items[] = {
             { "hgun_P07_snds_F", "Taser", 2000, -1 },			//Taser
+			{ "arifle_sdar_F", "Taser Rifle", 5000, -1 },		//Taser Rifle
 			{ "arifle_ARX_blk_F", "", 20000, -1 },				//Type 115
 			{ "ItemGPS", "", 100, -1 },							//GPS
 			{ "ItemCompass", "", 150, -1 },						//Kompass
@@ -572,6 +583,7 @@ class WeaponShops {
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 25 },						//Taser Munition
+			{ "20Rnd_556x45_UW_mag", "", 45 },					//Taser Rifle Ammo
 			{ "30Rnd_65x39_caseless_mag", "", 25 }				//6.5mm Munition
         };
         accs[] = {
@@ -593,6 +605,7 @@ class WeaponShops {
         level[] = { "life_coplevel", "SCALAR", 8, "You must be a Assistant Chief!" };
         items[] = {
             { "hgun_P07_snds_F", "Taser", 2000, -1 },			//Taser
+			{ "arifle_sdar_F", "Taser Rifle", 5000, -1 },		//Taser Rifle
 			{ "arifle_SPAR_03_blk_F", "", 20000, -1 },			//SPAR-17
 			{ "ItemGPS", "", 100, -1 },							//GPS
 			{ "ItemCompass", "", 150, -1 },						//Kompass
@@ -603,6 +616,7 @@ class WeaponShops {
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 25 },						//Taser Munition
+			{ "20Rnd_556x45_UW_mag", "", 45 },					//Taser Rifle Ammo
 			{ "30Rnd_762x39_Mag_F", "", 25 }					//7.62mm Munition
         };
         accs[] = {
@@ -624,6 +638,7 @@ class WeaponShops {
         level[] = { "life_coplevel", "SCALAR", 9, "You must be a Chief!" };
         items[] = {
             { "hgun_P07_snds_F", "Taser", 2000, -1 },			//Taser
+			{ "arifle_sdar_F", "Taser Rifle", 5000, -1 },		//Taser Rifle
 			{ "srifle_DMR_03_F", "", 20000, -1 },				//Mk-I
 			{ "ItemGPS", "", 100, -1 },							//GPS
 			{ "ItemCompass", "", 150, -1 },						//Kompass
@@ -634,6 +649,7 @@ class WeaponShops {
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 25 },						//Taser Munition
+			{ "20Rnd_556x45_UW_mag", "", 45 },					//Taser Rifle Ammo
 			{ "20Rnd_762x51_Mag", "", 25 }						//7.62mm Munition
         };
         accs[] = {
@@ -655,7 +671,8 @@ class WeaponShops {
         level[] = { "life_coplevel", "SCALAR", 1, "You must be a Private!" };
         items[] = {
             { "hgun_P07_snds_F", "Taser", 2000, -1 },			//Taser
-			{ "arifle_MXM_Black_F", "", 20000, -1 },				//MXM
+			{ "arifle_sdar_F", "Taser Rifle", 5000, -1 },		//Taser Rifle
+			{ "arifle_MXM_Black_F", "", 20000, -1 },			//MXM
 			{ "arifle_ARX_blk_F", "", 20000, -1 },				//Type 115
 			{ "arifle_SPAR_03_blk_F", "", 20000, -1 },			//SPAR-17
 			{ "srifle_DMR_03_F", "", 20000, -1 },				//Mk-I
@@ -668,6 +685,7 @@ class WeaponShops {
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 25 },						//Taser Munition
+			{ "20Rnd_556x45_UW_mag", "", 45 },					//Taser Rifle Ammo
 			{ "30Rnd_65x39_caseless_mag", "", 25 },				//6.5mm Munition
 			{ "30Rnd_762x39_Mag_F", "", 25 },					//7.62mm Munition
 			{ "20Rnd_762x51_Mag", "", 25 }						//7.62mm Munition
@@ -699,7 +717,7 @@ class WeaponShops {
 			{ "arifle_SPAR_03_blk_F", "", 45000, -1 },
 			{ "arifle_SPAR_03_khk_F", "", 45000, -1 },
             { "arifle_MX_GL_Black_F", "", 45000, -1 },
-            { " srifle_DMR_03_F", "", 45000, -1 },
+            { "srifle_DMR_03_F", "", 45000, -1 },
             { "arifle_ARX_blk_F", "", 45000, -1 },
             { "arifle_CTAR_blk_F", "", 45000, -1 },
             { "HandGrenade_Stone", "Flashbang", 1700, -1 },
