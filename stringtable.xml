@@ -6307,7 +6307,7 @@
             <Czech>Raw Turtle</Czech>
             <Spanish>Carne de Tortuga</Spanish>
             <Russian></Russian>
-            <German>Rohes Schildkröten Fleisch</German>
+            <German>Rohe Schildkröte</German>
             <French>Viande de Tortue</French>
             <Italian>Carne di Tartaruga</Italian>
             <Portuguese>Carne de Tartaruga</Portuguese>
@@ -7687,15 +7687,15 @@
             <Polish>Zaznacz najpier rzecz.</Polish>
         </Key>
         <Key ID="STR_ISTR_RedGullEffect">
-            <Original>You can now run farther for 3 minutes</Original>
-            <Czech>Nyní můžete spustit další 3 minuty</Czech>
-            <Spanish>Ahora puedes correr mas por 3 minutos</Spanish>
+            <Original>You can now run farther for 20 minutes</Original>
+            <Czech>Nyní můžete spustit další 20 minuty</Czech>
+            <Spanish>Ahora puedes correr mas por 20 minutos</Spanish>
             <Russian></Russian>
-            <German>Du kannst jetzt für 3 Minuten weiter laufen</German>
-            <French>Tu peux courir pendant 3 minutes</French>
-            <Italian>Puoi ora correre per 3 minuti consecutivi</Italian>
-            <Portuguese>Você agora pode correr por 3 minutos</Portuguese>
-            <Polish>Możesz przez 3 minuty biec bez wysiłku</Polish>
+            <German>Du kannst jetzt für 20 Minuten weiter laufen</German>
+            <French>Tu peux courir pendant 20 minutes</French>
+            <Italian>Puoi ora correre per 20 minuti consecutivi</Italian>
+            <Portuguese>Você agora pode correr por 20 minutos</Portuguese>
+            <Polish>Możesz przez 20 minuty biec bez wysiłku</Polish>
         </Key>
         <Key ID="STR_ISTR_SpikesDeployment">
             <Original>You already have a Spike Strip active in deployment</Original>
