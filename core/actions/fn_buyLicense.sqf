@@ -28,15 +28,19 @@ missionNamespace setVariable [_varName,true];
 
 switch (_varName) do
 {
-	case "rebel":
-		{ if (missionNamespace getVariable LICENSE_VARNAME("hero","civ")) then {
-            missionNamespace setVariable [LICENSE_VARNAME("rebel","civ"),false];
-            hint "Du hast die Seiten gewechselt!";
-			exitWith {};
-		};
-	case "hero":
-		{ if (missionNamespace getVariable LICENSE_VARNAME("hero","civ")) then {
-            missionNamespace setVariable [LICENSE_VARNAME("rebel","civ"),false];
-            hint "Du hast die Seiten gewechselt!";
+    case "rebel": {
+            if (missionNamespace getVariable LICENSE_VARNAME("hero","civ")) then {
+            missionNamespace setVariable [LICENSE_VARNAME("rebel","civ"),false];};
+            hint "Du hast die Seiten gewechselt!(Rebellen)";
             exitWith {};
-		};
+        };
+    case "hero": {
+            if (missionNamespace getVariable LICENSE_VARNAME("hero","civ")) then {
+            missionNamespace setVariable [LICENSE_VARNAME("rebel","civ"),false];};
+            hint "Du hast die Seiten gewechselt!(Hero)";
+            exitWith {};
+        };
+    default {
+            exitWith {};
+        };
+};
