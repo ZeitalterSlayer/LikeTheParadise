@@ -1,6 +1,6 @@
 #include "..\..\script_macros.hpp"
 private["_type","_index","_price","_amount","_name"];
-if ((lbCurSel 2402) isEqualTo -1) exitWith {};
+if(EQUAL(lbCurSel 2402,-1)) exitWith {};
 _type = lbData[2402,(lbCurSel 2402)];
 _price = -2;
 _itemNameToSearchFor = _type;
