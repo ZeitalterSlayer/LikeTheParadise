@@ -108,7 +108,7 @@ class CfgSpawnPoints {
 	};
 
     class Cop {
-        class Hauptquartier {
+        class HQ {
             displayName = "Gendarmerie HQ";
             spawnMarker = "cop_spawn_1";
             icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
@@ -136,7 +136,7 @@ class CfgSpawnPoints {
             licenses[] = { { "", true } };
             level[] = { "", "", -1 };
         };
-		class Tanoaspecialforce HQ {
+		class TanoaspecialforceHQ {
             displayName = "TSF HQ";
             spawnMarker = "cop_spawn_3";
             icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
