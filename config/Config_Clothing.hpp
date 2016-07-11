@@ -566,11 +566,28 @@ class Clothing {
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
+            { "H_Cap_red", "", 150, { "", "", -1 } },
             { "H_Cap_blu", "", 10, { "", "", -1 } }
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
-            { "G_Shades_Blue", "", 10, { "", "", -1 } }
+            { "G_Shades_Blue", "", 10, { "", "", -1 } },
+            { "G_Shades_Black", "", 20, { "", "", -1 } },
+            { "G_Shades_Green", "", 20, { "", "", -1 } },
+            { "G_Shades_Red", "", 20, { "", "", -1 } },
+            { "G_Sport_Blackred", "", 25, { "", "", -1 } },
+            { "G_Sport_BlackWhite", "", 25, { "", "", -1 } },
+            { "G_Sport_Blackyellow", "", 25, { "", "", -1 } },
+            { "G_Sport_Checkered", "", 25, { "", "", -1 } },
+            { "G_Sport_Greenblack", "", 25, { "", "", -1 } },
+            { "G_Sport_Red", "", 25, { "", "", -1 } },
+            { "G_Lowprofile", "", 30, { "", "", -1 } },
+            { "G_Squares", "", 50, { "", "", -1 } },
+            { "G_Aviator", "", 100, { "", "", -1 } },
+            { "G_Combat", "", 125, { "", "", -1 } },
+            { "G_Lady_Mirror", "", 150, { "", "", -1 } },
+            { "G_Lady_Dark", "", 150, { "", "", -1 } },
+            { "G_Lady_Blue", "", 150, { "", "", -1 } }
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } }

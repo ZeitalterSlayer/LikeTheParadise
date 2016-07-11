@@ -1227,22 +1227,22 @@
             <Polish>Do: Gracz</Polish>
         </Key>
         <Key ID="STR_CELL_TextPolice">
-            <Original>To Gendarmerie</Original>
+            <Original>Gendarmerie</Original>
             <Czech>Text Police</Czech>
             <Spanish>Msg Policía</Spanish>
             <Russian></Russian>
-            <German>An Gendarmerie</German>
+            <German>Gendarmerie</German>
             <French>Texte Police</French>
             <Italian>Msg Polizia</Italian>
             <Portuguese>Polícia</Portuguese>
             <Polish>Do: Policja</Polish>
         </Key>
         <Key ID="STR_CELL_TextAdmins">
-            <Original>To Admins</Original>
+            <Original>Admins</Original>
             <Czech>textové Administrátoři</Czech>
             <Spanish>Msg Admin</Spanish>
             <Russian></Russian>
-            <German>An Admins</German>
+            <German>Admins</German>
             <French>Admins</French>
             <Italian>Msg Admin</Italian>
             <Portuguese>Msg Admins</Portuguese>
@@ -1271,11 +1271,11 @@
             <Polish>Rundfunk</Polish>
         </Key>
         <Key ID="STR_CELL_EMSRequest">
-            <Original>To EMS</Original>
+            <Original>EMS</Original>
             <Czech>žádost o EMS</Czech>
             <Spanish>Pedir Médico</Spanish>
             <Russian></Russian>
-            <German>An Medic</German>
+            <German>Medic</German>
             <French>Requête Medecin</French>
             <Italian>Msg medici</Italian>
             <Portuguese>Chamar SAMU</Portuguese>
