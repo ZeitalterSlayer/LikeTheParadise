@@ -24,7 +24,7 @@ titleText[format[localize "STR_NOTF_B_1", localize _displayName,[_price] call li
 missionNamespace setVariable [_varName,true];
 
 
-
+sleep 5;
 
 switch (_varName) do
 {
