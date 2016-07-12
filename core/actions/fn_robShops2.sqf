@@ -21,6 +21,11 @@ _kassa = 3000 + round(random 12000); //setting the money in the registry, anywhe
 
 _chance = random(100); //calling a random number between 0-100.
 if(_chance >= 0) then {[0,format["ALARM! - Gasstation: %1 is being robbed!", _shop]] remoteExec ["life_fnc_broadcast",west]; }; //We set a 15% chance that the silent alarm is being triggered, wich sends a 911-message to the police.
+_Pos = position player; // by ehno: get player pos
+                                _marker = createMarker ["Marker200", _Pos]; //by ehno: Place a Maker on the map
+                                "Marker200" setMarkerColor "ColorRed";
+                                "Marker200" setMarkerText "!ATTENTION! robbery !ATTENTION!";
+                                "Marker200" setMarkerType "mil_warning";
 
 //Setup our progress bar.
 disableSerialization;
