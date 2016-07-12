@@ -105,13 +105,6 @@ class CfgSounds {
 		sound[] = {"\sounds\Sperrgebiet.ogg", 1, 1};
 		titles[] = {};
 	};
-	
-	class handcuffs    
-	{        
-		name="handcuffs";	
-		sound[] = {"\sounds\handcuffs.ogg", 1.0, 1};	
-		titles[] = {};    
-	};
 
 };
 
