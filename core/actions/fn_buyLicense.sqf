@@ -24,21 +24,19 @@ titleText[format[localize "STR_NOTF_B_1", localize _displayName,[_price] call li
 missionNamespace setVariable [_varName,true];
 
 
-sleep 5;
+
 
 switch (_varName) do
 {
-    case "rebel": {
+    case ("rebel"): {
             if (missionNamespace getVariable LICENSE_VARNAME("hero","civ")) then {
             missionNamespace setVariable [LICENSE_VARNAME("rebel","civ"),false];};
             hint "Du hast die Seiten gewechselt!(Rebellen)";
-            exitWith {};
         };
-    case "hero": {
+    case ("hero"): {
             if (missionNamespace getVariable LICENSE_VARNAME("hero","civ")) then {
             missionNamespace setVariable [LICENSE_VARNAME("rebel","civ"),false];};
             hint "Du hast die Seiten gewechselt!(Hero)";
-            exitWith {};
         };
     default {
             exitWith {};
