@@ -67,15 +67,8 @@ class CfgSpawnPoints {
             licenses[] = { { "rebel", true } };
             level[] = { "", "", -1 };
         };
-		class HeroS {
-            displayName = "Paramilitär South";
-            spawnMarker = "Heroop";
-            icon = "\a3\ui_f\data\map\MapControl\bunker_ca.paa";
-            licenses[] = { { "hero", true } };
-            level[] = { "", "", -1 };
-        };
 
-		class Oumere {
+        class Oumere {
             displayName = "Oumere";
             spawnMarker = "civ_spawn_oumere";
             icon = "\a3\ui_f\data\map\MapControl\bunker_ca.paa";
@@ -106,6 +99,24 @@ class CfgSpawnPoints {
             level[] = { "", "", -1 };
 		};
 	};
+
+    class Hero {
+        class HeroS {
+            displayName = "Paramilitär HQ";
+            spawnMarker = "Heroop";
+            icon = "\a3\ui_f\data\map\MapControl\bunker_ca.paa";
+            licenses[] = { { "hero", true } };
+            level[] = { "", "", -1 };
+        };
+
+        class HeroN {
+            displayName = "Paramilitär Posten";
+            spawnMarker = "Heroop_1";
+            icon = "\a3\ui_f\data\map\MapControl\bunker_ca.paa";
+            licenses[] = { { "hero", true } };
+            level[] = { "", "", -1 };
+        };
+    };
 
     class Cop {
         class HQ {
