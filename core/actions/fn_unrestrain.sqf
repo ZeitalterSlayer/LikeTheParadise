@@ -11,7 +11,7 @@ _unit = param [0,objNull,[objNull]];
 if (isNull _unit || !(_unit getVariable ["restrained",false])) exitWith {}; //Error check?
 
 if (life_inv_handcuffkeys > 0) then {
-	hint "Du hast keine Handschellenschlüssel!";
+	exitWith { hint "Du hast keine Handschellenschlüssel!";};
 };
 
 if(life_inv_handcuffs > 0) then {
