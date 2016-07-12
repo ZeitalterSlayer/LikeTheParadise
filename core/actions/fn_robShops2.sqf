@@ -57,6 +57,7 @@ if(_rip) then
     if!(alive _robber) exitWith {};
     [[0,format["112 - Gasstation: %2 wurde gerade von %1 ausgeraubt und es wurden $%3 gestohlen",name _robber, _shop, [_kassa] call life_fnc_numberText]],"life_fnc_broadcast",west,false] spawn life_fnc_MP;
     [[0,format["NEWS: Gasstation: %2 wurde gerade von %1 ausgeraubt und es wurden $%3 gestohlen", _shop, [_kassa] call life_fnc_numberText]],"life_fnc_broadcast",civilian,false] spawn life_fnc_MP;
-    [[getPlayerUID _robber,name _robber,"211A"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;
+    [getPlayerUID _robber,_robber getVariable ["realname",name _robber],"211"] remoteExecCall ["life_fnc_wantedAdd",RSERV];
 };
+
 [[_shop,_robber,_action,0],"TON_fnc_shopState",false,false] spawn life_fnc_MP;
