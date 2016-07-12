@@ -17,6 +17,5 @@ if (!isPlayer _unit) exitWith {};
 //Broadcast!
 
 _unit setVariable ["restrained",true,true];
-_unit say3D "handcuffs";
 [player] remoteExec ["life_fnc_restrain",_unit];
 [0,"STR_NOTF_Restrained",true,[_unit getVariable ["realname", name _unit], profileName]] remoteExecCall ["life_fnc_broadcast",west];
