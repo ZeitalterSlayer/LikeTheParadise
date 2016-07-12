@@ -23,17 +23,17 @@ CASH = CASH - _price;
 titleText[format[localize "STR_NOTF_B_1", localize _displayName,[_price] call life_fnc_numberText],"PLAIN"];
 missionNamespace setVariable [_varName,true];
 
-_type = _this select 1;
+
 _varName = M_CONFIG(getText,"Licenses",_type,"variable");
 
 switch (_varName) do
 {
-    case ("rebel"): {
+    case "rebel": {
             if (missionNamespace getVariable LICENSE_VARNAME("hero","civ")) then {
             missionNamespace setVariable [LICENSE_VARNAME("rebel","civ"),false];};
             hint "Du hast die Seiten gewechselt!(Rebellen)";
         };
-    case ("hero"): {
+    case "hero": {
             if (missionNamespace getVariable LICENSE_VARNAME("hero","civ")) then {
             missionNamespace setVariable [LICENSE_VARNAME("rebel","civ"),false];};
             hint "Du hast die Seiten gewechselt!(Hero)";
