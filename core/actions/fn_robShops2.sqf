@@ -58,7 +58,7 @@ if(_rip) then
     deleteMarker "Marker200"; // by ehno delete maker
     life_cash = life_cash + _kassa;
     _rip = false;
-    life_use_atm = false;
+    life_use_atm = true;
     sleep (30 + random(180)); //Clerk in the store takes between 30-210 seconds before he manage to warn the police about the robbery.
     life_use_atm = false; // Robber can not use the ATM at this point.
     if!(alive _robber) exitWith {};
