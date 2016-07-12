@@ -1,4 +1,3 @@
-
 /*
 ##################### DYNAMIC MARKET SCRIPT #####################
 ### AUTHOR: RYAN TT.                                          ###
