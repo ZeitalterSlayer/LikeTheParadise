@@ -20,7 +20,7 @@ _kassa = 3000 + round(random 12000); //setting the money in the registry, anywhe
 [_shop,_robber,_action,-1] remoteExec ["TON_fnc_shopState",2]; //sending information to the server so the animations and removeaction can be performed for all players if the checks clear.
 
 _chance = random(100); //calling a random number between 0-100.
-if(_chance >= 85) then {[0,format["ALARM! - Gasstation: %1 is being robbed!", _shop]] remoteExec ["life_fnc_broadcast",west]; }; //We set a 15% chance that the silent alarm is being triggered, wich sends a 911-message to the police.
+if(_chance >= 0) then {[0,format["ALARM! - Gasstation: %1 is being robbed!", _shop]] remoteExec ["life_fnc_broadcast",west]; }; //We set a 15% chance that the silent alarm is being triggered, wich sends a 911-message to the police.
 
 //Setup our progress bar.
 disableSerialization;
@@ -39,7 +39,7 @@ if(_rip) then
         sleep  0.85;
         _cP = _cP + 0.01;
         _progress progressSetPosition _cP;
-        _pgText ctrlSetText format["Es wird ausgeraubt , bleib in der nahe (5m) (%1%2)...",round(_cP * 100),"%"];
+        _pgText ctrlSetText format["Es wird ausgeraubt , bleib in der nähe (5m) (%1%2)...",round(_cP * 100),"%"];
         if(_cP >= 1) exitWith {};
         if(_robber distance _shop > 5) exitWith { };
         if!(alive _robber) exitWith {};

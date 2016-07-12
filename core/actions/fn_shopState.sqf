@@ -13,11 +13,11 @@ switch (_state) do
     case -1: //start of robbery, we make him stand with hands up and remove the action to rob station.
     {
         _shop removeAction _action;
-        _shop switchMove "AmovPercMstpSsurWnonDnon";
+      //  _shop switchMove "AmovPercMstpSsurWnonDnon";
     };
     case 0: //we add the action to rob and we make him lower his hands.
     {
     _action = _shop addAction["Kasse ausrauben",life_fnc_robShops];
-    _shop switchMove "";
+    //_shop switchMove "";
     };
 };
