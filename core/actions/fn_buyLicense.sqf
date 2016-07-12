@@ -29,8 +29,8 @@ _varName = M_CONFIG(getText,"Licenses",_type,"variable");
 switch (_varName) do
 {
     case "rebel": {
-            if (missionNamespace getVariable LICENSE_VARNAME("hero","civ")) then {
-            missionNamespace setVariable [LICENSE_VARNAME("rebel","civ"),false];};
+            if (missionNamespace getVariable LICENSE_VARNAME("rebel","civ")) then {
+            missionNamespace setVariable [LICENSE_VARNAME("hero","civ"),false];};
             hint "Du hast die Seiten gewechselt!(Rebellen)";
         };
     case "hero": {
