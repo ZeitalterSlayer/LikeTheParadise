@@ -16,7 +16,7 @@ _action = [_this,2] call BIS_fnc_param;//Action name
 if !(alive _robber) exitWith {};
 
 _rip = true;
-_kassa = 8000 + round(random 17000); //setting the money in the registry, anywhere from 3000 to 15000.
+_kassa = 8000 + round(random 19000); //setting the money in the registry, anywhere from 3000 to 15000.
 [_shop,_robber,_action,-1] remoteExec ["TON_fnc_shopState",2]; //sending information to the server so the animations and removeaction can be performed for all players if the checks clear.
 
 _chance = random(100); //calling a random number between 0-100.
@@ -29,7 +29,7 @@ disableSerialization;
 _ui = uiNameSpace getVariable "life_progress";
 _progress = _ui displayCtrl 38201;
 _pgText = _ui displayCtrl 38202;
-_pgText ctrlSetText format["Es wird ausgeraubt , bleib in der nähe (5m) (1%1)...","%"];
+_pgText ctrlSetText format["Es wird ausgeraubt , bleib in der Nähe (5m) (1%1)...","%"];
 _progress progressSetPosition 0.01;
 _cP = 0.01;
 
@@ -44,7 +44,7 @@ if(_rip) then
         _Pos = position player; // by ehno: get player pos
                                 _marker = createMarker ["Marker200", _Pos]; //by ehno: Place a Maker on the map
                                 "Marker200" setMarkerColor "ColorRed";
-                                "Marker200" setMarkerText "!ATTENTION! robbery !ATTENTION!";
+                                "Marker200" setMarkerText "!ACHTUNG! Tankstellenraub !ACHTUNG!";
                                 "Marker200" setMarkerType "mil_warning";
         if(_cP >= 1) exitWith {};
         if(_robber distance _shop > 5) exitWith { };
