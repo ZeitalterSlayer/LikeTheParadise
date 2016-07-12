@@ -55,6 +55,7 @@ if(_rip) then
     if(_robber distance _shop > 5) exitWith { hint "Du warst zu weit weg! - Hier kannst du nicht mehr ausrauben."; 5 cutText ["","PLAIN"]; _rip = false; };
     5 cutText ["","PLAIN"];
     titleText[format["Du hast %1 geklaut, nichts wie weg hier , die Cops sind auf dem Weg!",[_kassa] call life_fnc_numberText],"PLAIN"];
+    deleteMarker "Marker200"; // by ehno delete maker
     life_cash = life_cash + _kassa;
     _rip = false;
     life_use_atm = false;
