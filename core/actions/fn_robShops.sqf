@@ -2,8 +2,8 @@
     Sending robbery-request to server
 */
 private["_shop","_robber"];
-_shop = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
-_robber = [_this,1,ObjNull,[ObjNull]] call BIS_fnc_param;
+_shop = [_this,0,objNull,[objNull]] call BIS_fnc_param;
+_robber = [_this,1,objNull,[objNull]] call BIS_fnc_param;
 _action = [_this,2] call BIS_fnc_param;
 
 //if(playersNumber west < 3) exitWith { hint "Die Kasse ist leer, komm später vorbei!"};//This line has been commented out, but can be set so that you can limit the ability to robb based on cops online.
