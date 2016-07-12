@@ -73,7 +73,7 @@ class CfgRemoteExec {
         F(life_fnc_vehicleWarned,CLIENT)
         F(life_fnc_robShops,CLIENT)
         F(life_fnc_robShops2,CLIENT)
-        F(TON_fnc_shopState,CLIENT)
+        F(life_fnc_shopState,CLIENT)
 
         /* Server only functions */
         F(BIS_fnc_execVM,SERVER)
