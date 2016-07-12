@@ -5983,6 +5983,14 @@
         </Key>
     </Package>
     <Package name="Life_Items">
+        <Key ID="STR_Item_Handcuffs">
+            <Original>Handcuffs</Original>
+            <German>Handschellen</German>
+        </Key>
+        <Key ID="STR_Item_Handcuffkeys">
+            <Original>Handcuff Keys</Original>
+            <German>Handschellenschlüssel</German>
+        </Key>
         <Key ID="STR_Item_Cannabis">
             <Original>Marijuana leaf</Original>
             <Czech>marihuana list</Czech>
