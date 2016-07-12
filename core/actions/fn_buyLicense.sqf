@@ -24,7 +24,7 @@ titleText[format[localize "STR_NOTF_B_1", localize _displayName,[_price] call li
 missionNamespace setVariable [_varName,true];
 
 _type = _this select 1;
-
+_varName = M_CONFIG(getText,"Licenses",_type,"variable");
 
 switch (_varName) do
 {
