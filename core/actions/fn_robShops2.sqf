@@ -52,15 +52,15 @@ if(_rip) then
 
     }; // the loop continues til the progressbar is full, distance is exceeded or robber dies.
     if!(alive _robber) exitWith { _rip = false; };
-    if(_robber distance _shop > 5) exitWith { hint "Du warst zu weit weg! - Hier kannst du nicht mehr ausrauben."; 5 cutText ["","PLAIN"]; _rip = false; };
+    if(_robber distance _shop > 5) exitWith { deleteMarker "Marker200"; _shop switchMove ""; hint "Du warst zu weit weg! - Hier kannst du nicht mehr ausrauben."; 5 cutText ["","PLAIN"]; _rip = false; };
     5 cutText ["","PLAIN"];
     titleText[format["Du hast %1 geklaut, nichts wie weg hier , die Cops sind auf dem Weg!",[_kassa] call life_fnc_numberText],"PLAIN"];
     deleteMarker "Marker200"; // by ehno delete maker
     life_cash = life_cash + _kassa;
     _rip = false;
-    life_use_atm = true;
+    life_use_atm = false;
     sleep (30 + random(180)); //Clerk in the store takes between 30-210 seconds before he manage to warn the police about the robbery.
-    life_use_atm = false; // Robber can not use the ATM at this point.
+    life_use_atm = true; // Robber can not use the ATM at this point.
     if!(alive _robber) exitWith {};
 [0,format["112 - Gasstation: %2 wurde gerade von %1 ausgeraubt und es wurden $%3 gestohlen",name _robber, _shop, [_kassa] call life_fnc_numberText]] remoteExec ["life_fnc_broadcast",west];
 [0,format["NEWS: Gasstation: %2 wurde gerade von %1 ausgeraubt und es wurden $%3 gestohlen",name _robber, _shop, [_kassa] call life_fnc_numberText]] remoteExec ["life_fnc_broadcast",civilian];
