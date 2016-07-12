@@ -35,35 +35,40 @@ switch (_state) do {
             missionNamespace setVariable [LICENSE_VARNAME("trucking","civ"),false];
             missionNamespace setVariable [LICENSE_VARNAME("boat","civ"),false];
             hint localize "STR_Civ_LicenseRemove_1";
+            };
         };
-    };
+
 
     //Killing someone while owning a gun license
     case 3: {
         if (missionNamespace getVariable LICENSE_VARNAME("gun","civ")) then {
             missionNamespace setVariable [LICENSE_VARNAME("gun","civ"),false];
             hint localize "STR_Civ_LicenseRemove_2";
+            };
         };
-    };
+
 
     // Hero shizzle
     case 4: {
         if (missionNamespace getVariable LICENSE_VARNAME("hero","civ")) then {
             missionNamespace setVariable [LICENSE_VARNAME("hero","civ"),false];
             hint localize "STR_Civ_LicenseRemove_3";
+            };
         };
-    };
+
 
     case 5: {
         if (missionNamespace getVariable LICENSE_VARNAME("hero","civ")) then {
             missionNamespace setVariable [LICENSE_VARNAME("rebel","civ"),false];
             hint "Du hast die Seiten gewechselt!";
+            };
         };
-    };
+
 
     case 6: {
         if (missionNamespace getVariable LICENSE_VARNAME("rebel","civ")) then {
             missionNamespace setVariable [LICENSE_VARNAME("hero","civ"),false];
             hint "Du hast die Seiten gewechselt!";
+            };
         };
-    };
+};
