@@ -97,6 +97,7 @@ class CfgSpawnPoints {
             icon = "\a3\ui_f\data\map\MapControl\bunker_ca.paa";
             licenses[] = { { "rebel", true } };
             level[] = { "", "", -1 };
+         };
 
         class HeroS {
             displayName = "Paramilitär HQ";
