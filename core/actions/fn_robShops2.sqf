@@ -17,10 +17,10 @@ if !(alive _robber) exitWith {};
 
 _rip = true;
 _kassa = 3000 + round(random 12000); //setting the money in the registry, anywhere from 3000 to 15000.
-[[_shop,_robber,_action,-1],"TON_fnc_shopState",false,false] spawn life_fnc_MP; //sending information to the server so the animations and removeaction can be performed for all players if the checks clear.
+[_shop,_robber,_action,-1] remoteExec ["TON_fnc_shopState",2]; //sending information to the server so the animations and removeaction can be performed for all players if the checks clear.
 
 _chance = random(100); //calling a random number between 0-100.
-if(_chance >= 85) then { hint "Der Kassierer hat heimlich die Polizei informiert!"; [[0,format["ALARM! - Gasstation: %1 is being robbed!", _shop]],"life_fnc_broadcast",west,false] spawn life_fnc_MP; }; //We set a 15% chance that the silent alarm is being triggered, wich sends a 911-message to the police.
+if(_chance >= 85) then {[0,format["ALARM! - Gasstation: %1 is being robbed!", _shop]] remoteExec ["life_fnc_broadcast",west]; }; //We set a 15% chance that the silent alarm is being triggered, wich sends a 911-message to the police.
 
 //Setup our progress bar.
 disableSerialization;
@@ -55,9 +55,9 @@ if(_rip) then
     sleep (30 + random(180)); //Clerk in the store takes between 30-210 seconds before he manage to warn the police about the robbery.
     life_use_atm = true; // Robber can not use the ATM at this point.
     if!(alive _robber) exitWith {};
-    [[0,format["112 - Gasstation: %2 wurde gerade von %1 ausgeraubt und es wurden $%3 gestohlen",name _robber, _shop, [_kassa] call life_fnc_numberText]],"life_fnc_broadcast",west,false] spawn life_fnc_MP;
-    [[0,format["NEWS: Gasstation: %2 wurde gerade von %1 ausgeraubt und es wurden $%3 gestohlen", _shop, [_kassa] call life_fnc_numberText]],"life_fnc_broadcast",civilian,false] spawn life_fnc_MP;
+[0,format["112 - Gasstation: %2 wurde gerade von %1 ausgeraubt und es wurden $%3 gestohlen",name _robber, _shop, [_kassa] call life_fnc_numberText]] remoteExec ["life_fnc_broadcast",west];
+[0,format["NEWS: Gasstation: %2 wurde gerade von %1 ausgeraubt und es wurden $%3 gestohlen", _shop, [_kassa] call life_fnc_numberText]] remoteExec ["life_fnc_broadcast",civilian];
     [getPlayerUID _robber,_robber getVariable ["realname",name _robber],"211"] remoteExecCall ["life_fnc_wantedAdd",RSERV];
 };
 
-[[_shop,_robber,_action,0],"TON_fnc_shopState",false,false] spawn life_fnc_MP;
+[_shop,_robber,_action,0] remoteExec ["TON_fnc_shopState",2];

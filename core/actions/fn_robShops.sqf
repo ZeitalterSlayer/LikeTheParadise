@@ -12,4 +12,4 @@ if(side _robber != civilian) exitWith { hint "Du bist ein Cop! " };// We do not 
 if (vehicle player != _robber) exitWith { hint "Raus aus dem Fahrzeug du Pussy!" };
 if (currentWeapon _robber == "") exitWith { hint "HaHa, du machst mir keine Angst , ab raus hier du Lappen !!" };  //is he trying to rob without a weapon? Lets taunt him a bit!
 if(_robber distance _shop > 3) exitWith { hint "Du bist zu weit weg!" };
-[[_shop,_robber,_action],"TON_fnc_robShops",false,false] spawn life_fnc_MP; //now we send the info to the server to be processed further there.
+[_shop,_robber,_action] remoteExec ["TON_fnc_robShops",2]; //now we send the info to the server to be processed further there.
