@@ -185,7 +185,16 @@ class VirtualShops {
 */
 class VirtualItems {
     //Virtual Items
-
+    class handcuffs {
+        variable = "handcuffs";
+        displayName = "STR_Item_Handcuffs";
+        weight = 1;
+        buyPrice = 750;
+        sellPrice = 350;
+        illegal = false;
+        edible = -1;
+        icon = "";
+    };
     //Misc
     class pickaxe {
         variable = "pickaxe";
