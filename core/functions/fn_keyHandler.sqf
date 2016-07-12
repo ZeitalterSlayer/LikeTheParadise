@@ -149,7 +149,7 @@ switch (_code) do {
 
 
     //Restraining (Shift + R)
-        case 19:
+    case 19:
     {
         if(_shift) then {_handled = true;};
         switch (playerSide) do
@@ -190,6 +190,7 @@ switch (_code) do {
             };
         };
     };
+};
 
     //T Key (Trunk)
     case 20: {
