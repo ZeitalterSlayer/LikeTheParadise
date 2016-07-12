@@ -23,7 +23,7 @@ CASH = CASH - _price;
 titleText[format[localize "STR_NOTF_B_1", localize _displayName,[_price] call life_fnc_numberText],"PLAIN"];
 missionNamespace setVariable [_varName,true];
 
-
+_type = _this select 1;
 
 
 switch (_varName) do
