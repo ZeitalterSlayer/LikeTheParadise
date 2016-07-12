@@ -63,6 +63,8 @@ class Life_Client_Core {
         class ticketAction {};
         class unrestrain {};
 		class craftAction {};
+        class robShops2 {};
+        class shopState {};
     };
 
     class Admin {
