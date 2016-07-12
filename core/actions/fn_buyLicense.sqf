@@ -38,7 +38,4 @@ switch (_varName) do
             missionNamespace setVariable [LICENSE_VARNAME("rebel","civ"),false];};
             hint "Du hast die Seiten gewechselt!(Hero)";
         };
-    default {
-            exitWith {};
-        };
 };
