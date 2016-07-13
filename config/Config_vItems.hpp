@@ -787,7 +787,6 @@ class VirtualItems {
         illegal = true;
         edible = -1;
         icon = "icons\ico_lsd.paa";
-        icon = "";
     };
 
     class heroin_processed {
