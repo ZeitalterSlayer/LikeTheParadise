@@ -1,20 +1,28 @@
+
 #include "..\..\script_macros.hpp"
 /*
     File: fn_virt_sell.sqf
     Author: Bryan "Tonic" Boardwine
-
     Description:
     Sell a virtual item to the store / shop
 */
-private["_type","_index","_price","_amount","_name","_curItemName","_curItemPrice", "_itemNameToSearchFor"];
-if ((lbCurSel 2401) isEqualTo -1) exitWith {};
+private["_type","_index","_price","_amount","_name"];
+if ((lbCurSel 2402) isEqualTo -1) exitWith {};
 _type = lbData[2402,(lbCurSel 2402)];
 
-
-_price = [_type] call life_fnc_DYNMARKET_getPrice;
-
+_price = -2;
+_itemNameToSearchFor = _type;
+{
+    _curItemName = _x select 0;
+    _curItemPrice = _x select 1;
+    if (_curItemName==_itemNameToSearchFor) then {_price=_curItemPrice};
+} forEach DYNMARKET_prices;
 
 if (_price isEqualTo -1) exitWith {};
+if (_price isEqualTo -2) then {
+  _price = M_CONFIG(getNumber,"VirtualItems",_type,"sellPrice");
+  if (_price isEqualTo -1) exitWith {};
+};
 
 _amount = ctrlText 2405;
 if (!([_amount] call TON_fnc_isnumber)) exitWith {hint localize "STR_Shop_Virt_NoNum";};
@@ -25,25 +33,25 @@ life_action_delay = time;
 
 _price = (_price * _amount);
 _name = M_CONFIG(getText,"VirtualItems",_type,"displayName");
-if(([false,_type,_amount] call life_fnc_handleInv)) then {
+if ([false,_type,_amount] call life_fnc_handleInv) then {
     hint format[localize "STR_Shop_Virt_SellItem",_amount,(localize _name),[_price] call life_fnc_numberText];
-    CASH = CASH + _price * _amount;
+    CASH = CASH + _price;
     [] call life_fnc_virt_update;
-    DYNAMICMARKET_boughtItems pushBack [_type,_amount];
+        DYNAMICMARKET_boughtItems pushBack [_type,_amount];
 };
 
 if (life_shop_type isEqualTo "drugdealer") then {
     private["_array","_ind","_val"];
-    _array = life_shop_npc getVariable ["sellers",[]];
+    _array = life_shop_npc getVariable["sellers",[]];
     _ind = [getPlayerUID player,_array] call TON_fnc_index;
     if (!(_ind isEqualTo -1)) then {
         _val = ((_array select _ind) select 2);
         _val = _val + _price;
         _array set[_ind,[getPlayerUID player,profileName,_val]];
-        life_shop_npc setVariable ["sellers",_array,true];
+        life_shop_npc setVariable["sellers",_array,true];
     } else {
         _array pushBack [getPlayerUID player,profileName,_price];
-        life_shop_npc setVariable ["sellers",_array,true];
+        life_shop_npc setVariable["sellers",_array,true];
     };
 };
 
