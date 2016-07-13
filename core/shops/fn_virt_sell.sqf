@@ -1,4 +1,3 @@
-
 #include "..\..\script_macros.hpp"
 /*
     File: fn_virt_sell.sqf
@@ -13,9 +12,9 @@ _type = lbData[2402,(lbCurSel 2402)];
 _price = -2;
 _itemNameToSearchFor = _type;
 {
-    _curItemName = _x select 0;
-    _curItemPrice = _x select 1;
-    if (_curItemName==_itemNameToSearchFor) then {_price=_curItemPrice};
+	_curItemName = _x select 0;
+	_curItemPrice = _x select 1;
+	if (_curItemName==_itemNameToSearchFor) then {_price=_curItemPrice};
 } forEach DYNMARKET_prices;
 
 if (_price isEqualTo -1) exitWith {};
@@ -37,7 +36,7 @@ if ([false,_type,_amount] call life_fnc_handleInv) then {
     hint format[localize "STR_Shop_Virt_SellItem",_amount,(localize _name),[_price] call life_fnc_numberText];
     CASH = CASH + _price;
     [] call life_fnc_virt_update;
-        DYNAMICMARKET_boughtItems pushBack [_type,_amount];
+		DYNAMICMARKET_boughtItems pushBack [_type,_amount];
 };
 
 if (life_shop_type isEqualTo "drugdealer") then {
