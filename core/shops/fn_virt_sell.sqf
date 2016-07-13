@@ -9,8 +9,6 @@
 private["_type","_index","_price","_amount","_name"];
 if ((lbCurSel 2402) isEqualTo -1) exitWith {};
 _type = lbData[2402,(lbCurSel 2402)];
-_price = M_CONFIG(getNumber,"VirtualItems",_type,"sellPrice");
-
 
 _price = 0.0;
 _itemNameToSearchFor = _type;
