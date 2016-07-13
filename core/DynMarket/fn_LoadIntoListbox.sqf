@@ -1,5 +1,4 @@
 #include <macro.h>
-#include "..\script_macros.hpp"
 /*
 ##################### DYNAMIC MARKET SCRIPT #####################
 ### AUTHOR: RYAN TT.                                          ###
@@ -17,7 +16,7 @@ _dialog = findDisplay 7100;
 _listbox = _dialog displayCtrl 7055;
 _blacklist =
 [
-	""
+	"apple"
 ];
 
 {
