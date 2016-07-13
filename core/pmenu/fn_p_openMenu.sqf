@@ -35,7 +35,9 @@ switch (playerSide) do {
         ctrlShow[2012,false];
 		ctrlShow[2025,false];
         ctrlShow[2011,false];
-		ctrlShow[20003,false]; // COP Placeables
+		ctrlShow[20003,false];		// COP Placeables
+		ctrlShow[980022,false];	//Markt
+		ctrlShow[980021,false];	//Markt
     };
 };
 

@@ -330,7 +330,6 @@ class ButtonPlaceablesMEDIC: Life_RscButtonMenu {
  colorText[] = {1,1,1,1};
  colorDisabled[] = {1,0,0,0.1};
  };
- /*
  class Markt_ICON: life_RscPicture
  {
  idc = 980021;
@@ -343,7 +342,7 @@ class ButtonPlaceablesMEDIC: Life_RscButtonMenu {
  
  class Markt_Knopf: life_RscButtonMenu
  {
- idc = -1;
+ idc = 980022;
  x = 0.544623 * safezoneW + safezoneX;
  y = 0.7016 * safezoneH + safezoneY;
  w = 0.028875 * safezoneW;
@@ -359,7 +358,6 @@ class ButtonPlaceablesMEDIC: Life_RscButtonMenu {
  colorText[] = {1,1,1,1};
  colorDisabled[] = {1,0,0,0.1};
  };
- */
  class ButtonGang_ICON: life_RscPicture
  {
  idc = 1207;
