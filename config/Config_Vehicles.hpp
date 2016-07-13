@@ -573,8 +573,8 @@ class LifeCfgVehicles {
 			{ "Oliv", "reb", {
                 "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_olive_co.paa"
             } },
-			{ "Weiß", "reb", {
-                "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_white_co.paa"
+			{ "Green", "reb", {
+                "textures\civ\civ_jeep.paa"
             } }
 		};
     };
