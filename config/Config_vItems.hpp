@@ -139,7 +139,7 @@ class VirtualShops {
         side = "cop";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "donuts", "coffee", "spikeStrip", "waterBottle", "rabbit", "apple", "redgull", "toolkit", "fuelFull", "defusekit", "defibrillator" };
+        items[] = { "donuts", "coffee", "spikeStrip", "waterBottle", "rabbit", "apple", "redgull", "toolkit", "fuelFull", "defusekit", "lockpick", "defibrillator" };
     };
 	class gummi {
         name = "Kautschuk Händler";
@@ -760,7 +760,7 @@ class VirtualItems {
         weight = 4;
         buyPrice = -1;
         sellPrice = -1;
-        illegal = true;
+        illegal = false;
         edible = -1;
         icon = "icons\ico_heroinUnprocessed.paa";
         processedItem = "heroin_processed";
@@ -772,7 +772,7 @@ class VirtualItems {
         weight = 4;
         buyPrice = -1;
         sellPrice = -1;
-        illegal = true;
+        illegal = false;
         edible = -1;
         icon = "";
         processedItem = "lsd";
@@ -806,7 +806,7 @@ class VirtualItems {
         weight = 4;
         buyPrice = -1;
         sellPrice = -1;
-        illegal = true;
+        illegal = false;
         edible = -1;
         icon = "icons\ico_cannabis.paa";
         processedItem = "marijuana";
@@ -829,7 +829,7 @@ class VirtualItems {
         weight = 4;
         buyPrice = -1;
         sellPrice = -1;
-        illegal = true;
+        illegal = false;
         edible = -1;
         icon = "icons\ico_cocaineUnprocessed.paa";
         processedItem = "cocaine_processed";
