@@ -9,14 +9,9 @@
 #define Btn1 37450
 #define Btn2 37451
 #define Btn3 37452
-#define Btn4 37453
-#define Btn5 37454
-#define Btn6 37455
-#define Btn7 37456
-#define Btn8 37457
 #define Title 37401
 
-private["_display","_curTarget","_seizeRank","_Btn1","_Btn2","_Btn3","_Btn4","_Btn5","_Btn6","_Btn7","_Btn8"];
+private["_display","_curTarget","_seizeRank","_Btn1","_Btn2","_Btn3"];
 
 disableSerialization;
 _curTarget = param [0,objNull,[objNull]];
@@ -40,7 +35,7 @@ _Btn3 = _display displayCtrl Btn3;
 life_pInact_curTarget = _curTarget;
 
 if (player getVariable ["isEscorting",false]) then {
-    { _x ctrlShow false; } forEach [_Btn1,_Btn2,_Btn3,_Btn5,_Btn6,_Btn7,_Btn8];
+    { _x ctrlShow false; } forEach [_Btn1,_Btn2,_Btn3];
 };
 
 //Set Unrestrain Button
