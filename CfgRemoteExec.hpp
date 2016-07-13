@@ -117,6 +117,9 @@ class CfgRemoteExec {
         F(TON_fnc_handleBlastingCharge,SERVER)
         F(TON_fnc_robShops,SERVER)
         F(TON_fnc_shopState,SERVER)
+        F(TON_fnc_playerLogged,SERVER) //DYN
+        F(TON_fnc_changePrice,SERVER) // DYN
+        F(TON_fnc_getUpdate,SERVER) // DYN
 
         /* HeadlessClient only functions */
         F(HC_fnc_addContainer,HC)
