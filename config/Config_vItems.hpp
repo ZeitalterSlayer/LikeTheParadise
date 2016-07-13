@@ -595,7 +595,7 @@ class VirtualItems {
         sellPrice = 4950;
         illegal = false;
         edible = -1;
-        icon = "";
+        icon = "icons\ico_schmuck.paa";
     };
 
     //Mined Items
