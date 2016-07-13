@@ -495,7 +495,7 @@ class VirtualItems {
         sellPrice = 1600;
         illegal = false;
         edible = -1;
-        icon = "";
+        icon = "icons\ico_kautschuk.paa";
     };
 
 	class palmblatt {
@@ -517,7 +517,7 @@ class VirtualItems {
         sellPrice = 1000;
         illegal = false;
         edible = -1;
-        icon = "icons\palmenb.paa";
+        icon = "icons\ico_palmenb.paa";
     };
 
 	class palmol {
@@ -528,7 +528,7 @@ class VirtualItems {
         sellPrice = 1450;
         illegal = false;
         edible = -1;
-        icon = "icons\palmenol.paa";
+        icon = "icons\ico_palmenol.paa";
     };
 
 	class kokos {
@@ -786,6 +786,7 @@ class VirtualItems {
         sellPrice = 6500;
         illegal = true;
         edible = -1;
+        icon = "icons\ico_lsd.paa";
         icon = "";
     };
 
