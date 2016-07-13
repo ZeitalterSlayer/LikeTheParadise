@@ -158,7 +158,7 @@ if (life_HC_isActive) then {
 };
 
 DYNAMICMARKET_boughtItems = [];
-[player] remoteExec ["TON_fnc_playerLogged",RSERV];
+[getPlayerUID player] remoteExec ["TON_fnc_playerLogged",2];
 
 
 diag_log "----------------------------------------------------------------------------------------------------";
