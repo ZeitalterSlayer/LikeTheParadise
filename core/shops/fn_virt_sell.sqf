@@ -6,8 +6,8 @@
     Description:
     Sell a virtual item to the store / shop
 */
-private["_type","_index","_price","_amount","_name"];
-if ((lbCurSel 2402) isEqualTo -1) exitWith {};
+private["_type","_index","_price","_amount","_name","_curItemName","_curItemPrice", "_itemNameToSearchFor"];
+if ((lbCurSel 2401) isEqualTo -1) exitWith {};
 _type = lbData[2402,(lbCurSel 2402)];
 
 _price = 0.0;
@@ -17,6 +17,10 @@ _itemNameToSearchFor = _type;
     _curItemPrice = _x select 1;
     if (_curItemName==_itemNameToSearchFor) then {_price=_curItemPrice};
 } forEach DYNMARKET_prices;
+
+
+_price = [_type] call life_fnc_DYNMARKET_getPrice;
+
 
 if (_price isEqualTo -1) exitWith {};
 
