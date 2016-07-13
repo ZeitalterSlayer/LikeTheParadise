@@ -378,30 +378,41 @@ class Life_Client_Core {
     };
 
 
-	class CopPlaceables	{
-	file = "core\cop\placeables";
-	class placeablesInit {};
-	class placeablesMenu {};
-	class placeablesRemoveAll {};
-	class placeablePlace {};
-	class placeableCancel {};
-	class placeablesPlaceComplete {};
+    class CopPlaceables	{
+	   file = "core\cop\placeables";
+	   class placeablesInit {};
+	   class placeablesMenu {};
+	   class placeablesRemoveAll {};
+	   class placeablePlace {};
+	   class placeableCancel {};
+	   class placeablesPlaceComplete {};
 	};
 
 	class CopPlaceablesMEDIC {
-	file = "core\medical\MedicPlaceables";
-	class placeablesInitMEDIC {};
-	class placeablesMenuMEDIC {};
-	class placeablesRemoveAllMEDIC {};
-	class placeablePlaceMEDIC {};
-	class placeableCancelMEDIC {};
-	class placeablesPlaceCompleteMEDIC {};
-};
+	   file = "core\medical\MedicPlaceables";
+	   class placeablesInitMEDIC {};
+	   class placeablesMenuMEDIC {};
+	   class placeablesRemoveAllMEDIC {};
+	   class placeablePlaceMEDIC {};
+	   class placeableCancelMEDIC {};
+	   class placeablesPlaceCompleteMEDIC {};
+    };
 
     class Ausweis {
-    file = "core\Ausweis";
-    class Lizenzsehen {};
-    class Lizenzzeigen {};
+        file = "core\Ausweis";
+        class Lizenzsehen {};
+        class Lizenzzeigen {};
+    };
+
+    class DynMarket
+    {
+        file = "core\DynMarket";
+        class bought {};
+        class update {};
+        class DisplayPrices {};
+        class LoadIntoListbox {};
+        class ForcePrice {};
+        class DYNMARKET_getPrice {};
     };
 
 };
