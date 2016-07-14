@@ -772,7 +772,7 @@ class VirtualItems {
         weight = 4;
         buyPrice = -1;
         sellPrice = -1;
-        illegal = false;
+        illegal = true;
         edible = -1;
         icon = "";
         processedItem = "lsd";
@@ -1099,6 +1099,7 @@ class VirtualItems {
         illegal = true;
         edible = -1;
         icon = "icons\ico_turtleRaw.paa";
+        processedItem = "turtle";
     };
 
     class turtle_soup {
