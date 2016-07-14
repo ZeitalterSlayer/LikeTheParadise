@@ -440,6 +440,7 @@ class WeaponShops {
         items[] = {
             { "hgun_P07_snds_F", "Taser", 2000, -1 },			//Taser
 			{ "arifle_sdar_F", "Taser Rifle", 5000, -1 },		//Taser Rifle
+            { "SMG_05_F", "", 2000, -1 },                       //Protector
 			{ "arifle_SPAR_01_blk_F", "", 20000, -1 },			//SPAR-16
 			{ "ItemGPS", "", 100, -1 },							//GPS
 			{ "ItemCompass", "", 150, -1 },						//Kompass
@@ -451,6 +452,7 @@ class WeaponShops {
         mags[] = {
             { "16Rnd_9x21_Mag", "", 25 },						//Taser Munition
 			{ "20Rnd_556x45_UW_mag", "", 45 },					//Taser Rifle Ammo
+            { "30Rnd_9x21_Mag_SMG_02", "", 60 },                //9mm Munition
 			{ "30Rnd_556x45_Stanag", "", 25 }					//5.56 Munition
         };
         accs[] = {
@@ -471,6 +473,8 @@ class WeaponShops {
         items[] = {
             { "hgun_P07_snds_F", "Taser", 2000, -1 },			//Taser
 			{ "arifle_sdar_F", "Taser Rifle", 5000, -1 },		//Taser Rifle
+            { "SMG_05_F", "", 2000, -1 },                       //Protector
+            { "arifle_SPAR_01_blk_F", "", 20000, -1 },          //SPAR-16
 			{ "arifle_MXC_Black_F", "", 20000, -1 },			//MXC
 			{ "ItemGPS", "", 100, -1 },							//GPS
 			{ "ItemCompass", "", 150, -1 },						//Kompass
@@ -482,6 +486,8 @@ class WeaponShops {
         mags[] = {
             { "16Rnd_9x21_Mag", "", 25 },						//Taser Munition
 			{ "20Rnd_556x45_UW_mag", "", 45 },					//Taser Rifle Ammo
+            { "30Rnd_9x21_Mag_SMG_02", "", 60 },                //9mm Munition
+            { "30Rnd_556x45_Stanag", "", 25 },                  //5.56 Munition
 			{ "30Rnd_65x39_caseless_mag", "", 25 }				//6.5 Munition
         };
         accs[] = {
@@ -504,6 +510,9 @@ class WeaponShops {
         items[] = {
             { "hgun_P07_snds_F", "Taser", 2000, -1 },			//Taser
 			{ "arifle_sdar_F", "Taser Rifle", 5000, -1 },		//Taser Rifle
+            { "SMG_05_F", "", 2000, -1 },                       //Protector
+            { "arifle_SPAR_01_blk_F", "", 20000, -1 },          //SPAR-16
+            { "arifle_MXC_Black_F", "", 20000, -1 },            //MXC
 			{ "arifle_CTAR_blk_F", "", 20000, -1 },				//CAR-95
 			{ "ItemGPS", "", 100, -1 },							//GPS
 			{ "ItemCompass", "", 150, -1 },						//Kompass
@@ -515,6 +524,9 @@ class WeaponShops {
         mags[] = {
             { "16Rnd_9x21_Mag", "", 25 },						//Taser Munition
 			{ "20Rnd_556x45_UW_mag", "", 45 },					//Taser Rifle Ammo
+            { "30Rnd_9x21_Mag_SMG_02", "", 60 },                //9mm Munition
+            { "30Rnd_556x45_Stanag", "", 25 },                  //5.56 Munition
+            { "30Rnd_65x39_caseless_mag", "", 25 },             //6.5 Munition
 			{ "30Rnd_580x42_Mag_F", "", 25 }					//5.8mm Munition
         };
         accs[] = {
@@ -536,6 +548,10 @@ class WeaponShops {
         items[] = {
             { "hgun_P07_snds_F", "Taser", 2000, -1 },			//Taser
 			{ "arifle_sdar_F", "Taser Rifle", 5000, -1 },		//Taser Rifle
+            { "SMG_05_F", "", 2000, -1 },                       //Protector
+            { "arifle_SPAR_01_blk_F", "", 20000, -1 },          //SPAR-16
+            { "arifle_MXC_Black_F", "", 20000, -1 },            //MXC
+            { "arifle_CTAR_blk_F", "", 20000, -1 },             //CAR-95
 			{ "arifle_MXM_Black_F", "", 20000, -1 },			//MXM
 			{ "ItemGPS", "", 100, -1 },							//GPS
 			{ "ItemCompass", "", 150, -1 },						//Kompass
@@ -547,6 +563,9 @@ class WeaponShops {
         mags[] = {
             { "16Rnd_9x21_Mag", "", 25 },						//Taser Munition
 			{ "20Rnd_556x45_UW_mag", "", 45 },					//Taser Rifle Ammo
+            { "30Rnd_9x21_Mag_SMG_02", "", 60 },                //9mm Munition
+            { "30Rnd_556x45_Stanag", "", 25 },                  //5.56 Munition
+            { "30Rnd_580x42_Mag_F", "", 25 },                   //5.8mm Munition
 			{ "30Rnd_65x39_caseless_mag", "", 25 }				//6.5mm Munition
         };
         accs[] = {
@@ -569,6 +588,11 @@ class WeaponShops {
         items[] = {
             { "hgun_P07_snds_F", "Taser", 2000, -1 },			//Taser
 			{ "arifle_sdar_F", "Taser Rifle", 5000, -1 },		//Taser Rifle
+            { "SMG_05_F", "", 2000, -1 },                       //Protector
+            { "arifle_SPAR_01_blk_F", "", 20000, -1 },          //SPAR-16
+            { "arifle_MXC_Black_F", "", 20000, -1 },            //MXC
+            { "arifle_CTAR_blk_F", "", 20000, -1 },             //CAR-95
+            { "arifle_MXM_Black_F", "", 20000, -1 },            //MXM
 			{ "arifle_ARX_blk_F", "", 20000, -1 },				//Type 115
 			{ "ItemGPS", "", 100, -1 },							//GPS
 			{ "ItemCompass", "", 150, -1 },						//Kompass
@@ -580,7 +604,10 @@ class WeaponShops {
         mags[] = {
             { "16Rnd_9x21_Mag", "", 25 },						//Taser Munition
 			{ "20Rnd_556x45_UW_mag", "", 45 },					//Taser Rifle Ammo
-			{ "30Rnd_65x39_caseless_mag", "", 25 }				//6.5mm Munition
+            { "30Rnd_9x21_Mag_SMG_02", "", 60 },                //9mm Munition
+            { "30Rnd_556x45_Stanag", "", 25 },                  //5.56 Munition
+            { "30Rnd_580x42_Mag_F", "", 25 },                   //5.8mm Munition
+            { "30Rnd_65x39_caseless_mag", "", 25 }              //6.5mm Munition
         };
         accs[] = {
 			{ "optic_Hamr", "", 650 },							//RCO Scope
@@ -602,6 +629,12 @@ class WeaponShops {
         items[] = {
             { "hgun_P07_snds_F", "Taser", 2000, -1 },			//Taser
 			{ "arifle_sdar_F", "Taser Rifle", 5000, -1 },		//Taser Rifle
+            { "SMG_05_F", "", 2000, -1 },                       //Protector
+            { "arifle_SPAR_01_blk_F", "", 20000, -1 },          //SPAR-16
+            { "arifle_MXC_Black_F", "", 20000, -1 },            //MXC
+            { "arifle_CTAR_blk_F", "", 20000, -1 },             //CAR-95
+            { "arifle_MXM_Black_F", "", 20000, -1 },            //MXM
+            { "arifle_ARX_blk_F", "", 20000, -1 },              //Type 115
 			{ "arifle_SPAR_03_blk_F", "", 20000, -1 },			//SPAR-17
 			{ "ItemGPS", "", 100, -1 },							//GPS
 			{ "ItemCompass", "", 150, -1 },						//Kompass
@@ -613,6 +646,10 @@ class WeaponShops {
         mags[] = {
             { "16Rnd_9x21_Mag", "", 25 },						//Taser Munition
 			{ "20Rnd_556x45_UW_mag", "", 45 },					//Taser Rifle Ammo
+            { "30Rnd_9x21_Mag_SMG_02", "", 60 },                //9mm Munition
+            { "30Rnd_556x45_Stanag", "", 25 },                  //5.56 Munition
+            { "30Rnd_580x42_Mag_F", "", 25 },                   //5.8mm Munition
+            { "30Rnd_65x39_caseless_mag", "", 25 },             //6.5mm Munition
 			{ "30Rnd_762x39_Mag_F", "", 25 }					//7.62mm Munition
         };
         accs[] = {
@@ -635,6 +672,13 @@ class WeaponShops {
         items[] = {
             { "hgun_P07_snds_F", "Taser", 2000, -1 },			//Taser
 			{ "arifle_sdar_F", "Taser Rifle", 5000, -1 },		//Taser Rifle
+            { "SMG_05_F", "", 2000, -1 },                       //Protector
+            { "arifle_SPAR_01_blk_F", "", 20000, -1 },          //SPAR-16
+            { "arifle_MXC_Black_F", "", 20000, -1 },            //MXC
+            { "arifle_CTAR_blk_F", "", 20000, -1 },             //CAR-95
+            { "arifle_MXM_Black_F", "", 20000, -1 },            //MXM
+            { "arifle_ARX_blk_F", "", 20000, -1 },              //Type 115
+            { "arifle_SPAR_03_blk_F", "", 20000, -1 },          //SPAR-17
 			{ "srifle_DMR_03_F", "", 20000, -1 },				//Mk-I
 			{ "ItemGPS", "", 100, -1 },							//GPS
 			{ "ItemCompass", "", 150, -1 },						//Kompass
@@ -646,6 +690,10 @@ class WeaponShops {
         mags[] = {
             { "16Rnd_9x21_Mag", "", 25 },						//Taser Munition
 			{ "20Rnd_556x45_UW_mag", "", 45 },					//Taser Rifle Ammo
+            { "30Rnd_9x21_Mag_SMG_02", "", 60 },                //9mm Munition
+            { "30Rnd_556x45_Stanag", "", 25 },                  //5.56 Munition
+            { "30Rnd_580x42_Mag_F", "", 25 },                   //5.8mm Munition
+            { "30Rnd_65x39_caseless_mag", "", 25 },             //6.5mm Munition
 			{ "20Rnd_762x51_Mag", "", 25 }						//7.62mm Munition
         };
         accs[] = {
