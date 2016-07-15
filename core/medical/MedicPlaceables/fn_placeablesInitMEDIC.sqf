@@ -11,7 +11,7 @@ life_barrier_active = false;
 life_barrier_activeObj = ObjNull;
 life_placeablesMEDIC = [
 	["Road Cone","RoadCone_F"],
-	["Road cone with light","RoadCone_L_F"]
+	["Road cone with light","RoadCone_L_F"],
 	["Bar Gate","Land_BarGate_F"],
 	["Safety Barrier","Land_Crash_barrier_F"],
 	["Plastic Barrier Orange","PlasticBarrier_03_orange_F"],
