@@ -1,5 +1,3 @@
-_removebar = ["RoadCone_F","RoadCone_L_F","SignAd_Sponsor_F","Land_BarGate_F","Land_Crash_barrier_F","PlasticBarrier_03_orange_F","PlasticBarrier_02_yellow_F","Land_PortableLight_single_F","Land_PortableLight_double_F","Flag_UK_F"];
+_lastOpj = _this select 0
 
-if (cursorTarget isKindOf (life_placeables)) then {
-	cursorTarget deleteVehicle;
-	};
+deleteVehicle _lastObj
