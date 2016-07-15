@@ -90,10 +90,10 @@ if (isPlayer _curObject && _curObject isKindOf "Man") then {
     if(_curObject getVariable ["restrained",false]) then {
         if (!dialog) then {
             if(playerside isEqualTo civilian) then {
-                [curObject] call life_fnc_civInteractionMenu;
+                [_curObject] call life_fnc_civInteractionMenu;
             };
             if(playerside isEqualTo west) then {
-                [curObject] call life_fnc_copInteractionMenu;
+                [_curObject] call life_fnc_copInteractionMenu;
             };
         };
     };
