@@ -174,8 +174,8 @@ switch (_code) do {
                             if(side cursorTarget in [west,civilian,independent]) then {
                                 if(alive cursorTarget) then {
                                     if(cursorTarget distance player < 3.5) then {
-                                        if(!(cursorTarget GVAR "Escorting")) then {
-                                            if(!(cursorTarget GVAR "restrained")) then {
+                                        if(!(cursorTarget getVariable ["Escorting",false])) then {
+                                            if(!(cursorTarget getVariable ["restrained",false])) then {
                                                 if(speed cursorTarget < 1) then {
                                                     [] call life_fnc_restrainAction;
                                                 };
