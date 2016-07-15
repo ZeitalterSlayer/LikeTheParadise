@@ -2,7 +2,7 @@
 /*
 	File: fn_civInteractionMenu.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Replaces the mass addactions for various cop actions towards another player.
 */
@@ -25,7 +25,7 @@ if(isNull _curTarget) exitWith {closeDialog 0;}; //Bad target
 if(!dialog) then {
 	createDialog "pInteraction_Menu";
 };
-	
+
 if(!isPlayer _curTarget && side _curTarget isEqualTo civilian) exitWith {closeDialog 0;}; //Bad side check?
 if(player distance _curTarget > 4 ) exitWith {closeDialog 0;}; // Prevents menu accessing from far distances.
 
@@ -43,19 +43,6 @@ life_pInact_curTarget = _curTarget;
 //Set Unrestrain Button
 _Btn1 ctrlSetText localize "STR_pInAct_Unrestrain";
 _Btn1 buttonSetAction "[life_pInact_curTarget] call life_fnc_unrestrain; closeDialog 0;";
-
-if(life_inv_handcuffkeys > 0) then {
-    _Btn1 ctrlEnable true;
-} else {
-	if(life_inv_lockpick > 0) then
-	{
-		_Btn1 ctrlSetText localize "STR_pInAct_Lockpick";
-		_Btn1 buttonSetAction "[life_pInact_curTarget] call life_fnc_pLockpick; closeDialog 0;";
-		_Btn1 ctrlEnable true;
-	} else {
-	_Btn1 ctrlEnable false;
-	};
-};
 
 //Set Escort Button
 if((_curTarget getVariable["Escorting",false])) then {
