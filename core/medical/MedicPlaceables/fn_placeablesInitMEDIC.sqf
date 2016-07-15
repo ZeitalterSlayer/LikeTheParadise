@@ -17,7 +17,8 @@ life_placeablesMEDIC = [
 	["Plastic Barrier Orange","PlasticBarrier_03_orange_F"],
 	["Plastic Barrier Yellow","PlasticBarrier_02_yellow_F"],
 	["Portable Single Light","Land_PortableLight_single_F"],
-	["Portable Double Light","Land_PortableLight_double_F"]
+	["Portable Double Light","Land_PortableLight_double_F"],
+	["White Flag","Flag_White_F"]
 ];
 life_bar_limit = 100;
 life_bar_placey = [];
