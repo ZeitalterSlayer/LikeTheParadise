@@ -4441,11 +4441,11 @@
             <Polish>Zostałeś aresztowany, poczekaj na koniec kary. Jeśli się rozłączysz albo odrodzisz twoja kara zostanie powiększona</Polish>
         </Key>
         <Key ID="STR_Jail_LicenseNOTF">
-            <Original>For being arrested you have lost the following licenses if you own them\n\nFirearms License\nSmuggler License</Original>
+            <Original>For being arrested you have lost the following licenses if you own them\n\nFirearms License\nSmuggler License\nParamilitarylicense</Original>
             <Czech>Za byl zatčen jste ztratili tyto licence, pokud je vlastní \ žádný zbrojní pas \ jRebel licence</Czech>
             <Spanish>Por ser arrestado se te han quitado estas licencias (si las tienes)\n\nL. de Armas \nL. Rebelde</Spanish>
             <Russian></Russian>
-            <German>Bei der Verhaftung hast du folgende Lizenzen verloren, sofern du sie besessen hast\n\nWaffenlizenz\nSchmugglerlizenz</German>
+            <German>Bei der Verhaftung hast du folgende Lizenzen verloren, sofern du sie besessen hast\n\nWaffenlizenz\nSchmugglerlizenz\nParamilitärlizenz</German>
             <French>Après votre mise en prison, vous avez perdu les licences suivante si vous les aviez\n\nPermis de port d'arme\n LicenceRebel</French>
             <Italian>A causa del tuo arresto hai perso le seguenti licenze, se le possedevi\n\nPorto d'armi\nLicenza Ribelle</Italian>
             <Portuguese>Você perdeu as seguintes licenças por ter sido preso\n\nPorte de Armas\n\nTreinamento Rebelde</Portuguese>
@@ -7069,11 +7069,33 @@
             <Polish>plsdontstealmycar</Polish>
         </Key>
         <Key ID="STR_License_Rebel">
-            <Original>Smuggler Training</Original>
+            <Original>Mercenary Training</Original>
             <Czech>Rebel Training</Czech>
             <Spanish>Entrenamiento Rebelde</Spanish>
             <Russian></Russian>
-            <German>Schmugglerenausbildung</German>
+            <German>Söldnerausbildung</German>
+            <French>Entrainement rebelle</French>
+            <Italian>Licenza da Ribelle</Italian>
+            <Portuguese>Treinamento Rebelde</Portuguese>
+            <Polish>Trening rebelianta</Polish>
+        </Key>
+        <Key ID="STR_License_Rebeltwo">
+            <Original>Mercenary Training</Original>
+            <Czech>Rebel Training</Czech>
+            <Spanish>Entrenamiento Rebelde</Spanish>
+            <Russian></Russian>
+            <German>Söldnerausbildung</German>
+            <French>Entrainement rebelle</French>
+            <Italian>Licenza da Ribelle</Italian>
+            <Portuguese>Treinamento Rebelde</Portuguese>
+            <Polish>Trening rebelianta</Polish>
+        </Key>
+        <Key ID="STR_License_Rebelthree">
+            <Original>Druglord</Original>
+            <Czech>Rebel Training</Czech>
+            <Spanish>Entrenamiento Rebelde</Spanish>
+            <Russian></Russian>
+            <German>Drogenboss</German>
             <French>Entrainement rebelle</French>
             <Italian>Licenza da Ribelle</Italian>
             <Portuguese>Treinamento Rebelde</Portuguese>
@@ -10330,12 +10352,12 @@
             <Polish>Magazyn rebelianta</Polish>
         </Key>
         <Key ID="STR_MAR_Rebel_Weapon_Shop">
-            <Original>Smuggler Weapon Shop</Original>
+            <Original>Weapon Shop</Original>
             <Czech>Rebel obchodu se zbraněmi</Czech>
             <French>Vendeur d'armes rebel</French>
             <Spanish>Tienda de Armas Rebeldes</Spanish>
             <Russian></Russian>
-            <German>Schmuggler Waffenladen</German>
+            <German>Waffenladen</German>
             <Portuguese>Loja de Armas Rebeldes</Portuguese>
             <Polish>Zbrojownia rebelianta</Polish>
             <Italian>Armeria della Guerriglia</Italian>
