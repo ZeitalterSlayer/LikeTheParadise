@@ -9,14 +9,17 @@ life_barrier_activeObj = ObjNull;
 life_placeables = [
 	[ "Road Cone", "RoadCone_F"],
 	[ "Road cone with light", "RoadCone_L_F"],
-	[ "Road Sign", "SignAd_Sponsor_F"],
 	[ "Bar Gate", "Land_BarGate_F"],
 	[ "Safety Barrier", "Land_Crash_barrier_F"],
 	[ "Plastic Barrier Orange", "PlasticBarrier_03_orange_F"],
 	[ "Plastic Barrier Yellow", "PlasticBarrier_02_yellow_F"],
 	[ "Portable Single Light", "Land_PortableLight_single_F"],
 	[ "Portable Double Light", "Land_PortableLight_double_F"],
-	[ "UK flag pole", "Flag_UK_F"]
+	[ "Gendarmerie Flag", "Flag_Gendarmerie_F"],
+	[ "Plastic Barrier 6", "Land_PlasticBarrier_01_fine_x6_F"],
+	[ "Plastic Barrier 4", "Land_PlasticBarrier_01_fine_x4_F"],
+	[ "Plastic Barrier 2", "Land_PlasticBarrier_01_fine_x2_F"],
+	[ "Schild", "Land_Wall_IndCnc_2deco_F"]
 ];
 life_bar_limit = 2500;
 life_bar_placey = [];
