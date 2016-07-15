@@ -15,7 +15,7 @@ detach life_barrier_activeObj;
 life_barrier_activeObj setPos[(getPos life_barrier_activeObj select 0), (getPos life_barrier_activeObj select 1), 0];
 life_barrier_activeObj enableSimulationGlobal true;
 life_barrier_activeObj allowDamage false;
-this addAction ["Remove", "cursorTarget hideObjectGlobal true;"];
+life_barrier_activeObj addAction ["Remove", "poziscript\remove.sqf"];
 life_bar_placey pushBack life_barrier_activeObj;
 life_barrier_active = false;
 life_barrier_activeObj = ObjNull;
