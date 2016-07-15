@@ -8,7 +8,7 @@
 */
 disableSerialization;
 if (!life_barrier_active) exitWith {};
-if (life_barrier_activeObj == ObjNull) exitWith {};
+if (life_barrier_activeObj == objNull) exitWith {};
 
 _currentPos = getPosATL life_barrier_activeObj;
 detach life_barrier_activeObj;
@@ -18,4 +18,4 @@ life_barrier_activeObj allowDamage false;
 life_barrier_activeObj addAction ["Remove", "poziscript\remove.sqf"];
 life_bar_placey pushBack life_barrier_activeObj;
 life_barrier_active = false;
-life_barrier_activeObj = ObjNull;
+life_barrier_activeObj = objNull;
