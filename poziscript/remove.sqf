@@ -1,3 +1,3 @@
-_this select 0;
+_unit = this select 0
 
-deleteVehicle _x;
+deleteVehicle _unit;
