@@ -11,6 +11,6 @@ _vehicle say3D "empwarn";
 sleep 3.35;
 _vehicle say3D "empwarn";
 sleep 3.35;
-_vehicle say3D "empwarn";
+_vehicle say3D "empwarn"; hint "Stoppen Sie das Fahrzeug! Letzte Warnung!";
 sleep 3.35;
 _vehicle setVariable["nano_warned",false,true];
