@@ -734,6 +734,8 @@ class Clothing {
             { "V_BandollierB_ghex_F", "", 10000, { "", "", -1 } },
             { "V_HarnessO_ghex_F", "", 15000, { "", "", -1 } },
             { "V_HarnessOGL_ghex_F", "", 15000, { "", "", -1 } },
+            { "V_HarnessO_ghex_F", "", 15000, { "", "", -1 } },
+            { "V_HarnessOGL_ghex_F", "", 15000, { "", "", -1 } },
             { "V_Chestrig_rgr", "", 20000, { "", "", -1 } },
             { "V_Chestrig_oli", "", 20000, { "", "", -1 } },
             { "V_TacChestrig_grn_F", "", 20000, { "", "", -1 } },
@@ -748,7 +750,9 @@ class Clothing {
             { "V_PlateCarrier1_rgr_noflag_F", "", 65000, { "", "", -1 } },
             { "V_PlateCarrier2_rgr", "", 65000, { "", "", -1 } },
             { "V_PlateCarrier2_rgr_noflag_F", "", 65000, { "", "", -1 } },
+            { "V_PlateCarrier1_tna__F", "", 65000, { "", "", -1 } },
             { "V_RebreatherB", "", 5000, { "", "", -1 } }
+
         };
         backpacks[] = {
            { "NONE", "Remove Backpack", 0, { "", "", -1 } },

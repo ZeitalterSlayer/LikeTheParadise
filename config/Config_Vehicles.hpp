@@ -95,15 +95,11 @@ class CarShops {
             { "O_Truck_03_device_F", { "", "", -1} },
             { "B_Heli_Light_01_stripped_F", { "", "", -1 } },
             { "O_Heli_Light_02_unarmed_F", { "", "", -1 } },
-            { "C_Heli_Light_01_civil_F", { "", "", -1 } },
-            { "B_Heli_Light_01_F", { "", "", -1 } },
-            { "O_Heli_Light_02_unarmed_F", { "", "", -1 } },
             { "I_Heli_Transport_02_F", { "", "", -1 } },
             { "B_Heli_Transport_03_unarmed_F", { "", "", -1 } },
             { "B_T_VTOL_01_vehicle_F", { "", "", -1 } },
-            { "B_T_VTOL_01_infantry_F", { "", "", -1 } },
-            { "B_Heli_Light_01_stripped_F", { "", "", -1 } },
-            { "O_Heli_Light_02_unarmed_F", { "", "", -1 } }
+            { "B_T_VTOL_01_infantry_F", { "", "", -1 } }
+
         };
     };
     class med_shop {
