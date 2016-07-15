@@ -10352,12 +10352,34 @@
             <Polish>Magazyn rebelianta</Polish>
         </Key>
         <Key ID="STR_MAR_Rebel_Weapon_Shop">
-            <Original>Weapon Shop</Original>
+            <Original>Smuggler Weapon Shop</Original>
             <Czech>Rebel obchodu se zbraněmi</Czech>
             <French>Vendeur d'armes rebel</French>
             <Spanish>Tienda de Armas Rebeldes</Spanish>
             <Russian></Russian>
-            <German>Waffenladen</German>
+            <German>Waffenladen der Schmuggler</German>
+            <Portuguese>Loja de Armas Rebeldes</Portuguese>
+            <Polish>Zbrojownia rebelianta</Polish>
+            <Italian>Armeria della Guerriglia</Italian>
+        </Key>
+        <Key ID="STR_MAR_Rebel_Weapon_Shoptwo">
+            <Original>Mercenary Weapon Shop</Original>
+            <Czech>Rebel obchodu se zbraněmi</Czech>
+            <French>Vendeur d'armes rebel</French>
+            <Spanish>Tienda de Armas Rebeldes</Spanish>
+            <Russian></Russian>
+            <German>Waffenladen der Söldner</German>
+            <Portuguese>Loja de Armas Rebeldes</Portuguese>
+            <Polish>Zbrojownia rebelianta</Polish>
+            <Italian>Armeria della Guerriglia</Italian>
+        </Key>
+        <Key ID="STR_MAR_Rebel_Weapon_Shopthree">
+            <Original>Druglord Weapon Shop</Original>
+            <Czech>Rebel obchodu se zbraněmi</Czech>
+            <French>Vendeur d'armes rebel</French>
+            <Spanish>Tienda de Armas Rebeldes</Spanish>
+            <Russian></Russian>
+            <German>Waffenschrank des Drogenbosses</German>
             <Portuguese>Loja de Armas Rebeldes</Portuguese>
             <Polish>Zbrojownia rebelianta</Polish>
             <Italian>Armeria della Guerriglia</Italian>
