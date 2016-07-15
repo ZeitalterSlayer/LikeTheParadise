@@ -24,9 +24,9 @@ if(_vehicle isKindOf "Air") then {
 	_vehicle say3D "empwarn";
 	sleep 3.35;
 	if(local _vehicle) then {
-		_vehicle setFuel 2
+		_vehicle setFuel 2;
 		sleep (3 * 60);
-		_vehicle setFuel 2
+		_vehicle setFuel 2;
 	}
 };
 if(_vehicle isKindOf "Ship") then {
