@@ -14,7 +14,7 @@ if (isNull _unit || !(_unit getVariable ["restrained",false])) exitWith {}; //Er
 
 
 
-if(life_inv_handcuffkeys > 0 && life_inv_handcuffs < 1) then {
+if(life_inv_handcuffkeys > 0) then {
 	life_inv_handcuffs = life_inv_handcuffs + 1;
 	_unit setVariable ["restrained",false,true];
 	_unit setVariable ["Escorting",false,true];
