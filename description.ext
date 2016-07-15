@@ -118,7 +118,13 @@ class CfgSounds {
 		sound[] = {"sounds\empac.ogg", db-5, 1};
 		titles[] = {};
 	};
-
+	
+	class handcuffs    
+	{        
+		name="handcuffs";	
+		sound[] = {"\sounds\handcuffs.ogg", 1.0, 1};	
+		titles[] = {};    
+	};
 };
 
 class CfgDebriefing {

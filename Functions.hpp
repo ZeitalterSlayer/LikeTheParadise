@@ -99,6 +99,7 @@ class Life_Client_Core {
         class robPerson {};
         class robReceive {};
         class tazed {};
+        class civInteractionMenu {};
     };
 
     class Config {
