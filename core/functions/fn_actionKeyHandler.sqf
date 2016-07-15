@@ -86,7 +86,7 @@ if (_curObject isKindOf "Man" && !(_curObject isKindOf "Animal") && {!alive _cur
 };
 
 //If target is a player then check if we can use the cop menu.
-if(isPlayer _curTarget && _curTarget isKindOf "Man") then {
+if (isPlayer _curObject && _curObject isKindOf "Man") then {
     if(_curTarget getVariable ["restrained",false]) then {
         if (!dialog) then {
             if(playerside isEqualTo civilian) then {
