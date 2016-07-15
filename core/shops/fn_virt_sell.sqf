@@ -7,6 +7,7 @@
 */
 private["_type","_index","_price","_amount","_name"];
 if ((lbCurSel 2402) isEqualTo -1) exitWith {};
+if (vehicle player != player) exitWith {hint "Du kannst nicht aus dem Auto verkaufen!"};
 _type = lbData[2402,(lbCurSel 2402)];
 
 _price = -2;

@@ -13,6 +13,7 @@ _vendor = [_this,0,objNull,[objNull]] call BIS_fnc_param;
 _type = [_this,3,"",[""]] call BIS_fnc_param;
 //Error check
 if (isNull _vendor || _type isEqualTo "" || (player distance _vendor > 10)) exitWith {};
+if (vehicle player != player) exitWith {hint "Du kannst nicht aus dem Auto verarbeiten!"};
 life_action_inUse = true;//Lock out other actions during processing.
 
 if (isClass (missionConfigFile >> "ProcessAction" >> _type)) then {

@@ -5,7 +5,7 @@ private["_shop","_robber"];
 _shop = [_this,0,objNull,[objNull]] call BIS_fnc_param;
 _robber = [_this,1,objNull,[objNull]] call BIS_fnc_param;
 _action = [_this,2] call BIS_fnc_param;
-
+if(license_civ_hero) exitWith { hint "Na, na, na...Für sowas hasste keine Paramilitärausbildung gemacht!"};
 if(playersNumber west < 3) exitWith { hint "Die Kasse ist leer, komm später vorbei!"};//This line has been commented out, but can be set so that you can limit the ability to robb based on cops online.
 if(isNull _shop OR isNull _robber) exitWith {};
 if(side _robber != civilian) exitWith { hint "Du bist ein Cop! " };// We do not want anyone but civilianz to rob the stations.
