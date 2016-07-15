@@ -13,8 +13,8 @@ if(!isNull (findDisplay 3494)) then {
     {
         if(vehicle player != _x) then {
             //_color = [(typeOf _x),(_x getText(configFile >> "cfgVehicles" >> typeOf _x >> "DisplayName"))];
-            _text = format["(%1)",_color];
-            _list lbAdd format ["%1 - %2 (%3)", getText(configFile >> "cfgVehicles" >> typeOf _x >> "DisplayName"), _text, round(player distance _x)];
+            //_text = format["(%1)",_color];
+            _list lbAdd format ["%1 - %2 (%3)", getText(configFile >> "cfgVehicles" >> typeOf _x >> "DisplayName"), round(player distance _x)];
             nn_last_vehicles set [count nn_last_vehicles, _x];
         };
     } foreach _objects;
