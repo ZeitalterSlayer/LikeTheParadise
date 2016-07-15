@@ -1,3 +1,3 @@
-_lastOpj = _this select 0;
+_this select 0;
 
-deleteVehicle _lastObj;
+deleteVehicle _x;
