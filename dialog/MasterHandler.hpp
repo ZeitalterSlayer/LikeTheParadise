@@ -34,3 +34,4 @@
 #include "slot_machine.hpp" //Slotmaschine
 #include "dynmarket_changeprice.hpp"
 #include "dynmarket_prices.hpp" //DynMarket
+#include "emp_menu.hpp"
