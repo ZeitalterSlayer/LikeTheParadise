@@ -487,7 +487,7 @@ class CustomAttributes
 		class Attribute0
 		{
 			property="RespawnButton";
-			expression="true";
+			expression="false";
 			class Value
 			{
 				class data
