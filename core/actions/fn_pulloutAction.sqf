@@ -9,9 +9,19 @@
 private["_crew"];
 _crew = crew cursorObject;
 
-{
+if (playerSide == civilian) then {
+	_x setVariable ["transporting",false,true];
+    _x setVariable ["Escorting",false,true];
+    [_x] remoteExecCall ["life_fnc_pulloutVeh",_x];
+    };
+} forEach _crew;
+
+} else {
+
     if (side _x != west) then {
-        _x setVariable ["transporting",false,true]; _x setVariable ["Escorting",false,true];
+        _x setVariable ["transporting",false,true];
+        _x setVariable ["Escorting",false,true];
         [_x] remoteExecCall ["life_fnc_pulloutVeh",_x];
     };
 } forEach _crew;
+
