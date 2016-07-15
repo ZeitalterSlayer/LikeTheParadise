@@ -27,14 +27,14 @@ class VirtualShops {
         side = "civ";
         license = "rebel";
         level[] = { "", "", -1, "" };
-        items[] = { "waterBottle", "rabbit", "redgull", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull","boltcutter", "blastingcharge","uswl" };
+        items[] = { "waterBottle", "rabbit", "redgull", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull","boltcutter", "blastingcharge","uswl","handcluffs","handcluffkeys" };
     };
 	class hero {
         name = "STR_Shops_Hero";
         side = "civ";
         license = "hero";
         level[] = { "", "", -1, "" };
-        items[] = { "waterBottle", "rabbit", "redgull", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull"};
+        items[] = { "waterBottle", "rabbit", "redgull", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull","handcluffs","handcluffkeys"};
     };
     class gang {
         name = "STR_Shops_Gang";
@@ -139,7 +139,7 @@ class VirtualShops {
         side = "cop";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "donuts", "coffee", "spikeStrip", "waterBottle", "rabbit", "redgull", "toolkit", "fuelFull", "defusekit", "lockpick", "defibrillator" };
+        items[] = { "donuts", "coffee", "spikeStrip", "waterBottle", "rabbit", "redgull", "toolkit", "fuelFull", "defusekit", "lockpick", "defibrillator","handcluffs","handcluffkeys" };
     };
 	class gummi {
         name = "Kautschuk Händler";
@@ -191,7 +191,7 @@ class VirtualItems {
         variable = "handcuffs";
         displayName = "STR_Item_Handcuffs";
         weight = 1;
-        buyPrice = 750;
+        buyPrice = 15000;
         sellPrice = 350;
         illegal = false;
         edible = -1;
@@ -202,7 +202,7 @@ class VirtualItems {
         variable = "handcuffkeys";
         displayName = "STR_Item_Handcuffkeys";
         weight = 1;
-        buyPrice = 750;
+        buyPrice = 10000;
         sellPrice = 350;
         illegal = false;
         edible = -1;
