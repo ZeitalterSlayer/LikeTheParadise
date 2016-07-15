@@ -113,20 +113,18 @@ switch (_code) do {
     //EMP Konsole - K
     case 37:
     {
-        if (!_shift) then {
-            if (!_alt) then {
-                if (!_ctrlKey) then {
-                    if (playerSide isEqualTo west) then {
-                        if (vehicle player != player) then {
-                            if ((typeOf vehicle player) in ["B_Heli_Light_01_F"]) then {
-                                [] call life_fnc_openEmpMenu; [_this] call life_fnc_isEmpOperator;
-                            };
-                        };
+        if (if (!_shift && _ctrlKey && playerSide isEqualTo west) then {
+            if (vehicle player != player) then {
+                if ((typeOf vehicle player) in ["B_Heli_Light_01_F"]) then {
+                    [] call life_fnc_openEmpMenu; [_this] call life_fnc_isEmpOperator;
                     };
                 };
             };
         };
-    };
+
+
+
+
     //Map Key
     case _mapKey: {
         switch (playerSide) do {
