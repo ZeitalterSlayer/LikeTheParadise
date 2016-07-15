@@ -1,3 +1,4 @@
+
 if (cursorTarget isKindOf "RoadCone_F")
 then {cursorTarget hideObjectGlobal true;}
 
@@ -14,7 +15,7 @@ if (cursorTarget isKindOf "Land_Crash_barrier_F")
 then {cursorTarget hideObjectGlobal true;}
 
 if (cursorTarget isKindOf "PlasticBarrier_03_orange_F")
-then {cursorTarget hideObjectGlobal true;}
+then {hint "Works!";}
 
 if (cursorTarget isKindOf "PlasticBarrier_02_yellow_F")
 then {cursorTarget hideObjectGlobal true;}
