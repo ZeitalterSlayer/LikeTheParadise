@@ -91,7 +91,7 @@ class Life_Settings {
 
     /* Medical System Configurations */
     revive_cops = true; //true to enable cops the ability to revive everyone or false for only medics/ems.
-    revive_fee = 2000; //Revive fee that players have to pay and medics only EMS(independent) are rewarded with this amount.
+    revive_fee = 15000; //Revive fee that players have to pay and medics only EMS(independent) are rewarded with this amount.
     hospital_heal_fee = 1000; //Fee to heal at a hospital NPC
 
     /* Paycheck & Bank System Configurations */
