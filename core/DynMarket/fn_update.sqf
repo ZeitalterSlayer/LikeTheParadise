@@ -8,8 +8,6 @@
 #################################################################
 */
 
-private ["_txt1","_txt2"];
-
 _mode = _this select 0;
 _itemArray = [_this,1,[]] call BIS_fnc_param;
 _txt1 = DYNMARKET_UserNotification_Text select 0;
