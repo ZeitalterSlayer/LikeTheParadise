@@ -27,7 +27,7 @@ class VirtualShops {
         side = "civ";
         license = "rebel";
         level[] = { "", "", -1, "" };
-        items[] = { "waterBottle", "rabbit", "redgull", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull","boltcutter", "blastingcharge","uswl","handcuffs","handcuffkeys" };
+        items[] = { "waterBottle", "rabbit", "redgull", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull","boltcutter", "blastingcharge","uswl","handcuffs" };
     };
 	class hero {
         name = "STR_Shops_Hero";
@@ -191,22 +191,22 @@ class VirtualItems {
         variable = "handcuffs";
         displayName = "STR_Item_Handcuffs";
         weight = 1;
-        buyPrice = 15000;
+        buyPrice = 1000;
         sellPrice = 350;
         illegal = false;
         edible = -1;
-        icon = "";
+        icon = "icons\ico_handcuffs";
     };
 
     class handcuffkeys {
         variable = "handcuffkeys";
         displayName = "STR_Item_Handcuffkeys";
         weight = 1;
-        buyPrice = 10000;
+        buyPrice = 500;
         sellPrice = 350;
         illegal = false;
         edible = -1;
-        icon = "";
+        icon = "icon\ico_handcuffkeys";
     };
 
     class pickaxe {
