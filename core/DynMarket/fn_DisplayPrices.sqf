@@ -44,11 +44,11 @@ _cashdisplay ctrlSetText format ["%1$",_cost];
 _arrowText = "";
 if (_cost<_costOld) then {
 	_percent = (100-((_cost/_costOld)*100));
-	_arrowText = format ["<t color='#FF0000'>↓ %1%2",_percent,"%"];
+	_arrowText = format ["<t color='#FF0000'>↓ %1%</t>",_percent];
 } else {
 	if (_costOld<_cost) then {
 		_percent = (100-((_costOld/_cost)*100));
-		_arrowText = format ["<t color='#04B404'>↑ %1%2",_percent,"%"];
+		_arrowText = format ["<t color='#04B404'>↑ %1%</t>",_percent];
 	} else {
 		_percent = (100-((_costOld/_cost)*100));
 		_arrowText = format [""];
