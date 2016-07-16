@@ -110,35 +110,37 @@ switch (_code) do {
         };
     };
 
-    //Takwondo(Traditional Martial arts in korea) (Shift + Num 1)
-    case 79:{
-    if(_shift) then {_handled = true;};
-    if ((_shift) && (vehicle player == player)) then {  cutText [format["Hi!"], "PLAIN DOWN"];
-    player playMove "gestureHi";
+    //Gestures
+    case 2:
+    {
+        if(vehicle player isEqualTo player) then {
+            if(!life_action_inUse) then {
+                player playActionNow "gestureHi";
+            };
         };
     };
-
-    //Kneebend Slow (Shift + Num 2)
-    case 80:{
-    if(_shift) then {_handled = true;};
-    if ((_shift) && (vehicle player == player)) then { cutText [format["KneeBend Slow baby~"], "PLAIN DOWN"];
-    player playMove "gestureHic";
+    case 3:
+    {
+        if(vehicle player isEqualTo player) then {
+            if(!life_action_inUse) then {
+                player playActionNow "gestureHiC";
+            };
         };
     };
-
-    //Kneebend Fast (Shift + Num 3)
-    case 81:{
-    if(_shift) then {_handled = true;};
-    if ((_shift) && (vehicle player == player)) then { cutText [format["KneeBend more Hard!!!Move!!Move!!"], "PLAIN DOWN"];
-    player playMove "gestureHiB";
+    case 4:
+    {
+        if(vehicle player isEqualTo player) then {
+            if(!life_action_inUse) then {
+                player playActionNow "gestureHiB";
+            };
         };
     };
-
-    //Pushup (Shift + Num 4)
-    case 75:{
-    if(_shift) then {_handled = true;};
-    if ((_shift) && (vehicle player == player)) then { cutText [format["Pushup!!!!!!"], "PLAIN DOWN"];
-    player playMove "gesturenod";
+    case 5:
+    {
+        if(vehicle player isEqualTo player) then {
+            if(!life_action_inUse) then {
+                player playActionNow "gesturenod";
+            };
         };
     };
 
