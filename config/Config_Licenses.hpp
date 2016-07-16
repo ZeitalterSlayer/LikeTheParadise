@@ -293,6 +293,14 @@ class Licenses {
         side = "civ";
     };
 
+    class herotwo {
+        variable = "herotwo";
+        displayName = "STR_License_Herotwo";
+        price = 500000;
+        illegal = false;
+        side = "civ";
+    };
+
     //Cop Licenses
     class cAir {
         variable = "cAir";

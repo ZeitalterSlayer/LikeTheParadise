@@ -573,6 +573,83 @@ class rebelthree {
         };
     };
 
+    class herotwo {
+        name = "Scharfschützenladen";
+        side = "civ";
+        license = "herotwo";
+        level[] = { "", "", -1, "" };
+        items[] = {
+            { "arifle_SPAR_03_snd_F", "",550000, -1 },
+            { "srifle_EBR_F", "",500000, -1 }
+        };
+        mags[] = {
+            { "20Rnd_762x51_Mag", "",1000, -1 }
+        };
+        accs[] = {
+            { "acc_flashlight", "",500 },
+            { "acc_pointer_IR", "",500 },
+            { "optic_Aco", "",5000 },
+            { "optic_ACO_grn", "",5000 },
+            { "optic_Holosight_blk_F", "",7500 },
+            { "optic_Holosight", "",7500 },
+            { "optic_Holosight_khk_F", "",7500 },
+            { "optic_MRCO", "",10000 },
+            { "optic_Hamr", "",10000 },
+            { "optic_Hamr_khk_F", "",10000 },
+            { "optic_Arco", "",10000 },
+            { "optic_Arco_ghex_F", "",10000 },
+            { "optic_Arco_blk_F", "",10000 },
+            { "optic_Erco_khk_F", "",10000 },
+            { "optic_Erco_snd_F", "",10000 },
+            { "optic_Erco_blk_F", "",10000 },
+            { "optic_DMS", "",15000 },
+            { "optic_DMS_ghex_F", "",15000 },
+            { "optic_AMS", "",17500 },
+            { "optic_AMS_snd", "",17500 },
+            { "optic_AMS_khk", "",17500 },
+            { "optic_KHS_blk", "",17500 },
+            { "optic_KHS_old", "",17500 },
+            { "optic_KHS_tan", "",17500 },
+            { "optic_KHS_hex", "",17500 },
+            { "optic_SOS", "",20000 },
+            { "optic_SOS_khk_F", "",20000 },
+            { "optic_LRPS", "",25000 },
+            { "optic_LRPS_ghex_F", "",25000 },
+            { "optic_LRPS_tna_F", "",25000 },
+            { "optic_NVS", "",75000 },
+            { "muzzle_snds_B", "",50000 },
+            { "muzzle_snds_B_khk_F", "",50000 },
+            { "muzzle_snds_B_snd_F", "",50000 },
+            { "muzzle_snds_58_blk_F", "",50000 },
+            { "muzzle_snds_58_wdm_F", "",50000 },
+            { "muzzle_snds_H", "",50000 },
+            { "muzzle_snds_H_khk_F", "",50000 },
+            { "muzzle_snds_M", "",50000 },
+            { "muzzle_snds_M_khk_F", "",50000 },
+            { "muzzle_snds_M_snd_F", "",50000 },
+            { "muzzle_snds_65_Ti_blk_F", "",50000 },
+            { "muzzle_snds_65_Ti_hex_F", "",50000 },
+            { "muzzle_snds_65_Ti_ghex_F", "",50000 },
+            { "bipod_01_F_khk", "",15000 },
+            { "bipod_01_F_blk", "",15000 },
+            { "bipod_01_F_snd", "",15000 },
+            { "bipod_01_F_mtp", "",15000 },
+            { "bipod_02_F_blk", "",15000 },
+            { "bipod_02_F_hex", "",15000 },
+            { "bipod_02_F_tan", "",15000 },
+            { "bipod_03_F_blk", "",15000 },
+            { "bipod_03_F_oli", "",15000 },
+            { "muzzle_snds_L", "",30000 },
+            { "muzzle_snds_acp", "",30000 },
+            { "optic_MRD", "",2500 },
+            { "optic_Yorris", "",2500 },
+            { "optic_Aco_smg", "",2500 },
+            { "optic_ACO_grn_smg", "",2500 },
+            { "optic_Holosight_smg_blk_F", "",2500 },
+            { "optic_Holosight_smg", "",2500 }
+        };
+    };
+
     class gang {
         name = "Hideout Armament";
         side = "civ";
@@ -603,6 +680,7 @@ class rebelthree {
         level[] = { "", "", -1, "" };
         items[] = {
             { "Binocular", "", 150, -1 },
+            { "Rangefinder", "", 5000, -1 },
             { "ItemGPS", "", 100, 45 },
             { "ItemMap", "", 50, 35 },
             { "ItemCompass", "", 50, 25 },
@@ -944,6 +1022,7 @@ class rebelthree {
 			{ "ItemCompass", "", 150, { "life_coplevel", "SCALAR", 1 } },					//Kompass
 			{ "ItemMap", "", 150, { "life_coplevel", "SCALAR", 1 } },						//Map
             { "Binocular", "", 150, { "life_coplevel", "SCALAR", 1 } },						//Fernglas
+            { "Rangefinder", "", 500, { "life_coplevel", "SCALAR", 1 } },                   //Rangefinder
             { "NVGoggles_OPFOR", "", 2000, { "life_coplevel", "SCALAR", 1 } },				//Nachtsichtgerät
             { "FirstAidKit", "", 150, { "life_coplevel", "SCALAR", 1 } }					//Medikit
         };
