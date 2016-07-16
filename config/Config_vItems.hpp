@@ -195,7 +195,7 @@ class VirtualItems {
         sellPrice = 350;
         illegal = false;
         edible = -1;
-        icon = "icons\ico_handcuffs";
+        icon = "icons\ico_handcuffs.paa";
     };
 
     class handcuffkeys {
@@ -206,7 +206,7 @@ class VirtualItems {
         sellPrice = 350;
         illegal = false;
         edible = -1;
-        icon = "icon\ico_handcuffkeys";
+        icon = "icons\ico_handcuffkeys.paa";
     };
 
     class pickaxe {
