@@ -1022,7 +1022,7 @@ class rebelthree {
 			{ "ItemCompass", "", 150, { "life_coplevel", "SCALAR", 1 } },					//Kompass
 			{ "ItemMap", "", 150, { "life_coplevel", "SCALAR", 1 } },						//Map
             { "Binocular", "", 150, { "life_coplevel", "SCALAR", 1 } },						//Fernglas
-            { "Rangefinder", "", 500, { "life_coplevel", "SCALAR", 1 } },                   //Rangefinder
+            { "Rangefinder", "", 5000, { "life_coplevel", "SCALAR", 1 } },                   //Rangefinder
             { "NVGoggles_OPFOR", "", 2000, { "life_coplevel", "SCALAR", 1 } },				//Nachtsichtgerät
             { "FirstAidKit", "", 150, { "life_coplevel", "SCALAR", 1 } }					//Medikit
         };
