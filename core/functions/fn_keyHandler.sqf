@@ -110,6 +110,38 @@ switch (_code) do {
         };
     };
 
+    //Takwondo(Traditional Martial arts in korea) (Shift + Num 1)
+    case 79:{
+    if(_shift) then {_handled = true;};
+    if ((_shift) && (vehicle player == player)) then {  cutText [format["Hi!"], "PLAIN DOWN"];
+    player playMove "gestureHi";
+        };
+    };
+
+    //Kneebend Slow (Shift + Num 2)
+    case 80:{
+    if(_shift) then {_handled = true;};
+    if ((_shift) && (vehicle player == player)) then { cutText [format["KneeBend Slow baby~"], "PLAIN DOWN"];
+    player playMove "gestureHic";
+        };
+    };
+
+    //Kneebend Fast (Shift + Num 3)
+    case 81:{
+    if(_shift) then {_handled = true;};
+    if ((_shift) && (vehicle player == player)) then { cutText [format["KneeBend more Hard!!!Move!!Move!!"], "PLAIN DOWN"];
+    player playMove "gestureHiB";
+        };
+    };
+
+    //Pushup (Shift + Num 4)
+    case 75:{
+    if(_shift) then {_handled = true;};
+    if ((_shift) && (vehicle player == player)) then { cutText [format["Pushup!!!!!!"], "PLAIN DOWN"];
+    player playMove "gesturenod";
+        };
+    };
+
     //EMP Konsole - K
     case 37:
     {
