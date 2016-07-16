@@ -123,26 +123,28 @@ class CarShops {
         side = "cop";
         vehicles[] = {
             { "B_GEN_Offroad_01_gen_F", { "", "", -1 } },
-			{ "C_Offroad_02_unarmed_F", { "life_coplevel", "SCALAR", 1 } },
-			{ "C_Hatchback_01_F", { "life_coplevel", "SCALAR", 2 } },
-			{ "B_Truck_01_transport_F", { "life_coplevel", "SCALAR", 3 } },
-            { "C_SUV_01_F", { "life_coplevel", "SCALAR", 4 } },
-            { "C_Hatchback_01_sport_F", { "life_coplevel", "SCALAR", 6 } },
-			{ "B_LSV_01_unarmed_F", { "life_coplevel", "SCALAR", 7 } },
+			{ "C_Offroad_02_unarmed_F", { "life_coplevel", "SCALAR", 2 } },
+            { "C_SUV_01_F", { "life_coplevel", "SCALAR", 3 } },
+            { "C_Hatchback_01_F", { "life_coplevel", "SCALAR", 4 } },
+            { "C_Hatchback_01_sport_F", { "life_coplevel", "SCALAR", 4 } },
+            { "B_T_LSV_01_unarmed_F", { "life_coplevel", "SCALAR", 5 } },
+            { "B_Truck_01_transport_F", { "life_coplevel", "SCALAR", 6 } },
+            { "B_MRAP_01_F", { "life_coplevel", "SCALAR", 9 } },
 			{ "B_CTRG_LSV_01_light_F", { "life_coplevel", "SCALAR", 7 } }
         };
     };
     class cop_air {
         side = "cop";
         vehicles[] = {
-            { "B_Heli_Light_01_F", { "life_coplevel", "SCALAR", 2 } },
 			{ "C_Heli_Light_01_civil_F", { "life_coplevel", "SCALAR", 2 } },
-			{ "O_Heli_Light_02_unarmed_F", { "life_coplevel", "SCALAR", 5 } },
-			{ "B_T_VTOL_01_vehicle_F", { "life_coplevel", "SCALAR", 7 } },
-			{ "B_T_VTOL_01_infantry_F", { "life_coplevel", "SCALAR", 7 } },
-			{ "C_Plane_civil_01_F", { "life_coplevel", "SCALAR", 4 } },
-			{ "C_Plane_civil_01_racing_F", { "life_coplevel", "SCALAR", 4 } },
-			{ "I_Heli_light_03_unarmed_F", { "life_coplevel", "SCALAR", 7 } }
+            { "B_Heli_Light_01_F", { "life_coplevel", "SCALAR", 3 } },
+			{ "O_Heli_Light_02_unarmed_F", { "life_coplevel", "SCALAR", 4 } },
+            { "I_Heli_light_03_unarmed_F", { "life_coplevel", "SCALAR", 4 } },
+            { "B_Heli_Transport_03_F", { "life_coplevel", "SCALAR", 5 } },
+			{ "B_T_VTOL_01_vehicle_F", { "life_coplevel", "SCALAR", 9 } },
+			{ "B_T_VTOL_01_infantry_F", { "life_coplevel", "SCALAR", 9 } },
+			{ "C_Plane_civil_01_F", { "life_coplevel", "SCALAR", 9 } },
+			{ "C_Plane_civil_01_racing_F", { "life_coplevel", "SCALAR", 9 } }
         };
     };
     class cop_ship {

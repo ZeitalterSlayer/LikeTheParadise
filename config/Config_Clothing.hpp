@@ -139,15 +139,27 @@ class Clothing {
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
 			{ "U_B_GEN_Soldier_F", "", 25, { "", "", -1 } },
-            { "U_B_Wetsuit", "", 2000, {"", "", -1} },
-            { "U_I_Wetsuit", "", 2000, {"", "", -1} },
-            { "U_O_Wetsuit", "", 2000, {"", "", -1} },
-			{ "U_B_GEN_Commander_F", "", 550, { "life_coplevel", "SCALAR", 7 } }
+            { "U_B_Wetsuit", "", 2000, { "life_coplevel", "SCALAR", 3 } },
+            { "U_I_Wetsuit", "", 2000, { "life_coplevel", "SCALAR", 3 } },
+            { "U_O_Wetsuit", "", 2000, { "life_coplevel", "SCALAR", 3 } },
+			{ "U_B_GEN_Commander_F", "", 550, { "life_coplevel", "SCALAR", 3 } },
+            { "U_B_PilotCoveralls", "", 550, { "life_coplevel", "SCALAR", 3 } },
+            { "U_B_CTRG_3", "", 550, { "life_coplevel", "SCALAR", 5 } },
+            { "U_B_T_Soldier_SL_F", "", 550, { "life_coplevel", "SCALAR", 6 } },
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },
 			{ "H_MilCap_gen_F", "", 25, { "", "", -1 } },
             { "H_Beret_gen_F", "", 50, { "life_coplevel", "SCALAR", 7 } },
+            { "H_Beret_02", "", 50, { "life_coplevel", "SCALAR", 3 } },
+            { "H_PilotHelmetHeli_B", "", 50, { "life_coplevel", "SCALAR", 3 } },
+            { "H_Booniehat_khk", "", 50, { "life_coplevel", "SCALAR", 4 } },
+            { "H_Watchcap_blk", "", 50, { "life_coplevel", "SCALAR", 5 } },
+            { "H_HelmetSpecB_snakeskin", "", 50, { "life_coplevel", "SCALAR", 5 } },
+            { "H_Booniehat_tna_F", "", 50, { "life_coplevel", "SCALAR", 6 } },
+            { "H_HelmetB_Enh_tna_F", "", 50, { "life_coplevel", "SCALAR", 6 } },
+            { "H_Beret_Colonel", "", 50, { "life_coplevel", "SCALAR", 7 } },
+            { "H_Beret_gen_F", "", 50, { "life_coplevel", "SCALAR", 9 } }
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
@@ -164,13 +176,23 @@ class Clothing {
             { "G_Diving", "", 500, { "", "", -1 } },
             { "G_Lady_Mirror", "", 150, { "", "", -1 } },
             { "G_Lady_Dark", "", 150, { "", "", -1 } },
-            { "G_Lady_Blue", "", 150, { "", "", -1 } }
+            { "G_Lady_Blue", "", 150, { "", "", -1 } },
+            { "G_Spectacles", "", 10, { "life_coplevel", "SCALAR", 2 } },
+            { "G_Spectacles_Tinted", "", 10, { "life_coplevel", "SCALAR", 3 } },
+            { "G_B_Diving", "", 10, { "life_coplevel", "SCALAR", 3 } },
+            { "G_Bandanna_blk", "", 10, { "life_coplevel", "SCALAR", 4 } },
+            { "G_Combat_Goggles_tna_F", "", 10, { "life_coplevel", "SCALAR", 6 } },
+            { "G_Aviator", "", 10, { "life_coplevel", "SCALAR", 7 } },
+            { "G_Bandanna_aviator", "", 10, { "life_coplevel", "SCALAR", 9 } }
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
             { "V_Rangemaster_belt", "", 800, { "", "", -1 } },
-            { "V_RebreatherB", "", 5000, { "", "", -1 } },
-            { "V_TacVest_gen_F", "", 1000, { "life_coplevel", "SCALAR", 1 } }
+            { "V_TacVest_gen_F", "", 1000, { "life_coplevel", "SCALAR", 1 } },
+            { "V_RebreatherB", "", 5000, { "life_coplevel", "SCALAR", 3 } },
+            { "V_PlateCarrier1_blk", "", 1000, { "life_coplevel", "SCALAR", 3 } },
+            { "V_PlateCarrier2_blk", "", 1000, { "life_coplevel", "SCALAR", 4 } },
+            { "V_PlateCarrier2_tna_F", "", 1000, { "life_coplevel", "SCALAR", 6 } }
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
