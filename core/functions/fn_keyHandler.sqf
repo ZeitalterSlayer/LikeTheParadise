@@ -113,8 +113,8 @@ switch (_code) do {
     //Takwondo(Traditional Martial arts in korea) (Shift + Num 1)
     case 79:{
     if(_shift) then {_handled = true;};
-    if ((_shift) && (vehicle player == player)) then {  cutText [format["Takwondo!!!"], "PLAIN DOWN"];
-    player playMove "AmovPercMstpSnonWnonDnon_exerciseKata";
+    if ((_shift) && (vehicle player == player)) then {  cutText [format["Hi!"], "PLAIN DOWN"];
+    player playMove "gestureHi";
         };
     };
 
@@ -122,7 +122,7 @@ switch (_code) do {
     case 80:{
     if(_shift) then {_handled = true;};
     if ((_shift) && (vehicle player == player)) then { cutText [format["KneeBend Slow baby~"], "PLAIN DOWN"];
-    player playMove "AmovPercMstpSnonWnonDnon_exercisekneeBendA";
+    player playMove "gestureHic";
         };
     };
 
@@ -130,7 +130,7 @@ switch (_code) do {
     case 81:{
     if(_shift) then {_handled = true;};
     if ((_shift) && (vehicle player == player)) then { cutText [format["KneeBend more Hard!!!Move!!Move!!"], "PLAIN DOWN"];
-    player playMove "AmovPercMstpSnonWnonDnon_exercisekneeBendB";
+    player playMove "gestureHiB";
         };
     };
 
@@ -138,7 +138,7 @@ switch (_code) do {
     case 75:{
     if(_shift) then {_handled = true;};
     if ((_shift) && (vehicle player == player)) then { cutText [format["Pushup!!!!!!"], "PLAIN DOWN"];
-    player playMove "AmovPercMstpSnonWnonDnon_exercisePushup";
+    player playMove "gesturenod";
         };
     };
 
