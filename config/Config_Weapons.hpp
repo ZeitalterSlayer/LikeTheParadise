@@ -643,7 +643,7 @@ class rebelthree {
     };
 
     //Cop Shops
-    class cop_basic {
+ /*   class cop_basic {
         name = "Tanoa Private Shop";
         side = "cop";
         license = "";
@@ -923,29 +923,29 @@ class rebelthree {
 			{ "acc_flashlight", "", 650 }						//Taschenlampe
 		};
     };
-
+*/
 	class cop_chief {
         name = "Tanoa Assistant Chief Shop";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 9, "You must be a Chief!" };
+        level[] = { "life_coplevel", "SCALAR", 1, "You must be a Cop!" };
         items[] = {
-            { "hgun_P07_snds_F", "Taser", 2000, -1 },			//Taser
-			{ "arifle_sdar_F", "Taser Rifle", 5000, -1 },		//Taser Rifle
-            { "SMG_05_F", "", 2000, -1 },                       //Protector
-            { "arifle_SPAR_01_blk_F", "", 20000, -1 },          //SPAR-16
-            { "arifle_MXC_Black_F", "", 20000, -1 },            //MXC
-            { "arifle_CTAR_blk_F", "", 20000, -1 },             //CAR-95
-            { "arifle_MXM_Black_F", "", 20000, -1 },            //MXM
-            { "arifle_ARX_blk_F", "", 20000, -1 },              //Type 115
-            { "arifle_SPAR_03_blk_F", "", 20000, -1 },          //SPAR-17
-			{ "srifle_DMR_03_F", "", 20000, -1 },				//Mk-I
-			{ "ItemGPS", "", 100, -1 },							//GPS
-			{ "ItemCompass", "", 150, -1 },						//Kompass
-			{ "ItemMap", "", 150, -1 },							//Map
-            { "Binocular", "", 150, -1 },						//Fernglas
-            { "NVGoggles_OPFOR", "", 2000, -1 },				//Nachtsichtgerät
-            { "FirstAidKit", "", 150, -1 }						//Medikit
+            { "hgun_P07_snds_F", "Taser", 2000, { "life_coplevel", "SCALAR", 1 } },			//Taser
+			{ "arifle_sdar_F", "Taser Rifle", 5000, { "life_coplevel", "SCALAR", 2 } },		//Taser Rifle
+            { "SMG_05_F", "", 2000, { "life_coplevel", "SCALAR", 2 } },                       //Protector
+            { "arifle_SPAR_01_blk_F", "", 20000, { "life_coplevel", "SCALAR", 3 } },          //SPAR-16
+            { "arifle_MXC_Black_F", "", 20000, { "life_coplevel", "SCALAR", 4 } },            //MXC
+            { "arifle_CTAR_blk_F", "", 20000, { "life_coplevel", "SCALAR", 5 } },             //CAR-95
+            { "arifle_MXM_Black_F", "", 20000, { "life_coplevel", "SCALAR", 6 } },           //MXM
+            { "arifle_ARX_blk_F", "", 20000, { "life_coplevel", "SCALAR", 7 } },            //Type 115
+            { "arifle_SPAR_03_blk_F", "", 20000, { "life_coplevel", "SCALAR", 8 } },          //SPAR-17
+			{ "srifle_DMR_03_F", "", 20000,{ "life_coplevel", "SCALAR", 9 } },				//Mk-I
+			{ "ItemGPS", "", 100, { "life_coplevel", "SCALAR", 1 } },						//GPS
+			{ "ItemCompass", "", 150, { "life_coplevel", "SCALAR", 1 } },					//Kompass
+			{ "ItemMap", "", 150, { "life_coplevel", "SCALAR", 1 } },						//Map
+            { "Binocular", "", 150, { "life_coplevel", "SCALAR", 1 } },						//Fernglas
+            { "NVGoggles_OPFOR", "", 2000, { "life_coplevel", "SCALAR", 1 } },				//Nachtsichtgerät
+            { "FirstAidKit", "", 150, { "life_coplevel", "SCALAR", 1 } }					//Medikit
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 25 },						//Taser Munition
