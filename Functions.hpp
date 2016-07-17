@@ -109,7 +109,6 @@ class Life_Client_Core {
         class vehicleAnimate {};
         class vehicleWeightCfg {};
 		class craftCfg {};
-        class profType {};
     };
 
     class Cop {
@@ -219,8 +218,6 @@ class Life_Client_Core {
         class whereAmI {};
 		class Opener {};
 		class loggedOut {};
-        class profSetUp {};
-        class addExp {};
 
     };
 

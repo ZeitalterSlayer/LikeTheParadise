@@ -34,5 +34,4 @@
 #include "slot_machine.hpp" //Slotmaschine
 #include "dynmarket_changeprice.hpp"
 #include "dynmarket_prices.hpp" //DynMarket
-#include "emp_menu.hpp" // EMP
-#include "prof.hpp" // Xp dingens
+#include "emp_menu.hpp"
