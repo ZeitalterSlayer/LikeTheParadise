@@ -13,6 +13,15 @@ if (player getVariable "restrained") exitWith {hint localize "STR_NOTF_isrestrai
 if (player getVariable "playerSurrender") exitWith {hint localize "STR_NOTF_surrender";};
 
 life_action_inUse = true;
+
+_time = 0;
+_profName = [_gather] call life_fnc_profType;
+
+if( _profName != "" ) then {
+    _data = missionNamespace getVariable (_profName);
+    _time = ( 3 - (0.25 * (_data select 0)));
+};
+
 _zone = "";
 _requiredItem = "";
 _zoneSize = (getNumber(missionConfigFile >> "CfgGather" >> "zoneSize"));
@@ -70,6 +79,9 @@ for "_i" from 0 to 6 do {
 if ([true,_resource,_diff] call life_fnc_handleInv) then {
     _itemName = M_CONFIG(getText,"VirtualItems",_resource,"displayName");
     titleText[format[localize "STR_NOTF_Gather_Success",(localize _itemName),_diff],"PLAIN"];
+    if( _profName != "" ) then {
+        [_profName,25] call life_fnc_addExp;
+    };
 };
 
 sleep 1;

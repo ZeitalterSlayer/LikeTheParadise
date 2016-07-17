@@ -21,6 +21,7 @@ _flag = switch (playerSide) do {case west: {"cop"}; case civilian: {"civ"}; case
 _packet pushBack _array;
 
 [] call life_fnc_saveGear;
+
 _packet pushBack life_gear;
 
 _array = [];
@@ -28,6 +29,22 @@ _array pushBack life_hunger;
 _array pushBack life_thirst;
 _array pushBack (damage player);
 _packet pushBack _array;
+
+// Prof SYS Start
+_profs = [];
+
+{
+if(_x select 1 == _flag) then{
+
+    _data = missionNamespace getVariable (_x select 0);
+
+    _profs pushBack [_x select 0,_data select 0,_data select 1];
+    };
+} foreach life_prof;
+
+_packet pushBack _profs;
+
+// Prof SYS End
 
 switch (playerSide) do {
     case civilian: {
