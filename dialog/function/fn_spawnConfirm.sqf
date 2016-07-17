@@ -54,10 +54,21 @@ if (life_spawn_point isEqualTo []) then {
     titleText[format["%2 %1",life_spawn_point select 1,localize "STR_Spawn_Spawned"],"BLACK IN"];
 };
 
+[] spawn {
+        cutText ["","BLACK IN"];
+        if(life_firstSpawn) then {
+        private["_handle"];
+        _handle = [] spawn life_fnc_initIntro;
+        waitUntil {scriptDone _handle};
+        life_firstSpawn = false;
+    };
+};
+
 if (life_firstSpawn) then {
 player say2d "welcome";
     life_firstSpawn = false;
     [] call life_fnc_welcomeNotification;
 };
 [] call life_fnc_playerSkins;
+
 //[] call life_fnc_hudSetup;

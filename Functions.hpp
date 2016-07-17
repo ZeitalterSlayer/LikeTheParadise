@@ -168,6 +168,7 @@ class Life_Client_Core {
         class wireTransfer {};
     };
 
+
     class Functions {
         file = "core\functions";
         class AAN {};
@@ -220,6 +221,13 @@ class Life_Client_Core {
 		class loggedOut {};
 
     };
+
+
+    class RageCore
+        {
+        file = "core\scripts";
+        class initIntro {};
+        };
 
 
     class Gangs {
