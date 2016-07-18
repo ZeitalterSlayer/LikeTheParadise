@@ -61,7 +61,7 @@ if (life_spawn_point isEqualTo []) then {
         _handle = [] spawn life_fnc_initIntro;
         waitUntil {scriptDone _handle};
         life_firstSpawn = false;
-        execVM "core\scripts\fn_initIntro.sqf";
+        //execVM "core\scripts\fn_initIntro.sqf";
     };
 };
 
