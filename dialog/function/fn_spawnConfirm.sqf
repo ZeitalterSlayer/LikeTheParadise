@@ -61,14 +61,17 @@ if (life_spawn_point isEqualTo []) then {
         _handle = [] spawn life_fnc_initIntro;
         waitUntil {scriptDone _handle};
         life_firstSpawn = false;
+        execVM "core\scripts\fn_initIntro.sqf";
     };
 };
 
+/*
 if (life_firstSpawn) then {
 player say2d "welcome";
     life_firstSpawn = false;
     [] call life_fnc_welcomeNotification;
 };
+*/
 [] call life_fnc_playerSkins;
 
 //[] call life_fnc_hudSetup;
