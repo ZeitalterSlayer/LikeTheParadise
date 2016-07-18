@@ -40,7 +40,7 @@ class RageCoreintro {
                 sizeEx = 0.05;
                 colorBackground[] = {1,1,1,0};
                 colorText[] = {1,1,1,1};
-                text = "textures\intro.paa";
+                text = "";
                 lineSpacing = 1;
             };
         };
