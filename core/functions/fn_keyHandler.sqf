@@ -223,6 +223,42 @@ switch (_code) do {
         };
     };
 
+
+    //Hand Gesten 1-3
+    case 2:
+    {
+        if(vehicle player isEqualTo player) then {
+            if(!life_action_inUse) then {
+                player playActionNow "gestureHi";
+            };
+        };
+    };
+    case 3:
+    {
+        if(vehicle player isEqualTo player) then {
+            if(!life_action_inUse) then {
+                player playActionNow "gestureHiC";
+            };
+        };
+    };
+    case 4:
+    {
+        if(vehicle player isEqualTo player) then {
+            if(!life_action_inUse) then {
+                player playActionNow "gestureHiB";
+            };
+        };
+    };
+    case 5:
+    {
+        if(vehicle player isEqualTo player) then {
+            if(!life_action_inUse) then {
+                player playActionNow "gesturenod";
+            };
+        };
+    };
+
+
     //Knock out, this is experimental and yeah... (Shift + G)
     case 34: {
         if (_shift) then {_handled = true;};
