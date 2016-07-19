@@ -1,4 +1,4 @@
-#include "\life_server\script_macros.hpp"
+#include "..\..\script_macros.hpp"
 /*
     File: fn_capsule.sqf
     Author: Like LLLOLOOLOLOLOLOLOL
