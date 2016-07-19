@@ -27,7 +27,7 @@ class VirtualShops {
         side = "civ";
         license = "rebel";
         level[] = { "", "", -1, "" };
-        items[] = { "waterBottle", "rabbit", "redgull", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull","boltcutter", "blastingcharge","uswl","handcuffs" };
+        items[] = { "waterBottle", "rabbit", "redgull", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull","boltcutter", "blastingcharge","uswl","handcuffs","capsule" };
     };
 	class hero {
         name = "STR_Shops_Hero";
@@ -207,6 +207,17 @@ class VirtualItems {
         illegal = false;
         edible = -1;
         icon = "icons\ico_handcuffkeys.paa";
+    };
+
+    class capsule {
+        variable = "capsule";
+        displayName = "STR_Item_Capsule";
+        weight = 1;
+        buyPrice = 50000;
+        sellPrice = -1;
+        illegal = true;
+        edible = -1;
+        icon = "icons\ico_capsule.paa";
     };
 
     class pickaxe {
@@ -494,7 +505,7 @@ class VirtualItems {
         sellPrice = -1;
         illegal = false;
         edible = -1;
-        icon = "icons\ico_kokosm.paa";
+        icon = "icons\ico_kautschuk.paa";
     };
 
     class korallen {
@@ -572,7 +583,7 @@ class VirtualItems {
 		sellPrice = 600;
 		illegal = false;
 		edible = -1;
-		icon = "icons\ico_kokosm.paa";
+		icon = "icons\ico_kokosf.paa";
 	};
 
 	class kokosmilch {
@@ -583,7 +594,7 @@ class VirtualItems {
 		sellPrice = 900;
 		illegal = false;
 		edible = -1;
-		icon = "icons\ico_kokosf.paa";
+		icon = "icons\ico_kokosm.paa";
 	};
 
 	class zuckerr {

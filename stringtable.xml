@@ -5991,6 +5991,10 @@
             <Original>Handcuff Keys</Original>
             <German>Handschellenschlüssel</German>
         </Key>
+        <Key ID="STR_Item_Capsule">
+            <Original>Potassium cyanide capsule</Original>
+            <German>Zyankalikapsel</German>
+        </Key>
         <Key ID="STR_Item_Cannabis">
             <Original>Marijuana leaf</Original>
             <Czech>marihuana list</Czech>
