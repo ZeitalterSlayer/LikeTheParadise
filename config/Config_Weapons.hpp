@@ -1006,7 +1006,6 @@ class rebelthree {
         name = "Tanoa Assistant Chief Shop";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 1, "You must be a Cop!" };
         items[] = {
             { "hgun_P07_snds_F", "Taser", 2000, { "life_coplevel", "SCALAR", 1 } },			//Taser
 			{ "arifle_sdar_F", "Taser Rifle", 5000, { "life_coplevel", "SCALAR", 2 } },		//Taser Rifle
