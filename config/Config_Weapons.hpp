@@ -1006,7 +1006,7 @@ class rebelthree {
         name = "Tanoa Assistant Chief Shop";
         side = "cop";
         license = "";
-        items[] = {
+        item[] = {
             { "hgun_P07_snds_F", "Taser", 2000, { "life_coplevel", "SCALAR", 1 } },			//Taser
 			{ "arifle_sdar_F", "Taser Rifle", 5000, { "life_coplevel", "SCALAR", 2 } },		//Taser Rifle
             { "SMG_05_F", "", 2000, { "life_coplevel", "SCALAR", 2 } },                       //Protector
@@ -1023,7 +1023,7 @@ class rebelthree {
             { "Binocular", "", 150, { "life_coplevel", "SCALAR", 1 } },						//Fernglas
             { "Rangefinder", "", 5000, { "life_coplevel", "SCALAR", 1 } },                   //Rangefinder
             { "NVGoggles_OPFOR", "", 2000, { "life_coplevel", "SCALAR", 1 } },				//Nachtsichtgerät
-            { "FirstAidKit", "", 150, { "life_coplevel", "SCALAR", 1 } }					//Medikit
+            { "FirstAidKit", "", 150, { "life_coplevel", "SCALAR", 1 } }	               //Medikit
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 25 },						//Taser Munition
