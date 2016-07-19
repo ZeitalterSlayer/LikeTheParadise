@@ -24,7 +24,7 @@ _itemWeight = ([_ctrl] call life_fnc_itemWeight) * _num;
 _veh_data = life_trunk_vehicle getVariable ["Trunk",[[],0]];
 _inv = _veh_data select 0;
 
-if (_ctrl == "goldbar" && {!(life_trunk_vehicle isKindOf "LandVehicle" OR life_trunk_vehicle isKindOf "Ship")}) exitWith {hint "You cannot store that in anything but a land or water vehicle!"};)}) exitWith {hint localize "STR_NOTF_canOnlyStoreInLandVeh";};
+if (_ctrl == "goldbar" && {!(life_trunk_vehicle isKindOf "LandVehicle" OR life_trunk_vehicle isKindOf "Ship")}) exitWith {hint "You cannot store that in anything but a land or water vehicle!")}) exitWith {hint localize "STR_NOTF_canOnlyStoreInLandVeh";};
 
 if (_ctrl == "money") then {
     _index = [_ctrl,_inv] call TON_fnc_index;
