@@ -52,7 +52,6 @@ life_canpay_bail = true;
 nn_last_vehicles = [];
 nn_empInUse = false;
 nn_warnInUse = false;
-Life_request_timer = false;
 
 //Settings
 life_settings_enableNewsBroadcast = profileNamespace getVariable ["life_enableNewsBroadcast",true];
