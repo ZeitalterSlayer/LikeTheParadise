@@ -97,8 +97,8 @@ O
     };
 
     case (_item isEqualTo "capsule"): {
-            hint "Du Feigling! Verrotte in der Hölle!!!";
-            []spawn life_fnc_capsule
+            hint "Du Feigling! Verrotte in der Hölle!!!"; //hoffe das geht so?
+            []spawn life_fnc_capsule                    //richtig definiert???? WOOOOO
             closeDialog 0;
            //sleep 3;
            //player setdamage 100;
