@@ -2,7 +2,7 @@
     File: fn_copLoadout.sqf
     Author: Bryan "Tonic" Boardwine
     Edited: Itsyuka
-    
+
     Description:
     Loads the cops out with the default gear.
 */
@@ -11,7 +11,7 @@ _handle = [] spawn life_fnc_stripDownPlayer;
 waitUntil {scriptDone _handle};
 
 //Load player with default cop gear.
-player addUniform "U_Rangemaster";
+player addUniform "U_B_GEN_Soldier_F";
 player addVest "V_Rangemaster_belt";
 
 player addMagazine "16Rnd_9x21_Mag";
