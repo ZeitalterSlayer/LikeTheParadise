@@ -97,9 +97,9 @@ O
     };
 
     case (_item isEqualTo "capsule"): {
-        if(([false,_item,1] call life_fnc_handleInv)) then {
             hint "Du Feigling! Verrotte in der Hölle!!!";
             []spawn life_fnc_capsule
+            closeDialog 0;
            //sleep 3;
            //player setdamage 100;
     };
