@@ -12,7 +12,7 @@ waitUntil {scriptDone _handle};
 
 //Load player with default cop gear.
 player addUniform "U_B_GEN_Soldier_F";
-player addVest "V_Rangemaster_belt";
+player addVest "V_TacVest_gen_F";
 
 player addMagazine "16Rnd_9x21_Mag";
 player addWeapon "hgun_P07_snds_F";
