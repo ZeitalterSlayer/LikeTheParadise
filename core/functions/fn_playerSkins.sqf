@@ -10,11 +10,11 @@ private["_skinName"];
 
 switch (playerSide) do {
     case civilian: {
-		
+
 		if (backpack player isEqualTo "B_Carryall_khk") then {
             (unitBackpack player) setObjectTextureGlobal [0, ""];
         };
-		
+
         if (LIFE_SETTINGS(getNumber,"civ_skins") isEqualTo 1) then {
             if (uniform player isEqualTo "U_C_Poloshirt_blue") then {
                 player setObjectTextureGlobal [0, "textures\civilian_uniform_1.jpg"];
@@ -41,9 +41,10 @@ switch (playerSide) do {
     };
 
     case west: {
-        if (uniform player isEqualTo "U_Rangemaster") then {
+        /*if (uniform player isEqualTo "U_Rangemaster") then {
             player setObjectTextureGlobal [0, "textures\cop_uniform.jpg"];
         };
+        */
 		if (backpack player isEqualTo "B_Bergen_sgg") then {
             (unitBackpack player) setObjectTextureGlobal [0, "textures\cop\gendarmerie-backpack.paa"];
         };
