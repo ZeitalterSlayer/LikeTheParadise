@@ -7,49 +7,34 @@ class life_spawn_selection {
 
     class BGha: Life_RscPicture {
         idc = 38531;
-        text = "textures\bg.jpg";
+        text = "textures\hintergrund.jpg";
         x = 0 * safezoneW + safezoneX;
         y = 0 * safezoneH + safezoneY;
         w = 1 * safezoneW;
         h = 1 * safezoneH;
     };
 
-        class MainBackground: Life_RscText {
-            colorBackground[] = {0,0,0,0.7};
-            idc = -1;
-            x = 0.1;
-            y = 0.2 + (11 / 250);
-            w = 0.8;
-            h = 0.6 - (22 / 250);
-        };
+    class BGMenu: Life_RscPicture {
+        idc = 38531;
+        text = "textures\spawnauswahl.paa";
+        x = 0.237031 * safezoneW + safezoneX;
+        y = 0.159 * safezoneH + safezoneY;
+        w = 0.531094 * safezoneW;
+        h = 0.704 * safezoneH;
 
-        class Title: Life_RscTitle {
-            colorBackground[] = {0,0,0,0};
-            idc = -1;
-            text = "$STR_Spawn_Title";
-            x = 0.1;
-            y = 0.2;
-            w = 0.8;
-            h = (1 / 25);
-        };
-
-        class SpawnPointTitle: Title {
-            idc = 38501;
-            style = 1;
-            text = "";
-        };
-
-        class MapView : Life_RscMapControl {
-            idc = 38502;
-            x = 0.328;
-            y = 0.26;
-            w = 0.56;
-            h = 0.56 - (22 / 250);
-            maxSatelliteAlpha = 0.75;//0.75;
-            alphaFadeStartScale = 1.15;//0.15;
-            alphaFadeEndScale = 1.29;//0.29;
-        };
+    class MapView : Life_RscMapControl
+    {
+        idc = 38502;
+        colorBackground[] = {0,0,0,0.3};
+        x = 0.241666 * safezoneW + safezoneX;
+        y = 0.33963 * safezoneH + safezoneY;
+        w = 0.291771 * safezoneW;
+        h = 0.342037 * safezoneH;
+        maxSatelliteAlpha = 0.75;//0.75;
+        alphaFadeStartScale = 1.15;//0.15;
+        alphaFadeEndScale = 1.29;//0.29;
     };
+};
 
     class controls {
         class SpawnPointList: Life_RscListNBox {
