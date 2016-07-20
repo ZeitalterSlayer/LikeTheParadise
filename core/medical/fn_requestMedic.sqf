@@ -7,6 +7,8 @@
     N/A
 */
 private "_medicsOnline";
+if(isNil "life_corpse") exitWith {};
+
 _medicsOnline = {_x != player && {side _x isEqualTo independent} && {alive _x}} count playableUnits > 0; //Check if medics (indep) are in the room.
 
 life_corpse setVariable ["Revive",false,true]; //Set the corpse to a revivable state.
