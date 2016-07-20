@@ -13,7 +13,7 @@ class VirtualShops {
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "pickaxe", "toolkit", "fuelFull", "peach", "storagesmall", "storagebig", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw" };
+        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "pickaxe", "toolkit", "fuelFull", "peach", "storagesmall", "storagebig", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw"};
     };
     class med_market {
         name = "STR_Shops_Market";
@@ -27,7 +27,7 @@ class VirtualShops {
         side = "civ";
         license = "rebel";
         level[] = { "", "", -1, "" };
-        items[] = { "waterBottle", "rabbit", "redgull", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull","boltcutter", "blastingcharge","uswl","handcuffs" };
+        items[] = { "waterBottle", "rabbit", "redgull", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull","boltcutter", "blastingcharge","uswl","handcuffs","capsule"};
     };
 	class hero {
         name = "STR_Shops_Hero";
@@ -41,7 +41,7 @@ class VirtualShops {
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull", "peach", "boltcutter", "blastingcharge" };
+        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull", "peach", "boltcutter", "blastingcharge"};
     };
     class wongs {
         name = "STR_Shops_Wongs";
@@ -90,7 +90,7 @@ class VirtualShops {
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "salema_raw", "salema", "ornate_raw", "ornate", "mackerel_raw", "mackerel", "tuna_raw", "tuna", "mullet_raw", "mullet", "catshark_raw", "catshark" };
+        items[] = { "salema_raw", "salema", "ornate_raw", "ornate", "mackerel_raw", "mackerel", "tuna_raw", "tuna", "mullet_raw", "mullet", "catshark_raw", "catshark"};
     };
     class glass {
         name = "STR_Shops_Glass";
@@ -104,7 +104,7 @@ class VirtualShops {
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "iron_refined", "copper_refined" };
+        items[] = { "iron_refined", "copper_refined"};
     };
     class diamond {
         name = "STR_Shops_Diamond";
@@ -207,6 +207,17 @@ class VirtualItems {
         illegal = false;
         edible = -1;
         icon = "icons\ico_handcuffkeys.paa";
+    };
+
+    class capsule {
+        variable = "capsule";
+        displayName = "STR_Item_Capsule";
+        weight = 1;
+        buyPrice = 50000;
+        sellPrice = -1;
+        illegal = true;
+        edible = -1;
+        icon = "icons\ico_capsule.paa";
     };
 
     class pickaxe {
@@ -494,7 +505,7 @@ class VirtualItems {
         sellPrice = -1;
         illegal = false;
         edible = -1;
-        icon = "icons\ico_kokosm.paa";
+        icon = "icons\ico_kautschuk.paa";
     };
 
     class korallen {
@@ -572,7 +583,7 @@ class VirtualItems {
 		sellPrice = 600;
 		illegal = false;
 		edible = -1;
-		icon = "icons\ico_kokosm.paa";
+		icon = "icons\ico_kokosf.paa";
 	};
 
 	class kokosmilch {
@@ -583,7 +594,7 @@ class VirtualItems {
 		sellPrice = 900;
 		illegal = false;
 		edible = -1;
-		icon = "icons\ico_kokosf.paa";
+		icon = "icons\ico_kokosm.paa";
 	};
 
 	class zuckerr {
