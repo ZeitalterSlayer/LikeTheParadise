@@ -1057,7 +1057,7 @@ class rebelthree {
     };
 */
 	class cop_chief {
-        name = "Tanoa Assistant Chief Shop";
+        name = "Gendarmerie Waffenarsenal";
         side = "cop";
         license = "";
         items[] = {
