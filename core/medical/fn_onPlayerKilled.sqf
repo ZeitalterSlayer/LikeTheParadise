@@ -48,16 +48,11 @@ _unit spawn {
     _RespawnBtn = ((findDisplay 7300) displayCtrl 7302);
     _Timer = ((findDisplay 7300) displayCtrl 7301);
 
-        _medicsOnline = {_x != player && side _x isEqualTo independent} count playableUnits;
-    if(_medicsOnline > 0)then{
-        life_respawn_timer = 5;
-        _requestBtn ctrlEnable true;
-    }else{
-        life_respawn_timer = 0.2;
-        _requestBtn ctrlEnable false;
-    };
-
-    _maxTime = time + (life_respawn_timer * 60);
+        if (LIFE_SETTINGS(getNumber,"respawn_timer") < 5) then {
+            _maxTime = time + 5;
+        } else {
+            _maxTime = time + LIFE_SETTINGS(getNumber,"respawn_timer");
+        };
     _RespawnBtn ctrlEnable false;
     waitUntil {_Timer ctrlSetText format[localize "STR_Medic_Respawn",[(_maxTime - time),"MM:SS"] call BIS_fnc_secondsToString];
     round(_maxTime - time) <= 0 || isNull _this};
