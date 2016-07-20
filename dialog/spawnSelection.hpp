@@ -4,14 +4,15 @@ class life_spawn_selection {
     enableSimulation = 1;
 
     class controlsBackground {
-        class life_RscTitleBackground: Life_RscText    {
-            colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
-            idc = -1;
-            x = 0.1;
-            y = 0.2;
-            w = 0.8;
-            h = (1 / 25);
-        };
+
+    class BGha: Life_RscPicture {
+        idc = 38531;
+        text = "textures\bg.jpg";
+        x = 0 * safezoneW + safezoneX;
+        y = 0 * safezoneH + safezoneY;
+        w = 1 * safezoneW;
+        h = 1 * safezoneH;
+    };
 
         class MainBackground: Life_RscText {
             colorBackground[] = {0,0,0,0.7};
