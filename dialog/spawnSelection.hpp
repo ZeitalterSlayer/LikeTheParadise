@@ -7,7 +7,7 @@ class life_spawn_selection {
 
     class BGha: Life_RscPicture {
         idc = 38531;
-        text = "textures\bg.jpg";
+        text = "textures\hintergrund.jpg";
         x = 0 * safezoneW + safezoneX;
         y = 0 * safezoneH + safezoneY;
         w = 1 * safezoneW;
