@@ -110,7 +110,7 @@ switch (true) do {
         };
     };
 
-    case (_item isEqualTo "capsule"): {
+    case (EQUAL(_item,"capsule")): {
         [] spawn {
             if(([false,_item,1]call life_fnc_handleInv)) then
             {
