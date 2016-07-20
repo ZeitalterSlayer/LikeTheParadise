@@ -55,6 +55,7 @@ switch (_state) do {
     case 4: {
         if (missionNamespace getVariable LICENSE_VARNAME("hero","civ")) then {
             missionNamespace setVariable [LICENSE_VARNAME("hero","civ"),false];
+            missionNamespace setVariable [LICENSE_VARNAME("herotwo","civ"),false];
             hint localize "STR_Civ_LicenseRemove_3";
             };
         };
