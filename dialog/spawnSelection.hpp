@@ -23,15 +23,6 @@ class life_spawn_selection {
             h = 0.6 - (22 / 250);
         };
 
-        class Title: Life_RscTitle {
-            colorBackground[] = {0,0,0,0};
-            idc = -1;
-            text = "$STR_Spawn_Title";
-            x = 0.1;
-            y = 0.2;
-            w = 0.8;
-            h = (1 / 25);
-        };
 
         class SpawnPointTitle: Title {
             idc = 38501;
