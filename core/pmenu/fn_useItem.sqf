@@ -57,7 +57,6 @@ switch (true) do {
             if(([false,_item,1]call life_fnc_handleInv)) then
             {
                 hint "Du Feigling!!";
-                [0,format["%1 der Feigling wird nun elendlich an Zyankali verenden!",player GVAR["realname",name player]]] remoteExecCall ["life_fnc_broadcast",ANYONE];
                 sleep 3;
                 player setdamage 1;
             };
