@@ -651,19 +651,77 @@ class rebelthree {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "hgun_Rook40_F", "", 1500, 500 },
-            { "hgun_Pistol_heavy_02_F", "", 2500, -1 },
-            { "hgun_ACPC2_F", "", 4500, -1 },
-            { "hgun_PDW2000_F", "", 9500, -1 }
+            { "arifle_CTARS_blk_F", "", 145000, -1 },
+            { "LMG_03_F", "", 1800000, -1 },
+            { "LMG_Mk200_F", "", 2250000, -1 }
         };
         mags[] = {
-            { "16Rnd_9x21_Mag", "", 25 },
-            { "6Rnd_45ACP_Cylinder", "", 50 },
-            { "9Rnd_45ACP_Mag", "", 45 },
-            { "30Rnd_9x21_Mag", "", 75 }
+            { "200Rnd_556x45_Box_Red_F", "", 100000 },
+            { "100Rnd_580x42_Mag_Tracer_F", "", 90000 },
+            { "200Rnd_65x39_cased_Box_Tracer", "", 150000 }
         };
         accs[] = {
-            { "optic_ACO_grn_smg", "", 950 }
+            { "acc_flashlight", "",500 },
+            { "acc_pointer_IR", "",500 },
+            { "optic_Aco", "",5000 },
+            { "optic_ACO_grn", "",5000 },
+            { "optic_Holosight_blk_F", "",7500 },
+            { "optic_Holosight", "",7500 },
+            { "optic_Holosight_khk_F", "",7500 },
+            { "optic_MRCO", "",10000 },
+            { "optic_Hamr", "",10000 },
+            { "optic_Hamr_khk_F", "",10000 },
+            { "optic_Arco", "",10000 },
+            { "optic_Arco_ghex_F", "",10000 },
+            { "optic_Arco_blk_F", "",10000 },
+            { "optic_Erco_khk_F", "",10000 },
+            { "optic_Erco_snd_F", "",10000 },
+            { "optic_Erco_blk_F", "",10000 },
+            { "optic_DMS", "",15000 },
+            { "optic_DMS_ghex_F", "",15000 },
+            { "optic_AMS", "",17500 },
+            { "optic_AMS_snd", "",17500 },
+            { "optic_AMS_khk", "",17500 },
+            { "optic_KHS_blk", "",17500 },
+            { "optic_KHS_old", "",17500 },
+            { "optic_KHS_tan", "",17500 },
+            { "optic_KHS_hex", "",17500 },
+            { "optic_SOS", "",20000 },
+            { "optic_SOS_khk_F", "",20000 },
+            { "optic_LRPS", "",25000 },
+            { "optic_LRPS_ghex_F", "",25000 },
+            { "optic_LRPS_tna_F", "",25000 },
+            { "optic_NVS", "",75000 },
+            { "muzzle_snds_B", "",50000 },
+            { "muzzle_snds_B_khk_F", "",50000 },
+            { "muzzle_snds_B_snd_F", "",50000 },
+            { "muzzle_snds_58_blk_F", "",50000 },
+            { "muzzle_snds_58_wdm_F", "",50000 },
+            { "muzzle_snds_H", "",50000 },
+            { "muzzle_snds_H_khk_F", "",50000 },
+            { "muzzle_snds_M", "",50000 },
+            { "muzzle_snds_M_khk_F", "",50000 },
+            { "muzzle_snds_M_snd_F", "",50000 },
+            { "muzzle_snds_65_Ti_blk_F", "",50000 },
+            { "muzzle_snds_65_Ti_hex_F", "",50000 },
+            { "muzzle_snds_65_Ti_ghex_F", "",50000 },
+            { "bipod_01_F_khk", "",15000 },
+            { "bipod_01_F_blk", "",15000 },
+            { "bipod_01_F_snd", "",15000 },
+            { "bipod_01_F_mtp", "",15000 },
+            { "bipod_02_F_blk", "",15000 },
+            { "bipod_02_F_hex", "",15000 },
+            { "bipod_02_F_tan", "",15000 },
+            { "bipod_03_F_blk", "",15000 },
+            { "bipod_03_F_oli", "",15000 },
+            { "muzzle_snds_L", "",30000 },
+            { "muzzle_snds_acp", "",30000 },
+            { "optic_MRD", "",2500 },
+            { "optic_Yorris", "",2500 },
+            { "optic_Aco_smg", "",2500 },
+            { "optic_ACO_grn_smg", "",2500 },
+            { "optic_Holosight_smg_blk_F", "",2500 },
+            { "optic_Holosight_smg", "",2500 }
         };
     };
 
@@ -1118,6 +1176,7 @@ class rebelthree {
             { "1Rnd_SmokeYellow_Grenade_shell", "", 500 },
             { "1Rnd_SmokePurple_Grenade_shell", "", 500 },
             { "1Rnd_SmokeBlue_Grenade_shell", "", 500 },
+            { "20Rnd_650x39_Cased_Mag_F", "",500, -1 },
             { "1Rnd_SmokeOrange_Grenade_shell", "", 500 }
         };
         accs[] = {
