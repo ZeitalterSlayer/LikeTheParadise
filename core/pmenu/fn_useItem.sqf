@@ -96,12 +96,16 @@ O
         closeDialog 0;
     };
 
-    case (_item isEqualTo "capsule"): {
-            hint "Du Feigling! Verrotte in der Hölle!!!"; //hoffe das geht so?
-            []spawn life_fnc_capsule                    //richtig definiert???? WOOOOO
-            closeDialog 0;
-           //sleep 3;
-           //player setdamage 100;
+    case (EQUAL(_item,"capsule")): {
+        [] spawn {
+            if(([false,_item,1]call life_fnc_handleInv)) then
+            {
+                hint "Du Feigling!!";
+                [0,format["%1 der Feigling wird nun elendlich an Zyankali verenden!",player GVAR["realname",name player]]] remoteExecCall ["life_fnc_broadcast",RCLIENT];
+                sleep 3;
+                player setdamage 1;
+            };
+        };
     };
 
     case (_item in ["apple","rabbit","salema","ornate","mackerel","tuna","mullet","catshark","turtle_soup","hen","rooster","sheep","goat","donuts","tbacon","peach"]): {
