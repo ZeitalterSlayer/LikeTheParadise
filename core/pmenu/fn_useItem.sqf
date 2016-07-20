@@ -52,6 +52,19 @@ switch (true) do {
         closeDialog 0;
     };
 
+     case (EQUAL(_item,"capsule")): {
+        [] spawn {
+            if(([false,_item,1]call life_fnc_handleInv)) then
+            {
+                hint "Du Feigling!!";
+                [0,format["%1 der Feigling wird nun elendlich an Zyankali verenden!",player GVAR["realname",name player]]] remoteExecCall ["life_fnc_broadcast",ANYONE];
+                sleep 3;
+                player setdamage 1;
+            };
+        };
+    };
+
+
     case (_item isEqualTo "blastingcharge"): {
         player reveal fed_bank;
         (group player) reveal fed_bank;
@@ -106,18 +119,6 @@ switch (true) do {
                     case (_sum > 100): {life_hunger = 100;};
                     default {life_hunger = _sum;};
                 };
-            };
-        };
-    };
-
-    case (EQUAL(_item,"capsule")): {
-        [] spawn {
-            if(([false,_item,1]call life_fnc_handleInv)) then
-            {
-                hint "Du Feigling!!";
-                [0,format["%1 der Feigling wird nun elendlich an Zyankali verenden!",player GVAR["realname",name player]]] remoteExecCall ["life_fnc_broadcast",ANYONE];
-                sleep 3;
-                player setdamage 1;
             };
         };
     };
