@@ -85,7 +85,7 @@ switch (true) do {
         [] spawn life_fnc_jerryRefuel;
         closeDialog 0;
     };
-O
+
     case (_item isEqualTo "fuelEmpty"): {
         [] spawn life_fnc_jerryCanRefuel;
         closeDialog 0;
@@ -96,13 +96,15 @@ O
         closeDialog 0;
     };
 
-    case (_item isEqualTo "capsule"): {
-        if(([false,_item,1] call life_fnc_handleInv)) then {
+    case (_item == "capsule"):
+    {
+        if(([false,_item,1] call life_fnc_handleInv)) then
+        {
             hint "Du Feigling! Verrotte in der Hölle!!!";
-            []spawn life_fnc_capsule
-           //sleep 3;
-           //player setdamage 100;
-    };
+            []spawn life_fnc_zyankali
+            sleep 3;
+            player setdamage 100;
+        };
 
     case (_item in ["apple","rabbit","salema","ornate","mackerel","tuna","mullet","catshark","turtle_soup","hen","rooster","sheep","goat","donuts","tbacon","peach"]): {
         if (!(M_CONFIG(getNumber,"VirtualItems",_item,"edible") isEqualTo -1)) then {
