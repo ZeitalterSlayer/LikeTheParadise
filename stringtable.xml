@@ -6332,6 +6332,11 @@
             <Portuguese>Carne de Tartaruga</Portuguese>
             <Polish>Mięso Żółwia</Polish>
         </Key>
+        <Key ID="STR_Item_Capsule">
+            <Original>Zyankali</Original>
+            <Czech>Raw Turtle</Czech>
+            <German>Zyankalikapsel</German>
+        </Key>
         <Key ID="STR_Item_TurtleSoup">
             <Original>Turtle Soup</Original>
             <Czech>Turtle Soup</Czech>

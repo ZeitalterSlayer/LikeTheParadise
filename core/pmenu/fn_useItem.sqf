@@ -27,7 +27,7 @@ switch (true) do {
             };
         };
     };
-	
+
 	case (_item == "uswl"): {
                 _OBJ = nearestObject [player, "Land_Wreck_Traw_F"];
                 if (_OBJ==objNull) then {_OBJ = nearestObject [player, "Land_Wreck_Traw2_F"];};
@@ -51,6 +51,18 @@ switch (true) do {
         [cursorObject] spawn life_fnc_boltcutter;
         closeDialog 0;
     };
+
+     case (EQUAL(_item,"capsule")): {
+        [] spawn {
+            if(([false,_item,1]call life_fnc_handleInv)) then
+            {
+                hint "Du Feigling!!";
+                sleep 3;
+                player setdamage 1;
+            };
+        };
+    };
+
 
     case (_item isEqualTo "blastingcharge"): {
         player reveal fed_bank;
