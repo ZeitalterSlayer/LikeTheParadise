@@ -36,32 +36,40 @@ class life_spawn_selection {
     };
 };
 
-    class controls {
-        class SpawnPointList: Life_RscListNBox {
-            idc = 38510;
-            text = "";
-            sizeEx = 0.041;
-            coloumns[] = {0,0,0.9};
-            drawSideArrows = 0;
-            idcLeft = -1;
-            idcRight = -1;
-            rowHeight = 0.050;
-            x = 0.105;
-            y = 0.26;
-            w = (8.8 / 40);
-            h = (10 / 25);
-            onLBSelChanged = "_this call life_fnc_spawnPointSelected;";
-        };
+ class controls {
 
-        class spawnButton: Life_RscButtonMenu {
-            idc = -1;
-            colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
-            text = "$STR_Spawn_Spawn";
-            onButtonClick = "[] call life_fnc_spawnConfirm";
-            x = 0.11;
-            y = 0.69;
-            w = (8 / 40);
-            h = (1 / 25);
-        };
-    };
+  class SpawnPointList: Life_RscListNBox {
+   idc = 38510;
+   text = "";
+   sizeEx = 0.041;
+   coloumns[] = {0,0,0.9};
+   drawSideArrows = false;
+   idcLeft = -1;
+   idcRight = -1;
+   rowHeight = 0.050;
+    x = 0.547448 * safezoneW + safezoneX;
+    y = 0.344148 * safezoneH + safezoneY;
+    w = 0.213125 * safezoneW;
+    h = 0.304074 * safezoneH;
+   onLBSelChanged = "_this call life_fnc_spawnPointSelected;";
+  };
+
+  class spawnButton : Life_RscButtonMenu
+  {
+   idc = -1;
+   tooltip = "Spawn";
+   onButtonClick = "[] call life_fnc_spawnConfirm";
+    x = 0.548958 * safezoneW + safezoneX;
+    y = 0.65463 * safezoneH + safezoneY;
+    w = 0.209479 * safezoneW;
+    h = 0.0198148 * safezoneH;
+    colorBackground[] = {0,0,0,0};
+    colorBackgroundFocused[] = {0,0,0,0};
+    colorBackground2[] = {0,0,0,0};
+    color[] = {1,1,1,1};
+    colorFocused[] = {0,0,0,0};
+    color2[] = {0,0,0,0};
+    colorText[] = {1,1,1,1};
+  };
+ };
 };
