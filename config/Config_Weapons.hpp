@@ -326,11 +326,11 @@ class rebelthree {
             { "arifle_CTAR_blk_F", "",145000, -1 },
             { "arifle_Katiba_C_F", "",180000, -1 },
             { "arifle_Katiba_F", "",180000, -1 },
-            { "arifle_MXC_F", "",200000, -1 },
+            { "arifle_MXC_Black_F", "",200000, -1 },
             { "arifle_MXC_khk_F", "",200000, -1 },
-            { "arifle_MX_F", "",240000, -1 },
+            { "arifle_MX_Black_F", "",240000, -1 },
             { "arifle_MX_khk_F", "",240000, -1 },
-            { "arifle_MXM_F", "",270000, -1 },
+            { "arifle_MXM_Black_F", "",270000, -1 },
             { "arifle_MXM_khk_F", "",270000, -1 },
             { "arifle_AKS_F", "",125000, -1 },
             { "arifle_AKM_F", "",270000, -1 },
@@ -457,18 +457,13 @@ class rebelthree {
             //{ "arifle_Katiba_C_F", "",180000, -1 },
             //{ "arifle_Katiba_F", "",180000, -1 },
             { "arifle_MXC_F", "",200000, -1 },
-            { "arifle_MXC_khk_F", "",200000, -1 },
             { "arifle_MX_F", "",240000, -1 },
-            { "arifle_MX_khk_F", "",240000, -1 },
             { "arifle_MXM_F", "",270000, -1 },
-            { "arifle_MXM_khk_F", "",270000, -1 },
             //{ "arifle_AKS_F", "",125000, -1 },
             //{ "arifle_AKM_F", "",270000, -1 },
             //{ "arifle_AK12_F", "",500000, -1 },
-            { "arifle_CTAR_blk_F", "",300000, -1 },
-            { "arifle_CTAR_GL_blk_F", "",250000, -1 },
+            { "srifle_DMR_07_ghex_F", "",300000, -1 },
             { "arifle_SPAR_01_blk_F", "",250000, -1 },
-            { "arifle_SPAR_01_khk_F", "",250000, -1 },
             { "arifle_SPAR_01_snd_F", "",250000, -1 },
             //{ "srifle_DMR_01_F", "",400000, -1 },
             //{ "srifle_EBR_F", "",500000, -1 },
@@ -1032,6 +1027,7 @@ class rebelthree {
             { "30Rnd_556x45_Stanag", "", 25 },                  //5.56 Munition
             { "30Rnd_580x42_Mag_F", "", 25 },                   //5.8mm Munition
             { "30Rnd_65x39_caseless_mag", "", 25 },             //6.5mm Munition
+            { "30Rnd_65x39_caseless_green", "", 25 },        //6.5mm Type Munition
 			{ "20Rnd_762x51_Mag", "", 25 }						//7.62mm Munition
         };
         accs[] = {
