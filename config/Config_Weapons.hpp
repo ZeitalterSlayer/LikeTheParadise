@@ -651,7 +651,7 @@ class rebelthree {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "arifle_CTARS_blk_F", "", 145000, -1 },
+            { "arifle_CTARS_blk_F", "", 250000, -1 },
             { "LMG_03_F", "", 1800000, -1 },
             { "LMG_Mk200_F", "", 2250000, -1 }
         };
