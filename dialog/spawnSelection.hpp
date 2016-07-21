@@ -1,18 +1,15 @@
 ////////////////////////////////////////////////////////////////////////////
 //////           This HPP was created by Shinji`s GUI tool            //////
 ////////////////////////////////////////////////////////////////////////////
-class GUI_1000 {
-    idd = 1000;
-    name = "GUI_1000";
-    onLoad = "uiNamespace setVariable ['GUI_1000', _this select 0];";
-    onUnLoad = "uiNamespace setVariable ['GUI_1000', nil];";
-    movingEnable = false;
-    enableSimulation = true;
+class life_spawn_selection {
+    idd = 38500;
+    movingEnable = 0;
+    enableSimulation = 1;
 
     class controlsBackground {
-        class Background_1100: RscText
+        class life_RscTitleBackground: Life_RscText
         {
-            idc = 1100;
+            idc = -1;
             text = "";
             x = 0.246093 * safezoneW + safezoneX;
             y = 0.225462 * safezoneH + safezoneY;
@@ -23,9 +20,9 @@ class GUI_1000 {
         };
     };
     class controls {
-        class MapControl_1101: RscMapControl
+        class MapView: Life_RscMapControl
         {
-            idc = 1101;
+            idc = 38501;
             x = 0.474804 * safezoneW + safezoneX;
             y = 0.263136 * safezoneH + safezoneY;
             w = 0.245703 * safezoneW;
@@ -34,13 +31,14 @@ class GUI_1000 {
             alphaFadeStartScale = 1.15;
             alphaFadeEndScale = 1.29;
         };
-        class Listbox_1102: RscListbox
+        class SpawnPointList: Life_RscListbox
         {
-            idc = 1102;
+            idc = 38510;
             x = 0.272656 * safezoneW + safezoneX;
             y = 0.266781 * safezoneH + safezoneY;
             w = 0.192187 * safezoneW;
             h = 0.421180 * safezoneH;
+            onLBSelChanged = "_this call life_fnc_spawnPointSelected;";
             ColorBackground[] = {0,0,0,1};
             ColorText[] = {1,1,1,1};
             font = TahomaB;
@@ -48,10 +46,11 @@ class GUI_1000 {
             colorSelectBackground[] = {0,0,0,1};
             colorSelect[] = {0,0,0,1};
         };
-        class ButtonMenu_1103: RscButtonMenu
+        class spawnButton: Life_RscButtonMenu
         {
-            idc = 1103;
+            idc = -1;
             text = "Spawnen";
+            onButtonClick = "[] call life_fnc_spawnConfirm";
             x = 0.271093 * safezoneW + safezoneX;
             y = 0.693518 * safezoneH + safezoneY;
             w = 0.19375 * safezoneW;
