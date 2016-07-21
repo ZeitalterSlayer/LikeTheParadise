@@ -1,82 +1,68 @@
-class life_spawn_selection {
-    idd = 38500;
-    movingEnable = 0;
-    enableSimulation = 1;
+////////////////////////////////////////////////////////////////////////////
+//////           This HPP was created by Shinji`s GUI tool            //////
+////////////////////////////////////////////////////////////////////////////
+class GUI_1000 {
+    idd = 1000;
+    name = "GUI_1000";
+    onLoad = "uiNamespace setVariable ['GUI_1000', _this select 0];";
+    onUnLoad = "uiNamespace setVariable ['GUI_1000', nil];";
+    movingEnable = false;
+    enableSimulation = true;
 
     class controlsBackground {
-
-    class BGha: Life_RscPicture {
-        idc = 38531;
-        text = "textures\hintergrund.jpg";
-        x = 0 * safezoneW + safezoneX;
-        y = 0 * safezoneH + safezoneY;
-        w = 1 * safezoneW;
-        h = 1 * safezoneH;
-    };
-
- class MainBackground: Life_RscPicture {
-        idc = -1;
-        text = "textures\box.paa";
-        x = 0.29 * safezoneW + safezoneX;
-        y = 0.159 * safezoneH + safezoneY;
-        w = 0.428 * safezoneW;
-        h = 0.704 * safezoneH;
-    };
-
-        class Title: Life_RscTitle {
-            colorBackground[] = {0,0,0,0};
-            idc = -1;
+        class Background_1100: RscText
+        {
+            idc = 1100;
             text = "";
-            x = 0.1;
-            y = 0.2;
-            w = 0.8;
-            h = (1 / 25);
-        };
-
-        class SpawnPointTitle: Title {
-            idc = 38501;
-            style = 1;
-            text = "";
-        };
-
-        class MapView : Life_RscMapControl {
-            idc = 38502;
-            x = 0.328;
-            y = 0.26;
-            w = 0.56;
-            h = 0.56 - (22 / 250);
-            maxSatelliteAlpha = 0.75;//0.75;
-            alphaFadeStartScale = 1.15;//0.15;
-            alphaFadeEndScale = 1.29;//0.29;
+            x = 0.246093 * safezoneW + safezoneX;
+            y = 0.225462 * safezoneH + safezoneY;
+            w = 0.498437 * safezoneW;
+            h = 0.569444 * safezoneH;
+            ColorBackground[] = {0,0,0,0.694117};
+            ColorText[] = {1,1,1,1};
         };
     };
-
     class controls {
-        class SpawnPointList: Life_RscListNBox {
-            idc = 38510;
-            text = "";
-            sizeEx = 0.041;
-            coloumns[] = {0,0,0.9};
-            drawSideArrows = 0;
-            idcLeft = -1;
-            idcRight = -1;
-            rowHeight = 0.050;
-            x = 0.105;
-            y = 0.26;
-            w = (8.8 / 40);
-            h = (10 / 25);
-            onLBSelChanged = "_this call life_fnc_spawnPointSelected;";
+        class MapControl_1101: RscMapControl
+        {
+            idc = 1101;
+            x = 0.474804 * safezoneW + safezoneX;
+            y = 0.263136 * safezoneH + safezoneY;
+            w = 0.245703 * safezoneW;
+            h = 0.477430 * safezoneH;
+            maxSatelliteAlpha = 0.75;
+            alphaFadeStartScale = 1.15;
+            alphaFadeEndScale = 1.29;
         };
-
-        class spawnButton: Life_RscButtonMenu {
-            idc = -1;
-            colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
-            text = "$STR_Spawn_Spawn";
-            onButtonClick = "[] call life_fnc_spawnConfirm";
-            x = 0.11;
-            y = 0.69;
-            w = (8 / 40);
-            h = (1 / 25);
+        class Listbox_1102: RscListbox
+        {
+            idc = 1102;
+            x = 0.272656 * safezoneW + safezoneX;
+            y = 0.266781 * safezoneH + safezoneY;
+            w = 0.192187 * safezoneW;
+            h = 0.421180 * safezoneH;
+            ColorBackground[] = {0,0,0,1};
+            ColorText[] = {1,1,1,1};
+            font = TahomaB;
+            SizeEx = 0.4;
+            colorSelectBackground[] = {0,0,0,1};
+            colorSelect[] = {0,0,0,1};
+        };
+        class ButtonMenu_1103: RscButtonMenu
+        {
+            idc = 1103;
+            text = "Spawnen";
+            x = 0.271093 * safezoneW + safezoneX;
+            y = 0.693518 * safezoneH + safezoneY;
+            w = 0.19375 * safezoneW;
+            h = 0.055555 * safezoneH;
+            ColorBackground[] = {1,0,0,1};
+            ColorText[] = {0.941176,1,1,1};
+            font = TahomaB;
+            SizeEx = 0.4;
+            colorFocused[] = {0,0,0,1};
+            colorDisabled[] = {0,0,0,1};
         };
     };
 };
+////////////////////////////////////////////////////////////////////////////
