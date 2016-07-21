@@ -4,30 +4,29 @@ class life_spawn_selection {
     enableSimulation = 1;
 
     class controlsBackground {
-        class life_RscTitleBackground: Life_RscText    {
-            idc = 1102;
-            text = "";
-            x = 0.198828 * safezoneW + safezoneX;
-            y = 0.184104 * safezoneH + safezoneY;
-            w = 0.603385 * safezoneW;
-            h = 0.656018 * safezoneH;
-            ColorBackground[] = {0.109803,0.105882,0.105882,0.694117};
-            ColorText[] = {1,1,1,1};
-        };
 
-        class MainBackground: Life_RscText {
-            colorBackground[] = {0,0,0,0.7};
-            idc = -1;
-            x = 0.1;
-            y = 0.2 + (11 / 250);
-            w = 0.8;
-            h = 0.6 - (22 / 250);
-        };
+    class BGha: Life_RscPicture {
+        idc = 38531;
+        text = "textures\hintergrund.jpg";
+        x = 0 * safezoneW + safezoneX;
+        y = 0 * safezoneH + safezoneY;
+        w = 1 * safezoneW;
+        h = 1 * safezoneH;
+    };
+
+ class MainBackground: Life_RscPicture {
+        idc = -1;
+        text = "textures\box.paa";
+        x = 0.5 * safezoneW + safezoneX;
+        y = 0.159 * safezoneH + safezoneY;
+        w = 0.45 * safezoneW;
+        h = 0.704 * safezoneH;
+    };
 
         class Title: Life_RscTitle {
             colorBackground[] = {0,0,0,0};
             idc = -1;
-            text = "$STR_Spawn_Title";
+            text = "";
             x = 0.1;
             y = 0.2;
             w = 0.8;
@@ -41,46 +40,43 @@ class life_spawn_selection {
         };
 
         class MapView : Life_RscMapControl {
-            idc = 1105;
-            x = 0.449772 * safezoneW + safezoneX;
-            y = 0.233988 * safezoneH + safezoneY;
-            w = 0.313997 * safezoneW;
-            h = 0.545023 * safezoneH;
-            maxSatelliteAlpha = 0.75;
-            alphaFadeStartScale = 1.15;
-            alphaFadeEndScale = 1.29;
+            idc = 38502;
+            x = 0.328;
+            y = 0.26;
+            w = 0.56;
+            h = 0.56 - (22 / 250);
+            maxSatelliteAlpha = 0.75;//0.75;
+            alphaFadeStartScale = 1.15;//0.15;
+            alphaFadeEndScale = 1.29;//0.29;
         };
     };
 
     class controls {
         class SpawnPointList: Life_RscListNBox {
-            idc = 1100;
-            x = 0.247031 * safezoneW + safezoneX;
-            y = 0.259 * safezoneH + safezoneY;
-            w = 0.49 * safezoneW;
-            h = 0.5 * safezoneH;
-            ColorBackground[] = {0,0,0,0.705882};
-            ColorText[] = {1,1,1,1};
-            font = TahomaB;
-            SizeEx = 0.4;
-            colorSelectBackground[] = {0,0,0,1};
-            colorSelect[] = {0,0,0,1};
+            idc = 38510;
+            text = "";
+            sizeEx = 0.041;
+            coloumns[] = {0,0,0.9};
+            drawSideArrows = 0;
+            idcLeft = -1;
+            idcRight = -1;
+            rowHeight = 0.050;
+            x = 0.105;
+            y = 0.26;
+            w = (8.8 / 40);
+            h = (10 / 25);
             onLBSelChanged = "_this call life_fnc_spawnPointSelected;";
         };
 
         class spawnButton: Life_RscButtonMenu {
-            idc = 1104;
+            idc = -1;
+            colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
             text = "$STR_Spawn_Spawn";
-            x = 0.239192 * safezoneW + safezoneX;
-            y = 0.710956 * safezoneH + safezoneY;
-            w = 0.201822 * safezoneW;
-            h = 0.069444 * safezoneH;
-            ColorBackground[] = {0,0.501960,0,1};
-            ColorText[] = {1,1,1,1};
-            font = TahomaB;
-            SizeEx = 0.4;
-            colorFocused[] = {0,0,0,1};
-            colorDisabled[] = {0,0,0,1};
+            onButtonClick = "[] call life_fnc_spawnConfirm";
+            x = 0.11;
+            y = 0.69;
+            w = (8 / 40);
+            h = (1 / 25);
         };
     };
 };
