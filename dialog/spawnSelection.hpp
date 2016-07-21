@@ -17,10 +17,10 @@ class life_spawn_selection {
  class MainBackground: Life_RscPicture {
         idc = -1;
         text = "textures\box.paa";
-        x = 0.1;
-        y = 0.2 + (11/250);
-        w = 0.8;
-        h = 0.6 - (22/250);
+        x = 0.237031 * safezoneW + safezoneX;
+        y = 0.159 * safezoneH + safezoneY;
+        w = 0.531094 * safezoneW;
+        h = 0.704 * safezoneH;
     };
 
         class Title: Life_RscTitle {
