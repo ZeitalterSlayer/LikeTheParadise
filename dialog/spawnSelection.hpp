@@ -18,7 +18,7 @@ class life_spawn_selection {
         idc = -1;
         text = "textures\box.paa";
         x = 0.29 * safezoneW + safezoneX;
-        y = 0.179 * safezoneH + safezoneY;
+        y = 0.186 * safezoneH + safezoneY;
         w = 0.428 * safezoneW;
         h = 0.704 * safezoneH;
     };
@@ -41,7 +41,7 @@ class life_spawn_selection {
 
         class MapView : Life_RscMapControl {
             idc = 38502;
-            x = 0.328;
+            x = 0.428;
             y = 0.26;
             w = 0.56;
             h = 0.56 - (22 / 250);
