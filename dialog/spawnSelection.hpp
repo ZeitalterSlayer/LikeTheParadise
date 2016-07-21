@@ -19,7 +19,7 @@ class life_spawn_selection {
         text = "textures\box.paa";
         x = 0.285 * safezoneW + safezoneX;
         y = 0.159 * safezoneH + safezoneY;
-        w = 0.435 * safezoneW;
+        w = 0.428 * safezoneW;
         h = 0.704 * safezoneH;
     };
 
