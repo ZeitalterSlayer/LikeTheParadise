@@ -55,7 +55,7 @@ class pInteraction_Menu {
             sizeEx = 0.025;
             x = BGX + 0.03;
             y = BGY + 0.07;
-            w = 0.4;
+            w = 0.3;
             h = 0.038;
         };
 
@@ -66,7 +66,7 @@ class pInteraction_Menu {
             sizeEx = 0.025;
             x = BGX + 0.03;
             y = BGY + 0.12;
-            w = 0.4;
+            w = 0.3;
             h = 0.038;
         };
 
@@ -77,7 +77,7 @@ class pInteraction_Menu {
             sizeEx = 0.025;
             x = BGX + 0.03;
             y = BGY + 0.17;
-            w = 0.4;
+            w = 0.3;
             h = 0.038;
         };
 
@@ -88,7 +88,7 @@ class pInteraction_Menu {
             sizeEx = 0.025;
             x = BGX + 0.03;
             y = BGY + 0.22;
-            w = 0.4;
+            w = 0.3;
             h = 0.038;
         };
 
@@ -99,7 +99,7 @@ class pInteraction_Menu {
             sizeEx = 0.025;
             x = BGX + 0.03;
             y = BGY + 0.27;
-            w = 0.4;
+            w = 0.3;
             h = 0.038;
         };
 
@@ -110,7 +110,7 @@ class pInteraction_Menu {
             sizeEx = 0.025;
             x = BGX + 0.03;
             y = BGY + 0.32;
-            w = 0.4;
+            w = 0.3;
             h = 0.038;
         };
 
@@ -121,7 +121,7 @@ class pInteraction_Menu {
             sizeEx = 0.025;
             x = BGX + 0.03;
             y = BGY + 0.37;
-            w = 0.4;
+            w = 0.3;
             h = 0.038;
         };
 
@@ -132,7 +132,7 @@ class pInteraction_Menu {
             sizeEx = 0.025;
             x = BGX + 0.03;
             y = BGY + 0.42;
-            w = 0.4;
+            w = 0.3;
             h = 0.038;
         };
     };
