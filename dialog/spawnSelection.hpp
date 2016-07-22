@@ -17,7 +17,7 @@ class life_spawn_selection {
  class MainBackground: Life_RscPicture {
         idc = -1;
         text = "textures\box.paa";
-        x = 0.29 * safezoneW + safezoneX;
+        x = 0.31 * safezoneW + safezoneX;
         y = 0.19 * safezoneH + safezoneY;
         w = 0.428 * safezoneW;
         h = 0.704 * safezoneH;
