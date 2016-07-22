@@ -61,9 +61,9 @@ class life_spawn_selection {
             idcLeft = -1;
             idcRight = -1;
             rowHeight = 0.050;
-            x = 0.11;
+            x = 0.95;
             y = 0.26;
-            w = (10 / 40);
+            w = (10.4 / 40);
             h = (10 / 25);
             onLBSelChanged = "_this call life_fnc_spawnPointSelected;";
         };
