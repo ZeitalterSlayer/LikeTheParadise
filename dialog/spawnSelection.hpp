@@ -17,7 +17,7 @@ class life_spawn_selection {
  class MainBackground: Life_RscPicture {
         idc = -1;
         text = "textures\box.paa";
-        x = 0.31 * safezoneW + safezoneX;
+        x = 0.2999 * safezoneW + safezoneX;
         y = 0.19 * safezoneH + safezoneY;
         w = 0.428 * safezoneW;
         h = 0.704 * safezoneH;
@@ -63,7 +63,7 @@ class life_spawn_selection {
             rowHeight = 0.050;
             x = 0.105;
             y = 0.26;
-            w = (8.8 / 40);
+            w = (9.3 / 40);
             h = (10 / 25);
             onLBSelChanged = "_this call life_fnc_spawnPointSelected;";
         };
