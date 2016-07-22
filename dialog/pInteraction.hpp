@@ -157,10 +157,9 @@ class vInteraction_Menu {
         class MainBackground: life_RscPicture {
             idc = -1;
             text= "textures\pinter.paa"
-            x = 0.335 * safezoneW + safezoneX;
-            y = 0.203 * safezoneH + safezoneY;
-            w = 0.43 * safezoneW;
-            h = 0.605 * safezoneH;
+            x = 0.335
+            y = 0.203
+            w = 0.43
         };
 
         class Title: life_RscTitle {
