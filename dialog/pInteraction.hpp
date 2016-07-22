@@ -8,9 +8,9 @@ class pInteraction_Menu {
     enableSimulation = 1;
 
     class controlsBackground {
-        class RscTitleBackground: life_RscPicture {
+        class RscTitleBackground: life_RscText {
+            colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
             idc = -1;
-            text= "textures\pinter.paa"
             x = BGX;
             y = BGY;
             w = BGW;
@@ -145,9 +145,8 @@ class vInteraction_Menu {
     enableSimulation = 1;
 
     class controlsBackground {
-        class RscTitleBackground: life_RscPicture {
+        class RscTitleBackground: life_RscText {
             idc = -1;
-            text= "textures\pinter.paa"
             x = BGX;
             y = BGY;
             w = BGW;
@@ -156,10 +155,11 @@ class vInteraction_Menu {
 
         class MainBackground: life_RscPicture {
             idc = -1;
-            text= "textures\pinter.paa"
-            x = 0.335
-            y = 0.203
-            w = 0.43
+            text = "textures\pinter.paa";
+            x = BGX;
+            y = BGY + (11 / 250);
+            w = BGW;
+            h = 0.6 - (22 / 250);
         };
 
         class Title: life_RscTitle {
