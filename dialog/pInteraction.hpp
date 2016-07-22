@@ -156,10 +156,10 @@ class vInteraction_Menu {
         class MainBackground: life_RscPicture {
             idc = -1;
             text = "textures\pinter.paa";
-            x = 0.3;
-            y = BGY + (11 / 250);
+            x = BGX;
+            y = 0.15 + (11 / 250);
             w = BGW;
-            h = 0.6 - (22 / 250);
+            h = 0.9 - (22 / 250);
         };
 
         class Title: life_RscTitle {
