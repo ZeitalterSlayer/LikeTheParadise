@@ -159,7 +159,7 @@ class vInteraction_Menu {
             text= "textures\pinter.paa"
             x = 0.335 * safezoneW + safezoneX;
             y = 0.203 * safezoneH + safezoneY;
-            w = 0.33 * safezoneW;
+            w = 0.43 * safezoneW;
             h = 0.605 * safezoneH;
         };
 
