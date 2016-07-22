@@ -1222,4 +1222,15 @@ class VirtualItems {
         edible = 100;
         icon = "icons\ico_muttonLeg.paa";
     };
+
+    class zyankali {
+        variable = "zyankali";
+        displayName = "STR_Item_Zyankali";
+        weight = 2;
+        buyPrice = 150000;
+        sellPrice = 100000;
+        illegal = true;
+        edible = 100;
+        icon = "";
+    };
 };

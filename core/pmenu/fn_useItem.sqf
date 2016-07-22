@@ -27,7 +27,7 @@ switch (true) do {
             };
         };
     };
-	
+
 	case (_item == "uswl"): {
                 _OBJ = nearestObject [player, "Land_Wreck_Traw_F"];
                 if (_OBJ==objNull) then {_OBJ = nearestObject [player, "Land_Wreck_Traw2_F"];};
@@ -94,6 +94,17 @@ switch (true) do {
     case (_item isEqualTo "lockpick"): {
         [] spawn life_fnc_lockpick;
         closeDialog 0;
+    };
+
+    case (_item isEqualTo "zyankali"):
+    {
+        if(([false,_item,1] call life_fnc_handleInv)) then
+        {
+            hint "Du Feigling!!";
+            [] spawn life_fnc_zyankali;
+            //sleep 3;
+            //player setdamage 100;
+        };
     };
 
     case (_item in ["apple","rabbit","salema","ornate","mackerel","tuna","mullet","catshark","turtle_soup","hen","rooster","sheep","goat","donuts","tbacon","peach"]): {

@@ -278,6 +278,7 @@ class Life_Client_Core {
         class placestorage {};
         class spikeStrip {};
         class storageBox {};
+        class zyankali {};
     };
 
     class Medical_System {
