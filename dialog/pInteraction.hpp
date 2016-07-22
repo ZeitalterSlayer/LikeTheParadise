@@ -144,16 +144,16 @@ class vInteraction_Menu {
     movingEnable = 0;
     enableSimulation = 1;
 
-        class controlsBackground {
-        class InventoryBack:Life_RscPicture {
-            text = "textures\pinter.paa";
+    class controlsBackground {
+        class RscTitleBackground: life_RscText {
+            colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
             idc = -1;
-            x = 0.335 * safezoneW + safezoneX;
-            y = 0.203 * safezoneH + safezoneY;
-            w = 0.33 * safezoneW;
-            h = 0.605 * safezoneH;
+            x = BGX;
+            y = BGY;
+            w = BGW;
+            h = (1 / 25);
         };
-    };
+
         class MainBackground: life_RscText {
             idc = -1;
             colorBackground[] = {0,0,0,0.7};
