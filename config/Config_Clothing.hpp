@@ -144,8 +144,7 @@ class Clothing {
             { "U_O_Wetsuit", "", 2000, { "life_coplevel", "SCALAR", 3 } },
 			{ "U_B_GEN_Commander_F", "", 550, { "life_coplevel", "SCALAR", 3 } },
             { "U_B_PilotCoveralls", "", 550, { "life_coplevel", "SCALAR", 3 } },
-            { "U_B_CTRG_3", "", 550, { "life_coplevel", "SCALAR", 5 } },
-            { "U_B_T_Soldier_SL_F", "", 550, { "life_coplevel", "SCALAR", 6 } }
+            { "U_B_CTRG_3", "", 550, { "life_coplevel", "SCALAR", 5 } }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, { "", "", -1 } },

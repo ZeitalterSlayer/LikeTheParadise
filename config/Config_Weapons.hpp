@@ -1124,6 +1124,8 @@ class rebelthree {
             { "16Rnd_9x21_Mag", "", 25 },						//Taser Munition
 			{ "20Rnd_556x45_UW_mag", "", 45 },					//Taser Rifle Ammo
 			{ "30Rnd_65x39_caseless_mag", "", 25 },				//6.5mm Munition
+            { "30Rnd_65x39_caseless_green", "", 25 },           //6.5mm Type Munition
+            { "30Rnd_556x45_Stanag", "", 25 },                  //5.56 Munition
 			{ "30Rnd_762x39_Mag_F", "", 25 },					//7.62mm Munition
 			{ "20Rnd_762x51_Mag", "", 25 }						//7.62mm Munition
         };
@@ -1164,20 +1166,21 @@ class rebelthree {
             { "NVGoggles", "", 2000, 980 }
         };
         mags[] = {
-            { "9Rnd_45ACP_Mag", "", 200 },
-            { "30Rnd_65x39_caseless_mag", "", 200 },
+            { "9Rnd_45ACP_Mag", "", 20 },
+            { "30Rnd_65x39_caseless_mag", "", 20 },
             { "30Rnd_9x21_Mag_SMG_02", "", 60 },
-			{ "30Rnd_556x45_Stanag", "", 300 },
-			{ "20Rnd_762x51_Mag", "", 500 },
+			{ "30Rnd_556x45_Stanag", "", 30 },
+            { "30Rnd_65x39_caseless_green", "", 25 },           //6.5mm Type Munition
+			{ "20Rnd_762x51_Mag", "", 50 },
             { "30Rnd_580x42_Mag_F", "", 25 },
-            { "1Rnd_Smoke_Grenade_shell", "", 500 },
-            { "1Rnd_SmokeRed_Grenade_shell", "", 500 },
-            { "1Rnd_SmokeGreen_Grenade_shell", "", 500 },
-            { "1Rnd_SmokeYellow_Grenade_shell", "", 500 },
-            { "1Rnd_SmokePurple_Grenade_shell", "", 500 },
-            { "1Rnd_SmokeBlue_Grenade_shell", "", 500 },
-            { "20Rnd_650x39_Cased_Mag_F", "",500, -1 },
-            { "1Rnd_SmokeOrange_Grenade_shell", "", 500 }
+            { "1Rnd_Smoke_Grenade_shell", "", 50 },
+            { "1Rnd_SmokeRed_Grenade_shell", "", 50 },
+            { "1Rnd_SmokeGreen_Grenade_shell", "", 50 },
+            { "1Rnd_SmokeYellow_Grenade_shell", "", 50 },
+            { "1Rnd_SmokePurple_Grenade_shell", "", 50 },
+            { "1Rnd_SmokeBlue_Grenade_shell", "", 50 },
+            { "20Rnd_650x39_Cased_Mag_F", "",50, -1 },
+            { "1Rnd_SmokeOrange_Grenade_shell", "", 50 }
         };
         accs[] = {
 			{ "muzzle_snds_L", "", 650 },
