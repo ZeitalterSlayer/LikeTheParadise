@@ -148,7 +148,7 @@ class vInteraction_Menu {
 
         class RscTitleBackground: life_RscPicture {
             idc = -1;
-            text= "";
+            text= "textures\pinter.paa"
             x = BGX;
             y = BGY;
             w = BGW;
@@ -159,9 +159,9 @@ class vInteraction_Menu {
         class MainBackground: life_RscPicture {
             idc = -1;
             text= "textures\pinter.paa";
-            x = 0.35;
-            y = 0.2;
-            w = 0,46;
+            x = BGX;
+            y = BGY;
+            w = BGW + 0.1;
             h = (1 / 25);
         };
 
