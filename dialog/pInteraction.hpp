@@ -145,9 +145,9 @@ class vInteraction_Menu {
     enableSimulation = 1;
 
     class controlsBackground {
-        class RscTitleBackground: life_RscText {
-            colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
+        class RscTitleBackground: life_RscPicture {
             idc = -1;
+            text= "textures\pinter.paa"
             x = BGX;
             y = BGY;
             w = BGW;
