@@ -14,13 +14,13 @@ class shops_menu {
             h = (1 / 25);
         };
 
-        class MainBackground: Life_RscText {
-            colorBackground[] = {0, 0, 0, 0.7};
+        class MainBackground: Life_RscPicture {
+            text = "textures\pinter.paa";
             idc = -1;
-            x = 0.1;
-            y = 0.2 + (11 / 250);
-            w = 0.8;
-            h = 0.6 - (22 / 250);
+            x = 0.335026 * safezoneW + safezoneX;
+            y = 0.332252 * safezoneH + safezoneY;
+            w = 0.331119 * safezoneW;
+            h = 0.309722 * safezoneH;
         };
 
         class vasText: Life_RscText {
