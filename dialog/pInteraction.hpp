@@ -158,8 +158,8 @@ class vInteraction_Menu {
             text = "textures\pinter.paa";
             x = BGX;
             y = 0.15 + (11 / 250);
-            w = 0.43;
-            h = 0.67 - (22 / 250);
+            w = 0.40;
+            h = 0.66 - (22 / 250);
         };
 
         class Title: life_RscTitle {
@@ -187,7 +187,7 @@ class vInteraction_Menu {
 
         class ButtonOne: Life_RscButtonMenu {
             idc = 37450;
-            colorBackground[] = {25, 33, 46, 0};
+            colorBackground[] = {25, 33, 46, 1};
             text = "";
             sizeEx = 0.025;
             x = BGX + 0.03;
@@ -198,7 +198,7 @@ class vInteraction_Menu {
 
         class ButtonTwo: Life_RscButtonMenu {
             idc = 37451;
-            colorBackground[] = {25, 33, 46, 0};
+            colorBackground[] = {25, 33, 46, 1};
             text = "";
             sizeEx = 0.025;
             x = BGX + 0.03;
@@ -209,7 +209,7 @@ class vInteraction_Menu {
 
         class ButtonThree: Life_RscButtonMenu {
             idc = 37452;
-            colorBackground[] = {25, 33, 46, 0};
+            colorBackground[] = {25, 33, 46, 1};
             text = "";
             sizeEx = 0.025;
             x = BGX + 0.03;
@@ -220,7 +220,7 @@ class vInteraction_Menu {
 
         class ButtonFour: Life_RscButtonMenu {
             idc = 37453;
-            colorBackground[] = {25, 33, 46, 0};
+            colorBackground[] = {25, 33, 46, 1};
             text = "";
             sizeEx = 0.025;
             x = BGX + 0.03;
@@ -231,7 +231,7 @@ class vInteraction_Menu {
 
         class ButtonFive: Life_RscButtonMenu {
             idc = 37454;
-            colorBackground[] = {25, 33, 46, 0};
+            colorBackground[] = {25, 33, 46, 1};
             text = "";
             sizeEx = 0.025;
             x = BGX + 0.03;
@@ -242,7 +242,7 @@ class vInteraction_Menu {
 
         class ButtonSix: Life_RscButtonMenu {
             idc = 37455;
-            colorBackground[] = {25, 33, 46, 0};
+            colorBackground[] = {25, 33, 46, 1};
             text = "";
             sizeEx = 0.025;
             x = BGX + 0.03;
