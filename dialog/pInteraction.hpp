@@ -159,7 +159,7 @@ class vInteraction_Menu {
             x = BGX;
             y = 0.15 + (11 / 250);
             w = BGW;
-            h = 0.5 - (22 / 250);
+            h = 0.7 - (22 / 250);
         };
 
         class Title: life_RscTitle {
