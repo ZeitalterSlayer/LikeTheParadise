@@ -187,67 +187,67 @@ class vInteraction_Menu {
 
         class ButtonOne: Life_RscButtonMenu {
             idc = 37450;
-            ColorBackground[] = {0.098039,0.129411,0.180392,0.5};
+            ColorBackground[] = {1,0.843137,0,1};
             text = "";
             sizeEx = 0.025;
             x = BGX + 0.03;
             y = BGY + 0.07;
-            w = 0.4;
+            w = 0.3;
             h = 0.038;
         };
 
         class ButtonTwo: Life_RscButtonMenu {
             idc = 37451;
-            ColorBackground[] = {0.098039,0.129411,0.180392,0.5};
+            ColorBackground[] = {1,0.843137,0,1};
             text = "";
             sizeEx = 0.025;
             x = BGX + 0.03;
             y = BGY + 0.12;
-            w = 0.4;
+            w = 0.3;
             h = 0.038;
         };
 
         class ButtonThree: Life_RscButtonMenu {
             idc = 37452;
-            ColorBackground[] = {0.098039,0.129411,0.180392,0.5};
+            ColorBackground[] = {1,0.843137,0,1};
             text = "";
             sizeEx = 0.025;
             x = BGX + 0.03;
             y = BGY + 0.17;
-            w = 0.4;
+            w = 0.3;
             h = 0.038;
         };
 
         class ButtonFour: Life_RscButtonMenu {
             idc = 37453;
-            ColorBackground[] = {0.098039,0.129411,0.180392,0.5};
+            ColorBackground[] = {1,0.843137,0,1};
             text = "";
             sizeEx = 0.025;
             x = BGX + 0.03;
             y = BGY + 0.22;
-            w = 0.4;
+            w = 0.3;
             h = 0.038;
         };
 
         class ButtonFive: Life_RscButtonMenu {
             idc = 37454;
-            ColorBackground[] = {0.098039,0.129411,0.180392,0.5};
+            ColorBackground[] = {1,0.843137,0,1};
             text = "";
             sizeEx = 0.025;
             x = BGX + 0.03;
             y = BGY + 0.27;
-            w = 0.4;
+            w = 0.3;
             h = 0.038;
         };
 
         class ButtonSix: Life_RscButtonMenu {
             idc = 37455;
-            ColorBackground[] = {0.098039,0.129411,0.180392,0.5};
+            ColorBackground[] = {1,0.843137,0,1};
             text = "";
             sizeEx = 0.025;
             x = BGX + 0.03;
             y = BGY + 0.32;
-            w = 0.4;
+            w = 0.3;
             h = 0.038;
         };
     };
