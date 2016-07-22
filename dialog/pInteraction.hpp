@@ -145,6 +145,7 @@ class vInteraction_Menu {
     enableSimulation = 1;
 
     class controlsBackground {
+      /*
         class RscTitleBackground: life_RscPicture {
             idc = -1;
             text= "textures\pinter.paa"
@@ -154,13 +155,14 @@ class vInteraction_Menu {
             h = (1 / 25);
         };
 
+        */
         class MainBackground: life_RscPicture {
             idc = -1;
             text= "textures\pinter.paa"
-            x = 0.335 * safezoneW + safezoneX;
-            y = 0.203 * safezoneH + safezoneY;
-            w = 0.43 * safezoneW;
-            h = 0.605 * safezoneH;
+            x = BGX;
+            y = BGY;
+            w = BGW + 0.5;
+            h = (1 / 25);
         };
 
         class Title: life_RscTitle {
