@@ -1231,6 +1231,6 @@ class VirtualItems {
         sellPrice = 100000;
         illegal = true;
         edible = 100;
-        icon = "";
+        icon = "icons\ico_zyankali.paa";
     };
 };

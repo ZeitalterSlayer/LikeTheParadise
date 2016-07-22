@@ -5983,6 +5983,10 @@
         </Key>
     </Package>
     <Package name="Life_Items">
+        <Key ID="STR_Item_Zyankali">
+            <Original>cyanide capsule</Original>
+            <German>Zyankalikapsel</German>
+        </Key>
         <Key ID="STR_Item_Handcuffs">
             <Original>Handcuffs</Original>
             <German>Handschellen</German>
