@@ -18,6 +18,4 @@ _igiload = execVM "IgiLoad\IgiLoadInit.sqf";
 StartProgress = true;
 
 // Towing
-SA_MAX_TOWED_CARGO = 1;
-SA_TOW_RULES_OVERRIDE = [ ["Car", "CAN_TOW", "Trucks"] ];
 SA_TOW_LOCKED_VEHICLES_ENABLED = true;
