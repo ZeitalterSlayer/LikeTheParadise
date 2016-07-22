@@ -87,16 +87,15 @@ if (_curObject isKindOf "Man" && !(_curObject isKindOf "Animal") && {!alive _cur
 
 //If target is a player then check if we can use the cop menu.
 if (isPlayer _curObject && _curObject isKindOf "Man") then {
-    if(_curObject getVariable ["restrained",false]) then {
-        if (!dialog) then {
-            if(playerside isEqualTo civilian) then {
-                [_curObject] call life_fnc_civInteractionMenu;
-            };
-            if(playerside isEqualTo west) then {
-                [_curObject] call life_fnc_copInteractionMenu;
-            };
+    if (!dialog) then {
+        if(playerside isEqualTo civilian) then {
+            [_curObject] call life_fnc_civInteractionMenu;
+        };
+        if(playerside isEqualTo west) then {
+            [_curObject] call life_fnc_copInteractionMenu;
         };
     };
+
 } else {
     //OK, it wasn't a player so what is it?
     private["_isVehicle","_miscItems","_money","_list"];
