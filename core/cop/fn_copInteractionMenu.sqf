@@ -23,11 +23,9 @@ _curTarget = param [0,objNull,[objNull]];
 _seizeRank = LIFE_SETTINGS(getNumber,"seize_minimum_rank");
 
 if (player getVariable ["Escorting", false]) then {
-    if (_curTarget getVariable ["restrained",false]) then {
-        if (isNull _curTarget) exitWith {closeDialog 0;}; //Bad target
-        if (!isPlayer _curTarget && side _curTarget isEqualTo civilian) exitWith {closeDialog 0;}; //Bad side check?
-        if (player distance _curTarget > 4 ) exitWith {closeDialog 0;}; // Prevents menu accessing from far distances.
-    };
+    if (isNull _curTarget) exitWith {closeDialog 0;}; //Bad target
+    if (!isPlayer _curTarget && side _curTarget isEqualTo civilian) exitWith {closeDialog 0;}; //Bad side check?
+    if (player distance _curTarget > 4 ) exitWith {closeDialog 0;}; // Prevents menu accessing from far distances.
 };
 
 if (!dialog) then {
@@ -45,14 +43,9 @@ _Btn7 = _display displayCtrl Btn7;
 _Btn8 = _display displayCtrl Btn8;
 life_pInact_curTarget = _curTarget;
 
-if (_curTarget getVariable ["restrained",false]) then {
-    if (player getVariable ["isEscorting",false]) then {
-        { _x ctrlShow false; } forEach [_Btn1,_Btn2,_Btn3,_Btn5,_Btn6,_Btn7,_Btn8];
-        } else {
-        { _x ctrlShow false; } forEach [_Btn1,_Btn3,_Btn4,_Btn6,_Btn7,Btn8];
-    };
+if (player getVariable ["isEscorting",false]) then {
+    { _x ctrlShow false; } forEach [_Btn1,_Btn2,_Btn3,_Btn5,_Btn6,_Btn7,_Btn8];
 };
-
 
 //Set Unrestrain Button
 _Btn1 ctrlSetText localize "STR_pInAct_Unrestrain";
