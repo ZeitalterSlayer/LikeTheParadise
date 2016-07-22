@@ -61,7 +61,7 @@ class life_spawn_selection {
             idcLeft = -1;
             idcRight = -1;
             rowHeight = 0.050;
-            x = 0.95;
+            x = 0.09;
             y = 0.26;
             w = (10.4 / 40);
             h = (10 / 25);
