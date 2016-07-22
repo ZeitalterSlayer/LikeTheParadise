@@ -9,6 +9,21 @@ private["_craft","_return"];
 _craft = [_this,0,"",[""]] call BIS_fnc_param;
 if(_craft == "") exitWith {closeDialog 0}; //Bad shop type passed.
 switch(_craft) do {
+ case "Starter": {
+ _return = [
+ //[Object classname, [item #1,quantity item #1,item #2,quantity item #2]],]
+ ["ItemWatch", ["iron_refined",1]],
+ ["ItemCompass", ["iron_refined",1]],
+ ["ItemRadio", ["iron_refined",1]],
+ ["ItemMap", ["iron_refined",1]],
+ ["ItemGPS", ["iron_refined",5]],
+ ["Binoculars", ["iron_refined",5]],
+ ["Rangefinder", ["iron_refined",15]],
+ ["NVGoggles", ["iron_refined",5]],
+ ["FirstAidKit", ["stoff",3]],
+ ["ToolKit", ["iron_refined",5]]
+ ];
+ };
  case "weapon": {
  _return = [
  //[Object classname, [item #1,quantity item #1,item #2,quantity item #2]],]
@@ -23,33 +38,31 @@ switch(_craft) do {
  ["srifle_EBR_F", ["abzug",1,"griff",1,"gehause",6,"lauf",3,"stutze",1,"schutz",3]],
  ["srifle_DMR_03_woodland_F", ["abzug",1,"griff",1,"gehause",6,"lauf",3,"stutze",1,"schutz",3]],
  ["srifle_DMR_06_camo_F", ["abzug",1,"griff",1,"gehause",6,"lauf",3,"stutze",1,"schutz",3]],
- ["20Rnd_762x51_Mag", ["neunmm",5,"magazin",1]],
- ["arifle_AK12_F", ["abzug",1,"griff",1,"gehause",6,"lauf",3,"stutze",1,"schutz",3]],
- ["30Rnd_762x39_Mag_F", ["neunmm",5,"magazin",1]]
+ ["20Rnd_762x51_Mag", ["neunmm",5,"magazin",1]]
  ];
  };
  case "uniform": {
  _return = [
  //[Object classname, [item #1,quantity item #1,item #2,quantity item #2]],]
- ["U_IG_Guerilla1_1", ["stoff",45]],
- ["U_C_Driver_1", ["stoff",45]],
- ["U_B_survival_uniform", ["stoff",45]],
- ["U_OG_leader", ["stoff",45]],
- ["U_I_GhillieSuit", ["stoff",10,"palmblatt",15]],
- ["U_O_Wetsuit", ["neopren",15]]
+ ["U_IG_Guerilla1_1", ["stoff",25]],
+ ["U_C_Driver_1", ["stoff",25]],
+ ["U_B_survival_uniform", ["stoff",25]],
+ ["U_OG_leader", ["stoff",25]],
+ ["U_I_GhillieSuit", ["stoff",30]],
+ ["U_O_Wetsuit", ["neopren",10]]
  ];
  };
  case "backpack": {
  _return = [
  //[Object classname, [item #1,quantity item #1,item #2,quantity item #2]],]
- ["B_Carryall_oli", ["stoff",40]],
- ["B_ViperHarness_blk_F", ["stoff",55]],
- ["B_ViperHarness_oli_F", ["stoff",55]],
- ["B_ViperLightHarness_khk_F", ["stoff",55]],
- ["B_Bergen_hex_F", ["stoff",80]],
- ["B_Bergen_mcamo_F", ["stoff",80]],
- ["B_Bergen_tna_F", ["stoff",80]],
- ["B_Parachute", ["stoff",75]]
+ ["B_Carryall_oli", ["stoff",20]],
+ ["B_ViperHarness_blk_F", ["stoff",25]],
+ ["B_ViperHarness_oli_F", ["stoff",25]],
+ ["B_ViperLightHarness_khk_F", ["stoff",25]],
+ ["B_Bergen_hex_F", ["stoff",40]],
+ ["B_Bergen_mcamo_F", ["stoff",40]],
+ ["B_Bergen_tna_F", ["stoff",40]],
+ ["B_Parachute", ["stoff",20]]
  ];
  };
  case "item": {
