@@ -18,9 +18,11 @@
 
 private["_display","_curTarget","_Btn1","_Btn2","_Btn3","_Btn4","_Btn5","_Btn6","_Btn7","_Btn8"];
 
+
 disableSerialization;
 _curTarget = param [0,ObjNull,[ObjNull]];
 if(isNull _curTarget) exitWith {closeDialog 0;}; //Bad target
+if (_curTarget getVariable ["restrained",false]) exitWith {};
 
 if(!dialog) then {
 	createDialog "pInteraction_Menu";
@@ -28,6 +30,8 @@ if(!dialog) then {
 
 if(!isPlayer _curTarget && side _curTarget isEqualTo civilian) exitWith {closeDialog 0;}; //Bad side check?
 if(player distance _curTarget > 4 ) exitWith {closeDialog 0;}; // Prevents menu accessing from far distances.
+
+if (_curTarget getVariable ["restrained",false]) exitWith {};
 
 _display = findDisplay 37400;
 _Btn1 = _display displayCtrl Btn1;
