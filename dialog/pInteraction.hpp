@@ -157,7 +157,7 @@ class vInteraction_Menu {
             text = "textures\pinter.paa";
             x = BGX;
             y = 0.15 + (11 / 250);
-            w = 0.38;
+            w = 0.35;
             h = 0.65 - (22 / 250);
         };
 
