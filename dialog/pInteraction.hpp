@@ -154,7 +154,7 @@ class vInteraction_Menu {
             h = (1 / 25);
         };
 
-        class MainBackground: life_RscText {
+        class MainBackground: life_RscPicture {
             idc = -1;
             text= "textures\pinter.paa"
             x = BGX;
