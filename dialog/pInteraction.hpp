@@ -158,8 +158,8 @@ class vInteraction_Menu {
             text = "textures\pinter.paa";
             x = BGX;
             y = 0.15 + (11 / 250);
-            w = BGW;
-            h = 0.7 - (22 / 250);
+            w = 0.43;
+            h = 0.67 - (22 / 250);
         };
 
         class Title: life_RscTitle {
