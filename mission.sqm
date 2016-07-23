@@ -206395,7 +206395,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="this addAction [""Öl sammeln!"", ""poziscript\oil.sqf""];";
+				init="";
 			};
 			id=9189;
 			type="Land_Device_assembled_F";
@@ -206412,7 +206412,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="this addAction [""Öl sammeln!"", ""poziscript\oil.sqf""];";
+				init="";
 			};
 			id=9190;
 			type="Land_Device_assembled_F";
