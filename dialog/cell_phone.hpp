@@ -7,7 +7,7 @@ class Life_cell_phone {
 
     class controlsBackground {
         class Life_RscTitleBackground: Life_RscText {
-            colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
+            //colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
             idc = -1;
             x = 0.1;
             y = 0.2;
@@ -15,13 +15,14 @@ class Life_cell_phone {
             h = (1 / 25);
         };
 
-        class MainBackground: Life_RscText {
+        class MainBackground: Life_RscPicture {
             colorBackground[] = {0, 0, 0, 0.7};
             idc = -1;
-            x = 0.1;
-            y = 0.2 + (11 / 250);
-            w = 0.64;
-            h = 0.3 - (5 / 250);
+            text = "textures\pinter.paa";
+            x = 0.334635 * safezoneW + safezoneX;
+            y = 0.332715 * safezoneH + safezoneY;
+            w = 0.331510 * safezoneW;
+            h = 0.307407 * safezoneH;
         };
     };
 

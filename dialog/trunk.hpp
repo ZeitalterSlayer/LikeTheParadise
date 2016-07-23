@@ -6,7 +6,7 @@ class TrunkMenu {
 
     class controlsBackground {
         class RscTitleBackground: Life_RscText {
-            colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
+            //colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
             idc = -1;
             x = 0.1;
             y = 0.2;
@@ -14,13 +14,14 @@ class TrunkMenu {
             h = (1 / 25);
         };
 
-        class RscBackground: Life_RscText {
-            colorBackground[] = {0, 0, 0, 0.7};
+        class RscBackground: Life_RscPicture {
+            //colorBackground[] = {0, 0, 0, 0.7};
             idc = -1;
-            x = 0.1;
-            y = 0.2 + (11 / 250);
-            w = 0.7;
-            h = 0.7 - (22 / 250);
+            text = "textures\pinter.paa";
+            x = 0.438509 * safezoneW + safezoneX;
+            y = 0.333641 * safezoneH + safezoneY;
+            w = 0.125553 * safezoneW;
+            h = 0.341666 * safezoneH;
         };
 
         class RscTitleText: Life_RscTitle {
