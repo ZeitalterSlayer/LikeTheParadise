@@ -223,11 +223,17 @@ class Life_Client_Core {
     };
 
 
-    class RageCore
-        {
+    class RageCore {
         file = "core\scripts";
         class initIntro {};
-        };
+    };
+
+    class Blindfold {
+        file = "core\scripts\Blindfold";
+        class blindfoldAction {};
+        class blindfoldOff {};
+        class blindfoldActionOff {};
+    };
 
 
     class Gangs {

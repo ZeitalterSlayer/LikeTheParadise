@@ -107,6 +107,11 @@ switch (true) do {
         };
     };
 
+    case (_item isEqualTo "blindfold"): {
+        if (vehicle player != player) exitWith {hint "Du bist im Fahrzeug";};
+            [cursorTarget] spawn ES_fnc_blindfold;
+    };
+
     case (_item in ["apple","rabbit","salema","ornate","mackerel","tuna","mullet","catshark","turtle_soup","hen","rooster","sheep","goat","donuts","tbacon","peach"]): {
         if (!(M_CONFIG(getNumber,"VirtualItems",_item,"edible") isEqualTo -1)) then {
             if ([false,_item,1] call life_fnc_handleInv) then {

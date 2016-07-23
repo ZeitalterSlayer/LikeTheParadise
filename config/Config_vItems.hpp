@@ -27,7 +27,7 @@ class VirtualShops {
         side = "civ";
         license = "rebel";
         level[] = { "", "", -1, "" };
-        items[] = { "waterBottle", "rabbit", "redgull", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull","boltcutter", "blastingcharge","handcuffs","zyankali" };
+        items[] = { "waterBottle", "rabbit", "redgull", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull","boltcutter", "blastingcharge","handcuffs","zyankali","blindfold" };
     };
 	class hero {
         name = "STR_Shops_Hero";
