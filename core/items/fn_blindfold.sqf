@@ -1,4 +1,4 @@
-#include "..\script_macros.hpp"
+#include "..\..\script_macros.hpp"
 /*
 	File: fn_blindfold.sqf
 	Author: Jason_000
