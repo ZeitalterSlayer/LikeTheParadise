@@ -721,6 +721,7 @@ class Clothing {
 			{ "H_HelmetSpecB_paint1", "", 100, { "", "", -1 } },
 			{ "H_HelmetSpecB_paint2", "", 100, { "", "", -1 } },
 			{ "H_HelmetSpecB_blk", "", 100, { "", "", -1 } },
+            { "H_Beret_Colonel", "", 100, { "", "", -1 } },
 			{ "H_HelmetSpecO_ghex_F", "", 100, { "", "", -1 } }
         };
         goggles[] = {

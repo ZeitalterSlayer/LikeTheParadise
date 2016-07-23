@@ -1063,30 +1063,34 @@ class rebelthree {
         items[] = {
             { "hgun_P07_snds_F", "Taser", 2000, { "life_coplevel", "SCALAR", 1 } },			//Taser
 			{ "arifle_sdar_F", "Taser Rifle", 5000, { "life_coplevel", "SCALAR", 2 } },		//Taser Rifle
-            { "SMG_05_F", "", 2000, { "life_coplevel", "SCALAR", 2 } },                       //Protector
-            { "arifle_SPAR_01_blk_F", "", 20000, { "life_coplevel", "SCALAR", 3 } },          //SPAR-16
-            { "arifle_MXC_Black_F", "", 20000, { "life_coplevel", "SCALAR", 4 } },            //MXC
-            { "arifle_CTAR_blk_F", "", 20000, { "life_coplevel", "SCALAR", 5 } },             //CAR-95
-            { "arifle_MXM_Black_F", "", 20000, { "life_coplevel", "SCALAR", 6 } },           //MXM
+            { "SMG_05_F", "", 2000, { "life_coplevel", "SCALAR", 2 } },                     //Protector
+            { "arifle_SPAR_01_blk_F", "", 20000, { "life_coplevel", "SCALAR", 3 } },        //SPAR-16
+            { "arifle_MXC_Black_F", "", 20000, { "life_coplevel", "SCALAR", 4 } },          //MXC
+            { "arifle_CTAR_blk_F", "", 20000, { "life_coplevel", "SCALAR", 5 } },           //CAR-95
+            { "arifle_MXM_Black_F", "", 20000, { "life_coplevel", "SCALAR", 6 } },          //MXM
             { "arifle_ARX_blk_F", "", 20000, { "life_coplevel", "SCALAR", 7 } },            //Type 115
-            { "arifle_SPAR_03_blk_F", "", 20000, { "life_coplevel", "SCALAR", 8 } },          //SPAR-17
+            { "arifle_SPAR_03_blk_F", "", 20000, { "life_coplevel", "SCALAR", 8 } },        //SPAR-17
 			{ "srifle_DMR_03_F", "", 20000,{ "life_coplevel", "SCALAR", 9 } },				//Mk-I
+            { "LMG_03_F", "", 1800000, -1 },                                                // LIM MG
+            { "LMG_Mk200_F", "", 2250000, -1 },                                             // MK200
 			{ "ItemGPS", "", 100, { "life_coplevel", "SCALAR", 1 } },						//GPS
 			{ "ItemCompass", "", 150, { "life_coplevel", "SCALAR", 1 } },					//Kompass
 			{ "ItemMap", "", 150, { "life_coplevel", "SCALAR", 1 } },						//Map
             { "Binocular", "", 150, { "life_coplevel", "SCALAR", 1 } },						//Fernglas
-            { "Rangefinder", "", 5000, { "life_coplevel", "SCALAR", 1 } },                   //Rangefinder
+            { "Rangefinder", "", 5000, { "life_coplevel", "SCALAR", 1 } },                  //Rangefinder
             { "NVGoggles_OPFOR", "", 2000, { "life_coplevel", "SCALAR", 1 } },				//Nachtsichtgerät
-            { "FirstAidKit", "", 150, { "life_coplevel", "SCALAR", 1 } }	               //Medikit
+            { "FirstAidKit", "", 150, { "life_coplevel", "SCALAR", 1 } }	                //Medikit
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 25 },						//Taser Munition
+            { "200Rnd_65x39_cased_Box_Tracer", "", 1500 },      // MK200 Ammo
+            { "200Rnd_556x45_Box_Red_F", "", 1000 },            // LIM Ammo
 			{ "20Rnd_556x45_UW_mag", "", 45 },					//Taser Rifle Ammo
             { "30Rnd_9x21_Mag_SMG_02", "", 60 },                //9mm Munition
             { "30Rnd_556x45_Stanag", "", 25 },                  //5.56 Munition
             { "30Rnd_580x42_Mag_F", "", 25 },                   //5.8mm Munition
             { "30Rnd_65x39_caseless_mag", "", 25 },             //6.5mm Munition
-            { "30Rnd_65x39_caseless_green", "", 25 },        //6.5mm Type Munition
+            { "30Rnd_65x39_caseless_green", "", 25 },           //6.5mm Type Munition
 			{ "20Rnd_762x51_Mag", "", 25 }						//7.62mm Munition
         };
         accs[] = {
