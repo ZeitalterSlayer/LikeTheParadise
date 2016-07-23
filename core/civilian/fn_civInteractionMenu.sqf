@@ -57,14 +57,15 @@ if((_curTarget getVariable["Escorting",false])) then {
 
 _Btn3 ctrlSetText localize "STR_pInAct_PutInCar";
 _Btn3 buttonSetAction "[life_pInact_curTarget] call life_fnc_putInCar;";
-
+/*
 _Btn4 ctrlSetText localize "STR_pInAct_blindfold";
 _Btn4 buttonSetAction "[life_pInact_curTarget] call life_fnc_blindfoldAction; closeDialog 0;";
 
 _Btn5 ctrlSetText localize "STR_pInAct_blindfoldoff";
 _Btn5 buttonSetAction "[life_pInact_curTarget] call life_fnc_blindfoldActionOff; closeDialog 0;";
-
-
+*/
+_Btn4 ctrlShow false;
+_Btn5 ctrlShow false;
 _Btn6 ctrlShow false;
 _Btn7 ctrlShow false;
 _Btn8 ctrlShow false;
