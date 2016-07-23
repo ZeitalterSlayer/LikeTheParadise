@@ -19,10 +19,10 @@ class Life_cell_phone {
             colorBackground[] = {0, 0, 0, 0.7};
             idc = -1;
             text = "textures\pinter.paa";
-            x = 0.334635 * safezoneW + safezoneX;
+            x = 0.333854 * safezoneW + safezoneX;
             y = 0.332715 * safezoneH + safezoneY;
-            w = 0.331510 * safezoneW;
-            h = 0.307407 * safezoneH;
+            w = 0.283333 * safezoneW;
+            h = 0.181481 * safezoneH;
         };
     };
 

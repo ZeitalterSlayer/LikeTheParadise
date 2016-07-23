@@ -18,10 +18,10 @@ class TrunkMenu {
             //colorBackground[] = {0, 0, 0, 0.7};
             idc = -1;
             text = "textures\pinter.paa";
-            x = 0.438509 * safezoneW + safezoneX;
-            y = 0.333641 * safezoneH + safezoneY;
-            w = 0.125553 * safezoneW;
-            h = 0.341666 * safezoneH;
+            x = 0.332584 * safezoneW + safezoneX;
+            y = 0.325539 * safezoneH + safezoneY;
+            w = 0.295019 * safezoneW;
+            h = 0.370138 * safezoneH;
         };
 
         class RscTitleText: Life_RscTitle {

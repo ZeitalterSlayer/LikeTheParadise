@@ -17,7 +17,7 @@ class Life_atm_management {
         class MainBackground: Life_RscPicture {
             //colorBackground[] = {0, 0, 0, 0.7};
             idc = -1;
-            text = "texutres\pinter.paa";
+            text = "textures\pinter.paa";
             x = 0.438509 * safezoneW + safezoneX;
             y = 0.333641 * safezoneH + safezoneY;
             w = 0.125553 * safezoneW;

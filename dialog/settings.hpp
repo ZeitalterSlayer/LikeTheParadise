@@ -6,7 +6,7 @@ class SettingsMenu {
 
     class controlsBackground {
         class RscTitleBackground: Life_RscText {
-            colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
+            //colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
             idc = -1;
             x = 0.3;
             y = 0.2;
@@ -14,13 +14,13 @@ class SettingsMenu {
             h = (1 / 25);
         };
 
-        class RscMainBackground: Life_RscText {
-            colorBackground[] = {0,0,0,0.7};
+        class RscMainBackground: Life_RscPicture {
+            //colorBackground[] = {0,0,0,0.7};
             idc = -1;
-            x = 0.3;
-            y = 0.2 + (11 / 250);
-            w = 0.5;
-            h = 0.48 - (22 / 250);
+            x = 0.075651 * safezoneW + safezoneX;
+            y = 0.207252 * safezoneH + safezoneY;
+            w = 0.145572 * safezoneW;
+            h = 0.280555 * safezoneH;
         };
 
         class PlayerTagsHeader: Life_RscText {
