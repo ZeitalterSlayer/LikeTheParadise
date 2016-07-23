@@ -265,7 +265,7 @@ class ButtonPlaceablesMEDIC: Life_RscButtonMenu {
  y = 0.7016 * safezoneH + safezoneY;
  w = 0.028875 * safezoneW;
  h = 0.0504 * safezoneH;
- onButtonClick = "[] call life_fnc_settingsMenu;";
+ onButtonClick = "[] call life_fnc_craftAction;";
  tooltip = "Einstellungen";
  colorBackground[] = {-1,-1,-1,-1};
  colorBackgroundFocused[] = {1,1,1,0.12};
