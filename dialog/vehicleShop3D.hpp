@@ -7,22 +7,22 @@ class Life_Vehicle_Shop_v2_3D {
     onUnLoad = "[] call life_fnc_vehicleShopEnd3DPreview";
 
     class controlsBackground {
-        class MainBackground: Life_RscText {
-            colorBackground[] = {0,0,0,0.7};
+        class MainBackground: Life_RscPicture {
             idc = -1;
-            x = 0.0204687 * safezoneW + safezoneX;
-            y = 0.06 * safezoneH + safezoneY;
-            w = 0.149531 * safezoneW;
-            h = 0.638 * safezoneH;
+            text = "textures\pinter.paa"
+            x = 0.020312 * safezoneW + safezoneX;
+            y = 0.058641 * safezoneH + safezoneY;
+            w = 0.15 * safezoneW;
+            h = 0.640740 * safezoneH;
         };
 
-        class SecondBackground: Life_RscText {
-            colorBackground[] = {0,0,0,0.7};
+        class SecondBackground: Life_RscPicture {
             idc = -1;
-            x = 0.809375 * safezoneW + safezoneX;
-            y = 0.06 * safezoneH + safezoneY;
-            w = 0.190781 * safezoneW;
-            h = 0.341 * safezoneH;
+            text = "textures\pinter.paa"
+            x = 0.808854 * safezoneW + safezoneX;
+            y = 0.055863 * safezoneH + safezoneY;
+            w = 0.188541 * safezoneW;
+            h = 0.346296 * safezoneH;
         };
 
         class Title: Life_RscTitle {
