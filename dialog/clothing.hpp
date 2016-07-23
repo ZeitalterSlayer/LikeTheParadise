@@ -7,7 +7,6 @@ class Life_Clothing {
 
     class controlsBackground {
         class Life_RscTitleBackground: Life_RscText {
-            colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
             idc = -1;
             x = 0.0821059 * safezoneW + safezoneX;
             y = 0.212176 * safezoneH + safezoneY;
@@ -15,13 +14,13 @@ class Life_Clothing {
             h = (1 / 25);
         };
 
-        class MainBackground: Life_RscText {
+        class MainBackground: Life_RscPicture {
             colorBackground[] = {0, 0, 0, 0.7};
             idc = -1;
-            x = 0.0822359 * safezoneW + safezoneX;
-            y = 0.236099 * safezoneH + safezoneY;
-            w = 0.318;
-            h = 0.5 - (22 / 250);
+            x = 0.081770 * safezoneW + safezoneX;
+            y = 0.208641 * safezoneH + safezoneY;
+            w = 0.134375 * safezoneW;
+            h = 0.281481 * safezoneH;
         };
     };
 
