@@ -6,7 +6,7 @@
 
         Description:
         Same as fn_gather,but it allows use of probabilities for mining.
-        Init für Objekt: this addAction [""Öl sammeln!"", ""poziscript\oil.sqf""];
+        Init für Objekt: this addAction ["Öl sammeln!", "poziscript\oil.sqf"];
     */
 private["_maxGather", "_resource", "_amount", "_requiredItem", "_mined"];
 if (life_action_inUse) exitWith {};
@@ -19,14 +19,12 @@ if (player getVariable "playerSurrender") exitWith {
     hint localize "STR_NOTF_surrender";
 };
 life_action_inUse = true;
-_zone = "";
 _requiredItem = "";
 
 _resourceCfg = missionConfigFile >> "CfgGather" >> "Minerals";
 _percent = (floor random 100) + 1; //Make sure its not 0
 
 for "_i" from 0 to count(_resourceCfg)-1 do {
-    _curConfig = _resourceCfg select _i;
     _resources = "oil_unprocessed";
     _maxGather = "2";
     _requiredItem = "";
@@ -58,6 +56,7 @@ _diff = [_mined, _amount, life_carryWeight, life_maxWeight] call life_fnc_calWei
 if (_diff isEqualTo 0) exitWith {
     hint localize "STR_NOTF_InvFull";
     life_action_inUse = false;
+};
 };
 
 for "_i" from 0 to 4 do {
