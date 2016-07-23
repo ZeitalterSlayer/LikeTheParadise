@@ -109,7 +109,7 @@ switch (true) do {
 
     case (_item isEqualTo "blindfold"): {
         if (vehicle player != player) exitWith {hint "Du bist im Fahrzeug";};
-            [cursorTarget] spawn life_fnc_blindfold;
+            [cursorObject] spawn life_fnc_blindfold;
     };
 
     case (_item in ["apple","rabbit","salema","ornate","mackerel","tuna","mullet","catshark","turtle_soup","hen","rooster","sheep","goat","donuts","tbacon","peach"]): {
