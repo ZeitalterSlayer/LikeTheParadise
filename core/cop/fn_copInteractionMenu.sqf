@@ -21,7 +21,7 @@ private["_display","_curTarget","_seizeRank","_Btn1","_Btn2","_Btn3","_Btn4","_B
 disableSerialization;
 _curTarget = param [0,objNull,[objNull]];
 _seizeRank = LIFE_SETTINGS(getNumber,"seize_minimum_rank");
-
+_curObject = cursorObject;
 if (player getVariable ["Escorting", false]) then {
     if (isNull _curTarget) exitWith {closeDialog 0;}; //Bad target
     if (!isPlayer _curTarget && side _curTarget isEqualTo civilian) exitWith {closeDialog 0;}; //Bad side check?
@@ -48,13 +48,13 @@ if (player getVariable ["isEscorting",false]) then {
 };
 
 //Set Unrestrain Button
-if (_curTarget getVariable ["restrained",false]) then {
+if (_curObject getVariable ["restrained",false]) then {
     _Btn1 ctrlSetText localize "STR_pInAct_Unrestrain";
     _Btn1 buttonSetAction "[life_pInact_curTarget] call life_fnc_unrestrain; closeDialog 0;";
 } else {
     _Btn1 ctrlShow false;
 };
-dfff
+
 
 //Set Check Licenses Button
 
@@ -62,7 +62,7 @@ _Btn2 ctrlSetText localize "STR_pInAct_checkLicenses";
 _Btn2 buttonSetAction "[player] remoteExecCall [""life_fnc_licenseCheck"",life_pInact_curTarget]; closeDialog 0;";
 
 //Set Search Button
-if (_curTarget getVariable ["restrained",false]) then {
+if (_curObject getVariable ["restrained",false]) then {
     _Btn3 ctrlSetText localize "STR_pInAct_SearchPlayer";
     _Btn3 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_searchAction; closeDialog 0;";
 } else {
@@ -83,7 +83,7 @@ _Btn5 ctrlSetText localize "STR_pInAct_TicketBtn";
 _Btn5 buttonSetAction "[life_pInact_curTarget] call life_fnc_ticketAction;";
 
 
-if (_curTarget getVariable ["restrained",false]) then {
+if (_curObject getVariable ["restrained",false]) then {
     _Btn6 ctrlSetText localize "STR_pInAct_Arrest";
     _Btn6 buttonSetAction "[life_pInact_curTarget] call life_fnc_arrestAction; closeDialog 0;";
     _Btn6 ctrlEnable false;
@@ -91,7 +91,7 @@ if (_curTarget getVariable ["restrained",false]) then {
     _Btn6 ctrlShow false;
 };
 
-if (_curTarget getVariable ["restrained",false]) then {
+if (_curObject getVariable ["restrained",false]) then {
     _Btn7 ctrlSetText localize "STR_pInAct_PutInCar";
     _Btn7 buttonSetAction "[life_pInact_curTarget] call life_fnc_putInCar; closeDialog 0;";
 } else {
@@ -99,7 +99,7 @@ if (_curTarget getVariable ["restrained",false]) then {
 };
 
 //SeizeWeapons Button
-if (_curTarget getVariable ["restrained",false]) then {
+if (_curObject getVariable ["restrained",false]) then {
     _Btn8 ctrlSetText localize "STR_pInAct_Seize";
     _Btn8 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_seizePlayerAction; closeDialog 0;";
 } else {
