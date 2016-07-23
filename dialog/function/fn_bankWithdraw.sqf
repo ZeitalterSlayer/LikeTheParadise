@@ -28,7 +28,3 @@ if (LIFE_SETTINGS(getNumber,"player_moneyLog") isEqualTo 1) then {
     };
     publicVariableServer "money_log";
 };
-
-
-//Logs by POZI
-["(getPlayerUID player) hat _value $ abgehoben!","Money"] call A3Log;

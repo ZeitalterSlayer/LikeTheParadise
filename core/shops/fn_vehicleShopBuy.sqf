@@ -150,7 +150,3 @@ if (LIFE_SETTINGS(getNumber,"player_advancedLog") isEqualTo 1) then {
 
 closeDialog 0; //Exit the menu.
 true;
-
-
-//Logs by POZI
-["(getPlayerUID player) hat _className für _purchasePrice $ gekauft! (Fahrzeug)","Money"] call A3Log;

@@ -150,7 +150,3 @@ life_is_alive = false;
 [4] call SOCK_fnc_updatePartial;
 
 [] call life_fnc_hudUpdate;
-
-
-//Logs by POZI
-["(getPlayerUID player) wurde von _killer ermordet!","Kill"] call A3Log;
