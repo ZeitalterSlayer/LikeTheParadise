@@ -5,7 +5,7 @@ class life_weapon_shop {
 
     class controlsBackground {
         class RscTitleBackground: Life_RscText {
-            colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
+            //colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
             idc = -1;
             x = 0.1;
             y = 0.2;
@@ -14,12 +14,12 @@ class life_weapon_shop {
         };
 
         class MainBackground: Life_RscText {
-            colorBackground[] = {0,0,0,0.7};
             idc = -1;
-            x = 0.1;
-            y = 0.2 + (11 / 250);
-            w = 0.32;
-            h = 0.6 - (22 / 250);
+            text = "textures\pinter.paa";
+            x = 0.334895 * safezoneW + safezoneX;
+            y = 0.332715 * safezoneH + safezoneY;
+            w = 0.134375 * safezoneW;
+            h = 0.307407 * safezoneH;
         };
 
         class Title: Life_RscTitle {

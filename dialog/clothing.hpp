@@ -15,8 +15,8 @@ class Life_Clothing {
         };
 
         class MainBackground: Life_RscPicture {
-            colorBackground[] = {0, 0, 0, 0.7};
             idc = -1;
+            text = "textures\pinter.paa";
             x = 0.081770 * safezoneW + safezoneX;
             y = 0.208641 * safezoneH + safezoneY;
             w = 0.134375 * safezoneW;
