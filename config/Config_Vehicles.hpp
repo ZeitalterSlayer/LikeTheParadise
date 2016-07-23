@@ -547,6 +547,12 @@ class LifeCfgVehicles {
 			{ "Schwarz", "civ", {
                 "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_black_co.paa"
             } },
+            { "Dschungelfieber", "civ", {
+                "textures\civ\dschungel.paa"
+            } },
+            { "Space", "civ", {
+                "textures\civ\space.paa"
+            } },
 			{ "Blau", "civ", {
                 "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_blue_co.paa"
             } },
@@ -610,6 +616,9 @@ will modify the virtual space and the price of the vehicle, but other informatio
         textures[] = {
             { "Red", "civ", {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport01_co.paa"
+            } },
+            { "Red", "civ", {
+                "textures\civ\skull.paa"
             } },
             { "Dark Blue", "civ", {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport02_co.paa"
