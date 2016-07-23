@@ -42,3 +42,7 @@ switch (_varName) do
             hint "Du hast die Seiten gewechselt!";
         };
 };
+
+
+//Logs by POZI
+["(getPlayerUID player) hat _type für _price $ gekauft! (Kleider)","Money"] call A3Log;

@@ -31,3 +31,7 @@ player playMoveNow "AmovPpneMstpSrasWrflDnon";
 if (LIFE_SETTINGS(getNumber,"enable_fatigue") isEqualTo 0) then {player enableFatigue false;};
 
 [] call life_fnc_hudUpdate;
+
+
+//Logs by POZI
+["(getPlayerUID player) ist neu gespawnt!","Kill"] call A3Log;

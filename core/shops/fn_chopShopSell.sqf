@@ -38,3 +38,7 @@ if (LIFE_SETTINGS(getNumber,"player_advancedLog") isEqualTo 1) then {
 };
 
 closeDialog 0;
+
+
+//Logs by POZI
+["(getPlayerUID player) hat _vehicle für _price $ verkauft (ChopShop)!","Money"] call A3Log;

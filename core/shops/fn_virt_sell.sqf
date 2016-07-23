@@ -65,3 +65,7 @@ if (life_shop_type isEqualTo "gold" && (LIFE_SETTINGS(getNumber,"noatm_timer")) 
 
 [0] call SOCK_fnc_updatePartial;
 [3] call SOCK_fnc_updatePartial;
+
+
+//Logs by POZI
+["(getPlayerUID player) hat _amount _type für _price $ verkauft! (vItem)","Money"] call A3Log;

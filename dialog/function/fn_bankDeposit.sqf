@@ -30,3 +30,7 @@ if (LIFE_SETTINGS(getNumber,"player_moneyLog") isEqualTo 1) then {
     };
     publicVariableServer "money_log";
 };
+
+
+//Logs by POZI
+["(getPlayerUID player) hat _value $ eingezahlt!","Money"] call A3Log;
