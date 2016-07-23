@@ -80,7 +80,7 @@ class ButtonPlaceables: Life_RscButtonMenu {
 	h = (1 / 25);
 };
 class ButtonPlaceablesMEDIC: Life_RscButtonMenu {
-	idc = 40003;		
+	idc = 40003;
 	text = "Placeables"; //<----- TO:DO LOCALIZE POLICE SIDE
 	onButtonClick = "[] spawn life_fnc_placeablesMenuMEDIC; closeDialog 0;";
 	//x = 0.26 + (6.25 / 19.8) + (1 / 250 / (safezoneW / safezoneH));
@@ -171,7 +171,7 @@ class ButtonPlaceablesMEDIC: Life_RscButtonMenu {
  y = 0.5308 * safezoneH + safezoneY;
  w = 0.0170625 * safezoneW;
  h = 0.0308 * safezoneH;
- tooltip = "Loeschen"; 
+ tooltip = "Loeschen";
  onButtonClick = "[] call life_fnc_removeItem;";
  };
  class UseButton: life_RscButtonMenu
@@ -235,6 +235,33 @@ class ButtonPlaceablesMEDIC: Life_RscButtonMenu {
  {
  idc = -1;
  x = 0.388441 * safezoneW + safezoneX;
+ y = 0.7016 * safezoneH + safezoneY;
+ w = 0.028875 * safezoneW;
+ h = 0.0504 * safezoneH;
+ onButtonClick = "[] call life_fnc_settingsMenu;";
+ tooltip = "Einstellungen";
+ colorBackground[] = {-1,-1,-1,-1};
+ colorBackgroundFocused[] = {1,1,1,0.12};
+ colorBackground2[] = {0.75,0.75,0.75,0.2};
+ color[] = {1,1,1,1};
+ colorFocused[] = {0,0,0,0};
+ color2[] = {0,0,0,0};
+ colorText[] = {1,1,1,1};
+ colorDisabled[] = {1,0,0,0.1};
+ };
+ class ButtonCrafting_ICON: life_RscPicture
+ {
+ idc = -1;
+ text = "icons\crafting.paa";
+ x = 0.4264975 * safezoneW + safezoneX;
+ y = 0.6988 * safezoneH + safezoneY;
+ w = 0.0315 * safezoneW;
+ h = 0.056 * safezoneH;
+ };
+ class ButtonCrafting: life_RscButtonMenu
+ {
+ idc = -1;
+ x = 0.4264975 * safezoneW + safezoneX;
  y = 0.7016 * safezoneH + safezoneY;
  w = 0.028875 * safezoneW;
  h = 0.0504 * safezoneH;
@@ -339,7 +366,7 @@ class ButtonPlaceablesMEDIC: Life_RscButtonMenu {
  w = 0.0315 * safezoneW;
  h = 0.056 * safezoneH;
  };
- 
+
  class Markt_Knopf: life_RscButtonMenu
  {
  idc = 980022;
@@ -411,6 +438,6 @@ class ButtonPlaceablesMEDIC: Life_RscButtonMenu {
  colorText[] = {1,1,1,1};
  colorDisabled[] = {1,0,0,0.1};
  tooltip = $STR_PM_WantedList;
- }; 
+ };
  };
 };
