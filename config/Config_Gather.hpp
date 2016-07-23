@@ -164,7 +164,7 @@ Example 2:
             zones[] = { "oil_field_1", "oil_field_2" };
             item = "pickaxe";
             mined[] = { "oil_unprocessed" };
-			zoneSize = 100;
+			zoneSize = 1000;
         };
     };
 };
