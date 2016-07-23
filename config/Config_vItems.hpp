@@ -27,7 +27,7 @@ class VirtualShops {
         side = "civ";
         license = "rebel";
         level[] = { "", "", -1, "" };
-        items[] = { "waterBottle", "rabbit", "redgull", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull","boltcutter", "blastingcharge","uswl","handcuffs" };
+        items[] = { "waterBottle", "rabbit", "redgull", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull","boltcutter", "blastingcharge","handcuffs","zyankali" };
     };
 	class hero {
         name = "STR_Shops_Hero";
@@ -1227,7 +1227,7 @@ class VirtualItems {
         variable = "zyankali";
         displayName = "STR_Item_Zyankali";
         weight = 2;
-        buyPrice = 150000;
+        buyPrice = 200000;
         sellPrice = 100000;
         illegal = true;
         edible = 100;
