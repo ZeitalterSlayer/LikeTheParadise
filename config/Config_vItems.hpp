@@ -187,6 +187,18 @@ class VirtualItems {
     //Virtual Items
 
     //Misc
+
+    class blindfold {
+        variable = "blindfold";
+        displayName = "STR_Item_Blindfold";
+        weight = 1;
+        buyPrice = 1000;
+        sellPrice = 350;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_blindfold.paa";
+    };
+
     class handcuffs {
         variable = "handcuffs";
         displayName = "STR_Item_Handcuffs";
