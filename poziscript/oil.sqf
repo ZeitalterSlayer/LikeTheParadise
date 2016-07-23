@@ -23,7 +23,7 @@ _requiredItem = "";
 
 _resourceCfg = missionConfigFile >> "CfgGather" >> "Minerals";
 _percent = (floor random 100) + 1; //Make sure its not 0
-_resources = "oil_unprocessed"
+_resources = "oil_unprocessed";
 
 for "_i" from 0 to count(_resources)-1 do {
     _maxGather = "2";
