@@ -251,7 +251,7 @@ class ButtonPlaceablesMEDIC: Life_RscButtonMenu {
  };
  class ButtonCrafting_ICON: life_RscPicture
  {
- idc = -1;
+ idc = 2025;
  text = "icons\crafting.paa";
  x = 0.4264975 * safezoneW + safezoneX;
  y = 0.6988 * safezoneH + safezoneY;
@@ -260,13 +260,13 @@ class ButtonPlaceablesMEDIC: Life_RscButtonMenu {
  };
  class ButtonCrafting: life_RscButtonMenu
  {
- idc = -1;
+ idc = 2025;
  x = 0.4264975 * safezoneW + safezoneX;
  y = 0.7016 * safezoneH + safezoneY;
  w = 0.028875 * safezoneW;
  h = 0.0504 * safezoneH;
  onButtonClick = "[] call life_fnc_craftAction;";
- tooltip = "Einstellungen";
+ tooltip = $STR_PM_Craft;
  colorBackground[] = {-1,-1,-1,-1};
  colorBackgroundFocused[] = {1,1,1,0.12};
  colorBackground2[] = {0.75,0.75,0.75,0.2};
