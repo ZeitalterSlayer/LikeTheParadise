@@ -1071,8 +1071,8 @@ class rebelthree {
             { "arifle_ARX_blk_F", "", 20000, { "life_coplevel", "SCALAR", 7 } },            //Type 115
             { "arifle_SPAR_03_blk_F", "", 20000, { "life_coplevel", "SCALAR", 8 } },        //SPAR-17
 			{ "srifle_DMR_03_F", "", 20000,{ "life_coplevel", "SCALAR", 9 } },				//Mk-I
-            { "LMG_03_F", "", 1800000, -1 },                                                // LIM MG
-            { "LMG_Mk200_F", "", 2250000, -1 },                                             // MK200
+            { "LMG_03_F", "", 45000, -1 },                                                // LIM MG
+            { "LMG_Mk200_F", "", 45000, -1 },                                             // MK200
 			{ "ItemGPS", "", 100, { "life_coplevel", "SCALAR", 1 } },						//GPS
 			{ "ItemCompass", "", 150, { "life_coplevel", "SCALAR", 1 } },					//Kompass
 			{ "ItemMap", "", 150, { "life_coplevel", "SCALAR", 1 } },						//Map
