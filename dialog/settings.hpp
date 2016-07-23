@@ -17,6 +17,7 @@ class SettingsMenu {
         class RscMainBackground: Life_RscPicture {
             //colorBackground[] = {0,0,0,0.7};
             idc = -1;
+            text = "textures\pinter.paa";
             x = 0.075651 * safezoneW + safezoneX;
             y = 0.207252 * safezoneH + safezoneY;
             w = 0.145572 * safezoneW;
