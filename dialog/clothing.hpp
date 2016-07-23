@@ -28,7 +28,7 @@ class Life_Clothing {
         class Title: Life_RscTitle {
             colorBackground[] = {0, 0, 0, 0};
             idc = 3103;
-            text = "";
+            text = "Kleidungsladen";
             x = 0.0821059 * safezoneW + safezoneX;
             y = 0.212176 * safezoneH + safezoneY;
             w = 0.6;

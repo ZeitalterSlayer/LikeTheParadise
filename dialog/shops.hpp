@@ -13,7 +13,7 @@ class life_weapon_shop {
             h = (1 / 25);
         };
 
-        class MainBackground: Life_RscText {
+        class MainBackground: Life_RscPicture {
             idc = -1;
             text = "textures\pinter.paa";
             x = 0.334895 * safezoneW + safezoneX;
