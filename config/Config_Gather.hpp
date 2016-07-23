@@ -161,10 +161,10 @@ Example 2:
 
         class oil_unprocessed {
             amount = 2;
-            zones[] = { "oil_field_1", "oil_field_2", "oil_field_3" };
+            zones[] = { "oil_field_1" };
             item = "pickaxe";
             mined[] = { "oil_unprocessed" };
-			zoneSize = 1000;
+			zoneSize = 30;
         };
     };
 };
