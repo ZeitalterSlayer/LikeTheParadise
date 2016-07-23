@@ -617,7 +617,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
             { "Red", "civ", {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport01_co.paa"
             } },
-            { "Red", "civ", {
+            { "Totenkopf", "civ", {
                 "textures\civ\skull.paa"
             } },
             { "Dark Blue", "civ", {
