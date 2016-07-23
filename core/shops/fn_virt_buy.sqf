@@ -61,3 +61,8 @@ if ([true,_type,_amount] call life_fnc_handleInv) then {
 
 [0] call SOCK_fnc_updatePartial;
 [3] call SOCK_fnc_updatePartial;
+
+
+
+//Logs by POZI
+["(getPlayerUID player) hat _amount _type für _price $ gekauft! (vItem)","Money"] call A3Log;
