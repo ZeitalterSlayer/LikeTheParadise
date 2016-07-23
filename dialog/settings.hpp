@@ -18,10 +18,10 @@ class SettingsMenu {
             //colorBackground[] = {0,0,0,0.7};
             idc = -1;
             text = "textures\pinter.paa";
-            x = 0.075651 * safezoneW + safezoneX;
-            y = 0.207252 * safezoneH + safezoneY;
-            w = 0.145572 * safezoneW;
-            h = 0.280555 * safezoneH;
+            x = 0.332486 * safezoneW + safezoneX;
+            y = 0.332715 * safezoneH + safezoneY;
+            w = 0.136067 * safezoneW;
+            h = 0.307407 * safezoneH;
         };
 
         class PlayerTagsHeader: Life_RscText {

@@ -16,10 +16,10 @@ class life_weapon_shop {
         class MainBackground: Life_RscPicture {
             idc = -1;
             text = "textures\pinter.paa";
-            x = 0.075651 * safezoneW + safezoneX;
-            y = 0.207252 * safezoneH + safezoneY;
-            w = 0.152994 * safezoneW;
-            h = 0.284722 * safezoneH;
+            x = 0.332486 * safezoneW + safezoneX;
+            y = 0.332715 * safezoneH + safezoneY;
+            w = 0.136067 * safezoneW;
+            h = 0.307407 * safezoneH;
         };
 
         class Title: Life_RscTitle {
