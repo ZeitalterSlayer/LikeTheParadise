@@ -89,12 +89,15 @@ if (_curObject isKindOf "Man" && !(_curObject isKindOf "Animal") && {!alive _cur
 if (isPlayer _curObject && _curObject isKindOf "Man") then {
     if (!dialog) then {
         if(playerside isEqualTo civilian) then {
-            [_curObject] call life_fnc_civInteractionMenu;
+            if (_curObject getVariable ["restrained",false]) then {
+                [_curObject] call life_fnc_civInteractionMenu;
+            };
         };
         if(playerside isEqualTo west) then {
             [_curObject] call life_fnc_copInteractionMenu;
         };
     };
+
 
 } else {
     //OK, it wasn't a player so what is it?
