@@ -12,7 +12,8 @@ _who = [_this,1,"",[""]] call BIS_fnc_param;
 if(isNull _target) exitWith {};
 if(_target != player) exitWith {};
 if(_who isEqualTo "") exitWith {};
-if(!(_target getVariable "Restrained")) exitWith {};
+if(!(_target getVariable "restrained")) exitWith {};
+_target setVariable ["blindfolded", nil, true];
 
 
 cutText ["", "BLACK IN"];
