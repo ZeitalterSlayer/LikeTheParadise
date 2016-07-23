@@ -7,7 +7,6 @@ class Life_impound_menu {
 
     class controlsBackground {
         class Life_RscTitleBackground: Life_RscText    {
-            colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
             idc = -1;
             x = 0.1;
             y = 0.2;
@@ -15,13 +14,13 @@ class Life_impound_menu {
             h = (1 / 25);
         };
 
-        class MainBackground: Life_RscText {
-            colorBackground[] = {0,0,0,0.7};
+        class MainBackground: Life_RscPicture {
             idc = -1;
-            x = 0.1;
-            y = 0.2 + (11 / 250);
-            w = 0.8;
-            h = 0.7 - (22 / 250);
+            text = "textures\pinter.paa";
+            x = 0.334375 * safezoneW + safezoneX;
+            y = 0.330863 * safezoneH + safezoneY;
+            w = 0.331770 * safezoneW;
+            h = 0.366666 * safezoneH;
         };
 
         class Title: Life_RscTitle {

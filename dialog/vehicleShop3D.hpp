@@ -9,7 +9,7 @@ class Life_Vehicle_Shop_v2_3D {
     class controlsBackground {
         class MainBackground: Life_RscPicture {
             idc = -1;
-            text = "textures\pinter.paa"
+            text = "textures\pinter.paa";
             x = 0.020312 * safezoneW + safezoneX;
             y = 0.058641 * safezoneH + safezoneY;
             w = 0.15 * safezoneW;
@@ -18,7 +18,7 @@ class Life_Vehicle_Shop_v2_3D {
 
         class SecondBackground: Life_RscPicture {
             idc = -1;
-            text = "textures\pinter.paa"
+            text = "textures\pinter.paa";
             x = 0.808854 * safezoneW + safezoneX;
             y = 0.055863 * safezoneH + safezoneY;
             w = 0.188541 * safezoneW;
@@ -37,8 +37,6 @@ class Life_Vehicle_Shop_v2_3D {
         class VehicleTitleBox: Life_RscText    {
             idc = -1;
             text = "$STR_GUI_ShopStock";
-            colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
-            x = 0.0204687 * safezoneW + safezoneX;
             y = 0.06 * safezoneH + safezoneY;
             w = 0.149531 * safezoneW;
             h = 0.033 * safezoneH;
@@ -47,7 +45,6 @@ class Life_Vehicle_Shop_v2_3D {
         class VehicleInfoHeader: Life_RscText {
             idc = 2330;
             text = "$STR_GUI_VehInfo";
-            colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
             x = 0.809375 * safezoneW + safezoneX;
             y = 0.058 * safezoneH + safezoneY;
             w = 0.190781 * safezoneW;
