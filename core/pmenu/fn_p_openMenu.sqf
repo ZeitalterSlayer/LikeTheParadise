@@ -14,17 +14,18 @@ switch (playerSide) do {
     case west: {
 		ctrlShow[1207,false];
 		ctrlShow[1209,false];
-		ctrlShow[2025,false];
+		ctrlShow[2025,false];	//Craft
+		ctrlShow[2026,false];	//Craft
         ctrlShow[2011,false];
-		ctrlShow[40003,false]; //Medic Placables
+		ctrlShow[40003,false];	//Medic Placables
     };
 
     case civilian: {
 		ctrlShow[1210,false];
 		ctrlShow[2008,false];
         ctrlShow[2012,false];
-		ctrlShow[20003,false]; // COP Placeables
-		ctrlShow[40003,false]; //Medic Placables
+		ctrlShow[20003,false];	// COP Placeables
+		ctrlShow[40003,false];	//Medic Placables	
     };
 
     case independent: {
@@ -33,9 +34,10 @@ switch (playerSide) do {
 		ctrlShow[1207,false];
 		ctrlShow[1209,false];
         ctrlShow[2012,false];
-		ctrlShow[2025,false];
+		ctrlShow[2025,false];	//Craft
+		ctrlShow[2026,false];	//Craft
         ctrlShow[2011,false];
-		ctrlShow[20003,false];		// COP Placeables
+		ctrlShow[20003,false];	// COP Placeables
 		ctrlShow[980022,false];	//Markt
 		ctrlShow[980021,false];	//Markt
     };

@@ -60,6 +60,7 @@ class playerSettings {
  w = 0.060375 * safezoneW;
  h = 0.0252 * safezoneH;
  };
+ /*
  class ButtonCraft : Life_RscButtonMenu {
  idc = 2025;
  text = "$STR_PM_Craft";
@@ -69,6 +70,7 @@ class playerSettings {
  w = (6.25 / 40);
  h = (1 / 25);
 };
+*/
 class ButtonPlaceables: Life_RscButtonMenu {
 	idc = 20003;
 	text = "Placeables"; //<----- TO:DO LOCALIZE POLICE SIDE
@@ -260,12 +262,12 @@ class ButtonPlaceablesMEDIC: Life_RscButtonMenu {
  };
  class ButtonCrafting: life_RscButtonMenu
  {
- idc = 2025;
+ idc = 2026;
  x = 0.4264975 * safezoneW + safezoneX;
  y = 0.7016 * safezoneH + safezoneY;
  w = 0.028875 * safezoneW;
  h = 0.0504 * safezoneH;
- onButtonClick = "[] call life_fnc_craftAction;";
+ onButtonClick = "closeDialog 0; createDialog ""Life_craft"";";
  tooltip = $STR_PM_Craft;
  colorBackground[] = {-1,-1,-1,-1};
  colorBackgroundFocused[] = {1,1,1,0.12};
