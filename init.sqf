@@ -25,6 +25,6 @@ dokeyCheck={
 private ["_r"] ;
 _r = false ;
 if ((_this select 1) in (actionKeys "TacticalView")) then
-{ hint "Command mode disabled" ;
+{ hint "Taktische Sicht verboten" ;
  _r=true; }; _r;} ;
  (FindDisplay 46) displaySetEventHandler [ "keydown", "_this call dokeyCheck" ];
