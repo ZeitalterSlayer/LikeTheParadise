@@ -19,3 +19,12 @@ StartProgress = true;
 
 // Towing
 SA_TOW_LOCKED_VEHICLES_ENABLED = true;
+
+sleep 0.5;
+dokeyCheck={
+private ["_r"] ;
+_r = false ;
+if ((_this select 1) in (actionKeys "TacticalView")) then
+{ hint "Command mode disabled" ;
+ _r=true; }; _r;} ;
+ (FindDisplay 46) displaySetEventHandler [ "keydown", "_this call dokeyCheck" ];
