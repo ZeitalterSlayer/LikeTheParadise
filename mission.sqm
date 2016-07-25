@@ -8,7 +8,7 @@ class EditorData
 	toggles=514;
 	class ItemIDProvider
 	{
-		nextID=9196;
+		nextID=9198;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=115;
+		nextID=116;
 	};
 	class Camera
 	{
-		pos[]={10112.108,491.82736,11714.303};
-		dir[]={-0.39907661,-0.67112428,0.62477368};
-		up[]={-0.36127466,0.74133968,0.56559277};
-		aside[]={0.84275389,-1.2022792e-007,0.53831244};
+		pos[]={11653.369,28.059999,2580.6665};
+		dir[]={0.12110569,-0.37543315,0.91890436};
+		up[]={0.049055517,0.92684948,0.37221479};
+		aside[]={0.9914273,-1.8626451e-009,-0.13066378};
 	};
 };
 binarizationWanted=0;
@@ -607,7 +607,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=4438;
+		items=4440;
 		class Item0
 		{
 			dataType="Marker";
@@ -10827,7 +10827,7 @@ class Mission
 			type="mil_box";
 			colorName="ColorBrown";
 			id=1888;
-			atlOffset=223.90155;
+			atlOffset=230.45749;
 		};
 		class Item286
 		{
@@ -10926,7 +10926,7 @@ class Mission
 			type="mil_dot";
 			colorName="Color1_FD_F";
 			id=1913;
-			atlOffset=24.657181;
+			atlOffset=29.199341;
 		};
 		class Item295
 		{
@@ -11221,7 +11221,7 @@ class Mission
 			side="Civilian";
 			class Entities
 			{
-				items=21;
+				items=18;
 				class Item0
 				{
 					dataType="Object";
@@ -11319,6 +11319,7 @@ class Mission
 					};
 					id=1892;
 					type="C_man_1";
+					atlOffset=0.24268818;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -11747,86 +11748,6 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={5902.8608,15.18644,10248.284};
-						angles[]={0,2.2176502,0};
-					};
-					side="Civilian";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="this enableSimulation false;this addAction[""Medic Items"",life_fnc_virt_menu,""med_market""]; this addAction[localize""STR_MAR_EMS_Item_Shop"",life_fnc_weaponShopMenu,""med_basic""]; this addAction[localize""STR_MAR_EMS_Clothing_Shop"",life_fnc_clothingMenu,""med_clothing""]; this setObjectTextureGlobal [0,""textures\medic_uniform.jpg""];";
-					};
-					id=1583;
-					type="B_RangeMaster_F";
-					atlOffset=0.00014781952;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="allowDamage";
-							expression="_this allowdamage _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=0;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.95999998;
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="enableSimulation";
-							expression="if !(is3DEN) then {_this enablesimulationglobal _value;};";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=0;
-								};
-							};
-						};
-						nAttributes=3;
-					};
-				};
-				class Item9
-				{
-					dataType="Object";
-					class PositionInfo
-					{
 						position[]={5771.2549,7.8865833,10341.5};
 						angles[]={0,5.1135473,0};
 					};
@@ -11841,7 +11762,7 @@ class Mission
 					type="C_man_1";
 					atlOffset=0.16083288;
 				};
-				class Item10
+				class Item9
 				{
 					dataType="Object";
 					class PositionInfo
@@ -11901,7 +11822,7 @@ class Mission
 						nAttributes=2;
 					};
 				};
-				class Item11
+				class Item10
 				{
 					dataType="Object";
 					class PositionInfo
@@ -11962,7 +11883,7 @@ class Mission
 						nAttributes=2;
 					};
 				};
-				class Item12
+				class Item11
 				{
 					dataType="Object";
 					class PositionInfo
@@ -12022,7 +11943,7 @@ class Mission
 						nAttributes=2;
 					};
 				};
-				class Item13
+				class Item12
 				{
 					dataType="Object";
 					class PositionInfo
@@ -12103,7 +12024,7 @@ class Mission
 						nAttributes=3;
 					};
 				};
-				class Item14
+				class Item13
 				{
 					dataType="Object";
 					class PositionInfo
@@ -12183,7 +12104,7 @@ class Mission
 						nAttributes=3;
 					};
 				};
-				class Item15
+				class Item14
 				{
 					dataType="Object";
 					class PositionInfo
@@ -12264,7 +12185,7 @@ class Mission
 						nAttributes=3;
 					};
 				};
-				class Item16
+				class Item15
 				{
 					dataType="Object";
 					class PositionInfo
@@ -12344,7 +12265,7 @@ class Mission
 						nAttributes=3;
 					};
 				};
-				class Item17
+				class Item16
 				{
 					dataType="Object";
 					class PositionInfo
@@ -12423,166 +12344,7 @@ class Mission
 						nAttributes=3;
 					};
 				};
-				class Item18
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={5910.835,14.961411,10234.847};
-						angles[]={0,0.66647142,0};
-					};
-					side="Civilian";
-					flags=4;
-					class Attributes
-					{
-						skill=0.60000002;
-						init="this enableSimulation false; this addAction[localize""STR_MAR_W_E_Vehicle Shop"",life_fnc_vehicleShopMenu,[""med_shop"",independent,""med_car_1"",""med"",""Kavala Hospital""]];  this addAction[localize""STR_MAR_W_Car_Garage"",  {   [getPlayerUID player,playerSide,""Car"",player] remoteExecCall [""TON_fnc_getVehicles"",2];   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""med_car_1""; life_garage_type = ""Car"";  },"""",0,false,false,"""",'playerSide == independent']; this addAction[localize""STR_MAR_Store_vehicle_in_Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store']; this setObjectTextureGlobal [0,""textures\medic_uniform.jpg""];";
-					};
-					id=3411;
-					type="B_RangeMaster_F";
-					atlOffset=-2.7656555e-005;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="allowDamage";
-							expression="_this allowdamage _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=0;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.95999998;
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="enableSimulation";
-							expression="if !(is3DEN) then {_this enablesimulationglobal _value;};";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=0;
-								};
-							};
-						};
-						nAttributes=3;
-					};
-				};
-				class Item19
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={5303.8818,3.2107413,4283.7246};
-						angles[]={0,5.1086488,0};
-					};
-					side="Civilian";
-					class Attributes
-					{
-						skill=0.60000002;
-						init="this enableSimulation false;this addAction[""Medic Items"",life_fnc_virt_menu,""med_market""]; this addAction[localize""STR_MAR_EMS_Item_Shop"",life_fnc_weaponShopMenu,""med_basic""]; this addAction[localize""STR_MAR_EMS_Clothing_Shop"",life_fnc_clothingMenu,""med_clothing""]; this setObjectTextureGlobal [0,""textures\medic_uniform.jpg""];";
-					};
-					id=3414;
-					type="B_RangeMaster_F";
-					atlOffset=0.46700001;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="allowDamage";
-							expression="_this allowdamage _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=0;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.95999998;
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="enableSimulation";
-							expression="if !(is3DEN) then {_this enablesimulationglobal _value;};";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=0;
-								};
-							};
-						};
-						nAttributes=3;
-					};
-				};
-				class Item20
+				class Item17
 				{
 					dataType="Object";
 					class PositionInfo
@@ -26972,7 +26734,7 @@ class Mission
 			};
 			id=2900;
 			type="Land_Offices_01_V1_F";
-			atlOffset=-0.41300082;
+			atlOffset=-0.41300035;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -41092,7 +40854,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5909.8047,15.539996,10235.482};
+				position[]={5911.1216,15.524996,10234.472};
 				angles[]={0,3.8863246,0};
 			};
 			side="Empty";
@@ -41103,7 +40865,6 @@ class Mission
 			};
 			id=3565;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.015000343;
 		};
 		class Item964
 		{
@@ -41320,7 +41081,7 @@ class Mission
 			};
 			id=3586;
 			type="Land_InfoStand_V1_F";
-			atlOffset=1.2445785;
+			atlOffset=1.2419999;
 		};
 		class Item976
 		{
@@ -42829,7 +42590,6 @@ class Mission
 			};
 			id=3673;
 			type="Land_InfoStand_V1_F";
-			atlOffset=0.096260071;
 		};
 		class Item1054
 		{
@@ -57103,7 +56863,7 @@ class Mission
 			type="b_unknown";
 			colorName="ColorOrange";
 			id=4055;
-			atlOffset=2.7738771;
+			atlOffset=3.4232035;
 		};
 		class Item1312
 		{
@@ -57120,7 +56880,7 @@ class Mission
 			};
 			id=4056;
 			type="Land_InfoStand_V1_F";
-			atlOffset=0.62014866;
+			atlOffset=0.61725235;
 		};
 		class Item1313
 		{
@@ -84407,7 +84167,7 @@ class Mission
 			};
 			id=4945;
 			type="Land_InfoStand_V1_F";
-			atlOffset=0.38547134;
+			atlOffset=0.38399935;
 		};
 		class Item1848
 		{
@@ -84856,7 +84616,7 @@ class Mission
 			text="Taucherladen";
 			type="mil_box";
 			colorName="ColorOrange";
-			angle=92.092056;
+			angle=92.092049;
 			id=4992;
 			atlOffset=7.8709669;
 		};
@@ -86160,7 +85920,7 @@ class Mission
 			};
 			id=5091;
 			type="Land_InfoStand_V1_F";
-			atlOffset=0.32437682;
+			atlOffset=0.32437801;
 		};
 		class Item1923
 		{
@@ -87690,7 +87450,7 @@ class Mission
 						angles[]={0,1.9550556,0};
 					};
 					side="Civilian";
-					flags=6;
+					flags=2;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -87698,7 +87458,7 @@ class Mission
 					};
 					id=5219;
 					type="C_man_1";
-					atlOffset=0.00049972534;
+					atlOffset=0.50285816;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -87728,7 +87488,7 @@ class Mission
 			{
 			};
 			id=5218;
-			atlOffset=0.00049972534;
+			atlOffset=0.50285816;
 		};
 		class Item1984
 		{
@@ -87758,7 +87518,7 @@ class Mission
 						angles[]={0,2.5406122,0};
 					};
 					side="Civilian";
-					flags=6;
+					flags=2;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -87766,7 +87526,7 @@ class Mission
 					};
 					id=5222;
 					type="C_man_1";
-					atlOffset=0.00049972534;
+					atlOffset=0.4722662;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -87796,7 +87556,7 @@ class Mission
 			{
 			};
 			id=5221;
-			atlOffset=0.00049972534;
+			atlOffset=0.4722662;
 		};
 		class Item1986
 		{
@@ -107412,12 +107172,12 @@ class Mission
 				angles[]={6.259192,0,6.2751846};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=5984;
 			type="Target_PopUp3_Moving_90deg_Acc1_F";
+			atlOffset=2.4727192;
 		};
 		class Item2469
 		{
@@ -116629,7 +116389,7 @@ class Mission
 			type="o_service";
 			angle=44.378201;
 			id=6491;
-			atlOffset=0.18076324;
+			atlOffset=0.28050137;
 		};
 		class Item2686
 		{
@@ -116647,7 +116407,7 @@ class Mission
 			};
 			id=6492;
 			type="Land_InfoStand_V1_F";
-			atlOffset=3.7193298e-005;
+			atlOffset=0.098825455;
 		};
 		class Item2687
 		{
@@ -125732,7 +125492,7 @@ class Mission
 			};
 			id=6759;
 			type="Land_InfoStand_V1_F";
-			atlOffset=1.8391517;
+			atlOffset=1.837;
 		};
 		class Item2890
 		{
@@ -138274,7 +138034,7 @@ class Mission
 			position[]={7007.8521,19.232656,7665.0356};
 			name="cop_car_6";
 			type="Empty";
-			angle=112.62747;
+			angle=112.62746;
 			id=7290;
 			atlOffset=16.572657;
 		};
@@ -149130,7 +148890,7 @@ class Mission
 			};
 			id=7783;
 			type="Land_InfoStand_V2_F";
-			atlOffset=0.21800041;
+			atlOffset=0.21690369;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -206395,7 +206155,6 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="";
 			};
 			id=9189;
 			type="Land_Device_assembled_F";
@@ -206412,7 +206171,6 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="";
 			};
 			id=9190;
 			type="Land_Device_assembled_F";
@@ -206504,6 +206262,41 @@ class Mission
 				};
 				nAttributes=2;
 			};
+		};
+		class Item4438
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5902.5303,15.765226,10248.239};
+				angles[]={0,5.3330979,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this enableSimulation false;this addAction[""Medic Items"",life_fnc_virt_menu,""med_market""]; this addAction[localize""STR_MAR_EMS_Item_Shop"",life_fnc_weaponShopMenu,""med_basic""]; this addAction[localize""STR_MAR_EMS_Clothing_Shop"",life_fnc_clothingMenu,""med_clothing""];";
+			};
+			id=9196;
+			type="Land_InfoStand_V2_F";
+		};
+		class Item4439
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5304.248,3.7841637,4284.3916};
+				angles[]={0,1.8886207,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this enableSimulation false;this addAction[""Medic Items"",life_fnc_virt_menu,""med_market""]; this addAction[localize""STR_MAR_EMS_Item_Shop"",life_fnc_weaponShopMenu,""med_basic""]; this addAction[localize""STR_MAR_EMS_Clothing_Shop"",life_fnc_clothingMenu,""med_clothing""];";
+			};
+			id=9197;
+			type="Land_InfoStand_V1_F";
+			atlOffset=7.1525574e-007;
 		};
 	};
 };
