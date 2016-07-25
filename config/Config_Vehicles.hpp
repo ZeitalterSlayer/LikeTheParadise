@@ -1236,17 +1236,14 @@ will modify the virtual space and the price of the vehicle, but other informatio
 		};
     };
 
-	class I_Heli_light_03_unarmed_F {
+    class I_Heli_light_03_unarmed_F {
         vItemSpace = 100;
-        licenses[] = { {""}, {""}, {""}, {""} };
-        price = 500000;
+        licenses[] = { {""}, {"cAir"}, {""}, {""} };
+        price = 1000000;
         textures[] = {
             { "Gendarmerie", "cop", {
                 "textures\cop\cop_hellcat.paa"
-            } },
-             { "THW", "med", {
-                "textures\medic\medic_hellcat.paa"}
-            }
+            } }
         };
     };
 };
