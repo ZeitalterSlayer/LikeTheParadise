@@ -114,7 +114,7 @@ class CarShops {
         side = "med";
         vehicles[] = {
             { "B_Heli_Light_01_F", { "", "", -1 } },
-            { " I_Heli_light_03_unarmed_F", { "", "", -1 } }
+            { "I_Heli_light_03_unarmed_F", { "", "", -1 } }
         };
     };
     class cop_car {
@@ -1227,15 +1227,15 @@ will modify the virtual space and the price of the vehicle, but other informatio
 
 	class I_Heli_light_03_unarmed_F {
         vItemSpace = 100;
-        licenses[] = { {""}, {"cAir"}, {""}, {""} };
-        price = 1000000;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 500000;
         textures[] = {
             { "Gendarmerie", "cop", {
                 "textures\cop\cop_hellcat.paa"
             } },
              { "THW", "med", {
-                "textures\medic\medic_hellcat.paa"
-            } }
+                "textures\medic\medic_hellcat.paa"}
+            }
         };
     };
 };
