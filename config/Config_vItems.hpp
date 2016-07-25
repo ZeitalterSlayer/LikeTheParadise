@@ -269,7 +269,7 @@ class VirtualItems {
         variable = "fuelFull";
         displayName = "STR_Item_FuelF";
         weight = 5;
-        buyPrice = 850;
+        buyPrice = 5000;
         sellPrice = 500;
         illegal = false;
         edible = -1;
