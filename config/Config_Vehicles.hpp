@@ -533,6 +533,9 @@ class LifeCfgVehicles {
             } },
             { "Taxi", "civ", {
                 "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
+            } },
+             { "THW", "med", {
+                "textures\medic\medic_offroad.paa"
             } }
         };
     };
