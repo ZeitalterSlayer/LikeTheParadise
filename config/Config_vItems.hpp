@@ -1239,7 +1239,7 @@ class VirtualItems {
         variable = "zyankali";
         displayName = "STR_Item_Zyankali";
         weight = 2;
-        buyPrice = 200000;
+        buyPrice = 500000;
         sellPrice = 100000;
         illegal = true;
         edible = 100;
