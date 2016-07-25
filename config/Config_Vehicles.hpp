@@ -106,18 +106,15 @@ class CarShops {
         side = "med";
         vehicles[] = {
             { "C_Offroad_01_F", { "", "", -1 } },
-			{ "C_Offroad_02_unarmed_F", { "", "", -1 } },
-            { "C_Hatchback_01_F", { "", "", -1 } },
             { "C_SUV_01_F", { "", "", -1 } },
-            { "B_Truck_01_mover_F", { "", "", -1 } },
-            { "C_Hatchback_01_sport_F", { "", "", -1 } }
+            { "B_Truck_01_mover_F", { "", "", -1 } }
         };
     };
     class med_air {
         side = "med";
         vehicles[] = {
             { "B_Heli_Light_01_F", { "", "", -1 } },
-            { "O_Heli_Light_02_unarmed_F", { "", "", -1 } }
+            { " I_Heli_light_03_unarmed_F", { "", "", -1 } }
         };
     };
     class cop_car {
@@ -566,7 +563,7 @@ class LifeCfgVehicles {
 			{ "Rot", "civ", {
                 "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_red_co.paa"
             } },
-			{ "Medic", "med", {
+			{ "THW", "med", {
                 "textures\medic\medic_jeep.paa"
             } },
 			{ "Polizei", "cop", {
@@ -643,9 +640,6 @@ will modify the virtual space and the price of the vehicle, but other informatio
             } },
             { "Undercover", "cop", {
                 "#(ai,64,64,1)Fresnel(1.3,7)"
-            } },
-            { "Medic", "med", {
-                "textures\medic\medic_limo.paa"
             } }
         };
     };
@@ -655,7 +649,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         licenses[] = { {""}, {""}, {""}, {""} };
         price = 40000;
         textures[] = {
-            { "Medic", "med", {
+            { "THW", "med", {
                 "textures\medic\medic_hemmt.paa"
             } }
         };
@@ -796,9 +790,6 @@ will modify the virtual space and the price of the vehicle, but other informatio
             } },
 			{ "Undercover", "cop", {
                 "#(ai,64,64,1)Fresnel(1.3,7)"
-            } },
-            { "Medic", "med", {
-                "textures\medic\medic_limo.paa"
             } }
         };
     };
@@ -823,7 +814,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
             { "Undercover", "cop", {
                 "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_02_co.paa"
             } },
-			{ "Medic", "med", {
+			{ "THW", "med", {
                 "textures\medic\medic_suv.paa"
             } }
         };
@@ -914,9 +905,6 @@ will modify the virtual space and the price of the vehicle, but other informatio
             } },
             { "Digi Green", "reb", {
                 "\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_indp_co.paa"
-            } },
-            { "Medic", "med", {
-                "textures\medic\medic_littlebird.paa"
             } }
         };
     };
@@ -978,9 +966,6 @@ will modify the virtual space and the price of the vehicle, but other informatio
             } },
 			{ "Digi", "reb", {
                 "\A3\air_f_heli\Heli_Light_02\Data\heli_light_02_ext_opfor_v2_co.paa"
-            } },
-            { "Medic", "med", {
-                "textures\medic\medic_orca.paa"
             } }
         };
     };
@@ -1244,6 +1229,9 @@ will modify the virtual space and the price of the vehicle, but other informatio
         textures[] = {
             { "Gendarmerie", "cop", {
                 "textures\cop\cop_hellcat.paa"
+            } },
+             { "THW", "med", {
+                "textures\medic\medic_hellcat.paa"
             } }
         };
     };
