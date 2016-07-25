@@ -920,6 +920,9 @@ will modify the virtual space and the price of the vehicle, but other informatio
             } },
             { "Digi Green", "reb", {
                 "\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_indp_co.paa"
+            } },
+            { "THW", "med", {
+            "textures\medic\medic_littlebird.paa"
             } }
         };
     };
@@ -1244,6 +1247,9 @@ will modify the virtual space and the price of the vehicle, but other informatio
         textures[] = {
             { "Gendarmerie", "cop", {
                 "textures\cop\cop_hellcat.paa"
+            } },
+            { "THW", "med", {
+            "textures\medic\medic_hellcat.paa"
             } }
         };
     };
