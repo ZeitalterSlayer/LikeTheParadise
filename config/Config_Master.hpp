@@ -115,7 +115,7 @@ class Life_Settings {
     seize_uniform[] = { "U_Rangemaster","U_B_GEN_Soldier","U_B_GEN_Commander","U_B_CTRG_Soldier_urb_1_F" }; //Any specific uniforms you want to be seized from players
     seize_vest[] = { "V_TacVest_blk_POLICE","V_TacVest_gen","V_PlateCarrier1_tna_F" }; //Any specific vests you want to be seized from players
     seize_headgear[] = { "H_Cap_police","H_MilCap_gen","H_Beret_gen" }; //Any hats or helmets you want seized from players
-    seize_minimum_rank = 2; //Required minimum CopLevel to be able to seize items from players
+    seize_minimum_rank = 3; //Required minimum CopLevel to be able to seize items from players
 
     /* Vehicle System Configurations */
     chopShop_vehicles[] = { "Car", "Air" }; //Vehicles that can be chopped. (Can add: "Ship" and possibly more -> look at the BI wiki...)
