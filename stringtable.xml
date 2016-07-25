@@ -1275,7 +1275,7 @@
             <Czech>žádost o EMS</Czech>
             <Spanish>Pedir Médico</Spanish>
             <Russian></Russian>
-            <German>Medic</German>
+            <German>THW</German>
             <French>Requête Medecin</French>
             <Italian>Msg medici</Italian>
             <Portuguese>Chamar SAMU</Portuguese>
@@ -10770,7 +10770,7 @@
             <Spanish>Tienda de Objetos de Médico</Spanish>
             <Italian>Strumenti EMS</Italian>
             <Russian></Russian>
-            <German>EMS Ausrüstung</German>
+            <German>THW Ausrüstung</German>
             <Portuguese>Loja de Items Médicos</Portuguese>
             <Polish>Wyposażenie medyczne</Polish>
         </Key>
@@ -10781,7 +10781,7 @@
             <Spanish>Tienda de Ropa de Médico</Spanish>
             <Italian>Uniformi EMS</Italian>
             <Russian></Russian>
-            <German>EMS Kleidungs-System</German>
+            <German>THW Kleidungs-System</German>
             <Portuguese>EMS Roupa Loja</Portuguese>
             <Polish>Sklep odzieżowy EMS</Polish>
         </Key>
@@ -11577,7 +11577,7 @@
             <Polish>EMS Zamówiony</Polish>
             <Portuguese>EMS solicitada</Portuguese>
             <Russian>EMS Запрошенный</Russian>
-            <German>EMS Gewünscht</German>
+            <German>THW gewünscht</German>
         </Key>
         <Key ID="STR_DeliveryAssigned_Title">
             <Original>Delivery Job Accepted</Original>
