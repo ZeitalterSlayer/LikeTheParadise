@@ -11977,6 +11977,9 @@
             <Russian>%1 -%2 перевели $%3 до %4. Банковский баланс: $%5 на руку Баланс: $%6</Russian>
             <German>%1 - %2 hat %4 $%3 überwiesen. Bank-Konto: $%5  Bargeld: $%6</German>
         </Key>
+            <Key ID="STR_Item_gpstracker">
+            <Original>GPS Tracker</Original>
+        </Key>
         <Key ID="STR_DL_ML_depositedBank_BEF">
             <Original>deposited $%1 into their bank. Bank Balance: $%2  On Hand Balance: $%3</Original>
             <Czech>uložen $%1 do své banky. Banka Zůstatek: $%2 po zralé úvaze rukou: $%3</Czech>

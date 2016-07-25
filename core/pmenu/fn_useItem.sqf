@@ -59,6 +59,10 @@ switch (true) do {
         closeDialog 0;
     };
 
+    case (EQUAL(_item,"gpstracker")): {
+        [cursorTarget] spawn life_fnc_gpsTracker;
+    };
+
     case (_item isEqualTo "defusekit"): {
         [cursorObject] spawn life_fnc_defuseKit;
         closeDialog 0;

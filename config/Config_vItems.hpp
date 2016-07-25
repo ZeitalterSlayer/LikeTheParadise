@@ -27,14 +27,14 @@ class VirtualShops {
         side = "civ";
         license = "rebel";
         level[] = { "", "", -1, "" };
-        items[] = { "waterBottle", "rabbit", "redgull", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull","boltcutter", "blastingcharge","handcuffs","zyankali" };
+        items[] = { "waterBottle", "rabbit", "redgull", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull","boltcutter", "blastingcharge","handcuffs","zyankali","gpstracker" };
     };
 	class hero {
         name = "STR_Shops_Hero";
         side = "civ";
         license = "hero";
         level[] = { "", "", -1, "" };
-        items[] = { "waterBottle", "rabbit", "redgull", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull","handcuffs","handcuffkeys"};
+        items[] = { "waterBottle", "rabbit", "redgull", "tbacon", "lockpick", "pickaxe", "toolkit", "fuelFull","handcuffs","handcuffkeys","gpstracker"};
     };
     class gang {
         name = "STR_Shops_Gang";
@@ -1245,4 +1245,14 @@ class VirtualItems {
         edible = 100;
         icon = "icons\ico_zyankali.paa";
     };
+
+        class gpstracker {
+        variable = "gpstracker";
+        displayName = "STR_Item_gpstracker";
+        weight = 4;
+        buyPrice = 50000;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_gpstracker.paa";
 };

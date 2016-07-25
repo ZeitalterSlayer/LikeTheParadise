@@ -109,6 +109,7 @@ class CarShops {
 			{ "C_Offroad_02_unarmed_F", { "", "", -1 } },
             { "C_Hatchback_01_F", { "", "", -1 } },
             { "C_SUV_01_F", { "", "", -1 } },
+            { "B_Truck_01_mover_F", { "", "", -1 } },
             { "C_Hatchback_01_sport_F", { "", "", -1 } }
         };
     };
@@ -590,6 +591,8 @@ class LifeCfgVehicles {
         textures[] = {};
     };
 
+
+
     class C_Kart_01_Blu_F {
         vItemSpace = 20;
         licenses[] = { {"driver"}, {""}, {""}, {""} };
@@ -643,6 +646,17 @@ will modify the virtual space and the price of the vehicle, but other informatio
             } },
             { "Medic", "med", {
                 "textures\medic\medic_limo.paa"
+            } }
+        };
+    };
+
+        class B_Truck_01_mover_F {
+        vItemSpace = 100;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 40000;
+        textures[] = {
+            { "Medic", "med", {
+                "textures\medic\medic_hemmt.paa"
             } }
         };
     };

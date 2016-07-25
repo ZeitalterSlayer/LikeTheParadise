@@ -285,6 +285,7 @@ class Life_Client_Core {
         class spikeStrip {};
         class storageBox {};
         class zyankali {};
+        class gpsTracker {};
     };
 
     class Medical_System {
