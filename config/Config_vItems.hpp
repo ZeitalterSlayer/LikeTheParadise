@@ -1255,4 +1255,5 @@ class VirtualItems {
         illegal = false;
         edible = -1;
         icon = "icons\ico_gpstracker.paa";
+    };
 };
