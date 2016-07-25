@@ -496,7 +496,7 @@ class LifeCfgVehicles {
         price = 25000;
         textures[] = {
           { "THW", "med", {
-                "textures\medic\medic_offroad.paa",
+                "textures\medic\medic_offroad.paa"
             } }
     };
 
