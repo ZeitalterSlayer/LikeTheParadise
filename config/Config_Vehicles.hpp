@@ -106,6 +106,7 @@ class CarShops {
         side = "med";
         vehicles[] = {
             { "C_Offroad_01_F", { "", "", -1 } },
+            { "I_G_Offroad_01_repair_F", { "", "", -1 } },
             { "C_SUV_01_F", { "", "", -1 } },
             { "B_Truck_01_mover_F", { "", "", -1 } }
         };
@@ -487,6 +488,16 @@ class LifeCfgVehicles {
         licenses[] = { {"trucking"}, {""}, {""}, {""} };
         price = 3400000;
         textures[] = { };
+    };
+
+    class I_G_Offroad_01_repair_F {
+        vItemSpace = 150;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 25000;
+        textures[] = {
+          { "THW", "med", {
+                "textures\medic\medic_offroad.paa",
+            } }
     };
 
     class B_Truck_01_transport_F {
