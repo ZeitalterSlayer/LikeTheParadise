@@ -498,6 +498,7 @@ class LifeCfgVehicles {
           { "THW", "med", {
                 "textures\medic\medic_offroad.paa"
             } }
+        };
     };
 
     class B_Truck_01_transport_F {
