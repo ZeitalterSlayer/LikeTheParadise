@@ -139,7 +139,7 @@ class VirtualShops {
         side = "cop";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "donuts", "coffee", "spikeStrip", "waterBottle", "rabbit", "redgull", "toolkit", "fuelFull", "defusekit", "lockpick", "defibrillator","handcuffs","handcuffkeys" };
+        items[] = { "donuts", "coffee", "spikeStrip", "waterBottle", "rabbit", "redgull", "toolkit", "fuelFull", "defusekit", "lockpick", "defibrillator","handcuffs","handcuffkeys","gpstracker" };
     };
 	class gummi {
         name = "Kautschuk Händler";
