@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project name="Altis Life RPG">
 	<Package name="Craft">
 		<Key ID="STR_CRAFT_Title">
@@ -8012,7 +8012,7 @@
             <Czech>Zdravotníci Online: %1</Czech>
             <Spanish>Médicos en línea: %1</Spanish>
             <Russian></Russian>
-            <German>Sanitäter online: %1</German>
+            <German>THW online: %1</German>
             <French>Medics en ligne: %1</French>
             <Italian>Medici Online: %1</Italian>
             <Portuguese>Médicos Online: %1</Portuguese>
@@ -8023,7 +8023,7 @@
             <Czech>Zdravotníci v blízkosti:%1</Czech>
             <Spanish>Médicos Cerca: %1</Spanish>
             <Russian></Russian>
-            <German>Sanitäter in der Nähe: %1</German>
+            <German>THW in der Nähe: %1</German>
             <French>Medics à proximité: %1</French>
             <Italian>Medici Vicini: %1</Italian>
             <Portuguese>Médicos por perto: %1</Portuguese>
