@@ -8274,6 +8274,10 @@
             <Original>Blindfold off</Original>
             <German>Eimer vom Kopf nehmen</German>
         </Key>
+		<Key ID="STR_pInAct_durchsuchen">
+            <Original>Search Inventory</Original>
+            <German>Inventar Durchsuchen</German>
+        </Key>
         <Key ID="STR_pInAct_Title">
             <Original>Player Interaction Menu</Original>
             <Czech>Hráč Interakce Menu</Czech>

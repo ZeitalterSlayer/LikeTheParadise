@@ -64,8 +64,14 @@ _Btn4 buttonSetAction "[life_pInact_curTarget] call life_fnc_blindfoldAction; cl
 _Btn5 ctrlSetText localize "STR_pInAct_blindfoldoff";
 _Btn5 buttonSetAction "[life_pInact_curTarget] call life_fnc_blindfoldActionOff; closeDialog 0;";
 */
+
+if (_curObject getVariable ["restrained",false]) then {
+    _Btn8 ctrlSetText localize "STR_pInAct_durchsuchen";
+    _Btn8 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_durchsuchen; closeDialog 0;";
+} else {
+    _Btn8 ctrlShow false;
+};
 _Btn4 ctrlShow false;
 _Btn5 ctrlShow false;
 _Btn6 ctrlShow false;
 _Btn7 ctrlShow false;
-_Btn8 ctrlShow false;

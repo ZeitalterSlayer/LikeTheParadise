@@ -66,6 +66,7 @@ class Life_Client_Core {
         class robShops {};
         class robShops2 {};
         class shopState {};
+		class durchsuchen {};
     };
 
     class Admin {
