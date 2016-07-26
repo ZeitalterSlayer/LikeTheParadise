@@ -106,7 +106,7 @@ class CarShops {
         side = "med";
         vehicles[] = {
             { "C_Offroad_01_F", { "", "", -1 } },
-            { "I_G_Offroad_01_repair_F", { "", "", -1 } },
+            { "C_Offroad_02_unarmed_F", { "", "", -1 } },
             { "C_SUV_01_F", { "", "", -1 } },
             { "B_Truck_01_mover_F", { "", "", -1 } }
         };
