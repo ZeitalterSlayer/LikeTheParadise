@@ -126,7 +126,7 @@ if (playerSide isEqualTo west) then {
         };
     };
 
-    if (playerSide isEqualTo civilian) then {
+    if (playerSide isEqualTo civilian && _curTarget getVariable ["locked",false]) then {
         _Btn4 ctrlSetText localize "STR_vInAct_PullOut";
         _Btn4 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_pulloutAction; closeDialog 0;";
         _Btn4 ctrlShow true;
