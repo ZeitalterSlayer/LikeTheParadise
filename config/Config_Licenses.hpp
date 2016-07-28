@@ -10,7 +10,7 @@ class Licenses {
 	//Einwohner
 	class id {
         variable = "id";
-        displayName = "STR_License_Staatspawn";
+        displayName = "Staatsbürgerschaft";
         price = 50000;
         illegal = false;
         side = "civ";
