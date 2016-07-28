@@ -20,6 +20,7 @@
 */
 class CfgSpawnPoints {
     class Civilian {
+        /*
         class Georgetown {
             displayName = "Georgetown";
             spawnMarker = "civ_spawn_georgetown";
@@ -27,6 +28,8 @@ class CfgSpawnPoints {
             licenses[] = { { "id", true }, { "rebel", false } };
             level[] = { "", "", -1 };
         };
+
+        */
 
         class Katkoula {
             displayName = "Katkoula";
@@ -45,7 +48,7 @@ class CfgSpawnPoints {
         };
 
         class Tuvanaka {
-            displayName = "Tuvanaka";
+            displayName = "Georgetown";
             spawnMarker = "civ_spawn_tuvanaka";
             icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
             licenses[] = { { "rebel", false } };
