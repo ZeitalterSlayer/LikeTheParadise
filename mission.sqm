@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=121;
+		nextID=122;
 	};
 	class Camera
 	{
-		pos[]={11585.617,196.84088,2983.3669};
-		dir[]={0.7616843,-0.64524555,-0.059169013};
-		up[]={0.64330757,0.76397496,-0.049973186};
-		aside[]={-0.077448718,-2.7139322e-008,-0.99699897};
+		pos[]={9634.0957,181.96417,4396.0732};
+		dir[]={-0.39509737,-0.4965795,-0.77288502};
+		up[]={-0.22603694,0.86798209,-0.44216943};
+		aside[]={-0.89042538,-6.2631443e-008,0.45518389};
 	};
 };
 binarizationWanted=0;
@@ -586,7 +586,6 @@ class Mission
 	{
 		briefingName="Tanoa Life";
 		overviewText="Like the Paradise | Homepage: http://www.like-the-paradise.net | Ts 3: ts.like-the-paradise.net |";
-		timeOfChanges=28800;
 		startWeather=0.40003324;
 		startWind=0;
 		startWindDir=20;
@@ -595,8 +594,6 @@ class Mission
 		forecastWaves=0;
 		forecastLightnings=0.1;
 		forecastWindDir=360;
-		wavesForced=1;
-		windForced=1;
 		year=2035;
 		month=6;
 		hour=12;
@@ -10849,7 +10846,7 @@ class Mission
 			type="b_unknown";
 			colorName="ColorOrange";
 			id=1894;
-			atlOffset=106.87231;
+			atlOffset=101.52468;
 		};
 		class Item288
 		{
@@ -11839,7 +11836,7 @@ class Mission
 					};
 					id=3068;
 					type="C_man_1";
-					atlOffset=0.096513271;
+					atlOffset=0.11793542;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -33390,6 +33387,7 @@ class Mission
 			};
 			id=3077;
 			type="Land_Atm_02_F";
+			atlOffset=0.18386698;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -82541,7 +82539,7 @@ class Mission
 			};
 			id=4880;
 			type="Land_CashDesk_F";
-			atlOffset=0.07348609;
+			atlOffset=0.12399995;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -85554,7 +85552,7 @@ class Mission
 			colorName="ColorGreen";
 			angle=1.4959066;
 			id=5060;
-			atlOffset=3.765276;
+			atlOffset=3.3356709;
 		};
 		class Item1916
 		{
@@ -85565,12 +85563,12 @@ class Mission
 				angles[]={6.2802153,0.63965666,0.0019531252};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 			};
 			id=5061;
 			type="Land_CashDesk_F";
-			atlOffset=0.43454027;
 		};
 		class Item1917
 		{
@@ -91822,7 +91820,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={12234.883,6.9555793,12937.839};
-			angle=1.8610792;
+			angle=1.8610791;
 			class Attributes
 			{
 				onActivation="abschlepphof2 animate [""Door_1_move"", 1];";
@@ -91841,7 +91839,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={12223.036,6.9499025,12951.439};
-			angle=1.8847808;
+			angle=1.8847806;
 			class Attributes
 			{
 				onActivation="abschlepphof1 animate [""Door_1_move"", 1];";
@@ -113411,6 +113409,7 @@ class Mission
 			};
 			id=6418;
 			type="Land_LampDecor_F";
+			atlOffset=0.10895205;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -113526,6 +113525,7 @@ class Mission
 			};
 			id=6422;
 			type="Land_LampDecor_F";
+			atlOffset=0.1032629;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -113564,6 +113564,7 @@ class Mission
 			};
 			id=6423;
 			type="Land_LampDecor_F";
+			atlOffset=0.090466022;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -205924,7 +205925,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={12223.015,6.9499512,12951.434};
-			angle=1.8847808;
+			angle=1.8847806;
 			class Attributes
 			{
 				onActivation="abschlepphof1 animate [""Door_1_move"", 1];";
@@ -205962,7 +205963,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={12234.864,6.9543457,12937.858};
-			angle=1.8610792;
+			angle=1.8610791;
 			class Attributes
 			{
 				onActivation="abschlepphof2 animate [""Door_1_move"", 1];";
@@ -206040,7 +206041,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={12261.504,2.142334,12972.821};
-			angle=1.8610792;
+			angle=1.8610791;
 			class Attributes
 			{
 				onActivation="abschlepphof2 animate [""Door_1_move"", 1];";
@@ -206059,7 +206060,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={12261.474,2.4499512,12972.995};
-			angle=1.8610792;
+			angle=1.8610791;
 			class Attributes
 			{
 				onActivation="abschlepphof2 animate [""Door_1_move"", 1];";
