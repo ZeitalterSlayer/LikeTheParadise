@@ -8,7 +8,7 @@ class EditorData
 	toggles=522;
 	class ItemIDProvider
 	{
-		nextID=9208;
+		nextID=9209;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=122;
+		nextID=123;
 	};
 	class Camera
 	{
-		pos[]={9634.0957,181.96417,4396.0732};
-		dir[]={-0.39509737,-0.4965795,-0.77288502};
-		up[]={-0.22603694,0.86798209,-0.44216943};
-		aside[]={-0.89042538,-6.2631443e-008,0.45518389};
+		pos[]={9349.1465,156.9594,9805.2109};
+		dir[]={-0.71496236,-0.42778707,0.55302429};
+		up[]={-0.33837491,0.90387839,0.26173362};
+		aside[]={0.61183369,8.8475645e-008,0.79099131};
 	};
 };
 binarizationWanted=0;
@@ -596,14 +596,14 @@ class Mission
 		forecastWindDir=360;
 		year=2035;
 		month=6;
-		hour=12;
-		minute=0;
+		hour=14;
+		minute=-30;
 		startFogDecay=0;
 		forecastFogDecay=0;
 	};
 	class Entities
 	{
-		items=4444;
+		items=4445;
 		class Item0
 		{
 			dataType="Marker";
@@ -10846,7 +10846,7 @@ class Mission
 			type="b_unknown";
 			colorName="ColorOrange";
 			id=1894;
-			atlOffset=101.52468;
+			atlOffset=106.87231;
 		};
 		class Item288
 		{
@@ -84591,6 +84591,7 @@ class Mission
 			};
 			id=5006;
 			type="Land_InfoStand_V1_F";
+			atlOffset=0.23023891;
 		};
 		class Item1892
 		{
@@ -84655,6 +84656,7 @@ class Mission
 					};
 					id=5011;
 					type="C_man_p_fugitive_F_asia";
+					atlOffset=0.24356604;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -84722,6 +84724,7 @@ class Mission
 			{
 			};
 			id=5010;
+			atlOffset=0.24356604;
 		};
 		class Item1896
 		{
@@ -84733,7 +84736,7 @@ class Mission
 			colorName="ColorGreen";
 			angle=0.86189264;
 			id=5012;
-			atlOffset=3.3336987;
+			atlOffset=3.5772643;
 		};
 		class Item1897
 		{
@@ -84749,6 +84752,7 @@ class Mission
 			};
 			id=5013;
 			type="Land_CashDesk_F";
+			atlOffset=0.24356604;
 		};
 		class Item1898
 		{
@@ -85552,7 +85556,7 @@ class Mission
 			colorName="ColorGreen";
 			angle=1.4959066;
 			id=5060;
-			atlOffset=3.3356709;
+			atlOffset=3.765276;
 		};
 		class Item1916
 		{
@@ -85563,12 +85567,12 @@ class Mission
 				angles[]={6.2802153,0.63965666,0.0019531252};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=5061;
 			type="Land_CashDesk_F";
+			atlOffset=0.43454027;
 		};
 		class Item1917
 		{
@@ -85702,7 +85706,7 @@ class Mission
 			};
 			id=5091;
 			type="Land_InfoStand_V1_F";
-			atlOffset=0.32437801;
+			atlOffset=0.5114646;
 		};
 		class Item1921
 		{
@@ -91820,7 +91824,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={12234.883,6.9555793,12937.839};
-			angle=1.8610791;
+			angle=1.861079;
 			class Attributes
 			{
 				onActivation="abschlepphof2 animate [""Door_1_move"", 1];";
@@ -91839,7 +91843,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={12223.036,6.9499025,12951.439};
-			angle=1.8847806;
+			angle=1.8847805;
 			class Attributes
 			{
 				onActivation="abschlepphof1 animate [""Door_1_move"", 1];";
@@ -128264,12 +128268,12 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={9296.7852,70.446167,9737.6494};
+				position[]={9200.8672,57.376587,9928.4307};
 				angles[]={0.20763104,0,0.02666023};
 			};
 			id=7023;
 			type="ModuleWeather_F";
-			atlOffset=5.3405762e-005;
+			atlOffset=19.640587;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -205925,7 +205929,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={12223.015,6.9499512,12951.434};
-			angle=1.8847806;
+			angle=1.8847805;
 			class Attributes
 			{
 				onActivation="abschlepphof1 animate [""Door_1_move"", 1];";
@@ -205963,7 +205967,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={12234.864,6.9543457,12937.858};
-			angle=1.8610791;
+			angle=1.861079;
 			class Attributes
 			{
 				onActivation="abschlepphof2 animate [""Door_1_move"", 1];";
@@ -206041,7 +206045,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={12261.504,2.142334,12972.821};
-			angle=1.8610791;
+			angle=1.861079;
 			class Attributes
 			{
 				onActivation="abschlepphof2 animate [""Door_1_move"", 1];";
@@ -206060,7 +206064,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={12261.474,2.4499512,12972.995};
-			angle=1.8610791;
+			angle=1.861079;
 			class Attributes
 			{
 				onActivation="abschlepphof2 animate [""Door_1_move"", 1];";
@@ -206111,6 +206115,18 @@ class Mission
 			};
 			id=9207;
 			type="EmptyDetector";
+		};
+		class Item4444
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={9197.3682,60.410767,9919.4697};
+			};
+			init="{ _x setFuelCargo 0; } forEach (nearestObjects [Tankstelle, [""Land_fs_feed_F""], 10000]); ";
+			id=9208;
+			type="Logic";
+			atlOffset=21.688019;
 		};
 	};
 };
